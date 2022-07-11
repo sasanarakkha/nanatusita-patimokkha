@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Bhikkhupātimokkha</dc:title>
+    <dc:creator id="cre">SBS Saṅgha</dc:creator>
+    <meta property="role" refines="#cre" scheme="marc:relators">aut</meta>
+    <dc:publisher>Sāsanārakkha Buddhist Sanctuary</dc:publisher>
+    <dc:language>en</dc:language>
+    <dc:identifier>urn:isbn:[ISBN here]</dc:identifier>
+    <meta property="dcterms:modified">2022-06-14T21:37:10Z</meta>
+    <dc:identifier id="BookId">urn:uuid:c5233f04-b5cd-4a8d-a264-9387bb053d70</dc:identifier>
+    <meta content="1.9.2" name="Sigil version"/>
+  </metadata>
+  <manifest>
+    <item id="cover-front.xhtml" href="Text/cover-front.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="main.css" href="Styles/main.css" media-type="text/css"/>
+    <item id="appendix-compressed.jpg" href="Images/appendix-compressed.jpg" media-type="image/jpeg"/>
+    <item id="sbs-logo-tuck-loon-brown-bare.png" href="Images/sbs-logo-tuck-loon-brown-bare.png" media-type="image/png"/>
+    <item id="LICENSE.txt" href="Misc/LICENSE.txt" media-type="text/plain"/>
+    <item id="back-cover-compressed.jpg" href="Images/back-cover-compressed.jpg" media-type="image/jpeg"/>
+    <item id="front-cover-compressed.jpg" href="Images/front-cover-compressed.jpg" media-type="image/jpeg"/>
+    <item id="LibertinusSerif-Bold.otf" href="Fonts/LibertinusSerif-Bold.otf" media-type="font/otf"/>
+    <item id="LibertinusSerif-BoldItalic.otf" href="Fonts/LibertinusSerif-BoldItalic.otf" media-type="font/otf"/>
+    <item id="LibertinusSerif-Italic.otf" href="Fonts/LibertinusSerif-Italic.otf" media-type="font/otf"/>
+    <item id="LibertinusSerif-Regular.otf" href="Fonts/LibertinusSerif-Regular.otf" media-type="font/otf"/>
+    <item id="LibertinusSerifX-Bold.ttf" href="Fonts/LibertinusSerifX-Bold.ttf" media-type="font/ttf"/>
+    <item id="LibertinusSerifX-Regular.ttf" href="Fonts/LibertinusSerifX-Regular.ttf" media-type="font/ttf"/>
+    <item id="palisbs.ttf" href="Fonts/palisbs.ttf" media-type="font/ttf"/>
+    <item id="titlepage.xhtml" href="Text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="copyright.xhtml" href="Text/copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-pali.xhtml" href="Text/cover-pali.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="pubbakicca.xhtml" href="Text/pubbakicca.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nidanuddeso.xhtml" href="Text/nidanuddeso.xhtml" media-type="application/xhtml+xml"/>
+    <item id="parajika.xhtml" href="Text/parajika.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sanghadisesa.xhtml" href="Text/sanghadisesa.xhtml" media-type="application/xhtml+xml"/>
+    <item id="aniyata.xhtml" href="Text/aniyata.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nissaggiyapacittiya.xhtml" href="Text/nissaggiyapacittiya.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pacittiya.xhtml" href="Text/pacittiya.xhtml" media-type="application/xhtml+xml"/>
+    <item id="patidesaniya.xhtml" href="Text/patidesaniya.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sekhiya.xhtml" href="Text/sekhiya.xhtml" media-type="application/xhtml+xml"/>
+    <item id="adhikaranasamatha.xhtml" href="Text/adhikaranasamatha.xhtml" media-type="application/xhtml+xml"/>
+    <item id="patimokkhanitthana.xhtml" href="Text/patimokkhanitthana.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-english.xhtml" href="Text/cover-english.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="preliminary-duties.xhtml" href="Text/preliminary-duties.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introduction.xhtml" href="Text/introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="disqualifications.xhtml" href="Text/disqualifications.xhtml" media-type="application/xhtml+xml"/>
+    <item id="community-meetings.xhtml" href="Text/community-meetings.xhtml" media-type="application/xhtml+xml"/>
+    <item id="uncertain-cases.xhtml" href="Text/uncertain-cases.xhtml" media-type="application/xhtml+xml"/>
+    <item id="forfeiture-expiations.xhtml" href="Text/forfeiture-expiations.xhtml" media-type="application/xhtml+xml"/>
+    <item id="expiations.xhtml" href="Text/expiations.xhtml" media-type="application/xhtml+xml"/>
+    <item id="acknowledgments.xhtml" href="Text/acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+    <item id="trainings.xhtml" href="Text/trainings.xhtml" media-type="application/xhtml+xml"/>
+    <item id="settlements.xhtml" href="Text/settlements.xhtml" media-type="application/xhtml+xml"/>
+    <item id="conclusion.xhtml" href="Text/conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-post-patimokkha.xhtml" href="Text/cover-post-patimokkha.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="pubba-bhaga.xhtml" href="Text/pubba-bhaga.xhtml" media-type="application/xhtml+xml"/>
+    <item id="siluddesa.xhtml" href="Text/siluddesa.xhtml" media-type="application/xhtml+xml"/>
+    <item id="tayana-gatha.xhtml" href="Text/tayana-gatha.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ovada-patimokkha.xhtml" href="Text/ovada-patimokkha.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sankhittapatimokkhuddeso-nitthana.xhtml" href="Text/sankhittapatimokkhuddeso-nitthana.xhtml" media-type="application/xhtml+xml"/>
+    <item id="patimokkha-in-brief-conclusion.xhtml" href="Text/patimokkha-in-brief-conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-appendix.xhtml" href="Text/cover-appendix.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
+    <item id="cover-back.xhtml" href="Text/cover-back.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover-front.xhtml"/>
+    <itemref idref="titlepage.xhtml"/>
+    <itemref idref="copyright.xhtml"/>
+    <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="cover-pali.xhtml"/>
+    <itemref idref="pubbakicca.xhtml"/>
+    <itemref idref="nidanuddeso.xhtml"/>
+    <itemref idref="parajika.xhtml"/>
+    <itemref idref="sanghadisesa.xhtml"/>
+    <itemref idref="aniyata.xhtml"/>
+    <itemref idref="nissaggiyapacittiya.xhtml"/>
+    <itemref idref="pacittiya.xhtml"/>
+    <itemref idref="patidesaniya.xhtml"/>
+    <itemref idref="sekhiya.xhtml"/>
+    <itemref idref="adhikaranasamatha.xhtml"/>
+    <itemref idref="patimokkhanitthana.xhtml"/>
+    <itemref idref="cover-english.xhtml"/>
+    <itemref idref="preliminary-duties.xhtml"/>
+    <itemref idref="introduction.xhtml"/>
+    <itemref idref="disqualifications.xhtml"/>
+    <itemref idref="community-meetings.xhtml"/>
+    <itemref idref="uncertain-cases.xhtml"/>
+    <itemref idref="forfeiture-expiations.xhtml"/>
+    <itemref idref="expiations.xhtml"/>
+    <itemref idref="acknowledgments.xhtml"/>
+    <itemref idref="trainings.xhtml"/>
+    <itemref idref="settlements.xhtml"/>
+    <itemref idref="conclusion.xhtml"/>
+    <itemref idref="cover-post-patimokkha.xhtml"/>
+    <itemref idref="pubba-bhaga.xhtml"/>
+    <itemref idref="siluddesa.xhtml"/>
+    <itemref idref="tayana-gatha.xhtml"/>
+    <itemref idref="ovada-patimokkha.xhtml"/>
+    <itemref idref="cover-appendix.xhtml"/>
+    <itemref idref="sankhittapatimokkhuddeso-nitthana.xhtml"/>
+    <itemref idref="patimokkha-in-brief-conclusion.xhtml"/>
+    <itemref idref="cover-back.xhtml"/>
+  </spine>
+</package>

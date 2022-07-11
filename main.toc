@@ -1,0 +1,73 @@
+\babel@toc {british}{}
+\contentsline {chapter}{Pāli}{1}{chapter*.2}%
+\contentsline {section}{Pubbakicca}{2}{section*.3}%
+\contentsline {section}{Nidānuddeso}{4}{section*.34}%
+\contentsline {section}{Pārājikuddeso}{5}{section*.41}%
+\contentsline {section}{Saṅghādisesuddeso}{7}{section*.49}%
+\contentsline {section}{Aniyatuddeso}{13}{section*.66}%
+\contentsline {section}{Nissaggiyāpācittiyā}{15}{section*.72}%
+\contentsline {subsection}{Cīvaravaggo}{15}{section*.73}%
+\contentsline {subsection}{Kosiyavaggo}{18}{section*.84}%
+\contentsline {subsection}{Pattavaggo}{20}{section*.95}%
+\contentsline {section}{Pācittiyā}{23}{section*.106}%
+\contentsline {subsection}{Musāvādavaggo}{23}{section*.107}%
+\contentsline {subsection}{Bhūtagāmavaggo}{24}{section*.118}%
+\contentsline {subsection}{Bhikkhunovādavaggo}{26}{section*.129}%
+\contentsline {subsection}{Bhojanavaggo}{27}{section*.140}%
+\contentsline {subsection}{Acelakavaggo}{29}{section*.151}%
+\contentsline {subsection}{Surāpānavaggo}{31}{section*.162}%
+\contentsline {subsection}{Sappāṇavaggo}{32}{section*.173}%
+\contentsline {subsection}{Sahadhammikavaggo}{35}{section*.184}%
+\contentsline {subsection}{Ratanavaggo}{37}{section*.197}%
+\contentsline {section}{Pāṭidesanīyā}{40}{section*.208}%
+\contentsline {section}{Sekhiyā}{42}{section*.213}%
+\contentsline {subsection}{Parimaṇḍalavaggo}{42}{section*.214}%
+\contentsline {subsection}{Ujjagghikavaggo}{42}{section*.220}%
+\contentsline {subsection}{Khambhakatavaggo}{43}{section*.226}%
+\contentsline {subsection}{Sakkaccavaggo}{44}{section*.235}%
+\contentsline {subsection}{Anāhaṭavaggo}{45}{section*.246}%
+\contentsline {subsection}{Surusuruvaggo}{47}{section*.257}%
+\contentsline {subsection}{Pādukavaggo}{48}{section*.268}%
+\contentsline {section}{Adhikaraṇasamathā}{51}{section*.284}%
+\contentsline {section}{Pātimokkhaniṭṭhāna}{52}{section*.285}%
+\contentsline {chapter}{English}{53}{chapter*.286}%
+\contentsline {section}{Preliminary Duties}{54}{section*.287}%
+\contentsline {section}{The Recitation of the Introduction}{57}{section*.294}%
+\contentsline {section}{Beheadings}{59}{section*.295}%
+\contentsline {section}{Cases Concering the Community}{61}{section*.300}%
+\contentsline {section}{Uncertain Cases}{69}{section*.314}%
+\contentsline {section}{Forfeiture and Expiations}{71}{section*.317}%
+\contentsline {subsection}{The Section on Robes}{71}{section*.318}%
+\contentsline {subsection}{The Section on Sheepwool}{75}{section*.329}%
+\contentsline {subsection}{The Section on Bowls}{77}{section*.340}%
+\contentsline {section}{Expiations}{81}{section*.351}%
+\contentsline {subsection}{The Section on False Speech}{81}{section*.352}%
+\contentsline {subsection}{The Section on Vegetation}{82}{section*.363}%
+\contentsline {subsection}{The Section on Exhoration}{85}{section*.374}%
+\contentsline {subsection}{The Section on Eating}{86}{section*.385}%
+\contentsline {subsection}{The Section on Naked Ascetics}{89}{section*.396}%
+\contentsline {subsection}{The Section on Alcoholic Drink}{91}{section*.407}%
+\contentsline {subsection}{The Section on Living Beings}{93}{section*.418}%
+\contentsline {subsection}{The Section on Righteous Speech}{96}{section*.429}%
+\contentsline {subsection}{The Section on Kings}{99}{section*.442}%
+\contentsline {section}{Acknowledgments}{102}{section*.453}%
+\contentsline {section}{Trainings}{104}{section*.458}%
+\contentsline {subsection}{The Section on Being Even All Around}{104}{section*.459}%
+\contentsline {subsection}{The Section on Loud Laughter}{105}{section*.465}%
+\contentsline {subsection}{The Section on Making Into a Prop}{106}{section*.471}%
+\contentsline {subsection}{The Section on Eating in a Respectful Manner}{107}{section*.480}%
+\contentsline {subsection}{The Section on Morsels of Food}{109}{section*.491}%
+\contentsline {subsection}{The Section on Slurping}{110}{section*.502}%
+\contentsline {subsection}{The Section on Shoes}{112}{section*.513}%
+\contentsline {section}{Settlements of Legal Issues}{115}{section*.529}%
+\contentsline {section}{Disciplinary Code or Recitation Conclusion}{116}{section*.530}%
+\contentsline {chapter}{Post Pātimokkha}{117}{chapter*.531}%
+\contentsline {section}{Pubba-bhāga}{118}{section*.532}%
+\contentsline {section}{Sīluddesa-pāṭha}{119}{section*.533}%
+\contentsline {section}{Tāyana-gāthā}{120}{section*.534}%
+\contentsline {section}{Ovāda-pāṭimokkha-gāthā}{121}{section*.535}%
+\contentsline {chapter}{Appendix}{122}{appendix*.536}%
+\contentsline {section}{Saṅkhittapātimokkhuddeso}{123}{section*.537}%
+\contentsline {section}{The Pātimokkha Recitation in Brief Conclusion}{124}{section*.538}%
+\contentsline {chapter}{Endnotes}{125}{appendix*.539}%
+\contentsfinish 

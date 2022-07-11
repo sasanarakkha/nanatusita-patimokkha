@@ -1,0 +1,146 @@
+\documentclass[
+final,
+babelLanguage=british,
+desktopVersion,
+% showtrims,
+% overleaf,
+]{anecdote}
+
+\graphicspath{{./assets/photos/300dpi/}}
+
+% Page size: 210mm x 148mm (A5)
+% Body text: 12.5 / 18 pt
+
+\usepackage{local}
+
+%%%%%%%%%%%%%%%% Details of the Book %%%%%%%%%%%%%%%%
+
+\title{Bhikkhupātimokkha}
+\subtitle{Monk Training Centre}
+\author{SBS Saṅgha}
+\publisher{Sāsanārakkha Buddhist Sanctuary}
+\date{2021-10-30}% chktex 8
+\editionInfo{\textit{First edition}, 2022}
+\ISBN{000-0-00000-000-0}
+
+%%%%%%%%%%%%%%%% Metadata %%%%%%%%%%%%%%%%
+
+\hypersetup{
+  pdftitle={\thetitle},
+  pdfauthor={\theauthor},
+  pdfcopyright={Copyright (C) 2022, \thePublisher},
+  pdfsubject={},% subject
+  pdfkeywords={},% keywords
+  pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
+  pdfcontacturl={},
+  pdflang={en},
+}
+
+%%%%%%%%%%%%%%%% Load Further Packages  %%%%%%%%%%%%%%%%
+
+% Adds the time to version creation.
+\usepackage[yyyymmdd,hhmmss]{datetime}
+% \usepackage{titlesec}
+
+% Using memoir's endnotes, called pagenotes
+\makepagenote
+\continuousnotenums
+
+%%%%%%%%%%%%%%%% Hyphenation Exceptions and Corrections   %%%%%%%%%%%%%%%%
+
+\hyphenation{London re-lin-quishes de-ter-mines}
+
+\openany%
+
+\begin{document}
+
+\frontmatter
+
+\ifdesktopversion
+\desktopCover{\includegraphics[height=\paperheight]{./front-cover-compressed.jpg}}
+\fi
+
+\pagestyle{empty}
+\input{./manuscript/tex/titlepage.tex}
+\input{./manuscript/tex/copyright.tex}
+% \input{./manuscript/tex/dedication.tex}
+
+\cleartorecto
+\pagestyle{toponerow-frontmatter}
+\chapterstyle{adrasteia-toc}
+
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents*
+
+% \input{./manuscript/tex/abbreviations.tex}
+
+\chapterstyle{adrasteia-frontmatter}
+
+\mainmatter
+\pagestyle{toponerow}
+
+\cleartorecto
+% \part{Pāli}
+
+{\raggedright
+  \input{./manuscript/tex/pali/pubbakicca.tex}
+  \input{./manuscript/tex/pali/nidan'uddeso.tex}
+  \input{./manuscript/tex/pali/parajika.tex}
+  \input{./manuscript/tex/pali/sanghadisesa.tex}
+  \input{./manuscript/tex/pali/aniyata.tex}
+  \input{./manuscript/tex/pali/nissaggiya-pacittiya.tex}
+  \input{./manuscript/tex/pali/pacittiya.tex}
+  \input{./manuscript/tex/pali/patidesaniya.tex}
+  \input{./manuscript/tex/pali/sekhiya.tex}
+  \input{./manuscript/tex/pali/adhikaranasamatha.tex}
+  \input{./manuscript/tex/pali/patimokkhanitthana.tex}
+}
+
+\cleartorecto
+% \part{English}
+
+{\raggedright
+  \input{./manuscript/tex/english/preliminary-duties.tex}
+  \input{./manuscript/tex/english/introduction.tex}
+  \input{./manuscript/tex/english/disqualifications.tex}
+  \input{./manuscript/tex/english/community-meetings.tex}
+  \input{./manuscript/tex/english/uncertain-cases.tex}
+  \input{./manuscript/tex/english/forfeiture-expiations.tex}
+  \input{./manuscript/tex/english/expiations.tex}
+  \input{./manuscript/tex/english/acknowledgments.tex}
+  \input{./manuscript/tex/english/trainings.tex}
+  \input{./manuscript/tex/english/settlements.tex}
+  \input{./manuscript/tex/english/conclusion.tex}
+}
+
+{\raggedright
+  \input{./manuscript/tex/post-patimokkha.tex}
+  \input{./manuscript/tex/post/pubba-bhaga.tex}
+  \input{./manuscript/tex/post/siluddesa.tex}
+  \input{./manuscript/tex/post/tayana-gatha.tex}
+  \input{./manuscript/tex/post/ovada-patimokkha.tex}
+}
+
+\appendix
+
+{\raggedright
+  \input{./manuscript/tex/appendix.tex}
+  \input{./manuscript/tex/in-brief.tex}
+}
+
+\backmatter
+
+% {\raggedright
+  \printpagenotes
+% }
+
+\input{./manuscript/tex/copyright-details.tex}
+
+\emptyUntilEven
+
+\ifdesktopversion
+\clearpage
+\desktopCover{\includegraphics[height=\paperheight]{./back-cover-compressed.jpg}}
+\fi
+
+\end{document}
