@@ -1721,7 +1721,7 @@ Yo pana bhikkhu bhikkhūhi sahadhammikaṁ vuccamāno evaṁ vadeyya, ``Na tāv'
 \pdfbookmark[3]{Pācittiya 72}{pac72}
 \subsubsection*{\hyperref[exp72]{Pācittiya 72: Vilekhanasikkhāpadaṁ}}
 \label{pac72}
-Yo pana bhikkhu pātimokkhe uddissamāne evaṁ vadeyya, ``Kiṁ pan'imehi khudd'ānukhuddakehi sikkhāpadehi uddiṭṭhehi; yāva'd'eva kukkuccāya, vihesāya, vilekhāya saṁvattantī'ti,'' sikkhāpadavivaṇṇanake, pācittiyaṁ.
+Yo pana bhikkhu pātimokkhe uddissamāne evaṁ vadeyya, ``Kiṁ pan'imehi khudd'ānukhuddakehi sikkhāpadehi uddiṭṭhehi; yāva'd'eva kukkuccāya, vihesāya, vilekhāya saṁvattantī'ti,'' sikkhāpadavivaṇṇake, pācittiyaṁ.
 
 #+end_src
 **** Pācittiya 73: Mohanasikkhāpadaṁ
@@ -2826,6 +2826,8 @@ Uddiṭṭhā sekhiyā dhammā.\\
 Uddiṭṭhā satta adhikaraṇasamathā dhammā.
 
 Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban''ti.
+
+Vitthār'uddeso pañcamo.
 
 \begin{outro}
   Bhikkhupātimokkhaṁ niṭṭhitaṁ
@@ -5760,7 +5762,9 @@ Etaṁ buddhāna'sāsanan'ti
 \section{Saṅkhittapātimokkh'uddeso}
 \label{sankhittapatimokkh'uddeso}
 TODO: append pali word for conclusion
-Uddiṭṭhaṃ kho āyasmanto nidānaṃ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṃsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṃ tassa bhagavato sutt'āgataṃ suttapariyāpannaṃ, anvaḍḍhamāsaṃ uddesaṃ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban-ti.
+Uddiṭṭhaṃ kho āyasmanto nidānaṃ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṃsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṃ tassa bhagavato sutt'āgataṃ suttapariyāpannaṃ, anvaḍḍhamāsaṃ uddesaṃ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+
+Vitthār'uddeso pañcamo.
 
 \begin{outro}
 Bhikkhupātimokkhaṁ niṭṭhitaṁ
