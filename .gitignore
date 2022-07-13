@@ -1,0 +1,49 @@
+# Project output
+output/
+book/
+build/
+main.pdf
+manuscript/current-patimokkha.epub
+manuscript/current-patimokkha.azw3
+
+# Emacs temp files
+*~
+\#*\#
+*.elc
+auto-save-list
+tramp
+.\#*
+.projectile
+TAGS
+auto/
+.auctex-auto/
+*.ent
+
+# Vim temp files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+*~
+tags
+
+# LaTeX temp files
+*.aux
+*.log
+*.toc
+*.lof
+*.fls
+*.fdb_latexmk
+*.fir
+*.upa
+auto/
+*.synctex.gz
+
+# General macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Other
+assets/tools/kindlegen
+assets/tools/epubcheck
