@@ -15,13 +15,13 @@ NINECOLORS_URL = https://mirrors.ctan.org/macros/latex/contrib/ninecolors.zip
 
 
 # EPUB varaibles derived from https://github.com/daniel-j/epubmake
-RELEASENAME   := "Bhikkhupātimokkha"
+RELEASENAME   := "Ñāṇatusita Bhikkhupātimokkha"
 CURRENTEPUB   := ./manuscript/current-patimokkha.epub
 SOURCE        := ./manuscript/
 EXTRACTSOURCE := ./
-EPUBFILE      := ./build/Bhikkhupātimokkha.epub
-KINDLEFILE    := ./build/Bhikkhupātimokkha.mobi
-AZW3FILE      := ./build/Bhikkhupātimokkha.azw3
+EPUBFILE      := ./build/Ñāṇatusita\ Bhikkhupātimokkha.epub
+KINDLEFILE    := ./build/Ñāṇatusita\ Bhikkhupātimokkha.mobi
+AZW3FILE      := ./build/Ñāṇatusita\ Bhikkhupātimokkha.azw3
 
 
 EPUBCHECK := ./assets/tools/epubcheck/epubcheck.jar
