@@ -19,9 +19,9 @@ RELEASENAME   := "Ñāṇatusita Bhikkhupātimokkha"
 CURRENTEPUB   := ./manuscript/current-patimokkha.epub
 SOURCE        := ./manuscript/
 EXTRACTSOURCE := ./
-EPUBFILE      := ./build/Ñāṇatusita\ Bhikkhupātimokkha.epub
-KINDLEFILE    := ./build/Ñāṇatusita\ Bhikkhupātimokkha.mobi
-AZW3FILE      := ./build/Ñāṇatusita\ Bhikkhupātimokkha.azw3
+EPUBFILE      := ./build/Ñāṇatusita Bhikkhupātimokkha.epub
+KINDLEFILE    := ./build/Ñāṇatusita Bhikkhupātimokkha.mobi
+AZW3FILE      := ./build/Ñāṇatusita Bhikkhupātimokkha.azw3
 
 
 EPUBCHECK := ./assets/tools/epubcheck/epubcheck.jar

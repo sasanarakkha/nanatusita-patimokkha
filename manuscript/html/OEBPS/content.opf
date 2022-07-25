@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
-    <dc:title>Bhikkhupātimokkha</dc:title>
+    <dc:title>Ñāṇatusita Bhikkhupātimokkha</dc:title>
     <dc:creator id="cre">SBS Saṅgha</dc:creator>
     <meta property="role" refines="#cre" scheme="marc:relators">aut</meta>
     <dc:publisher>Sāsanārakkha Buddhist Sanctuary</dc:publisher>
