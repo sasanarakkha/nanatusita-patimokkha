@@ -1110,7 +1110,7 @@ Yo pana bhikkhu saṅghike vihāre seyyaṁ santharitvā vā santharāpetvā vā
 \subsubsection*{\hyperref[exp16]{Pācittiya 16: Anupakhajjasikkhāpadaṁ}}
 \label{pac16}
 
-Yo pana bhikkhu saṅghike vihāre jānaṁ pubbupagataṁ bhikkhuṁ anupakhajja seyyaṁ kappeyya: ``Yassa sambādho bhavissati, so pakkamissatī'ti'', etad'eva paccayaṁ karitvā anaññaṁ, pācittiyaṁ.
+Yo pana bhikkhu saṅghike vihāre jānaṁ pubb'upagataṁ bhikkhuṁ anupakhajja seyyaṁ kappeyya: ``Yassa sambādho bhavissati, so pakkamissatī'ti'', etad'eva paccayaṁ karitvā anaññaṁ, pācittiyaṁ.
 
 #+end_src
 
