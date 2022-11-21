@@ -366,7 +366,7 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmena saddhiṁ kāyasa
 \pdfbookmark[2]{Saṅghādisesa 3}{sd3}
 \subsection*{\hyperref[comm3]{Saṅghādisesa 3: Duṭṭhullavācāsikkhāpadaṁ}}
 \label{sd3}
-Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi vācāhi obhāseyya, yathātaṁ yuvā yuvatiṁ, methun'ūpasaṁhitāhi, saṅghādiseso.
+Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi vācāhi obhāseyya, yathā taṁ yuvā yuvatiṁ, methun'ūpasaṁhitāhi, saṅghādiseso.
 
 #+end_src
 
