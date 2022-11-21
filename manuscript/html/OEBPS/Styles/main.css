@@ -222,7 +222,7 @@ text-decoration: none;
 }
 
 q {
-  quotes: "“" "”" "‘" "’";
+  quotes: "“" "”" "‘" "'";
 }
 q::before {
     content: open-quote;
