@@ -1912,11 +1912,11 @@ Kaṇḍupaṭicchādiṁ pana bhikkhunā kārayamānena pamāṇikā kāretabb�
 
 #+end_src
 
-**** Pācittiya 91: Vassikasāṭikasikkhāpadaṁ
+**** Pācittiya 91: Vassikasāṭikāsikkhāpadaṁ
 #+begin_src latex :tangle ./manuscript/tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 91}{pac91}
-\subsubsection*{\hyperref[exp91]{Pācittiya 91: Vassikasāṭikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp91]{Pācittiya 91: Vassikasāṭikāsikkhāpadaṁ}}
 \label{pac91}
 Vassikasāṭikaṁ pana bhikkhunā kārayamānena pamāṇikā kāretabbā. Tatr'idaṁ pamāṇaṁ, dīghaso cha vidatthiyo sugatavidatthiyā, tiriyaṁ aḍḍhateyyā. Taṁ atikkāmayato, chedanakaṁ pācittiyaṁ.
 
