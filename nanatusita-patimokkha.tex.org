@@ -51,6 +51,8 @@
 
 \chapterOpeningPage{appendix-compressed.jpg}
 
+% TODO change to pali.jpg
+
 \chapter{Pāli}
 
 \clearpage
@@ -2845,6 +2847,8 @@ Vitthār'uddeso pañcamo.
 
 \chapterOpeningPage{appendix-compressed.jpg}
 
+% TODO change to english.jpg
+
 \chapter{English}
 
 \clearpage
@@ -5534,6 +5538,8 @@ This much [of the training-rules] of the Fortunate One has been handed down in t
 #+begin_src latex :tangle ./manuscript/tex/post-patimokkha.tex
 
 \chapterOpeningPage{appendix-compressed.jpg}
+
+% TODO change to post-patimokkha.jpg
 
 \chapter{Post Pātimokkha}
 
