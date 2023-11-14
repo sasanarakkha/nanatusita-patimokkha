@@ -4,7 +4,7 @@
 
 [[file:~/Calibre/Vijja/Bhikkhu Nanatusita/Analysis of the Bhikkhu Patimokkha (932)/Analysis of the Bhikkhu Patimok - Bhikkhu Nanatusita.pdf][Bhik Patimok Analysis]]
 
-TODO: change section format to subsubsection in parajika, sanghadisesa, aniyata
+% TODO: change section format to subsubsection in parajika, sanghadisesa, aniyata
 
 * Table of Contents :toc:
 - [[#pāli][Pāli]]
@@ -5505,7 +5505,9 @@ The venerables are pure in this, therefore there is silence, thus I keep this [i
 ** Disciplinary Code Conclusion
 #+begin_src latex :tangle ./manuscript/tex/english/conclusion.tex
 
-\section{Disciplinary Code or Recitation ConclusionTODO???}
+% TODO Disciplinary Code or Recitation Conclusion ???
+
+\section{Disciplinary Code Conclusion}
 \label{conclusion}
 
 Venerables, the introduction has been recited.\\
@@ -5765,7 +5767,7 @@ Etaṁ buddhāna'sāsanan'ti
 
 \section{Saṅkhittapātimokkh'uddeso}
 \label{sankhittapatimokkh'uddeso}
-TODO: append pali word for conclusion
+% TODO: append pali word for conclusion
 Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
 Vitthār'uddeso pañcamo.
