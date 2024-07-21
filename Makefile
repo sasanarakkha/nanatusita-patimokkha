@@ -1,9 +1,8 @@
 # LuaLaTeX pdf
-FILE=main
-LATEX=lualatex
-BIBTEX=bibtex
-LATEX_OPTS=-interaction=nonstopmode -halt-on-error -synctex=1
-
+FILE := main
+LATEX_OPTS := -interaction=nonstopmode -halt-on-error -synctex=1
+LATEX := latexmk -pdflualatex='lualatex $(LATEX_OPTS)'
+TEXMFHOME := ~/.texmf
 
 # https://www.ctan.org/pkg/tabularray
 TABULARRAY_URL = https://mirrors.ctan.org/macros/latex/contrib/tabularray.zip
@@ -14,75 +13,84 @@ NINECOLORS_URL = https://mirrors.ctan.org/macros/latex/contrib/ninecolors.zip
 #-----------------------------------------------------------------------------------------#
 
 
-# EPUB varaibles derived from https://github.com/daniel-j/epubmake
-RELEASENAME   := "Ñāṇatusita Bhikkhupātimokkha"
-CURRENTEPUB   := ./manuscript/current-patimokkha.epub
-SOURCE        := ./manuscript/
+BUILDDIR      := ./build/
+RELEASENAME   := Ñāṇatusita Bhikkhupātimokkha
+# FIXME Create target or decide to delete view, editepub etc
+CURRENTEPUB   := ./epub/current-recitations.epub
+HTMLSOURCE    := ./epub/
 EXTRACTSOURCE := ./
-EPUBFILE      := ./build/Ñāṇatusita Bhikkhupātimokkha.epub
-KINDLEFILE    := ./build/Ñāṇatusita Bhikkhupātimokkha.mobi
-AZW3FILE      := ./build/Ñāṇatusita Bhikkhupātimokkha.azw3
+PDFFILE       := $(BUILDDIR)/$(RELEASENAME).pdf
+PDFFILE_A6    := $(BUILDDIR)/$(RELEASENAME)-A6.pdf
+PDFFILE_B6    := $(BUILDDIR)/$(RELEASENAME)-B6.pdf
+EPUBFILE      := $(BUILDDIR)/$(RELEASENAME).epub
+KINDLEFILE    := $(BUILDDIR)/$(RELEASENAME).mobi
+AZW3FILE      := $(BUILDDIR)/$(RELEASENAME).azw3
 
 
-EPUBCHECK := ./assets/tools/epubcheck/epubcheck.jar
-KINDLEGEN := ./assets/tools/kindlegen
+ifneq (, $(shell which epubcheck))
+EPUBCHECK := epubcheck
+endif
+
+ORG_TANGLE := ./assets/bin/org-tangle.py
 
 
-EBOOKEDITOR  := $(shell command -v sigil  2>&1 || nixGL sigil 2>&1)
+EBOOKEDITOR  := $(shell command -v sigil  2>&1 || sigil 2>&1)
 EBOOKPOLISH  := $(shell command -v ebook-polish 2>&1)
 EBOOKVIEWER  := $(shell command -v ebook-viewer 2>&1)
 EBOOKCONVERT := $(shell command -v ebook-convert 2>&1)
 JAVA         := $(shell command -v java 2>&1)
 INOTIFYWAIT  := $(shell command -v inotifywait 2>&1)
-MAKECURRENT  := $(shell command -v cd ./manuscript && zip -r html.zip html && mv html.zip current-patimokkha.epub)
+
+LATEX_AUX := \
+	$(BUILDDIR)/*.aux $(BUILDDIR)/*.ent $(BUILDDIR)/*.fls $(BUILDDIR)/*.toc \
+	$(BUILDDIR)/*.upa $(BUILDDIR)/*.log $(BUILDDIR)/*latexmk $(BUILDDIR)/*.synctex.gz
+MKBUILDDIR := @mkdir -p $(BUILDDIR)
 
 
-EPUBCHECK_VERSION = 4.2.6
-# https://github.com/IDPF/epubcheck/releases
-EPUBCHECK_URL = https://github.com/IDPF/epubcheck/releases/download/v$(EPUBCHECK_VERSION)/epubcheck-$(EPUBCHECK_VERSION).zip
-# http://www.amazon.com/gp/feature.html?docId=1000765211 -- KINDLEGEN IS NO LONGER ABLE TO BE DOWNLOADED
-# KINDLEGEN_URL = http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz
+TODAY := $(shell date --iso-8601)
+COPYRIGHT_FILE := epub/html/OEBPS/Text/copyright.xhtml
+COPYRIGHT_SENTINEL := $(BUILDDIR)copyright_$(TODAY).xhtml
+
+HTMLSOURCEFILES := $(shell find $(HTMLSOURCE) ! -name '*.tpl' -type f)
+XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sort)
 
 
-SOURCEFILES := $(shell find $(SOURCE) 2> /dev/null | sort)
-XHTMLFILES  := $(shell find $(SOURCE) -name '*.xhtml' 2> /dev/null | sort)
+#-----------------------------------------------------------------------------------------#
+
+# Usual phonies
+.PHONY: all test clean
+# Targets with complex dependencies
+.PHONY: $(PDFFILE) TANGLED
+# Aliases
+.PHONY: pdf pdf2x epub mobi
+# Commands
+.PHONY: checkepub validate optimize view editepub watchepub
+
+all: $(PDFFILE) $(PDFFILE_A6) $(PDFFILE_B6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
+all-pdf: $(PDFFILE) $(PDFFILE_A6) $(PDFFILE_B6)
 
 
 #-----------------------------------------------------------------------------------------#
 
 
-all: document
+TANGLED: ./nanatusita-patimokkha.tex.org
+	$(ORG_TANGLE) $<
 
+pdf2x: $(PDFFILE)  # Legacy target for compliance
+pdf: $(PDFFILE)
+$(PDFFILE): TANGLED
+	$(MKBUILDDIR)
+	$(LATEX) --jobname=$(basename $@) $(FILE)_a5digital.tex
 
-#-----------------------------------------------------------------------------------------#
+pdf-a6: $(PDFFILE_A6)
+$(PDFFILE_A6): TANGLED
+	$(MKBUILDDIR)
+	$(LATEX) -jobname=$(basename $@) $(FILE)_a6.tex
 
-
-dist:
-	./assets/tools/dist
-
-
-#-----------------------------------------------------------------------------------------#
-
-
-pdf:
-	@echo "Tangling org document..."
-	@org-tangle ./nanatusita-patimokkha.tex.org
-	$(LATEX) $(LATEX_OPTS) $(FILE).tex;
-	@mkdir -p ./build
-	mv -f $(FILE).pdf "./build/Ñāṇatusita Bhikkhupātimokkha.pdf"
-
-
-#-----------------------------------------------------------------------------------------#
-
-
-pdf2x:
-	@echo "Tangling org document..."
-	@org-tangle ./nanatusita-patimokkha.tex.org
-	$(LATEX) $(LATEX_OPTS) $(FILE).tex;
-	@echo "Second run..."
-	$(LATEX) $(LATEX_OPTS) $(FILE).tex;
-	@mkdir -p ./build
-	mv -f $(FILE).pdf "./build/Ñāṇatusita Bhikkhupātimokkha.pdf"
+pdf-b6: $(PDFFILE_B6)
+$(PDFFILE_B6): TANGLED
+	$(MKBUILDDIR)
+	$(LATEX) -jobname=$(basename $@) $(FILE)_b6.tex
 
 
 #-----------------------------------------------------------------------------------------#
@@ -105,37 +113,38 @@ pdfrequirements:
 #-----------------------------------------------------------------------------------------#
 
 
+
+$(COPYRIGHT_SENTINEL): $(COPYRIGHT_FILE).tpl
+	$(MKBUILDDIR)
+	sed 's/\(This version was created on:\) *[0-9-]\{10\}/\1 '"$(TODAY)"'/' $< \
+		> $(COPYRIGHT_SENTINEL)
+
+
 epub: $(EPUBFILE)
-$(EPUBFILE): $(SOURCEFILES)
+$(EPUBFILE): $(HTMLSOURCEFILES) $(COPYRIGHT_SENTINEL)
+	$(MKBUILDDIR)
 	@echo "Building EPUB ebook..."
-	@mkdir -p `dirname $(EPUBFILE)`
-	@rm -f "$(EPUBFILE)"
-	@cd "$(SOURCE)" && zip -Xr9D "../$(EPUBFILE)" mimetype .
+	cp $(COPYRIGHT_SENTINEL) $(COPYRIGHT_FILE)
+	rm -f "$(EPUBFILE)"
+	cd "$(HTMLSOURCE)" && \
+		zip --exclude '*.epub' --exclude '*.tpl' -Xr9D "../$(EPUBFILE)" mimetype .
 
 
 #-----------------------------------------------------------------------------------------#
 
 
-# Uses Amazon's KindleGen to produce a mobi Kindle ebook
+# Uses Calibre to produce a mobi Kindle ebook
 mobi: $(KINDLEFILE)
-$(KINDLEFILE): $(EPUBFILE) $(KINDLEGEN)
+$(KINDLEFILE): EPUB_COPY := $(basename $(EPUBFILE))_copy.epub
+$(KINDLEFILE): $(EPUBFILE)
+	$(MKBUILDDIR)
 	@echo "Building mobi with KindleGen..."
-	@cp -f "$(EPUBFILE)" "$(KINDLEFILE).epub"
-ifdef PNGFILES
-	@for current in $(PNGFILES); do \
-		channels=$$(identify -format '%[channels]' "$$current"); \
-		if [[ "$$channels" == "graya" ]]; then \
-			mkdir -p "$$(dirname "tmp/$$current")"; \
-			echo "Converting $$current to RGB..."; \
-			convert "$$current" -colorspace rgb "tmp/$$current"; \
-		fi; \
-	done
-	@cd "tmp/$(SOURCE)" && zip -Xr9D "../../$(KINDLEFILE).epub" .
-	@rm -rf "tmp/"
-endif
-	@$(KINDLEGEN) "$(KINDLEFILE).epub" -dont_append_source -c1 || exit 0 # -c1 means standard PalmDOC compression. -c2 takes too long but probably makes it even smaller.
-	@rm -f "$(KINDLEFILE).epub"
-	@mv "$(KINDLEFILE).mobi" "$(KINDLEFILE)"
+	cp -f "$(EPUBFILE)" "$(EPUB_COPY)"
+	ebook-convert "$(EPUB_COPY)" "$(KINDLEFILE)" \
+		--mobi-file-type=new --pretty-print --no-inline-toc --disable-font-rescaling \
+		--embed-all-fonts --subset-embedded-fonts \
+		--mobi-keep-original-images
+	rm -f "$(EPUB_COPY)"
 
 
 #-----------------------------------------------------------------------------------------#
@@ -144,6 +153,7 @@ endif
 # Use Calibre to generate an azw3 Kindle ebook
 azw3: $(AZW3FILE)
 $(AZW3FILE): $(EPUBFILE)
+	$(MKBUILDDIR)
 ifndef EBOOKCONVERT
 	@echo "Error: Calibre was not found. Unable to convert to Kindle AZW3."
 	@exit 1
@@ -152,35 +162,17 @@ else
 	ebook-convert "$(EPUBFILE)" "$(AZW3FILE)" --pretty-print --no-inline-toc --max-toc-links=0 --disable-font-rescaling
 endif
 
-$(EPUBCHECK):
-	@echo Downloading epubcheck...
-	@curl -o "epubcheck.zip" -L "$(EPUBCHECK_URL)" --connect-timeout 30
-	@mkdir -p `dirname $(EPUBCHECK)`
-	@unzip -q "epubcheck.zip"
-	@rm -rf `dirname $(EPUBCHECK)`
-	@mv "epubcheck-$(EPUBCHECK_VERSION)" "`dirname $(EPUBCHECK)`"
-	@rm epubcheck.zip
-
-# Kindlegen can no longer downloaded directly from Amazon
-# $(KINDLEGEN):
-# 	@echo Downloading kindlegen...
-# 	@curl -o "kindlegen.tar.gz" -L "$(KINDLEGEN_URL)" --connect-timeout 30
-# 	@mkdir -p `dirname $(KINDLEGEN)`
-# 	@tar -zxf "kindlegen.tar.gz" -C `dirname $(KINDLEGEN)`
-# 	@rm "kindlegen.tar.gz"
-
 
 #-----------------------------------------------------------------------------------------#
 
-
-validate: $(EPUBFILE) $(EPUBCHECK)
-ifndef JAVA
-	@echo "Warning: Java was not found. Unable to validate ebook."
-else
+checkepub: validate  # FIXME Redundant target
+validate: $(EPUBFILE)
+ifdef EPUBCHECK
 	@echo "Validating EPUB..."
-	@$(JAVA) -jar "$(EPUBCHECK)" "$(EPUBFILE)"
+	"$(EPUBCHECK)" "$(EPUBFILE)"
+else
+	$(error Missing epubcheck)
 endif
-
 
 #-----------------------------------------------------------------------------------------#
 
@@ -197,76 +189,51 @@ endif
 
 #-----------------------------------------------------------------------------------------#
 
-
-view: $(CURRENTEPUB)
-ifndef EBOOKVIEWER
-	@echo "Error: Calibre was not found. Unable to open ebook viewer."
-	@exit 1
-else
-	@ebook-viewer --detach "$(CURRENTEPUB)"
-endif
+# TODO needs a rework or consider doing manually
+# editepub: $(CURRENTEPUB)
+# ifndef EBOOKEDITOR
+# 	@echo "Error: Sigil was not found. Installing with Flatpak."
+# 	@exit 1
+# else
+	# @ sigil "$(CURRENTEPUB)" || sigil "$(CURRENTEPUB)"
+# endif
 
 
 #-----------------------------------------------------------------------------------------#
 
-
-edit: $(CURRENTEPUB)
-ifndef EBOOKEDITOR
-	@echo "Error: Sigil was not found. Unable to edit ebook."
-	@exit 1
-else
-	@ nixGL sigil "$(CURRENTEPUB)" || sigil "$(CURRENTEPUB)"
-endif
 
 clean:
-	@echo Removing built EPUB/KEPUB/Kindle files...
-	rm -f "$(EPUBFILE)"
-	rm -f "$(KEPUBFILE)"
-	rm -f "$(KINDLEFILE)"
-	rm -f "$(AZW3FILE)"
-	rm -f "$(IBOOKSFILE)"
-	@# only remove dir if it's empty:
-	@(rmdir `dirname $(EPUBFILE)`; exit 0)
+	@echo Removing artifacts...
+	rm -f \
+		"$(PDFFILE)" "$(PDFFILE_A6)" "$(PDFFILE_B6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
+	# only remove dir if it's empty:
+	(rm -fd $(BUILDDIR) || true)
 
 
 #-----------------------------------------------------------------------------------------#
 
-editwatchcurrent: $(CURRENTEPUB)
-	@echo "Opening current-patimokkha.epub in Sigil for editing..."
+
+editwatchepub: $(CURRENTEPUB)
+	@echo "Opening current-recitations.epub in Sigil for editing..."
 	@echo "Watching file for errors..."
 	@make -j edit watchcurrent
 
-#-----------------------------------------------------------------------------------------#
-
-
-checkcurrent: $(CURRENTEPUB)
-	@clear
-	@epubcheck manuscript/current-patimokkha.epub
-
 
 #-----------------------------------------------------------------------------------------#
 
-
-current:
-	@echo "Archiving html and renaming to epub..."
-	@cd ./manuscript && zip -r html.zip html && mv html.zip current-patimokkha.epub
-	@echo "EPUB made and ready for editing..."
+# TODO need command to zip up epub
+extractepub: $(CURRENTEPUB)
+	@echo "Extracting $(CURRENTEPUB) into $(HTMLSOURCE)"
+	@mkdir -p "$(HTMLSOURCE)"
+	@unzip -o "$(CURRENTEPUB)" -d "$(HTMLSOURCE)"
+	@echo "Extracting HTML hierarchy from EPUB for version control..."
 
 
 #-----------------------------------------------------------------------------------------#
 
 
-extractcurrent: $(CURRENTEPUB)
-	@echo "Extracting $(CURRENTEPUB) into $(SOURCE)"
-	@mkdir -p "$(SOURCE)"
-	@unzip -o "$(CURRENTEPUB)" -d "$(SOURCE)"
-	@rm -rf ./manuscript/META-INF ./manuscript/mimetype
-
-
-#-----------------------------------------------------------------------------------------#
-
-
-watchcurrent: $(CURRENTEPUB) $(EPUBCHECK)
+watchepub: $(CURRENTEPUB) $(EPUBCHECK)
 ifndef JAVA
 	$(error Java was not found. Unable to validate ebook)
 endif
@@ -279,14 +246,3 @@ endif
 		echo "Validating $(CURRENTEPUB)..."; \
 		$(JAVA) -jar "$(EPUBCHECK)" "$(CURRENTEPUB)"; \
 	done
-
-
-#-----------------------------------------------------------------------------------------#
-
-
-release: $(EPUBFILE) $(KINDLEFILE) $(KEPUBFILE) $(AZW3FILE)
-	@mkdir -pv release
-	cp "$(EPUBFILE)" "release/$$(date +$(RELEASENAME)).epub"
-	cp "$(KEPUBFILE)" "release/$$(date +$(RELEASENAME)).kepub.epub"
-	cp "$(KINDLEFILE)" "release/$$(date +$(RELEASENAME)).mobi"
-	cp "$(AZW3FILE)" "release/$$(date +$(RELEASENAME)).azw3"

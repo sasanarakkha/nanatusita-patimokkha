@@ -6,12 +6,17 @@ desktopVersion,
 % overleaf,
 ]{anecdote}
 
-\graphicspath{{./assets/photos/300dpi/}}
-
-% Page size: 210mm x 148mm (A5)
-% Body text: 12.5 / 18 pt
+% Define graphics path for images
+\graphicspath{
+  {./assets/illustrations/A5}
+  {./assets/illustrations/A6}
+  {./assets/graphics}
+}
 
 \usepackage{local}
+% Loads formatting for selected ddocument class
+% \ifafiveversion \usepackage{A5} \fi
+% \ifasixversion  \usepackage{A6} \fi
 
 %%%%%%%%%%%%%%%% Details of the Book %%%%%%%%%%%%%%%%
 
@@ -19,7 +24,7 @@ desktopVersion,
 \subtitle{Monk Training Centre}
 \author{SBS Saṅgha}
 \publisher{Sāsanārakkha Buddhist Sanctuary}
-\date{2021-10-30}% chktex 8
+\date{2022-06-01}
 \editionInfo{\textit{First edition}, 2022}
 \ISBN{000-0-00000-000-0}
 
@@ -28,9 +33,9 @@ desktopVersion,
 \hypersetup{
   pdftitle={\thetitle},
   pdfauthor={\theauthor},
-  pdfcopyright={Copyright (C) 2022, \thePublisher},
-  pdfsubject={},% subject
-  pdfkeywords={},% keywords
+  pdfcopyright={Copyright (C) 2024, \thePublisher},
+  pdfsubject={},
+  pdfkeywords={},
   pdflicenseurl={https://creativecommons.org/licenses/by-nc-nd/4.0/},
   pdfcontacturl={},
   pdflang={en},
@@ -40,7 +45,6 @@ desktopVersion,
 
 % Adds the time to version creation.
 \usepackage[yyyymmdd,hhmmss]{datetime}
-% \usepackage{titlesec}
 
 % Using memoir's endnotes, called pagenotes
 \makepagenote
@@ -50,7 +54,9 @@ desktopVersion,
 
 \hyphenation{London re-lin-quishes de-ter-mines}
 
-\openany%
+\ifdigitalversion
+  \openany
+\fi
 
 \begin{document}
 
@@ -72,16 +78,14 @@ desktopVersion,
 \pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents*
 
-% \input{./manuscript/tex/abbreviations.tex}
-
 \chapterstyle{adrasteia-frontmatter}
 
 \mainmatter
 \pagestyle{toponerow}
 
 \cleartorecto
-% \part{Pāli}
 
+% \part{Pāli}
 {\raggedright
   \input{./manuscript/tex/pali/pubbakicca.tex}
   \input{./manuscript/tex/pali/nidan'uddeso.tex}
@@ -97,8 +101,8 @@ desktopVersion,
 }
 
 \cleartorecto
-% \part{English}
 
+% \part{English}
 {\raggedright
   \input{./manuscript/tex/english/preliminary-duties.tex}
   \input{./manuscript/tex/english/introduction.tex}
@@ -129,18 +133,16 @@ desktopVersion,
 }
 
 \backmatter
-
-% {\raggedright
   \printpagenotes
-% }
-
 \input{./manuscript/tex/copyright-details.tex}
 
 \emptyUntilEven
 
-\ifdesktopversion
+% Digital version back cover (if applicable)
+\ifdigitalversion
 \clearpage
-\desktopCover{\includegraphics[height=\paperheight]{./back-cover-compressed.jpg}}
+\digitalCover{\includegraphics[height=\paperheight]{./assets/illustrations/A5/back-cover-compressed.jpg}}
 \fi
 
+% End document
 \end{document}
