@@ -1,0 +1,11 @@
+#+title: Todo
+
+* Both Formats
+** TODO decide on skip distance after each rule, before the next title
+* A5
+** DONE normal formatted text runs collides with intro, see pubbakicca
+** TODO section titles are too close to intro, see parajika 1
+* A6
+** TODO large gaps after intros in post-patimokkha chants
+** TODO English titles are too close to the previous rule
+* EPUB

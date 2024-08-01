@@ -1,26 +1,34 @@
+
 \cleartorecto
 \thispagestyle{empty}
-\vspace*{3em}
+
+\ifafiveversion\vspace*{3em}\fi
+\ifasixversion\vspace*{3em}\fi
 
 {\centering
 
   \settowidth{\titleLength}{%
-    {\Large\chapterTitleFont\textsc{\MakeUppercase{{\thetitle}}}}%
+    {\Large\chapterTitleFont\textsc{\MakeUppercase{{Pāli-English Recitations}}}}%
   }
 
   % 'SBS' on title page
-  {\Huge\fontsize{64}{16}\sbsFont SBS}\\[1.0\baselineskip]%
+  \ifafiveversion {\Huge\fontsize{64}{16}\sbsFont SBS}\\[1.0\baselineskip] \fi
+  \ifasixversion {\Huge\fontsize{45}{11}\sbsFont SBS}\\[1.2\baselineskip] \fi
 
   % 'Monk Training Centre'
-  {\Huge\chapterTitleFont\textsc{{\thesubtitle\linebreak}}}\\[0.2\baselineskip]
-  \setlength{\xheight}{\heightof{X}}
+  \ifafiveversion \setlength{\xheight}{\heightof{X}}
+    {\Huge\chapterTitleFont\textsc{{\thesubtitle\linebreak}}}\\[0.2\baselineskip] \fi
+  \ifasixversion {\fontsize{18}{14}\chapterTitleFont\textsc{{\thesubtitle\linebreak}}}\\[0.2\baselineskip] \fi
 
   % Ornament
-  \raisebox{0.5\xheight}{\pgfornament[color=sbs-brown,width=7cm,scale=1,ydelta=0pt,symmetry=c]{84}}\\[1.4\baselineskip]
+  \ifafiveversion \raisebox{0.5\xheight}{\pgfornament[color=sbs-brown,width=7cm,scale=1,ydelta=0pt,symmetry=c]{84}}\\[1.4\baselineskip] \fi
+  \ifasixversion \raisebox{0.5\xheight}{\pgfornament[color=sbs-brown,width=5cm,scale=1,ydelta=0pt,symmetry=c]{84}}\\[1.4\baselineskip] \fi
 
   % 'Pali-English Recitations'
-  {\Large\scshape \thetitle}\\[2.5\baselineskip]
+  \ifafiveversion {\Large\scshape Pāli-English Recitations}\\[2.0\baselineskip] \fi
+  \ifasixversion {\fontsize{10.5}{12}\scshape Pāli-English Recitations}\\[2.0\baselineskip] \fi
 
   % Dhamma quote
   {\quote ``The Blessed One who knows and sees, accomplished and fully enlightened, has prescribed the course of training for bhikkhus and he has laid down the Pātimokkha. On the Uposatha day as many of us as live in dependence upon a single village district meet together in unison, and when we meet we ask one who knows the Pātimokkha to recite it. If a bhikkhu remembers an offence or a transgression while the Pātimokkha is being recited, we make him act in accordance with the Dhamma, in accordance with the instructions. It is not the worthy ones that make us act; it is the Dhamma that makes us act.''\\ \smallskip (MN 108)}\\[1.4\baselineskip]
 }
+

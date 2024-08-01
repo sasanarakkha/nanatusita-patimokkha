@@ -14,14 +14,13 @@ NINECOLORS_URL = https://mirrors.ctan.org/macros/latex/contrib/ninecolors.zip
 
 
 BUILDDIR      := ./build/
-RELEASENAME   := Ñāṇatusita Bhikkhupātimokkha
+RELEASENAME   := Ñāṇatusita_Bhikkhupātimokkha
 # FIXME Create target or decide to delete view, editepub etc
-CURRENTEPUB   := ./epub/current-recitations.epub
+# CURRENTEPUB   := ./epub/current-recitations.epub
 HTMLSOURCE    := ./epub/
 EXTRACTSOURCE := ./
 PDFFILE       := $(BUILDDIR)/$(RELEASENAME).pdf
 PDFFILE_A6    := $(BUILDDIR)/$(RELEASENAME)-A6.pdf
-PDFFILE_B6    := $(BUILDDIR)/$(RELEASENAME)-B6.pdf
 EPUBFILE      := $(BUILDDIR)/$(RELEASENAME).epub
 KINDLEFILE    := $(BUILDDIR)/$(RELEASENAME).mobi
 AZW3FILE      := $(BUILDDIR)/$(RELEASENAME).azw3
@@ -57,6 +56,7 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 
 #-----------------------------------------------------------------------------------------#
 
+
 # Usual phonies
 .PHONY: all test clean
 # Targets with complex dependencies
@@ -66,8 +66,7 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 # Commands
 .PHONY: checkepub validate optimize view editepub watchepub
 
-all: $(PDFFILE) $(PDFFILE_A6) $(PDFFILE_B6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
-all-pdf: $(PDFFILE) $(PDFFILE_A6) $(PDFFILE_B6)
+all: $(PDFFILE) $(PDFFILE_A6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -87,10 +86,7 @@ $(PDFFILE_A6): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) -jobname=$(basename $@) $(FILE)_a6.tex
 
-pdf-b6: $(PDFFILE_B6)
-$(PDFFILE_B6): TANGLED
-	$(MKBUILDDIR)
-	$(LATEX) -jobname=$(basename $@) $(FILE)_b6.tex
+pdf-all: $(PDFFILE) $(PDFFILE_A6)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -120,14 +116,14 @@ $(COPYRIGHT_SENTINEL): $(COPYRIGHT_FILE).tpl
 		> $(COPYRIGHT_SENTINEL)
 
 
-epub: $(EPUBFILE)
-$(EPUBFILE): $(HTMLSOURCEFILES) $(COPYRIGHT_SENTINEL)
-	$(MKBUILDDIR)
-	@echo "Building EPUB ebook..."
-	cp $(COPYRIGHT_SENTINEL) $(COPYRIGHT_FILE)
-	rm -f "$(EPUBFILE)"
-	cd "$(HTMLSOURCE)" && \
-		zip --exclude '*.epub' --exclude '*.tpl' -Xr9D "../$(EPUBFILE)" mimetype .
+# epub: $(EPUBFILE)
+# $(EPUBFILE): $(HTMLSOURCEFILES) $(COPYRIGHT_SENTINEL)
+# 	$(MKBUILDDIR)
+# 	@echo "Building EPUB ebook..."
+# 	cp $(COPYRIGHT_SENTINEL) $(COPYRIGHT_FILE)
+# 	rm -f "$(EPUBFILE)"
+# 	cd "$(HTMLSOURCE)" && \
+# 		zip --exclude '*.epub' --exclude '*.tpl' -Xr9D "../$(EPUBFILE)" mimetype .
 
 
 #-----------------------------------------------------------------------------------------#
@@ -205,7 +201,7 @@ endif
 clean:
 	@echo Removing artifacts...
 	rm -f \
-		"$(PDFFILE)" "$(PDFFILE_A6)" "$(PDFFILE_B6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+		"$(PDFFILE)" "$(PDFFILE_A6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
 	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
 	# only remove dir if it's empty:
 	(rm -fd $(BUILDDIR) || true)

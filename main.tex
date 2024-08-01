@@ -1,10 +1,33 @@
+% Set paper variant
+% Build command '\newcommand{\papersizeoption}{VALUE}\input{main.tex}'
+% Possible VALUE:
+%   - afiveVersion — A5 formatted
+%   - asixVersion — A6 formatted
+%   - bsixVersion — B6 formatted
+\ifdefined\papersizeoption
+\else
+  \newcommand{\papersizeoption}{asixVersion}
+\fi
+\typeout{Set \protect\papersizeoption{} to \papersizeoption}
+
+% Add hyperlinks and illustrations, to be used with afiveVersion \papersizeoption
+% Build command:
+% '\newcommand{\papersizeoption}{afiveVersion}\newcommand{\isdigitalversion}{}\input{main.tex}'
+\ifdefined\isdigitalversion
+  \newcommand{\digitaloption}{digitalVersion}
+\else
+  \newcommand{\digitaloption}{}
+\fi
+\typeout{Set \protect\digitaloption{} to \digitaloption}
+
 \documentclass[
-final,
-babelLanguage=british,
-desktopVersion,
-% showtrims,
-% overleaf,
+  final,
+  babelLanguage=british,
+  % showtrims,
+  \papersizeoption,
+  \digitaloption,
 ]{anecdote}
+
 
 % Define graphics path for images
 \graphicspath{
@@ -13,19 +36,16 @@ desktopVersion,
   {./assets/graphics}
 }
 
-\usepackage{local}
 % Loads formatting for selected ddocument class
-% \ifafiveversion \usepackage{A5} \fi
-% \ifasixversion  \usepackage{A6} \fi
-
-%%%%%%%%%%%%%%%% Details of the Book %%%%%%%%%%%%%%%%
+\ifafiveversion \usepackage{A5} \fi
+\ifasixversion  \usepackage{A6} \fi
 
 \title{Bhikkhupātimokkha}
 \subtitle{Monk Training Centre}
 \author{SBS Saṅgha}
 \publisher{Sāsanārakkha Buddhist Sanctuary}
 \date{2022-06-01}
-\editionInfo{\textit{First edition}, 2022}
+\editionInfo{\textit{First edition}, 2024}
 \ISBN{000-0-00000-000-0}
 
 %%%%%%%%%%%%%%%% Metadata %%%%%%%%%%%%%%%%
@@ -62,14 +82,14 @@ desktopVersion,
 
 \frontmatter
 
-\ifdesktopversion
-\desktopCover{\includegraphics[height=\paperheight]{./front-cover-compressed.jpg}}
+\ifdigitalversion
+	\digitalCover{\includegraphics[height=\paperheight]{./front-cover-compressed.jpg}}
 \fi
 
 \pagestyle{empty}
-\input{./manuscript/tex/titlepage.tex}
-\input{./manuscript/tex/copyright.tex}
-% \input{./manuscript/tex/dedication.tex}
+\input{./tex/titlepage.tex}
+\input{./tex/copyright.tex}
+% \input{./tex/dedication.tex}
 
 \cleartorecto
 \pagestyle{toponerow-frontmatter}
@@ -87,61 +107,61 @@ desktopVersion,
 
 % \part{Pāli}
 {\raggedright
-  \input{./manuscript/tex/pali/pubbakicca.tex}
-  \input{./manuscript/tex/pali/nidan'uddeso.tex}
-  \input{./manuscript/tex/pali/parajika.tex}
-  \input{./manuscript/tex/pali/sanghadisesa.tex}
-  \input{./manuscript/tex/pali/aniyata.tex}
-  \input{./manuscript/tex/pali/nissaggiya-pacittiya.tex}
-  \input{./manuscript/tex/pali/pacittiya.tex}
-  \input{./manuscript/tex/pali/patidesaniya.tex}
-  \input{./manuscript/tex/pali/sekhiya.tex}
-  \input{./manuscript/tex/pali/adhikaranasamatha.tex}
-  \input{./manuscript/tex/pali/patimokkhanitthana.tex}
+	\input{./tex/pali/pubbakicca.tex}
+	\input{./tex/pali/nidan'uddeso.tex}
+	\input{./tex/pali/parajika.tex}
+	\input{./tex/pali/sanghadisesa.tex}
+	\input{./tex/pali/aniyata.tex}
+	\input{./tex/pali/nissaggiya-pacittiya.tex}
+	\input{./tex/pali/pacittiya.tex}
+	\input{./tex/pali/patidesaniya.tex}
+	\input{./tex/pali/sekhiya.tex}
+	\input{./tex/pali/adhikaranasamatha.tex}
+	\input{./tex/pali/patimokkhanitthana.tex}
 }
 
 \cleartorecto
 
 % \part{English}
 {\raggedright
-  \input{./manuscript/tex/english/preliminary-duties.tex}
-  \input{./manuscript/tex/english/introduction.tex}
-  \input{./manuscript/tex/english/disqualifications.tex}
-  \input{./manuscript/tex/english/community-meetings.tex}
-  \input{./manuscript/tex/english/uncertain-cases.tex}
-  \input{./manuscript/tex/english/forfeiture-expiations.tex}
-  \input{./manuscript/tex/english/expiations.tex}
-  \input{./manuscript/tex/english/acknowledgments.tex}
-  \input{./manuscript/tex/english/trainings.tex}
-  \input{./manuscript/tex/english/settlements.tex}
-  \input{./manuscript/tex/english/conclusion.tex}
+	\input{./tex/english/preliminary-duties.tex}
+	\input{./tex/english/introduction.tex}
+	\input{./tex/english/disqualifications.tex}
+	\input{./tex/english/community-meetings.tex}
+	\input{./tex/english/uncertain-cases.tex}
+	\input{./tex/english/forfeiture-expiations.tex}
+	\input{./tex/english/expiations.tex}
+	\input{./tex/english/acknowledgments.tex}
+	\input{./tex/english/trainings.tex}
+	\input{./tex/english/settlements.tex}
+	\input{./tex/english/conclusion.tex}
 }
 
 {\raggedright
-  \input{./manuscript/tex/post-patimokkha.tex}
-  \input{./manuscript/tex/post/pubba-bhaga.tex}
-  \input{./manuscript/tex/post/siluddesa.tex}
-  \input{./manuscript/tex/post/tayana-gatha.tex}
-  \input{./manuscript/tex/post/ovada-patimokkha.tex}
+	\input{./tex/post-patimokkha.tex}
+	\input{./tex/post/pubba-bhaga.tex}
+	\input{./tex/post/siluddesa.tex}
+	\input{./tex/post/tayana-gatha.tex}
+	\input{./tex/post/ovada-patimokkha.tex}
 }
 
 \appendix
 
 {\raggedright
-  \input{./manuscript/tex/appendix.tex}
-  \input{./manuscript/tex/in-brief.tex}
+	\input{./tex/appendix.tex}
+	\input{./tex/in-brief.tex}
 }
 
 \backmatter
-  \printpagenotes
-\input{./manuscript/tex/copyright-details.tex}
+\printpagenotes
+\input{./tex/copyright-details.tex}
 
 \emptyUntilEven
 
 % Digital version back cover (if applicable)
 \ifdigitalversion
-\clearpage
-\digitalCover{\includegraphics[height=\paperheight]{./assets/illustrations/A5/back-cover-compressed.jpg}}
+	\clearpage
+	\digitalCover{\includegraphics[height=\paperheight]{./assets/illustrations/A5/back-cover-compressed.jpg}}
 \fi
 
 % End document

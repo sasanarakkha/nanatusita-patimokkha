@@ -1,60 +1,72 @@
+
 \cleartoverso
 \thispagestyle{empty}
 
-\vspace*{-\baselineskip}
+% why when where how did this get here?
+%% \vspace*{-\baselineskip}
 
 {%
 
-\fontsize{10}{16}\selectfont
-\centering
-\setlength{\parindent}{0pt}%
-% \setlength{\parskip}{0.8\baselineskip}%
+	\ifafiveversion \fontsize{10}{16}\selectfont \fi
+	\ifasixversion \fontsize{7.5}{11}\selectfont \fi
+	\centering
+	\setlength{\parindent}{0pt}%
+	% \setlength{\parskip}{0.8\baselineskip}%
 
-\vspace{0.5cm}
+	\ifafiveversion \vspace{0.5cm} \fi
 
-Published by TBD\\
-% TODO need 2 ISBN numbers assigned (1 for print/pdf, 1 for epub); do more research before printing
-% https://www.pnm.gov.my/
-ISBN \theISBN\\
-Copyright \copyright\ Sāsanārakkha Buddhist Sanctuary 2022
+	Published by \publisher\\
 
-\vspace{0.5cm}
+	ISBN \theISBN\\
+	Copyright \copyright\ Sāsanārakkha Buddhist Sanctuary 2024
 
-This book is for free distribution only;\\
-it may not be sold.
+	\ifafiveversion \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.4cm} \fi
 
-\vspace{0.5cm}
+	This book is for free distribution only;\\
+	it may not be sold.
 
-Download this book as a PDF, EPUB, or MOBI\\
-at the following address:\\
-\href{https://sasanarakkha.org/}{https://sasanarakkha.org}
+	\ifafiveversion \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.4cm} \fi
 
-\vspace{0.5cm}
+	Download this book as a PDF, EPUB, or MOBI\\
+	at the following address:\\
+	\href{https://sasanarakkha.org/}{https://sasanarakkha.org}
 
-Project Manager: Ā. Ariyadhammika\\
-Editor: Ā. Pāladhammika\\
-Typesetting: Aj. Gambhiro, Ā. Pāladhammika\\
-Translators: Ā. Ñāṇatusita, Aj. Ṭhānissaro\\
-Endnotes: Ā. Ariyadhammika, Aj. Ṭhānissaro
+	Accompanying audio recordings can be found at: 
+	\href{www.youtube.com/SasanarakkhaBuddhistSanctuary}{www.youtube.com/SasanarakkhaBuddhistSanctuary}
 
-\vspace{0.5cm}
+	\ifafiveversion \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.4cm} \fi
 
-This work is licensed under a Creative Commons\\
-Attribution-NonCommercial-NoDerivatives 4.0 International~License.
+	Project Manager: Ā. Ariyadhammika\\
+	Editor: Ā. Pāladhammika\\
+	Typesetting: Aj. Gambhiro, Ā. Pāladhammika\\
+	Translators: Ā. Ñāṇatusita, Aj. Ṭhānissaro\\
+	Endnotes: Ā. Ariyadhammika, Aj. Ṭhānissaro\\
+	Illustrations: Lim Jee Yuan
 
-Produced with the \LaTeX\ typesetting system,\\
-set in Libertinus Serif.
+	\ifafiveversion \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.4cm} \fi
 
-\vspace{0.5cm}
+	This work is licensed under a Creative Commons\\
+	Attribution-NonCommercial-NoDerivatives 4.0 International~License.
 
-\ifdesktopversion
-This version was created on:\\
-\today \space at \currenttime
-\fi
+	Produced with the \LaTeX\ typesetting system,\\
+	set in Libertinus Serif.
 
-\vspace{0.5cm}
+	\ifafiveversion  \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.4cm} \fi
 
+	\ifdigitalversion
+		This version was created on:\\
+		\today \space at \currenttime\\
+	\fi
 
-\theEditionInfo
+	\ifafiveversion \vspace{0.5cm} \fi
+	\ifasixversion \vspace{0.3cm} \fi
+
+	\theEditionInfo
 
 }
+
