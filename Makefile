@@ -19,7 +19,7 @@ RELEASENAME   := Ñāṇatusita_Bhikkhupātimokkha
 # CURRENTEPUB   := ./epub/current-recitations.epub
 HTMLSOURCE    := ./epub/
 EXTRACTSOURCE := ./
-PDFFILE       := $(BUILDDIR)/$(RELEASENAME).pdf
+PDFFILE_A5    := $(BUILDDIR)/$(RELEASENAME).pdf
 PDFFILE_A6    := $(BUILDDIR)/$(RELEASENAME)-A6.pdf
 EPUBFILE      := $(BUILDDIR)/$(RELEASENAME).epub
 KINDLEFILE    := $(BUILDDIR)/$(RELEASENAME).mobi
@@ -60,13 +60,13 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 # Usual phonies
 .PHONY: all test clean
 # Targets with complex dependencies
-.PHONY: $(PDFFILE) TANGLED
+.PHONY: $(PDFFILE_A5) TANGLED
 # Aliases
 .PHONY: pdf pdf2x epub mobi
 # Commands
 .PHONY: checkepub validate optimize view editepub watchepub
 
-all: $(PDFFILE) $(PDFFILE_A6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
+all: $(PDFFILE_A5) $(PDFFILE_A6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -75,9 +75,9 @@ all: $(PDFFILE) $(PDFFILE_A6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 TANGLED: ./nanatusita-patimokkha.tex.org
 	$(ORG_TANGLE) $<
 
-pdf2x: $(PDFFILE)  # Legacy target for compliance
-pdf: $(PDFFILE)
-$(PDFFILE): TANGLED
+pdf-a5-2x: $(PDFFILE_A5)  # Legacy target for compliance
+pdf-a5: $(PDFFILE_A5)
+$(PDFFILE_A5): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) --jobname=$(basename $@) $(FILE)_a5digital.tex
 
@@ -86,7 +86,7 @@ $(PDFFILE_A6): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) -jobname=$(basename $@) $(FILE)_a6.tex
 
-pdf-all: $(PDFFILE) $(PDFFILE_A6)
+pdf-all: $(PDFFILE_A5) $(PDFFILE_A6)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -201,7 +201,7 @@ endif
 clean:
 	@echo Removing artifacts...
 	rm -f \
-		"$(PDFFILE)" "$(PDFFILE_A6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+		"$(PDFFILE_A5)" "$(PDFFILE_A6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
 	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
 	# only remove dir if it's empty:
 	(rm -fd $(BUILDDIR) || true)

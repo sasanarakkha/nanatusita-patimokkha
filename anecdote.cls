@@ -1377,22 +1377,24 @@
 \ifafiveversion
 	% Set the vertical space before sections
 	\setbeforesecskip{10pt}
+	\setaftersecskip{10pt}
 
 	% Alters space after subsections
 	\setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
 
 	% Alters space before and after subsections
-	\setbeforesubsecskip{-3.5ex \@plus -1ex \@minus -.2ex}
+	\setbeforesubsecskip{-1.5ex \@plus -1ex \@minus -.2ex}
 	\setaftersubsecskip{0.1ex \@plus -.5ex \@minus -.2ex}
 
 	% Alters space before and after subsubsections
-	\setbeforesubsubsecskip{-3.5ex \@plus -1ex \@minus -.2ex}
+	\setbeforesubsubsecskip{-1.5ex \@plus -1ex \@minus -.2ex}
 	\setaftersubsubsecskip{1ex}
 \fi
 
 \ifasixversion
 	% Set the vertical space before sections
 	\setbeforesecskip{10pt}
+	\setaftersecskip{6pt}
 
 	% Alters space after subsections
 	\setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
@@ -1472,7 +1474,8 @@
 		% If there is no subtitle, and the title is more than a single line, adjust the spacing.
 		\ifdimcomp{\sectionTitleLength}{>}{\linewidth}{%
 			\vspace*{-0.5\baselineskip}%
-			% \vspace*{-2pt}%
+			\ifafiveversion\vspace*{-2pt}\fi%
+			\ifasixversion\vspace*{-2pt}\fi%
 			\par%
 		}{}%
 	\fi%
@@ -1483,12 +1486,13 @@
 		\centering%
 		% Insert the ornament
 		\ifafiveversion
-			\pgfornament[color=black,width=7cm,scale=1,ydelta=24pt,symmetry=c]{88}%
+			\pgfornament[color=black,width=7cm,scale=1,ydelta=18pt,symmetry=c]{88}%
+			% \vspace*{-0.4\baselineskip}
 		\fi
 		\ifasixversion
-			\pgfornament[color=black,width=5cm,scale=1,ydelta=14pt,symmetry=c]{88}%
+			\pgfornament[color=black,width=5cm,scale=1,ydelta=13pt,symmetry=c]{88}%
 			% TODO tweak to get more homogenous spacing
-			\vspace*{-0.2\baselineskip}
+			% \vspace*{-0.4\baselineskip}
 		\fi
 	\end{minipage}%
 	% Something is causing this bracket unbalance but it doesn't break the build.
@@ -1576,7 +1580,7 @@
 \ifafiveversion
 
 	\def\BOOK@fontSizePt{12.5}
-	\def\BOOK@lineHeightPt{19}
+	\def\BOOK@lineHeightPt{16}
 
 	% Redefine the \normalsize command to set font size and line height
 	\renewcommand{\normalsize}{%
@@ -1624,7 +1628,7 @@
 	\fi
 
 	% Page Margins
-	\settypeblocksize{27\baselineskip + \topskip}{120mm}{*}
+	\settypeblocksize{32\baselineskip + \topskip}{120mm}{*}
 	\setlrmargins{*}{14mm}{*}
 	\setulmargins{*}{10mm}{1}
 	\setmarginnotes{8pt}{14pt}{6pt}

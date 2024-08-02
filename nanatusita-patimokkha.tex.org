@@ -297,11 +297,20 @@ Bhikkhugaṇanā nāma imasmiṁ uposath'agge uposath'atthāya sannipatitā bhik
 					All numbers ending with ``bhikkhusataṁ'' should be followed by ``sannipatitaṁ hoti''.
 					\smallskip
 					All numbers ending with ``bhikkhusatāni'' should be followed by ``sannipatitā honti''.}}}}}\makeatother \thickspace
-bhikkhū sannipatitā honti. Iti sabbehi āyasmantehi bhikkhugaṇanā'pi dhāretabbā.
+bhikkhū sannipatitā honti. \ifafiveversion\\\fi Iti sabbehi āyasmantehi bhikkhugaṇanā'pi dhāretabbā.
 
+\ifafiveversion
 \begin{center}
 	\anglebracketleft\ \hspace{-0.5mm}Everyone: ``Evaṁ bhante/āvuso'' \hspace{-0.5mm}\anglebracketright\
 \end{center}
+\fi
+
+\ifasixversion
+\clearpage
+\begin{center}
+	\anglebracketleft\ \hspace{-0.5mm}Everyone: ``Evaṁ bhante/āvuso'' \hspace{-0.5mm}\anglebracketright\
+\end{center}
+\fi
 
 Bhikkhunīnam'ovādo pana samīpe tāsaṁ n'atthitāya n'atthi.
 
@@ -342,8 +351,6 @@ Uposathakammassa pattakallattaṁ viditvā idāni kariyamāno uposatho saṅghen
 \section{Nidān'uddeso}
 \label{nidan'uddeso}
 
-\ifafiveversion\vspace{0.5em}\fi
-
 Suṇātu me bhante/āvuso saṅgho, ajj'uposatho paṇṇaraso/cātuddaso/sāmaggo, yadi saṅghassa pattakallaṁ, saṅgho uposathaṁ kareyya pātimokkhaṁ uddiseyya.
 
 Kiṁ saṅghassa pubbakiccaṁ?
@@ -351,8 +358,6 @@ Kiṁ saṅghassa pubbakiccaṁ?
 Pārisuddhiṁ āyasmanto ārocetha. Pātimokkhaṁ uddisissāmi. Taṁ sabb'eva santā sādhukaṁ suṇoma manasikaroma. Yassa siyā āpatti, so āvikareyya. Asantiyā āpattiyā, tuṇhī bhavitabbaṁ. Tuṇhībhāvena kho pan'āyasmante parisuddhā'ti vedissāmi.
 
 Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ evarūpāya parisāya yāvatatiyaṁ anussāvitaṁ hoti. Yo pana bhikkhu yāvatatiyaṁ anussāviyamāne saramāno santiṁ āpattiṁ n'āvikareyya, sampajānamusāvād'assa hoti. Sampajānamusāvādo kho pan'āyasmanto antarāyiko dhammo vutto bhagavatā. Tasmā saramānena bhikkhunā āpannena visuddh'āpekkhena santī āpatti āvikātabbā, āvikatā hi'ssa phāsu hoti.
-
-\ifafiveversion\medskip\fi
 
 \linkdest{endnote8-body}
 \begin{center}
@@ -401,23 +406,6 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ evarūp
 Yo pana bhikkhu bhikkhūnaṁ sikkhāsājīvasamāpanno sikkhaṁ appaccakkhāya dubbalyaṁ anāvikatvā methunaṁ dhammaṁ paṭiseveyya, antamaso tiracchānagatāya'pi; pārājiko hoti, asaṁvāso.
 
 #+end_src
-
-\ifasixversion
-\setbeforesecskip{10pt}
-
-% Alters space after subsections
-\setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
-
-% Alters space before and after subsections
-\setbeforesubsecskip{-0.5ex \@plus -1ex \@minus -.2ex}
-\setaftersubsecskip{0.01ex \@plus -.5ex \@minus -.2ex}
-
-% Alters space before and after subsubsections
-\setbeforesubsubsecskip{-0.5ex \@plus -1ex \@minus -.2ex}
-\setaftersubsubsecskip{0.01ex}
-\fi
-
-
 
 *** Pārājika 2: Adinn'ādānasikkhāpadaṁ
 
@@ -3412,13 +3400,13 @@ Vitthār'uddeso pañcamo.
 \section{Preliminary Duties}
 \label{preliminary-duties}
 
-\begin{center}
+\begin{intro}
 	May the Senior please give me permission to recite the Pāṭimokkha.
-\end{center}
+\end{intro}
 
-\begin{center}
+\begin{intro}
 	\anglebracketleft\ \hspace{-0.5mm}Eldest Bhikkhu: ``I give permission to the Venerable one.'' \hspace{-0.5mm}\anglebracketright\
-\end{center}
+\end{intro}
 
 Before doing the Uposatha the ninefold duty should be done:
 
@@ -3799,9 +3787,9 @@ Now, a bhikkhu lives dependent upon a certain village or town who is a spoiler o
 \section{Uncertain Cases}
 \label{unc}
 
-\begin{center}
+\begin{intro}
 	Venerables, these two uncertain cases come up for recitation.
-\end{center}
+\end{intro}
 
 \pdfbookmark[3]{Uncertain Case 1}{unc1}
 \subsection*{\hyperref[aniy1]{Uncertain Case 1: The first uncertain training precept}}
@@ -3859,9 +3847,9 @@ But even if the seat is neither concealed nor sufficiently fit for doing it, but
 \section{Forfeiture and Expiations}
 \label{forf-exp}
 
-\begin{center}
+\begin{intro}
 	Venerables, these thirty cases involving expiation with forfeiture come up for recitation.
-\end{center}
+\end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
 \subsection{The Section on Robes}
@@ -4281,9 +4269,9 @@ If any bhikkhu should knowingly allocate for himself a gain belonging to [and] a
 \section{Expiations}
 \label{exp}
 
-\begin{center}
+\begin{intro}
 	Venerables, these ninety-two cases involving expiation come up for recitation.
-\end{center}
+\end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
 \subsection{The Section on False Speech}
@@ -5416,9 +5404,9 @@ If any bhikkhu should have a robe made which has the sugata-robe measure or [one
 \section{Acknowledgments}
 \label{ack}
 
-\begin{center}
+\begin{intro}
 	Venerables, these four cases that are to be acknowledged come up for recitation.
-\end{center}
+\end{intro}
 
 \setsubsecheadstyle{\subsubsectionFmt}
 \pdfbookmark[3]{Acknowledgment 1}{ack1}
@@ -6301,9 +6289,9 @@ I shall not eat licking the hand,'' thus the training is to be done.
 \section{Settlements of Legal Issues}
 \label{settlements}
 
-\begin{center}
+\begin{intro}
 	Venerables, these seven cases that are settlements of legal issues come up for recitation.
-\end{center}
+\end{intro}
 
 For the calming, for the stilling of whichever legal issues have arisen: the removal through the presence [of the bhikkhu] is to be given, the removal [of the accusation] through remembrance is to be given, the removal [of the accusation] through not [being] insane is to be given, he is to be made to do [the offence procedure] through admitting [the offence], the [decision of the] majority, [the decision making it] worse for him, [the decision] covering [the offences as if] with grass.
 
@@ -6382,12 +6370,13 @@ This much [of the training-rules] of the Fortunate One has been handed down in t
 \section{Pubba-bhāga}
 \label{pubba-bhaga}
 
+%% \vspace{0.1em}
+
 \begin{intro}
-	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ buddhassa bhagavato pubbabhāga-namakāraṁ karomase \hspace{-0.5mm}\anglebracketright\
+	\anglebracketleft\ \hspace{-0.5mm}Namo tassa \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
-%% \medskip
-\anglebracketleft\ \hspace{-0.5mm}Namo tassa \hspace{-0.5mm}\anglebracketright\ bhagavato arahato sammāsambuddhassa \hfill{[3x]}
+Bhagavato arahato sammāsambuddhassa \hfill{[3x]}
 
 %% \smallskip
 
@@ -6397,32 +6386,32 @@ This much [of the training-rules] of the Fortunate One has been handed down in t
 
 %% \vspace{-0.1cm}
 
-\begin{pali-hang}
+\begin{hanging-indent}
 N'atthi me saraṇaṁ aññaṁ\\
 Buddho me saraṇaṁ varaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Etena sacca-vajjena\\
 Sotthi me hotu sabbadā.
-\end{pali-hang}
+\end{hanging-indent}
 
-\begin{pali-hang}
+\begin{hanging-indent}
 N'atthi me saraṇaṁ aññaṁ\\
 Dhammo me saraṇaṁ varaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Etena sacca-vajjena\\
 Sotthi me hotu sabbadā.
-\end{pali-hang}
+\end{hanging-indent}
 
-\begin{pali-hang}
+\begin{hanging-indent}
 N'atthi me saraṇaṁ aññaṁ\\
 Saṅgho me saraṇaṁ varaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Etena sacca-vajjena\\
 Sotthi me hotu sabbadā.
-\end{pali-hang}
+\end{hanging-indent}
 
 \clearpage
 
@@ -6435,40 +6424,42 @@ Sotthi me hotu sabbadā.
 \section{Sīl'uddesa-pāṭha}
 \label{siluddesa-patha}
 
+% FIXME ? The decoration is spaced relative to the diacritcal dot under the "t". The spacing is correct but ṭ begins to push it down. I don't know if there is a way to conditionally fix this.
+
 \begin{intro}
 	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ sīl'uddesa-pāṭhaṁ bhaṇāmase \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
-\medskip
+%% \medskip
 
-\begin{pali-hang}
+\begin{hanging-indent}
 Bhāsitam'idaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena:
-\end{pali-hang}
-\begin{pali-hangtogether}
+\end{hanging-indent}
+\begin{hanging-indent-together}
 ``Sampanna-sīlā bhikkhave viharatha sampanna-pāṭimokkhā.
-\end{pali-hangtogether}
-\begin{pali-hangtogether}
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
 Pāṭimokkha-saṁvara-saṁvutā viharatha ācāra-gocara-sampannā.
-\end{pali-hangtogether}
-\begin{pali-hangtogether}
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
 Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhatha sikkhāpadesū'ti.
-\end{pali-hangtogether}
-\begin{pali-hangtogether}
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
 Tasmā't'ih'amhehi sikkhitabbaṁ.
-\end{pali-hangtogether}
+\end{hanging-indent-together}
 
-\begin{pali-hang}
+\begin{hanging-indent}
 ``Sampanna-sīlā viharissāma sampanna-pāṭimokkhā.
-\end{pali-hang}
-\begin{pali-hangtogether}
+\end{hanging-indent}
+\begin{hanging-indent-together}
 Pāṭimokkha-saṁvara-saṁvutā viharissāma ācāra-gocara-sampannā.
-\end{pali-hangtogether}
-\begin{pali-hangtogether}
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
 Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhissāma sikkhāpadesū'ti.
-\end{pali-hangtogether}
-\begin{pali-hangtogether}
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
 Evañ'hi no sikkhitabbaṁ.
-\end{pali-hangtogether}
+\end{hanging-indent-together}
 
 \clearpage
 
@@ -6485,48 +6476,48 @@ Evañ'hi no sikkhitabbaṁ.
 	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ tāyana-gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
-\medskip
+%% \medskip
 
-\begin{pali-hang}
+\begin{hanging-indent}
 Chinda sotaṁ parakkamma\\
 Kāme panūda brāhmaṇa
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Nappahāya muni kāme\\
 N'ekattam'upapajjati
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Kayirā ce kayirāth'enaṁ\\
 Daḷham'enaṁ parakkame
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Sithilo hi paribbājo\\
 Bhiyyo ākirate rajaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Akataṁ dukkaṭaṁ seyyo\\
 Pacchā tappati dukkaṭaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Katañ'ca sukataṁ seyyo\\
 Yaṁ katvā n'ānutappati
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Kuso yathā duggahito\\
 Hattham'ev'ānukantati
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Sāmaññaṁ dupparāmaṭṭhaṁ\\
 Nirayāy'ūpakaḍḍhati
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Yaṅ'kiñci sithilaṁ kammaṁ\\
 Saṅkiliṭṭhañ'ca yaṁ vataṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Saṅkassaraṁ brahmacariyaṁ\\
 Na taṁ hoti, mahapphalan'ti
-\end{pali-hang}
+\end{hanging-indent}
 
 \clearpage
 
@@ -6543,40 +6534,40 @@ Na taṁ hoti, mahapphalan'ti
 	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ ovāda-pāṭimokkha gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
-\medskip
+%% \medskip
 
-\begin{pali-hang}
+\begin{hanging-indent}
 Uddiṭṭhaṁ kho tena bhagavatā jānatā passatā arahatā sammā-sambuddhena
-\end{pali-hang}
+\end{hanging-indent}
 Ovāda-pāṭimokkhaṁ tīhi gāthāhi
-\begin{pali-hang}
+\begin{hanging-indent}
 Khantī paramaṁ tapo tītikkhā\\
 Nibbānaṁ paramaṁ vadanti buddhā
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Na hi pabbajito par'ūpaghātī\\
 Samaṇo hoti paraṁ viheṭhayanto
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Sabba-pāpassa akaraṇaṁ\\
 Kusalass'ūpasampadā
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Sacitta-pariyodapanaṁ\\
 Etaṁ buddhāna'sāsanaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Anūpavādo anūpaghāto\\
 Pāṭimokkhe ca saṁvaro
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Mattaññutā ca bhattasmiṁ\\
 Pantañ'ca sayan'āsanaṁ
-\end{pali-hang}
-\begin{pali-hang}
+\end{hanging-indent}
+\begin{hanging-indent}
 Adhicitte ca āyogo\\
 Etaṁ buddhāna'sāsanan'ti
-\end{pali-hang}
+\end{hanging-indent}
 
 \clearpage
 
@@ -6601,7 +6592,7 @@ Etaṁ buddhāna'sāsanan'ti
 #+begin_src latex :tangle ./tex/in-brief.tex
 
 \section{Saṅkhittapātimokkh'uddeso}
-\label{sankhittapatimokkh'uddeso}
+\label{sankhittapatimokkh'uddeso-nitthana}
 % TODO: append pali word for conclusion
 Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
@@ -6625,7 +6616,7 @@ Vitthār'uddeso pañcamo.
 Venerables, the introduction has been recited, the four cases involving disqualification have been recited, the thirteen cases [involving] the community in the beginning and in the rest have been recited, the two indefinite cases have been recited. Heard by the venerables have been the thirty cases involving expiation with forfeiture, the ninety-two cases involving expiation, the four cases that are to be acknowledged, the cases related to the training, the seven cases that are settlements of legal issues. This much [training-rule] of the Fortunate One has been handed down in the Sutta, has been included in the Sutta, comes up for recitation half-monthly. By all who are united, who are on friendly terms, who are not disputing, is to trained herein.
 
 \begin{outro}
-	The Bhikkhu Disciplinary Code has been finished
+	The Bhikkhu Disciplinary Code \ifasixversion\\\fi has been finished
 \end{outro}
 
 \clearpage
