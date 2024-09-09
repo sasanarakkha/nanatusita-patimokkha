@@ -20,7 +20,7 @@ RELEASENAME   := Ñāṇatusita_Bhikkhupātimokkha
 HTMLSOURCE    := ./epub/
 EXTRACTSOURCE := ./
 PDFFILE_A5    := $(BUILDDIR)/$(RELEASENAME).pdf
-PDFFILE_A6    := $(BUILDDIR)/$(RELEASENAME)-A6.pdf
+PDFFILE_9x13  := $(BUILDDIR)/$(RELEASENAME)-9x13.pdf
 EPUBFILE      := $(BUILDDIR)/$(RELEASENAME).epub
 KINDLEFILE    := $(BUILDDIR)/$(RELEASENAME).mobi
 AZW3FILE      := $(BUILDDIR)/$(RELEASENAME).azw3
@@ -66,7 +66,7 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 # Commands
 .PHONY: checkepub validate optimize view editepub watchepub
 
-all: $(PDFFILE_A5) $(PDFFILE_A6) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
+all: $(PDFFILE_A5) $(PDFFILE_9X13) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -81,12 +81,12 @@ $(PDFFILE_A5): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) --jobname=$(basename $@) $(FILE)_a5digital.tex
 
-pdf-a6: $(PDFFILE_A6)
-$(PDFFILE_A6): TANGLED
+pdf-9x13: $(PDFFILE_9x13)
+$(PDFFILE_9x13): TANGLED
 	$(MKBUILDDIR)
-	$(LATEX) -jobname=$(basename $@) $(FILE)_a6.tex
+	$(LATEX) -jobname=$(basename $@) $(FILE)_9x13.tex
 
-pdf-all: $(PDFFILE_A5) $(PDFFILE_A6)
+pdf-all: $(PDFFILE_A5) $(PDFFILE_9x13)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -201,7 +201,7 @@ endif
 clean:
 	@echo Removing artifacts...
 	rm -f \
-		"$(PDFFILE_A5)" "$(PDFFILE_A6)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+		"$(PDFFILE_A5)" "$(PDFFILE_9X13)" "$(EPUBFILE)" "$(KINDLEFILE)" \
 	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
 	# only remove dir if it's empty:
 	(rm -fd $(BUILDDIR) || true)

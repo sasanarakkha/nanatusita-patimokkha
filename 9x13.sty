@@ -1,5 +1,5 @@
 % Defines a custom LaTeX package named A6
-\ProvidesPackage{A6}
+\ProvidesPackage{9x13}
 
 % Import the pdfcomment package for adding PDF annotations
 \RequirePackage{pdfcomment}
@@ -34,6 +34,19 @@
 \setlength{\parindent}{0pt}
 
 \newenvironment{intro}%
+{\list{}{%
+		\parskip 8pt%
+		\topsep -3pt%
+		\listparindent 0em%
+		\itemindent    0pt%
+		\leftmargin    0pt %\leaderIndent%
+		\rightmargin   0pt%
+		\parsep        0pt}
+	\fontsize{9}{11}\selectfont
+	\item[] \centering}%
+{\endlist}
+
+\newenvironment{intro-interparagraph}%
 {\list{}{%
 		\parskip 3pt%
 		\topsep -3pt%
@@ -103,7 +116,7 @@
 {\endlist}
 
 % Change the title for the Endnotes chapter to 'Endnotes'
-\renewcommand\notesname{Endnotes}
+\renewcommand\notesname{Endnotes}%
 
 % Redefine the formatting for endnotes
 \renewcommand{\prenoteinnotes}{%
@@ -112,7 +125,7 @@
 \renewcommand{\noteidinnotes}[2]{% {notenum}{id}
 	\begin{adjustwidth}{14pt}{0pt}%
 		\hspace{-33pt}\makebox[30pt][l]{%
-			\makebox[18pt][1]{\pageref{#2}}%
+			\makebox[24pt][1]{#2}%
 			\makebox[16pt][l]{\ifnum#1>0\textsuperscript{#1}\fi%
 			}%
 		}%

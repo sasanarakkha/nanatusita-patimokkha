@@ -1,12 +1,12 @@
 % Set paper variant
 % Build command '\newcommand{\papersizeoption}{VALUE}\input{main.tex}'
 % Possible VALUE:
-%   - afiveVersion — A5 formatted
-%   - asixVersion — A6 formatted
-%   - bsixVersion — B6 formatted
+%   - afiveVersion —  A5 formatted
+%   - ninebythirteenVersion —  9x13 formatted
+%   - bsixVersion —  B6 formatted
 \ifdefined\papersizeoption
 \else
-  \newcommand{\papersizeoption}{asixVersion}
+  \newcommand{\papersizeoption}{ninebythirteenVersion}
 \fi
 \typeout{Set \protect\papersizeoption{} to \papersizeoption}
 
@@ -32,13 +32,13 @@
 % Define graphics path for images
 \graphicspath{
   {./assets/illustrations/A5}
-  {./assets/illustrations/A6}
+  {./assets/illustrations/9x13}
   {./assets/graphics}
 }
 
 % Loads formatting for selected ddocument class
 \ifafiveversion \usepackage{A5} \fi
-\ifasixversion  \usepackage{A6} \fi
+\ifninebythirteenversion  \usepackage{9x13} \fi
 
 \title{Bhikkhupātimokkha}
 \subtitle{Monk Training Centre}
@@ -107,6 +107,7 @@
 
 % \part{Pāli}
 {\raggedright
+	\input{./tex/abbreviations.tex}
 	\input{./tex/pali/pubbakicca.tex}
 	\input{./tex/pali/nidan'uddeso.tex}
 	\input{./tex/pali/parajika.tex}
