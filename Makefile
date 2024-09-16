@@ -1,3 +1,5 @@
+# Inspiration for the Makefile was drawn from https://github.com/daniel-j/epubmake/blob/master/Makefile
+
 # LuaLaTeX pdf
 FILE := main
 LATEX_OPTS := -interaction=nonstopmode -halt-on-error -synctex=1
@@ -13,17 +15,17 @@ NINECOLORS_URL = https://mirrors.ctan.org/macros/latex/contrib/ninecolors.zip
 #-----------------------------------------------------------------------------------------#
 
 
-BUILDDIR      := ./build/
-RELEASENAME   := Ñāṇatusita_Bhikkhupātimokkha
-# FIXME Create target or decide to delete view, editepub etc
-# CURRENTEPUB   := ./epub/current-recitations.epub
-HTMLSOURCE    := ./epub/
-EXTRACTSOURCE := ./
-PDFFILE_A5    := $(BUILDDIR)/$(RELEASENAME).pdf
-PDFFILE_9x13  := $(BUILDDIR)/$(RELEASENAME)-9x13.pdf
-EPUBFILE      := $(BUILDDIR)/$(RELEASENAME).epub
-KINDLEFILE    := $(BUILDDIR)/$(RELEASENAME).mobi
-AZW3FILE      := $(BUILDDIR)/$(RELEASENAME).azw3
+BUILDDIR      	:= ./build/
+RELEASENAME   	:= Ñāṇatusita_Bhikkhupātimokkha
+HTMLSOURCE    	:= ./html/
+EXTRACTSOURCE 	:= ./
+PDFFILE_A5    	:= $(BUILDDIR)/$(RELEASENAME).pdf
+PDFFILE_9X13    := $(BUILDDIR)/$(RELEASENAME)-9X13.pdf
+PDFFILE_B5    	:= $(BUILDDIR)/$(RELEASENAME)-B5.pdf
+EPUBFILE      	:= $(BUILDDIR)/$(RELEASENAME).epub
+LATESTEPUBFILE	:= $(BUILDDIR)/$(RELEASENAME).zip
+KINDLEFILE    	:= $(BUILDDIR)/$(RELEASENAME).mobi
+AZW3FILE      	:= $(BUILDDIR)/$(RELEASENAME).azw3
 
 
 ifneq (, $(shell which epubcheck))
@@ -47,7 +49,7 @@ MKBUILDDIR := @mkdir -p $(BUILDDIR)
 
 
 TODAY := $(shell date --iso-8601)
-COPYRIGHT_FILE := epub/html/OEBPS/Text/copyright.xhtml
+COPYRIGHT_FILE := html/OEBPS/Text/copyright.xhtml
 COPYRIGHT_SENTINEL := $(BUILDDIR)copyright_$(TODAY).xhtml
 
 HTMLSOURCEFILES := $(shell find $(HTMLSOURCE) ! -name '*.tpl' -type f)
@@ -75,18 +77,23 @@ all: $(PDFFILE_A5) $(PDFFILE_9X13) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 TANGLED: ./nanatusita-patimokkha.tex.org
 	$(ORG_TANGLE) $<
 
-pdf-a5-2x: $(PDFFILE_A5)  # Legacy target for compliance
+pdf2x: $(PDFFILE_A5)  # Legacy target for compliance
 pdf-a5: $(PDFFILE_A5)
 $(PDFFILE_A5): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) --jobname=$(basename $@) $(FILE)_a5digital.tex
 
-pdf-9x13: $(PDFFILE_9x13)
-$(PDFFILE_9x13): TANGLED
+pdf-9x13: $(PDFFILE_9X13)
+$(PDFFILE_9X13): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) -jobname=$(basename $@) $(FILE)_9x13.tex
 
-pdf-all: $(PDFFILE_A5) $(PDFFILE_9x13)
+pdf-b5: $(PDFFILE_B5)
+$(PDFFILE_B5): TANGLED
+	$(MKBUILDDIR)
+	$(LATEX) -jobname=$(basename $@) $(FILE)_b5.tex
+
+pdf-all: $(PDFFILE_A5) $(PDFFILE_9X13) $(PDFFILE_B5)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -116,14 +123,14 @@ $(COPYRIGHT_SENTINEL): $(COPYRIGHT_FILE).tpl
 		> $(COPYRIGHT_SENTINEL)
 
 
-# epub: $(EPUBFILE)
-# $(EPUBFILE): $(HTMLSOURCEFILES) $(COPYRIGHT_SENTINEL)
-# 	$(MKBUILDDIR)
-# 	@echo "Building EPUB ebook..."
-# 	cp $(COPYRIGHT_SENTINEL) $(COPYRIGHT_FILE)
-# 	rm -f "$(EPUBFILE)"
-# 	cd "$(HTMLSOURCE)" && \
-# 		zip --exclude '*.epub' --exclude '*.tpl' -Xr9D "../$(EPUBFILE)" mimetype .
+epub: $(EPUBFILE)
+$(EPUBFILE): $(HTMLSOURCEFILES) $(COPYRIGHT_SENTINEL)
+	$(MKBUILDDIR)
+	@echo "Building EPUB ebook..."
+	cp $(COPYRIGHT_SENTINEL) $(COPYRIGHT_FILE)
+	rm -f "$(EPUBFILE)"
+	cd "$(HTMLSOURCE)" && \
+		zip --exclude '*.epub' --exclude '*.tpl' -Xr9D "../$(EPUBFILE)" mimetype .
 
 
 #-----------------------------------------------------------------------------------------#
@@ -185,14 +192,9 @@ endif
 
 #-----------------------------------------------------------------------------------------#
 
-# TODO needs a rework or consider doing manually
-# editepub: $(CURRENTEPUB)
-# ifndef EBOOKEDITOR
-# 	@echo "Error: Sigil was not found. Installing with Flatpak."
-# 	@exit 1
-# else
-	# @ sigil "$(CURRENTEPUB)" || sigil "$(CURRENTEPUB)"
-# endif
+
+editepub: $(EPUBFILE)
+	@ sigil "$(EPUBFILE)" || sigil "$(EPUBFILE)"
 
 
 #-----------------------------------------------------------------------------------------#
@@ -201,7 +203,7 @@ endif
 clean:
 	@echo Removing artifacts...
 	rm -f \
-		"$(PDFFILE_A5)" "$(PDFFILE_9X13)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+		"$(PDFFILE_A5)" "$(PDFFILE_9X13)" "$(PDFFILE_B5)" "$(EPUBFILE)" "$(KINDLEFILE)" \
 	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
 	# only remove dir if it's empty:
 	(rm -fd $(BUILDDIR) || true)
@@ -210,35 +212,36 @@ clean:
 #-----------------------------------------------------------------------------------------#
 
 
-editwatchepub: $(CURRENTEPUB)
+editwatchepub: $(EPUBFILE)
 	@echo "Opening current-recitations.epub in Sigil for editing..."
 	@echo "Watching file for errors..."
-	@make -j edit watchcurrent
+	@make -j edit watchepub
 
 
 #-----------------------------------------------------------------------------------------#
 
-# TODO need command to zip up epub
-extractepub: $(CURRENTEPUB)
-	@echo "Extracting $(CURRENTEPUB) into $(HTMLSOURCE)"
-	@mkdir -p "$(HTMLSOURCE)"
-	@unzip -o "$(CURRENTEPUB)" -d "$(HTMLSOURCE)"
+
+extractepub:
+	@echo "Extracting $(LATESTEPUBFILE) into $(HTMLSOURCE)"
+	@cp "$(EPUBFILE)" "$(EPUBFILE)".bkp && mv "$(EPUBFILE)" "$(LATESTEPUBFILE)" || echo "Failed to move EPUB file."
+	@mkdir -p "$(HTMLSOURCE)" || echo "Failed to create directory $(HTMLSOURCE)."
+	@unzip -o "$(LATESTEPUBFILE)" -d "$(HTMLSOURCE)" || echo "Failed to unzip $(LATESTEPUBFILE)."
+	@mv "$(EPUBFILE)".bkp "$(EPUBFILE)" && rm "$(LATESTEPUBFILE)"
 	@echo "Extracting HTML hierarchy from EPUB for version control..."
 
-
 #-----------------------------------------------------------------------------------------#
 
 
-watchepub: $(CURRENTEPUB) $(EPUBCHECK)
+watchepub:
 ifndef JAVA
 	$(error Java was not found. Unable to validate ebook)
 endif
 ifndef INOTIFYWAIT
 	$(error inotifywait was not found. Unable to watch ebook for changes)
 endif
-	@echo "Watching $(CURRENTEPUB)"
+	@echo "Watching $(EPUBFILE)"
 	@while true; do \
-		$(INOTIFYWAIT) -qe close_write "$(CURRENTEPUB)"; \
-		echo "Validating $(CURRENTEPUB)..."; \
-		$(JAVA) -jar "$(EPUBCHECK)" "$(CURRENTEPUB)"; \
+		$(INOTIFYWAIT) -qe close_write "$(EPUBFILE)"; \
+		echo "Validating $(EPUBFILE)..."; \
+		"$(EPUBCHECK)" "$(EPUBFILE)"; \
 	done

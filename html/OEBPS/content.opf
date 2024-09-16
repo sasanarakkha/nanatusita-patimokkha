@@ -7,9 +7,9 @@
     <dc:publisher>Sāsanārakkha Buddhist Sanctuary</dc:publisher>
     <dc:language>en</dc:language>
     <dc:identifier>urn:isbn:[ISBN here]</dc:identifier>
-    <meta property="dcterms:modified">2022-06-14T21:37:10Z</meta>
+    <meta property="dcterms:modified">2024-09-16T19:19:41Z</meta>
     <dc:identifier id="BookId">urn:uuid:c5233f04-b5cd-4a8d-a264-9387bb053d70</dc:identifier>
-    <meta content="1.9.2" name="Sigil version"/>
+    <meta content="2.0.1" name="Sigil version"/>
   </metadata>
   <manifest>
     <item id="cover-front.xhtml" href="Text/cover-front.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -64,6 +64,7 @@
     <item id="cover-appendix.xhtml" href="Text/cover-appendix.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
     <item id="cover-back.xhtml" href="Text/cover-back.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="endnotes.xhtml" href="Text/endnotes.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover-front.xhtml"/>
@@ -102,6 +103,7 @@
     <itemref idref="cover-appendix.xhtml"/>
     <itemref idref="sankhittapatimokkhuddeso-nitthana.xhtml"/>
     <itemref idref="patimokkha-in-brief-conclusion.xhtml"/>
+    <itemref idref="endnotes.xhtml"/>
     <itemref idref="cover-back.xhtml"/>
   </spine>
 </package>
