@@ -21,7 +21,6 @@ HTMLSOURCE    	:= ./html/
 EXTRACTSOURCE 	:= ./
 PDFFILE_A5    	:= $(BUILDDIR)/$(RELEASENAME).pdf
 PDFFILE_9X13    := $(BUILDDIR)/$(RELEASENAME)-9X13.pdf
-PDFFILE_B5    	:= $(BUILDDIR)/$(RELEASENAME)-B5.pdf
 EPUBFILE      	:= $(BUILDDIR)/$(RELEASENAME).epub
 LATESTEPUBFILE	:= $(BUILDDIR)/$(RELEASENAME).zip
 KINDLEFILE    	:= $(BUILDDIR)/$(RELEASENAME).mobi
@@ -88,12 +87,7 @@ $(PDFFILE_9X13): TANGLED
 	$(MKBUILDDIR)
 	$(LATEX) -jobname=$(basename $@) $(FILE)_9x13.tex
 
-pdf-b5: $(PDFFILE_B5)
-$(PDFFILE_B5): TANGLED
-	$(MKBUILDDIR)
-	$(LATEX) -jobname=$(basename $@) $(FILE)_b5.tex
-
-pdf-all: $(PDFFILE_A5) $(PDFFILE_9X13) $(PDFFILE_B5)
+pdf-all: $(PDFFILE_A5) $(PDFFILE_9X13)
 
 
 #-----------------------------------------------------------------------------------------#
@@ -203,7 +197,7 @@ editepub: $(EPUBFILE)
 clean:
 	@echo Removing artifacts...
 	rm -f \
-		"$(PDFFILE_A5)" "$(PDFFILE_9X13)" "$(PDFFILE_B5)" "$(EPUBFILE)" "$(KINDLEFILE)" \
+		"$(PDFFILE_A5)" "$(PDFFILE_9X13)" "$(EPUBFILE)" "$(KINDLEFILE)" \
 	"$(AZW3FILE)" "$(IBOOKSFILE)" "$(COPYRIGHT_SENTINEL)" $(LATEX_AUX)
 	# only remove dir if it's empty:
 	(rm -fd $(BUILDDIR) || true)

@@ -7,7 +7,7 @@
     <dc:publisher>Sāsanārakkha Buddhist Sanctuary</dc:publisher>
     <dc:language>en</dc:language>
     <dc:identifier>urn:isbn:[ISBN here]</dc:identifier>
-    <meta property="dcterms:modified">2024-09-16T22:47:52Z</meta>
+    <meta property="dcterms:modified">2024-09-17T14:27:49Z</meta>
     <dc:identifier id="BookId">urn:uuid:c5233f04-b5cd-4a8d-a264-9387bb053d70</dc:identifier>
     <meta content="2.0.1" name="Sigil version"/>
   </metadata>
@@ -65,12 +65,14 @@
     <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
     <item id="cover-back.xhtml" href="Text/cover-back.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="endnotes.xhtml" href="Text/endnotes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="abbreviations.xhtml" href="Text/abbreviations.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine>
     <itemref idref="cover-front.xhtml"/>
     <itemref idref="titlepage.xhtml"/>
     <itemref idref="copyright.xhtml"/>
     <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="abbreviations.xhtml"/>
     <itemref idref="cover-pali.xhtml"/>
     <itemref idref="pubbakicca.xhtml"/>
     <itemref idref="nidanuddeso.xhtml"/>
