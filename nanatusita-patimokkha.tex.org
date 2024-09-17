@@ -12,6 +12,7 @@
 - [[#pāli][Pāli]]
   - [[#covertitle][Cover/Title]]
   - [[#pubbakicca][Pubbakicca]]
+  - [[#pubbakicca-1][Pubbakicca]]
   - [[#nidānuddeso][Nidān'uddeso]]
   - [[#pārājikuddeso][Pārājik'uddeso]]
   - [[#saṅghādisesuddeso][Saṅghādises'uddeso]]
@@ -256,6 +257,7 @@
 #+end_src
 
 ** Pubbakicca
+** Pubbakicca
 
 #+begin_src latex :tangle ./tex/pali/pubbakicca.tex
 
@@ -268,7 +270,6 @@
 				\hypertarget{endnote13-appendix}{\hyperlink{endnote13-body}{This is Dhammayuttika Nikāya version.}}}}}\makeatother\\
 	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Karomi āyasmato okāsaṁ. \hspace{-0.5mm}\anglebracketright\
 \end{intro}
-% TODO no need for line breaks in these endnotes
 
 Uposathakaraṇato pubbe navavidhaṁ pubbakiccaṁ kātabbaṁ hoti:
 
@@ -276,8 +277,7 @@ Taṇ'ṭhāna-sammajjanañ'ca; tattha padīp'ujjalanañ'ca; āsana-paññapana�
 
 \linkdest{endnote1-body}
 Tattha purimesu catūsu kiccesu padīpakiccaṁ idāni suriy'ālokassa atthitāya n'atthi, aparāni tīṇi\makeatletter\hyperlink{endnote1-appendix}\Hy@raisedlink{\hypertarget{endnote1-body}{}{\pagenote{%
-			\hypertarget{endnote1-appendix}{\hyperlink{endnote1-body}{\textit{If the recitation is held at night, change:} ``Tattha purimesu catūsu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi.
-					Aparāni tīṇi'' to ``Tattha purimāni cattāri'' (``\textit{Of the first four...}'')}}}}}\makeatother
+			\hypertarget{endnote1-appendix}{\hyperlink{endnote1-body}{\textit{If the recitation is held at night, change:} ``Tattha purimesu catūsu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni tīṇi'' to ``Tattha purimāni cattāri'' (``\textit{Of the first four...}'')}}}}}\makeatother
 \linkdest{endnote2-body}
 bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi\makeatletter\hyperlink{endnote2-appendix}\Hy@raisedlink{\hypertarget{endnote2-body}{}{\pagenote{%
 			\hypertarget{endnote2-appendix}{\hyperlink{endnote2-body}{\textit{If sāmaṇeras help with the tasks, change:} ``bhikkhūhi'' to ``sāmaṇerehi'pi bhikkhūhi'pi'' (``\textit{Novices and bhikkhus...}'') \textit{If laypeople living in the monastery help with the tasks, change to:} ``ārāmikehi'pi bhikkhūhi'pi'' (``\textit{Monastery dwellers and bhikkhus...}'')}}}}}\makeatother
@@ -294,59 +294,52 @@ Ayaṁ hemanto'tu\makeatletter\hyperlink{endnote4-appendix}\Hy@raisedlink{\hyper
 			\hypertarget{endnote4-appendix}{\hyperlink{endnote4-body}{During the hot season, change: ``hemanto'tu'' to ``gimho'tu'' and during the rainy season: ``vassāno'tu''.}}}}}\makeatother
 \linkdest{endnote5-body}
 asmiñ'ca utumhi aṭṭha uposathā,\makeatletter\hyperlink{endnote5-appendix}\Hy@raisedlink{\hypertarget{endnote5-body}{}{\pagenote{%
-			\hypertarget{endnote5-appendix}{\hyperlink{endnote5-body}{During a normal rainy season, change to:\\
-					``aṭṭha uposathā'' to ``sattā ca uposathā ekā ca pavāraṇā'' (``Seven uposathas and one pavāraṇā.'')\\
-
-					During a hot or cold season with an additional month, change to:\\
-					``adhikamāsa-vasena dasa uposathā'' (``Because of the additional month, ten uposathās...''.)\\
-
-					During a rainy season with an additional month, change to:\\
-					``adhikamāsa-vasena nava ca uposathā ekā ca pavāraṇā'' (``Because of the additional month, nine uposathas and one pavāraṇā...''.)}}}}}\makeatother
+			\hypertarget{endnote5-appendix}{\hyperlink{endnote5-body}{During a normal rainy season, change to: ``aṭṭha uposathā'' to ``sattā ca uposathā ekā ca pavāraṇā'' (``Seven uposathas and one pavāraṇā.'') During a hot or cold season with an additional month, change to: ``adhikamāsa-vasena dasa uposathā'' (``Because of the additional month, ten uposathās...''.) During a rainy season with an additional month, change to: ``adhikamāsa-vasena nava ca uposathā ekā ca pavāraṇā'' (``Because of the additional month, nine uposathas and one pavāraṇā...''.)}}}}}\makeatother
 \linkdest{endnote6-body}
 iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\makeatletter\hyperlink{endnote6-appendix}\Hy@raisedlink{\hypertarget{endnote6-body}{}{\pagenote{%
-			\hypertarget{endnote6-appendix}{\hyperlink{endnote6-body}{This is the calculation for the third uposatha in a normal hot or cold season. The calculation for other dates — to be stated after ``iminā pakkhena eko uposatho sampatto'' — is as follows: \\
+			\hypertarget{endnote6-appendix}{\hyperlink{endnote6-body}{This is the calculation for the third uposatha in a normal hot or cold season. The calculation for other dates — to be stated after ``iminā pakkhena eko uposatho sampatto'' — is as follows:\\
 					During a normal hot or cold season:\\
-					First: satta uposathā avasiṭṭhā.\\
-					Second: eko uposatho atikkanto, cha uposathā avasiṭṭhā.\\
-					Third: dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
-					Fourth: tayo uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
-					Fifth: cattāro uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
-					Sixth: pañca uposathā atikkantā, dve uposathā avasiṭṭhā.\\
-					Seventh: cha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-
-					Eighth: satta uposathā atikkantā, aṭṭha uposathā paripuṇṇā.\\
+					\hspace*{0.5em}First: satta uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Second: eko uposatho atikkanto, cha uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Third: dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, dve uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Seventh: cha uposathā atikkantā, eko uposatho avasiṭṭho.\\
+					\hspace*{0.5em}Eighth: satta uposathā atikkantā, aṭṭha uposathā paripuṇṇā.\\
+					\smallskip
 					During a normal rainy season:\\
-					First: cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Second: eko uposatho atikkanto, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Third: dve uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Fourth: tayo uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Fifth: cattāro uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Sixth: (see the separate section on the Pavāraṇā.)\\
-					Seventh: pañca ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
-					Eighth: cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā. \\
+					\hspace*{0.5em}First: cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Second: eko uposatho atikkanto, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Third: dve uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Sixth: (see the separate section on the Pavāraṇā.)\\
+					\hspace*{0.5em}Seventh: pañca ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
+					\hspace*{0.5em}Eighth: cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā.\smallskip \\
 					During a hot or cold season with an additional month:\\
-					First: nava uposathā avasiṭṭhā.\\
-					Second: eko uposatho atikkanto, aṭṭha uposathā avasiṭṭhā.\\
-					Third: dve uposathā atikkantā, satta uposathā avasiṭṭhā.\\
-					Fourth: tayo uposathā atikkantā, cha uposathā avasiṭṭhā.\\
-					Fifth: cattāro uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
-					Sixth: pañca uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
-					Seventh: cha uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
-					Eighth: satta uposathā atikkantā, dve uposathā avasiṭṭhā.\\
-					Ninth: aṭṭha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-
-					Tenth: nava uposathā atikkantā, dasa uposathā paripuṇṇā.\\
+					\hspace*{0.5em}First: nava uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Second: eko uposatho atikkanto, aṭṭha uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Third: dve uposathā atikkantā, satta uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, cha uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Seventh: cha uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Eighth: satta uposathā atikkantā, dve uposathā avasiṭṭhā.\\
+					\hspace*{0.5em}Ninth: aṭṭha uposathā atikkantā, eko uposatho avasiṭṭho.\\
+					\hspace*{0.5em}Tenth: nava uposathā atikkantā, dasa uposathā paripuṇṇā.\\
+					\smallskip
 					During a rainy season with an additional month:\\
-					First: aṭṭha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Second: eko uposatho atikkanto, satta ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Third: dve uposathā atikkantā, cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Fourth: tayo uposathā atikkantā, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Fifth: cattāro uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Sixth: pañca uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Seventh: cha uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					Eighth: (see the separate section on the Pavāraṇā.)\\
-					Ninth: satta ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
-					Tenth: aṭṭha ca uposathā ekā ca pavāraṇā atikkantā, nava ca uposathā ekā ca pavāraṇā paripuṇṇā.}}}}}\makeatother \thickspace
+					\hspace*{0.5em}First: aṭṭha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Second: eko uposatho atikkanto, satta ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Third: dve uposathā atikkantā, cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Seventh: cha uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}Eighth: (see the separate section on the Pavāraṇā.)\\
+					\hspace*{0.5em}Ninth: satta ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
+					\hspace*{0.5em}Tenth: aṭṭha ca uposathā ekā ca pavāraṇā atikkantā, nava ca uposathā ekā ca pavāraṇā paripuṇṇā.}}}}}\makeatother \thickspace
 Iti evaṁ sabbehi āyasmantehi utu'kkhānaṁ dhāretabbaṁ.
 
 \begin{center}
@@ -357,9 +350,9 @@ Iti evaṁ sabbehi āyasmantehi utu'kkhānaṁ dhāretabbaṁ.
 Bhikkhugaṇanā nāma imasmiṁ uposath'agge uposath'atthāya sannipatitā bhikkhū ettakā'ti, bhikkhūnaṁ gaṇanā. Imasmiṁ pana uposath'agge cattāro\makeatletter\hyperlink{endnote7-appendix}\Hy@raisedlink{\hypertarget{endnote7-body}{}{\pagenote{%
 			\hypertarget{endnote7-appendix}{\hyperlink{endnote7-body}{Cattāro = four. This should be replaced with the actual number of bhikkhus present. 5 pañca 6 cha 7 satta 8 aṭṭha 9 nava 10 dasa 11 ekādasa 12 dvādasa, bārasa 13 terasa, teḷasa 14 catuddasa, cuddasa
 					15 paṇṇarasa, pañcadasa 16 soḷasa 17 sattarasa 18 aṭṭhārasa, aṭṭhādasa 19 ekūnavīsati 20 vīsati, vīsa 21 ekavīsati 22 dvāvīsati, dvāvīsa, dvevīsati, bāvīsati, bāvīsa 23 tevīsati 24 catuvīsati 25 pañcavīsati 26 chabbīsati 27 sattavīsati 28 aṭṭhavīsati 29 ekūnatiṁsa 30 tiṁsa, samatiṁsa, tiṁsati 31 ekatiṁsa, ekattiṁsa 32 dvattiṁsa 33 tettiṁsa 34 catuttiṁsa 35 pañcattiṁsa 36 chattiṁsa 37 sattattiṁsa 38 aṭṭhattiṁsa 39 ekūnacattāḷīsa40 cattāḷīsa, cattārīsa 41 ekacattāḷīsa 42 dvacattāḷīsa, dvecattāḷīsa, dvicattāḷīsa 43 tecattāḷīsa 44 catucattāḷīsa 45 pañcacattāḷīsa 46 chacattāḷīsa 47 sattacattāḷīsa 48 aṭṭhacattāḷīsa 49 ekūnapaññāsa 50 paññāsa 51 ekapaññāsa 52 dvapaññāsa, dvepaññāsa, dvipaññāsa 53 tepaññāsa 54 catupaññāsa 55 pañcapaññāsa 56 chapaññāsa 57 sattapaññāsa 58 aṭṭhapaññāsa 59 ekūnasaṭṭhī 60 saṭṭhī, saṭṭhi 61 ekasaṭṭhī 62 dvāsaṭṭhī, dvesaṭṭhī, dvisaṭṭhī 63 tesaṭṭhī 64 catusaṭṭhī 65 pañcasaṭṭhī 66 chasaṭṭhī 67 sattasaṭṭhī 68 aṭṭhasaṭṭhī 69 ekūnasattati 70 sattati 71 ekasattati 72 dvasattati, dvāsattati, dvesattati, dvisattati 73 tesattati 74 catusattati 75 pañcasattati 76 chasattati 77 sattasattati 78 aṭṭhasattati 79 ekūnāsīti 80 asīti 81 ekāsīti 82 dvāsīti 83 tayāsīti 84 caturāsīti 85 pañcāsīti 86 chaḷāsīti 87 sattāsīti 88 aṭṭhāsīti 89 ekūnanavuti 90 navuti 91 ekanavuti 92 dvanavuti, dvenavuti 93 tenavuti 94 catunavuti 95 pañcanavuti 96 chanavuti 97 sattanavuti 98 aṭṭhanavuti 99 ekūnasataṁ 100 bhikkhusataṁ 101 ekuttara-bhikkhusataṁ 102 dvayuttara-bhikkhusataṁ 103 tayuttara-bhikkhusataṁ 104 catuttara-bhikkhusataṁ 105 pañcuttara-bhikkhusataṁ 106 chaḷuttara-bhikkhusataṁ 107 sattuttara-bhikkhusataṁ 108 aṭṭhuttara-bhikkhusataṁ 109 navuttara-bhikkhusataṁ 110 dasuttara-bhikkhusataṁ 120 vīsuttara-bhikkhusataṁ 130 tiṁsuttara-bhikkhusataṁ 140 cattāḷīsuttara-bhikkhusataṁ 150 paññāsuttara-bhikkhusataṁ 160 saṭṭhayuttara-bhikkhusataṁ 170 sattatyuttara-bhikkhusataṁ 180 asītyuttara-bhikkhusataṁ 190 navutyuttara-bhikkhusataṁ 199 ekūnasatuttara-bhikkhusataṁ 200 dve bhikkhu-satāni 201 ekuttarāni dve bhikkhu-satāni 300 tayo bhikkhu-satāni 400 cattāro bhikkhu-satāni 500 pañca bhikkhu-satāni
-
+					\smallskip
 					All numbers ending with ``bhikkhusataṁ'' should be followed by ``sannipatitaṁ hoti''.
-
+					\smallskip
 					All numbers ending with ``bhikkhusatāni'' should be followed by ``sannipatitā honti''.}}}}}\makeatother \thickspace
 bhikkhū sannipatitā honti. \ifafiveversion\\\fi Iti sabbehi āyasmantehi bhikkhugaṇanā'pi dhāretabbā.
 
@@ -1025,7 +1018,7 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 \begin{intro}
 	Ime kho pan'āyasmanto tiṁsa nissaggiyā pācittiyā dhammā uddesaṁ āgacchanti.
 \end{intro}
-% TODO increase spacing
+
 \setsubsecheadstyle{\subsectionFmt}
 \subsection{Cīvaravaggo}
 
@@ -3258,7 +3251,7 @@ Yo pana bhikkhu sugatacīvarappamāṇaṁ\makeatletter\hyperlink{endnote432-app
 		\hypertarget{endnote434-appendix}{\hyperlink{endnote434-body}{G: \textit{sugatacīvaram-pamāṇaṁ}.}}}}}\makeatother \thinspace dīghaso nava vidatthiyo sugatavidatthiyā, tiriyaṁ cha vidatthiyo. Idaṁ sugatassa sugatacīvarappamāṇaṁ.\makeatletter\hyperlink{endnote435-appendix}\Hy@raisedlink{\hypertarget{endnote435-body}{}{\pagenote{%
 		\hypertarget{endnote435-appendix}{\hyperlink{endnote435-body}{C, W, Dm, Um, Mi Se v.l.:  pamāṇan-ti. D:  pamāṇaṁ ti. G (In a later faint correction.): sugatacīvaram-pamāṇan-ti. This
 quotation mark ti here seems to be a remnant from the quotation of the rule in the Suttavibhaṅga. In the Suttavibhaṅga all rules end in ti as they were spoken by the Buddha, while the {Pātimokkha} is recited by other monks.}}}}}\makeatother \thinspace
-% TODO ??? final version doesn't even have these endnotes
+% TODO replace endotes with final version
 \linkdest{endnote436-body}
 \begin{center}
 	Rājavaggo\makeatletter\hyperlink{endnote436-appendix}\Hy@raisedlink{\hypertarget{endnote436-body}{}{\pagenote{%
@@ -4537,8 +4530,6 @@ Vitthār'uddeso pañcamo.\makeatletter\hyperlink{endnote543-appendix}\Hy@raise
 #+begin_src latex :tangle ./tex/english/preliminary-duties.tex
 
 \chapterOpeningPage{appendix-compressed.jpg}
-
-% TODO change to english.jpg
 
 \chapter{Bhikkhupātimokkha - English}
 
@@ -7483,8 +7474,6 @@ For the calming, for the stilling of whichever legal issues have arisen: the rem
 
 #+begin_src latex :tangle ./tex/english/conclusion.tex
 
-% TODO Disciplinary Code or Recitation Conclusion ???
-
 \section{Disciplinary Code Conclusion}
 \label{conclusion}
 
@@ -7513,8 +7502,6 @@ This much [of the training-rules] of the Fortunate One has been handed down in t
 #+begin_src latex :tangle ./tex/post-patimokkha.tex
 
 \chapterOpeningPage{appendix-compressed.jpg}
-
-% TODO change to post-patimokkha.jpg
 
 \chapter{Post-Pātimokkha Recitations}
 
@@ -7582,8 +7569,6 @@ Sotthi me hotu sabbadā.
 
 \section{Sīl'uddesa-pāṭha}
 \label{siluddesa-patha}
-
-% FIXME ? The decoration is spaced relative to the diacritcal dot under the "t". The spacing is correct but ṭ begins to push it down. I don't know if there is a way to conditionally fix this.
 
 \begin{intro}
 	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ sīl'uddesa-pāṭhaṁ bhaṇāmase \hspace{-0.5mm}\anglebracketright\
@@ -7757,8 +7742,8 @@ Etaṁ buddhāna'sāsanan'ti
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
 Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
-% TODO space here is too big
-Vitthār'uddeso pañcamo.
+
+Vitthār'uddeso pañcamo.
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
@@ -7767,25 +7752,6 @@ Vitthār'uddeso pañcamo.
 \clearpage
 
 #+end_src
-
-#+RESULTS:
-#+begin_example
-\section{Saṅkhittapātimokkh'uddeso-niṭṭhāna}
-\label{sankhittapatimokkh'uddeso-nitthana}
-
-\ifafiveversion\vspace{0.15cm}\fi
-\ifninebythirteenversion\vspace{0.15cm}\fi
-
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
-% TODO space here is too big
-Vitthār'uddeso pañcamo.
-
-\begin{outro}
-	Bhikkhupātimokkhaṁ niṭṭhitaṁ
-\end{outro}
-
-\clearpage
-#+end_example
 
 *** The Pātimokkha Recitation in Brief Conclusion
 
@@ -8121,6 +8087,5 @@ make the invitation to recite the Disciplinary Code with the approval
   No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
 }
-% TODO endnotes need less paragraph skip space
-% TODO copy p-e-r copyright page to here
+
 #+end_src
