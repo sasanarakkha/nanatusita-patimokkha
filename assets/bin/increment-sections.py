@@ -21,7 +21,7 @@ with open(file_path, 'r', encoding='utf-8') as file:
     content = file.read()
 
 # Initialize the counter
-counter = 1
+counter = 496
 
 # Function to replace the number incrementally
 def replace_numbers(match):
