@@ -5,8 +5,6 @@
 #+auto-tangle: t
 #+url: https://github.com/sasanarakkha/nanatusita-patimokkha
 
-% TODO more spacing above header of rules and after the rule
-
 * Table of Contents :toc:
 - [[#title-page][Title Page]]
 - [[#copyright][Copyright]]
@@ -139,7 +137,7 @@
 	Editor: Ā. Pāladhammika\\
 	Typesetting: Aj. Gambhiro, Ā. Pāladhammika\\
 	Translators: Ā. Ñāṇatusita, Aj. Ṭhānissaro\\
-	Endnotes: Ā. Ariyadhammika, Aj. Ṭhānissaro\\
+	Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita\\
 	Illustrations: Lim Jee Yuan
 
 	\ifafiveversion \vspace{0.5cm} \fi
@@ -181,66 +179,66 @@
 
 \vspace{-0.6em}
 \begin{tabular}{@{}llll@{}}
-  Be & Burmese Chaṭṭha Saṅgāyana ed. (As on CSCD.)\\
-  BhPm & Bhikkhupātimokkhaṁ.\\
-  Ce & “Ceylon edition,” Buddha Jayanti Tipiṭaka Series; Colombo.\\
-  Dm & Dve Mātikāpāḷi.\\
-  Ee & European edition. Pāli Text Society (P.T.S.), Oxford.\\
+  Be & Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
+  BhPm & Bhikkhupātimokkhaṁ from where?\\
+  Ce & Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
+  Dm & Dve Mātikāpāḷi from where?\\
+  Ee & European edition (Pāli Text Society P.T.S.), Oxford.\\
   Kkh & Kaṅkhāvitaraṇī\\
-  Mi Se & Royal Thai edition.\\
-  Mm Se & Mahā Makuṭ Academy Siamese edition of Pātimokkha.\\
+  Mi Se & Royal Thai edition\\
+  Mm Se & Mahā Makuṭ Academy Siamese Edition\\
   Mv & Mahāvagga (Vinaya-piṭaka)\\
-  Ñd & Ñāṇadassana. Bhikkhu-Pātimokkhaṁ.\\
+  Ñd & Ñāṇadassana's Bhikkhu-Pātimokkhaṁ.\\
   Pg & Bhikkhupātimokkhagaṇṭhidīpanī\\
   Sanne & Bhikṣuprātimokṣa-padartha\\
   SVibh & Suttavibhaṅga\\
-  SN    & Saṁyutta Nikāya\\
-  TP & The Pātimokkha; K. R. Norman and W. Pruitt.\\
+  TP & The Pātimokkha by K. R. Norman and W. Pruitt.\\
   Vibh & Vibhaṅga\\
   UP & Ubhaya Pratimokṣaya.\\
   Um & Ubhayamātikāpāḷi.\\
+  % D & The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.
+  W & Watärakapansala Pātimokkha Manuscript\\
+  % Ra & Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
+  % SK & Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
+  % V & Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
+  % P & Perādeniya University Library Manuscript\\
+  % G & Gannoruwa Rājamahāvihāra Manuscript\\
+  C & National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
 \end{tabular}
 
 \else
 
 \begin{tabular}{@{}llll@{}}
-  Be & Burmese Chaṭṭha Saṅgāyana ed. (As on CSCD.)\\
-  BhPm & Bhikkhupātimokkhaṁ.\\
-  Ce & “Ceylon edition,” Buddha Jayanti Tipiṭaka Series; Colombo.\\
-  Dm & Dve Mātikāpāḷi.\\
-  Ee & European edition. Pāli Text Society (P.T.S.), Oxford.\\
+  Be & Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
+  BhPm & Bhikkhupātimokkhaṁ from where?\\
+  Ce & Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
+  Dm & Dve Mātikāpāḷi from where?\\
+  Ee & European edition (Pāli Text Society P.T.S.), Oxford.\\
   Kkh & Kaṅkhāvitaraṇī\\
-  Mi Se & Royal Thai edition.\\
-  Mm Se & Mahā Makuṭ Academy Siamese edition of Pātimokkha.\\
-  Ñd & Ñāṇadassana. Bhikkhu-Pātimokkhaṁ.\\
+  Mi Se & Royal Thai edition\\
+  Mm Se & Mahā Makuṭ Academy Siamese Edition\\
+  Mv & Mahāvagga (Vinaya-piṭaka)\\
+  Ñd & Ñāṇadassana's Bhikkhu-Pātimokkhaṁ.\\
   Pg & Bhikkhupātimokkhagaṇṭhidīpanī\\
   Sanne & Bhikṣuprātimokṣa-padartha\\
-  SN    & Saṁyutta Nikāya\\
-  TP & The Pātimokkha; K. R. Norman and W. Pruitt.\\
+  SVibh & Suttavibhaṅga\\
+  TP & The Pātimokkha by K. R. Norman and W. Pruitt.\\
+  Vibh & Vibhaṅga\\
   UP & Ubhaya Pratimokṣaya.\\
   Um & Ubhayamātikāpāḷi.\\
+  % D & The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.\\
+  W & Watärakapansala Pātimokkha Manuscript\\
+  % Ra & Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
+  SK & Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
+  % V & Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
+  P & Perādeniya University Library Manuscript\\
+  G & Gannoruwa Rājamahāvihāra Manuscript\\
+  % C & National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
 \end{tabular}
 
 \medskip
 
 \fi
-
-D The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.
-
-W is the Watärakapansala Pātimokkha manuscript. It is almost identical with the preceding Colombo Museum manuscript.
-
-Ra: Pātimokkha edition as given in the Sri Lankan Vinaya-manual called the Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva, edited by Soṇuttara Jinaratana thera and Ratgama Pragnāśekhara, Colombo, 1946.
-
-SK Bhikkhupātimokkhapāḷi, Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva, 1981.
-
-V is the abbreviation used for the Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra in Asgiriya, Kandy.
-
-P is the abbreviation used for the Perādeniya University Library (Perādeniya) manuscript, i.e., the second Pātimokkha MS in Ms 277637 called Vinayagaṇṭhi which contains various texts (Mūlasikkha,Kammavācā, etc.) in one bundle.
-
-G is the abbreviation used for the Pātimokkha manuscript found in a plain hardwood cover in the small collection of the Gannoruwa Rājamahāvihāra at Ganoruwa near Perādeniya.
-
-C is the abbreviation used for the Bhikkhu Pātimokkha Pāḷi manuscript. National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue of the National Museum Library. National
-Museum, Sir Marcus Fernando Mawatha, Colombo 7.
 
 #+end_src
 
@@ -270,7 +268,6 @@ Museum, Sir Marcus Fernando Mawatha, Colombo 7.
 				\hypertarget{endnote13-appendix}{\hyperlink{endnote13-body}{This is Dhammayuttika Nikāya version.}}}}}\makeatother\\
 	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Karomi āyasmato okāsaṁ. \hspace{-0.5mm}\anglebracketright\
 \end{intro}
-% TODO is this dhammayut version or all of thailand?
 % TODO no need for line breaks in these endnotes
 
 Uposathakaraṇato pubbe navavidhaṁ pubbakiccaṁ kātabbaṁ hoti:
@@ -283,22 +280,10 @@ Tattha purimesu catūsu kiccesu padīpakiccaṁ idāni suriy'ālokassa atthitāy
 					Aparāni tīṇi'' to ``Tattha purimāni cattāri'' (``\textit{Of the first four...}'')}}}}}\makeatother
 \linkdest{endnote2-body}
 bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi\makeatletter\hyperlink{endnote2-appendix}\Hy@raisedlink{\hypertarget{endnote2-body}{}{\pagenote{%
-			\hypertarget{endnote2-appendix}{\hyperlink{endnote2-body}{\textit{If sāmaṇeras help with the tasks, change:}\\
-					\smallskip
-					``bhikkhūhi'' to ``sāmaṇerehi'pi bhikkhūhi'pi'' (``\textit{Novices and bhikkhus...}'')\\
-					\smallskip
-					\textit{If laypeople living in the monastery help with the tasks, change to:}\\
-					\smallskip
-					``ārāmikehi'pi bhikkhūhi'pi'' (``\textit{Monastery dwellers and bhikkhus...}'')}}}}}\makeatother
+			\hypertarget{endnote2-appendix}{\hyperlink{endnote2-body}{\textit{If sāmaṇeras help with the tasks, change:} ``bhikkhūhi'' to ``sāmaṇerehi'pi bhikkhūhi'pi'' (``\textit{Novices and bhikkhus...}'') \textit{If laypeople living in the monastery help with the tasks, change to:} ``ārāmikehi'pi bhikkhūhi'pi'' (``\textit{Monastery dwellers and bhikkhus...}'')}}}}}\makeatother
 \linkdest{endnote2-body}
 katāni pariniṭṭhitāni honti.\makeatletter\hyperlink{endnote3-appendix}\Hy@raisedlink{\hypertarget{endnote3-body}{}{\pagenote{%
-			\hypertarget{endnote3-appendix}{\hyperlink{endnote3-body}{If there are bhikkhus outside of hatthapāsa but within the sīmā (territory) who have sent their consent and purity, then for a recitation during the day, the entire passage within brackets should be:
-					\smallskip
-					``Tattha purimesu chasu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni pañca bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi katāni pariniṭṭhitāni honti.''
-					\smallskip
-					For a recitation at night in the same situation, the entire passage should be:
-					\smallskip
-					``Tattha purimāni cha bhikkhūnaṁ vattaṁ jānantehi katāni pariniṭṭhitāni honti''.}}}}}\makeatother
+			\hypertarget{endnote3-appendix}{\hyperlink{endnote3-body}{If there are bhikkhus outside of hatthapāsa but within the sīmā (territory) who have sent their consent and purity, then for a recitation during the day, the entire passage within brackets should be: ``Tattha purimesu chasu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni pañca bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi katāni pariniṭṭhitāni honti.'' For a recitation at night in the same situation, the entire passage should be: ``Tattha purimāni cha bhikkhūnaṁ vattaṁ jānantehi katāni pariniṭṭhitāni honti''.}}}}}\makeatother
 
 Chand'āharaṇa pārisuddhi-āharaṇāni pana imissaṁ sīmāyaṁ hatthapāsaṁ vijahitvā nisinnānaṁ bhikkhūnaṁ abhāvato n'atthi.
 
@@ -311,15 +296,15 @@ Ayaṁ hemanto'tu\makeatletter\hyperlink{endnote4-appendix}\Hy@raisedlink{\hyper
 asmiñ'ca utumhi aṭṭha uposathā,\makeatletter\hyperlink{endnote5-appendix}\Hy@raisedlink{\hypertarget{endnote5-body}{}{\pagenote{%
 			\hypertarget{endnote5-appendix}{\hyperlink{endnote5-body}{During a normal rainy season, change to:\\
 					``aṭṭha uposathā'' to ``sattā ca uposathā ekā ca pavāraṇā'' (``Seven uposathas and one pavāraṇā.'')\\
-					\smallskip
+
 					During a hot or cold season with an additional month, change to:\\
 					``adhikamāsa-vasena dasa uposathā'' (``Because of the additional month, ten uposathās...''.)\\
-					\smallskip
+
 					During a rainy season with an additional month, change to:\\
 					``adhikamāsa-vasena nava ca uposathā ekā ca pavāraṇā'' (``Because of the additional month, nine uposathas and one pavāraṇā...''.)}}}}}\makeatother
 \linkdest{endnote6-body}
 iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\makeatletter\hyperlink{endnote6-appendix}\Hy@raisedlink{\hypertarget{endnote6-body}{}{\pagenote{%
-			\hypertarget{endnote6-appendix}{\hyperlink{endnote6-body}{This is the calculation for the third uposatha in a normal hot or cold season. The calculation for other dates — to be stated after ``iminā pakkhena eko uposatho sampatto'' — is as follows:\smallskip \\
+			\hypertarget{endnote6-appendix}{\hyperlink{endnote6-body}{This is the calculation for the third uposatha in a normal hot or cold season. The calculation for other dates — to be stated after ``iminā pakkhena eko uposatho sampatto'' — is as follows: \\
 					During a normal hot or cold season:\\
 					First: satta uposathā avasiṭṭhā.\\
 					Second: eko uposatho atikkanto, cha uposathā avasiṭṭhā.\\
@@ -328,7 +313,7 @@ iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposath
 					Fifth: cattāro uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
 					Sixth: pañca uposathā atikkantā, dve uposathā avasiṭṭhā.\\
 					Seventh: cha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-					\smallskip
+
 					Eighth: satta uposathā atikkantā, aṭṭha uposathā paripuṇṇā.\\
 					During a normal rainy season:\\
 					First: cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
@@ -338,7 +323,7 @@ iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposath
 					Fifth: cattāro uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
 					Sixth: (see the separate section on the Pavāraṇā.)\\
 					Seventh: pañca ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
-					Eighth: cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā.\smallskip \\
+					Eighth: cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā. \\
 					During a hot or cold season with an additional month:\\
 					First: nava uposathā avasiṭṭhā.\\
 					Second: eko uposatho atikkanto, aṭṭha uposathā avasiṭṭhā.\\
@@ -349,7 +334,7 @@ iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposath
 					Seventh: cha uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
 					Eighth: satta uposathā atikkantā, dve uposathā avasiṭṭhā.\\
 					Ninth: aṭṭha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-					\smallskip
+
 					Tenth: nava uposathā atikkantā, dasa uposathā paripuṇṇā.\\
 					During a rainy season with an additional month:\\
 					First: aṭṭha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
@@ -372,9 +357,9 @@ Iti evaṁ sabbehi āyasmantehi utu'kkhānaṁ dhāretabbaṁ.
 Bhikkhugaṇanā nāma imasmiṁ uposath'agge uposath'atthāya sannipatitā bhikkhū ettakā'ti, bhikkhūnaṁ gaṇanā. Imasmiṁ pana uposath'agge cattāro\makeatletter\hyperlink{endnote7-appendix}\Hy@raisedlink{\hypertarget{endnote7-body}{}{\pagenote{%
 			\hypertarget{endnote7-appendix}{\hyperlink{endnote7-body}{Cattāro = four. This should be replaced with the actual number of bhikkhus present. 5 pañca 6 cha 7 satta 8 aṭṭha 9 nava 10 dasa 11 ekādasa 12 dvādasa, bārasa 13 terasa, teḷasa 14 catuddasa, cuddasa
 					15 paṇṇarasa, pañcadasa 16 soḷasa 17 sattarasa 18 aṭṭhārasa, aṭṭhādasa 19 ekūnavīsati 20 vīsati, vīsa 21 ekavīsati 22 dvāvīsati, dvāvīsa, dvevīsati, bāvīsati, bāvīsa 23 tevīsati 24 catuvīsati 25 pañcavīsati 26 chabbīsati 27 sattavīsati 28 aṭṭhavīsati 29 ekūnatiṁsa 30 tiṁsa, samatiṁsa, tiṁsati 31 ekatiṁsa, ekattiṁsa 32 dvattiṁsa 33 tettiṁsa 34 catuttiṁsa 35 pañcattiṁsa 36 chattiṁsa 37 sattattiṁsa 38 aṭṭhattiṁsa 39 ekūnacattāḷīsa40 cattāḷīsa, cattārīsa 41 ekacattāḷīsa 42 dvacattāḷīsa, dvecattāḷīsa, dvicattāḷīsa 43 tecattāḷīsa 44 catucattāḷīsa 45 pañcacattāḷīsa 46 chacattāḷīsa 47 sattacattāḷīsa 48 aṭṭhacattāḷīsa 49 ekūnapaññāsa 50 paññāsa 51 ekapaññāsa 52 dvapaññāsa, dvepaññāsa, dvipaññāsa 53 tepaññāsa 54 catupaññāsa 55 pañcapaññāsa 56 chapaññāsa 57 sattapaññāsa 58 aṭṭhapaññāsa 59 ekūnasaṭṭhī 60 saṭṭhī, saṭṭhi 61 ekasaṭṭhī 62 dvāsaṭṭhī, dvesaṭṭhī, dvisaṭṭhī 63 tesaṭṭhī 64 catusaṭṭhī 65 pañcasaṭṭhī 66 chasaṭṭhī 67 sattasaṭṭhī 68 aṭṭhasaṭṭhī 69 ekūnasattati 70 sattati 71 ekasattati 72 dvasattati, dvāsattati, dvesattati, dvisattati 73 tesattati 74 catusattati 75 pañcasattati 76 chasattati 77 sattasattati 78 aṭṭhasattati 79 ekūnāsīti 80 asīti 81 ekāsīti 82 dvāsīti 83 tayāsīti 84 caturāsīti 85 pañcāsīti 86 chaḷāsīti 87 sattāsīti 88 aṭṭhāsīti 89 ekūnanavuti 90 navuti 91 ekanavuti 92 dvanavuti, dvenavuti 93 tenavuti 94 catunavuti 95 pañcanavuti 96 chanavuti 97 sattanavuti 98 aṭṭhanavuti 99 ekūnasataṁ 100 bhikkhusataṁ 101 ekuttara-bhikkhusataṁ 102 dvayuttara-bhikkhusataṁ 103 tayuttara-bhikkhusataṁ 104 catuttara-bhikkhusataṁ 105 pañcuttara-bhikkhusataṁ 106 chaḷuttara-bhikkhusataṁ 107 sattuttara-bhikkhusataṁ 108 aṭṭhuttara-bhikkhusataṁ 109 navuttara-bhikkhusataṁ 110 dasuttara-bhikkhusataṁ 120 vīsuttara-bhikkhusataṁ 130 tiṁsuttara-bhikkhusataṁ 140 cattāḷīsuttara-bhikkhusataṁ 150 paññāsuttara-bhikkhusataṁ 160 saṭṭhayuttara-bhikkhusataṁ 170 sattatyuttara-bhikkhusataṁ 180 asītyuttara-bhikkhusataṁ 190 navutyuttara-bhikkhusataṁ 199 ekūnasatuttara-bhikkhusataṁ 200 dve bhikkhu-satāni 201 ekuttarāni dve bhikkhu-satāni 300 tayo bhikkhu-satāni 400 cattāro bhikkhu-satāni 500 pañca bhikkhu-satāni
-					\smallskip
+
 					All numbers ending with ``bhikkhusataṁ'' should be followed by ``sannipatitaṁ hoti''.
-					\smallskip
+
 					All numbers ending with ``bhikkhusatāni'' should be followed by ``sannipatitā honti''.}}}}}\makeatother \thickspace
 bhikkhū sannipatitā honti. \ifafiveversion\\\fi Iti sabbehi āyasmantehi bhikkhugaṇanā'pi dhāretabbā.
 
@@ -511,7 +496,7 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 		\hypertarget{endnote26-appendix}{\hyperlink{endnote26-body}{V, BhPm 2: \textit{tatrīme} (BhPm 2 gives \textit{tatrime} as v.l.).}}}}}\makeatother \thinspace cattāro pārājikā dhammā uddesaṁ āgacchanti.
 \end{intro}
 
-\setsubsecheadstyle{\subsubsectionFmt}
+\setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[2]{Pārājika 1}{par1}
 \subsection*{\hyperref[disq1]{Pārājika 1: Methunadhammasikkhāpadaṁ}}
 \label{par1}
@@ -952,12 +937,9 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 \linkdest{endnote113-body}
 \begin{outro}
 	Terasa saṅghādisesā dhammā niṭṭhitā\makeatletter\hyperlink{endnote11-appendix}\Hy@raisedlink{\hypertarget{endnote11-body}{}{\pagenote{%
-				\hypertarget{endnote11-appendix}{\hyperlink{endnote11-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one.}}}}}\makeatother \thinspace\\
-						When reciting in brief use: \textit{Saṅghādises'uddeso niṭṭhito}.\makeatletter\hyperlink{endnote113-appendix}\Hy@raisedlink{\hypertarget{endnote113-body}{}{\pagenote{%
-		\hypertarget{endnote113-appendix}{\hyperlink{endnote113-body}{Ñd Ce, UP, Mi Se: \textit{Saṅghādisesuddeso tatiyo}. Dm: \textit{Saṅghādiseso niṭṭhito}.}}}}}\makeatother \thinspace
-\end{outro}
-% TODO change format to rule-count rule dhammā nitthita!
-% FIXME might be broken
+				\hypertarget{endnote11-appendix}{\hyperlink{endnote11-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one. When reciting in brief use: \textit{Saṅghādises'uddeso niṭṭhito}.}}}}}\makeatother
+        \end{outro}
+
 \clearpage
 
 #+end_src
@@ -1024,8 +1006,7 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 \linkdest{endnote118-body}
 \begin{outro}
 	Dve aniyatā dhammā niṭṭhitā\makeatletter\hyperlink{endnote12-appendix}\Hy@raisedlink{\hypertarget{endnote12-body}{}{\pagenote{%
-				\hypertarget{endnote12-appendix}{\hyperlink{endnote12-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one.When reciting in brief use: \textit{Aniyat'uddeso niṭṭhito}.}}}}}\makeatother \thinspace\\ \makeatletter\hyperlink{endnote118-appendix}\Hy@raisedlink{\hypertarget{endnote118-body}{}{\pagenote{%
-		\hypertarget{endnote118-appendix}{\hyperlink{endnote118-body}{Ñd Ce, Um, UP, Mi Se: \textit{Aniyatuddeso catuttho}. Dm: \textit{Aniyato niṭṭhito}.}}}}}\makeatother \thinspace
+				\hypertarget{endnote12-appendix}{\hyperlink{endnote12-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one.When reciting in brief use: \textit{Aniyat'uddeso niṭṭhito}.}}}}}
 \end{outro}
 
 \clearpage
@@ -1047,7 +1028,6 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 % TODO increase spacing
 \setsubsecheadstyle{\subsectionFmt}
 \subsection{Cīvaravaggo}
-% \vspace{0.2cm}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 1}{np1}
 \subsubsection*{\hyperref[forf-exp1]{Nissaggiya Pācittiya 1: Kaṭhinasikkhāpadaṁ}}
@@ -1684,9 +1664,7 @@ Dm, Um: \textit{Nissaggiyapācittiyā niṭṭhitā}. C, W: \textit{Nissaggiyā 
 	Ime kho pan'āyasmanto dvenavuti pācittiyā dhammā uddesaṁ āgacchanti.
 \end{intro}
 
-% TODO increase spacing
 \subsection{Musāvādavaggo}
-% \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 1}{pac1}
 \subsubsection*{\hyperref[exp1]{Pācittiya 1: Musāvādasikkhāpadaṁ}}
@@ -3334,7 +3312,7 @@ Vin V 27; see the section on chapter-division in the Introduction. The \textit{S
 		\hypertarget{endnote438-appendix}{\hyperlink{endnote438-body}{C, D, V, W, G, SVibh Ee: \textit{pāṭidesaniyā}.}}}}}\makeatother \thinspace dhammā uddesaṁ āgacchanti.
 \end{intro}
 
-\setsubsecheadstyle{\subsubsectionFmt}
+\setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Pāṭidesanīyā 1}{pd1}
 \subsection*{\hyperref[ack1]{Pāṭidesanīyā 1: Paṭhamapāṭidesanīyasikkhāpadaṁ}}
 \label{pd1}
@@ -4680,45 +4658,6 @@ As an answer occurs to [a bhikkhu] who is asked individually, just so in such an
 
 #+end_src
 
-#+RESULTS:
-#+begin_export latex
-\section{The Recitation of the Introduction}
-\label{introduction}
-
-\ifninebythirteenversion\vspace{0.25em}\fi
-\ifafiveversion\vspace{0.25em}\fi
-
-Venerable Sir, let the Community listen to me! Today is a fifteenth/fourteenth/unity [day] Observance. If it is suitable to the Community, [then] the Community should do the Observance [and] should recite the Disciplinary Code.
-
-What is the preliminary for the Community?
-
-Venerables, announce the purity, [for] I shall recite the Disciplinary Code. Let us all [who are] present listen to it carefully [and] let us take it to mind. Whoever may have an offence, he should disclose [it]. When there is no offence, [then it] is to be silent. By the silence I shall know the Venerables [with the thought]: ``[They are] pure.''
-
-As an answer occurs to [a bhikkhu] who is asked individually, just so in such an assembly [as this one] there is the announcement up to the third time. But if any bhikkhu, [who is] remembering [an offence] when the announcement is being made up to the third time, should not disclose the existing offence, there is [a further offence of] deliberate false speech for him. But, venerables, deliberate false speech has been called an obstructive act by the Fortunate One. Therefore, by a bhikkhu who is remembering, who has committed [an offence], who is desiring purification, an existing offence is to be disclosed; because, [after] having disclosed [it], there is comfort for him.
-
-\medskip
-
-\begin{center}
-	Venerables, the introduction has been recited.
-
-	\smallskip
-
-	Concerning that I ask the Venerables: [Are you] pure in this?\\
-	A second time again I ask: [Are you] pure in this?\\
-	A third time again I ask: [Are you] pure in this?
-
-	\smallskip
-
-	The venerables are pure in this, therefore there is silence, so do I bear this [in mind].
-\end{center}
-
-\begin{outro}
-	The recitation of the introduction is finished
-\end{outro}
-
-\clearpage
-#+end_export
-
 ** Disqualifications
 *** Disqualification 1: The training precept on the act of sexual intercourse
 
@@ -4731,7 +4670,7 @@ As an answer occurs to [a bhikkhu] who is asked individually, just so in such an
 	Herein these four cases involving disqualification come up for recitation.
 \end{intro}
 
-\setsubsecheadstyle{\subsubsectionFmt}
+\setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Disqualification 1}{disq1}
 \subsection*{\hyperref[par1]{Disqualification 1: The training precept on the act of sexual intercourse}}
 \label{disq1}
@@ -6628,7 +6567,7 @@ If any bhikkhu should have a robe made which has the sugata-robe measure or [one
 	Venerables, these four cases that are to be acknowledged come up for recitation.
 \end{intro}
 
-\setsubsecheadstyle{\subsubsectionFmt}
+\setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Acknowledgment 1}{ack1}
 \subsection*{\hyperref[pd1]{Acknowledgment 1: The first training precept on what is to be acknowledged}}
 \label{ack1}
@@ -7830,12 +7769,15 @@ Vitthār'uddeso pañcamo.
 #+end_src
 
 #+RESULTS:
-#+begin_export latex
-\section{Saṅkhittapātimokkh'uddeso}
+#+begin_example
+\section{Saṅkhittapātimokkh'uddeso-niṭṭhāna}
 \label{sankhittapatimokkh'uddeso-nitthana}
-% TODO: append pali word for conclusion
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
+\ifafiveversion\vspace{0.15cm}\fi
+\ifninebythirteenversion\vspace{0.15cm}\fi
+
+Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+% TODO space here is too big
 Vitthār'uddeso pañcamo.
 
 \begin{outro}
@@ -7843,7 +7785,7 @@ Vitthār'uddeso pañcamo.
 \end{outro}
 
 \clearpage
-#+end_export
+#+end_example
 
 *** The Pātimokkha Recitation in Brief Conclusion
 

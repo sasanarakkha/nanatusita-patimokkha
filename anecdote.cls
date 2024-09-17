@@ -299,7 +299,7 @@
 % Footer size
 \ifafiveversion\newcommand{\footerSize}{\@setfontsize                         \footerSize               {11}{8}}\fi
 \ifninebythirteenversion\newcommand{\footerSize}{\@setfontsize                \footerSize               {8}{6}}\fi
-% TODO alter footer font height for 9x13
+
 % Header size
 \ifafiveversion\newcommand{\headerSize}{\@setfontsize                         \headerSize               {11}{2}}\fi
 \ifninebythirteenversion\newcommand{\headerSize}{\@setfontsize                \headerSize               {8}{1.5}}\fi
@@ -672,7 +672,14 @@
 	\fi
 }
 
-
+\newenvironment{indented}{
+  \begin{list}{}{
+    \setlength{\leftskip}{2em}  % Control the indentation here
+  }
+  \item[]
+}{
+  \end{list}
+}
 
 % Define commands for storing color specifications
 \newcommand\modelTmp{}% Temporary storage for color model
@@ -1240,37 +1247,41 @@
 % With no glue, the space will be at the bottom of the text block instead.
 
 \ifafiveversion
-	% Set the vertical space before sections
-	\setbeforesecskip{10pt}
-	\setaftersecskip{10pt}
 
-	% Alters space after subsections
-	\setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
+  % Set the vertical space before sections
+  \setbeforesecskip{10pt}
+  \setaftersecskip{8pt}
 
-	% Alters space before and after subsections
-	\setbeforesubsecskip{-1.5ex \@plus -1ex \@minus -.2ex}
-	\setaftersubsecskip{0.1ex \@plus -.5ex \@minus -.2ex}
+  % 	Alters space after subsections
+  \setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
 
-	% Alters space before and after subsubsections
-	\setbeforesubsubsecskip{-0.5ex \@plus -1ex \@minus -.2ex}
-	\setaftersubsubsecskip{0.01ex}
+  % 	Alters space before and after subsections
+  \setbeforesubsecskip{-2.0ex \@plus -1ex \@minus -.2ex}
+  \setaftersubsecskip{1.75ex \@plus -.5ex \@minus -.2ex}
+
+  % 	Alters space before and after subsubsections
+  \setbeforesubsubsecskip{-1.75ex \@plus -1ex \@minus -.2ex}
+  \setaftersubsubsecskip{0.01ex}
+
 \fi
 
 \ifninebythirteenversion
-	% Set the vertical space before sections
-	\setbeforesecskip{10pt}
-	\setaftersecskip{6pt}
 
-	% Alters space after subsections
-	\setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
+  % Set the vertical space before sections
+  \setbeforesecskip{10pt}
+  \setaftersecskip{6pt}
 
-	% Alters space before and after subsections
-	\setbeforesubsecskip{-0.5ex \@plus -1ex \@minus -.2ex}
-	\setaftersubsecskip{0.01ex \@plus -.5ex \@minus -.2ex}
+  % Alters space after subsections
+  \setaftersubsecskip{2ex \@plus -.5ex \@minus -.2ex}
 
-	% Alters space before and after subsubsections
-	\setbeforesubsubsecskip{-0.5ex \@plus -1ex \@minus -.2ex}
-	\setaftersubsubsecskip{0.01ex}
+  % Alters space before and after subsections
+  \setbeforesubsecskip{-1.0ex \@plus -1ex \@minus -.2ex}
+  \setaftersubsecskip{1.00ex \@plus -.5ex \@minus -.2ex}
+
+  %	Alters space before and after subsubsections
+  \setbeforesubsubsecskip{-0.75ex \@plus -1ex \@minus -.2ex}
+  \setaftersubsubsecskip{0.01ex}
+
 \fi
 
 % Roman numerals for section numbering.
@@ -1296,7 +1307,7 @@
 	% \linebreak%
 	% Measure the length of the section title at the current point size
 	\setlength{\sectionTitleLength}{\widthof{\mbox{\textbf{\textls*{\textsc{#1}}}}}}%
-	\hyperref[schedule]{%
+	\hyperref[toc]{%
 		\begin{minipage}[t]{\linewidth}%
 			\centering%
 			% To hyperlink the text only, put \hyperref around the below
@@ -1356,7 +1367,7 @@
 		\fi
 		\ifninebythirteenversion
 			\pgfornament[color=black,width=5cm,scale=1,ydelta=13.5pt,symmetry=c]{88}%
-			% TODO tweak to get more homogenous spacing
+			% tweak to get more homogenous spacing
 			% \vspace*{-0.4\baselineskip}
 		\fi
 	\end{minipage}%
@@ -1374,7 +1385,7 @@
 			\scshape\bfseries%
 			\centering
 
-			\hyperref[schedule]{%
+			\hyperref[toc]{%
 				\begin{minipage}[t]{\linewidth}%
 					\centering%
 					% To hyperlink the text only, put \hyperref around the below
@@ -1401,12 +1412,36 @@
 				#1%
 				\vspace{-0.2em}%
 			\fi
+
+		}%
+}
+
+\newcommand\subsubsectionFmtalt[1]{%
+	{%
+			\ifafiveversion
+				\subSectionFont\fontsize{11}{13}\selectfont%
+				\itshape%
+				\memRTLraggedright%
+				#1%
+				\vspace{-0.75em}%
+			\fi
+
+			\ifninebythirteenversion
+				\vspace{0.2em}%
+				\subSectionFont\fontsize{8}{10}\selectfont
+				\itshape%
+				\memRTLraggedright%
+				#1%
+				\vspace{-0.75em}%
+			\fi
+
 		}%
 }
 
 % These allow section titles to present themselves with the formatting of another section. (e.g. sections can have the formatting of a subsection as in the Protective Recitations)
 \setsecheadstyle{\sectionFmt}
 \setsubsecheadstyle{\subsectionFmt}
+\setsubsubsecheadstyle{\subsubsectionFmt}
 \setsubsubsecheadstyle{\subsubsectionFmt}
 
 \newif\ifsectionsubtitle
@@ -1482,7 +1517,6 @@
 	\setlength{\BOOK@paperHeight}{210mm}
 	\setlength{\BOOK@paperWidth}{148mm}
 
-	% TODO trims for a5,a6
 	\ifshowtrims
 		\stockaiv% use A4 paper size to show trims
 		\setlength{\paperheight}{\BOOK@paperHeight}
@@ -1567,7 +1601,6 @@
 	\fi
 
 	% Adds to the inner margin to allow for the binding. This should be added after setting the page size, but before setting the margins.
-	% TODO even needed since there are trims above? - MARKED
 	% \setbinding{#1}
 
 	% Page Margins

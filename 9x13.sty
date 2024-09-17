@@ -120,19 +120,19 @@
 
 % Redefine the formatting for endnotes
 \renewcommand{\prenoteinnotes}{%
-	\tiny\par\setlength{\parskip}{3pt}\noindent%
+    \tiny\par\setlength{\parskip}{3pt}\noindent%
 }%
 \renewcommand{\noteidinnotes}[2]{% {notenum}{id}
-	\begin{adjustwidth}{14pt}{0pt}%
-		\hspace{-33pt}\makebox[30pt][l]{%
-			\makebox[24pt][1]{#2}%
-			\makebox[16pt][l]{\ifnum#1>0\textsuperscript{#1}\fi%
-			}%
-		}%
-		}%
-		\renewcommand{\pageinnotes}[1]{}%
-		\renewcommand{\postnotetext}{%
-	\end{adjustwidth}%
+    \begin{adjustwidth}{14pt}{0pt}%
+        \hspace{-33pt}\makebox[30pt][l]{%
+            \makebox[24pt][1]{#2}%
+            \makebox[16pt][l]{\ifnum#1>0\textsuperscript{#1}\fi%
+            }%
+        }%
+        }%
+        \renewcommand{\pageinnotes}[1]{}%
+        \renewcommand{\postnotetext}{%
+    \end{adjustwidth}%
 }%
 \renewcommand{\postnoteinnotes}{\par}%
 
