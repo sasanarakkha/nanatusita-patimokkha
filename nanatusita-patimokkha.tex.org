@@ -5,18 +5,34 @@
 #+auto-tangle: t
 #+url: https://github.com/sasanarakkha/nanatusita-patimokkha
 
+* TODO
+** TODO add front and back covers to book and add bleed over
+** T0DO Harmoonize patimokkha abbreivations and devise a way to line break longer lines
+** T0DO Add references to post-patimokkha chants
+** TODO Add english translation
+** TODO add pancasattati end note - fish from discourse thread
+** DONE switch italics in pubbakicca endnotes
+** DONE abbreviatiosn need attention
+
 * Table of Contents :toc:
+- [[#todo][TODO]]
+  - [[#add-front-and-back-covers-to-book-and-add-bleed-over][add front and back covers to book and add bleed over]]
+  - [[#t0do-harmoonize-patimokkha-abbreivations-and-devise-a-way-to-line-break-longer-lines][T0DO Harmoonize patimokkha abbreivations and devise a way to line break longer lines]]
+  - [[#t0do-add-references-to-post-patimokkha-chants][T0DO Add references to post-patimokkha chants]]
+  - [[#add-english-translation][Add english translation]]
+  - [[#add-pancasattati-end-note---fish-from-discourse-thread][add pancasattati end note - fish from discourse thread]]
+  - [[#switch-italics-in-pubbakicca-endnotes][switch italics in pubbakicca endnotes]]
+  - [[#abbreviatiosn-need-attention][abbreviatiosn need attention]]
 - [[#title-page][Title Page]]
 - [[#copyright][Copyright]]
 - [[#abbreviations][Abbreviations]]
 - [[#pāli][Pāli]]
   - [[#covertitle][Cover/Title]]
   - [[#pubbakicca][Pubbakicca]]
-  - [[#pubbakicca-1][Pubbakicca]]
-  - [[#nidānuddeso][Nidān'uddeso]]
-  - [[#pārājikuddeso][Pārājik'uddeso]]
-  - [[#saṅghādisesuddeso][Saṅghādises'uddeso]]
-  - [[#aniyatuddeso][Aniyat'uddeso]]
+  - [[#nidānuddesa][Nidān'uddesa]]
+  - [[#pārājikuddesa][Pārājik'uddesa]]
+  - [[#saṅghādisesuddesa][Saṅghādises'uddesa]]
+  - [[#aniyatuddesa][Aniyat'uddesa]]
   - [[#nissaggiyapācittiyā][Nissaggiyapācittiyā]]
   - [[#pācittiyā][Pācittiyā]]
   - [[#pāṭidesanīyā][Pāṭidesanīyā]]
@@ -135,9 +151,8 @@
 	\ifninebythirteenversion \vspace{0.25cm} \fi
 
 	Project Manager: Ā. Ariyadhammika\\
-	Editor: Ā. Pāladhammika\\
-	Typesetting: Aj. Gambhiro, Ā. Pāladhammika\\
-	Translators: Ā. Ñāṇatusita, Aj. Ṭhānissaro\\
+	Editor/Typesetting: Ā. Pāladhammika\\
+	Translators: Aj. Ṭhānissaro, Ā. Ñāṇatusita\\
 	Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita\\
 	Illustrations: Lim Jee Yuan
 
@@ -174,72 +189,38 @@
 \chapter{Abbreviations}
 \label{abbreviations}
 
-%TODO - for ninebythirteen a table doesn't work, first try line breaking
+{\raggedright
 
-\ifninebythirteenversion
+Be - Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
+BhPm - Bhikkhupātimokkhaṁ from where?\\
+Ce - Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
+Dm - Dve Mātikāpāḷi from where?\\
+Ee - European edition (Pāli Text Society P.T.S.), Oxford\\
+Kkh - Kaṅkhāvitaraṇī\\
+Mi Se - Royal Thai edition\\
+Mm Se - Mahā Makuṭ Academy Siamese Edition\\
+Mv - Mahāvagga (Vinaya-piṭaka)\\
+Ñd - Ñāṇadassana's Bhikkhu-Pātimokkhaṁ\\
+Pg - Bhikkhupātimokkhagaṇṭhidīpanī\\
+Sanne - Bhikṣuprātimokṣa-padartha\\
+SVibha - Suttavibhaṅga\\
+TP - The Pātimokkha by K. R. Norman and W. Pruitt\\
+Vibh - Vibhaṅga\\
+UP - Ubhaya Pratimokṣaya\\
+Um - Ubhayamātikāpāḷi\\
+D - The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.\\
+W - Watärakapansala Pātimokkha Manuscript\\
+Ra - Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
+SK - Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
+V - Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
+P - Perādeniya University Library Manuscript\\
+G - Gannoruwa Rājamahāvihāra Manuscript\\
+C - National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
 
-\vspace{-0.6em}
-\begin{tabular}{@{}llll@{}}
-  Be & Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
-  BhPm & Bhikkhupātimokkhaṁ from where?\\
-  Ce & Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
-  Dm & Dve Mātikāpāḷi from where?\\
-  Ee & European edition (Pāli Text Society P.T.S.), Oxford.\\
-  Kkh & Kaṅkhāvitaraṇī\\
-  Mi Se & Royal Thai edition\\
-  Mm Se & Mahā Makuṭ Academy Siamese Edition\\
-  Mv & Mahāvagga (Vinaya-piṭaka)\\
-  Ñd & Ñāṇadassana's Bhikkhu-Pātimokkhaṁ.\\
-  Pg & Bhikkhupātimokkhagaṇṭhidīpanī\\
-  Sanne & Bhikṣuprātimokṣa-padartha\\
-  SVibh & Suttavibhaṅga\\
-  TP & The Pātimokkha by K. R. Norman and W. Pruitt.\\
-  Vibh & Vibhaṅga\\
-  UP & Ubhaya Pratimokṣaya.\\
-  Um & Ubhayamātikāpāḷi.\\
-  % D & The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.
-  W & Watärakapansala Pātimokkha Manuscript\\
-  % Ra & Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
-  % SK & Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
-  % V & Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
-  % P & Perādeniya University Library Manuscript\\
-  % G & Gannoruwa Rājamahāvihāra Manuscript\\
-  C & National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
-\end{tabular}
+\smallskip
 
-\else
-
-\begin{tabular}{@{}llll@{}}
-  Be & Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
-  BhPm & Bhikkhupātimokkhaṁ from where?\\
-  Ce & Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
-  Dm & Dve Mātikāpāḷi from where?\\
-  Ee & European edition (Pāli Text Society P.T.S.), Oxford.\\
-  Kkh & Kaṅkhāvitaraṇī\\
-  Mi Se & Royal Thai edition\\
-  Mm Se & Mahā Makuṭ Academy Siamese Edition\\
-  Mv & Mahāvagga (Vinaya-piṭaka)\\
-  Ñd & Ñāṇadassana's Bhikkhu-Pātimokkhaṁ.\\
-  Pg & Bhikkhupātimokkhagaṇṭhidīpanī\\
-  Sanne & Bhikṣuprātimokṣa-padartha\\
-  SVibh & Suttavibhaṅga\\
-  TP & The Pātimokkha by K. R. Norman and W. Pruitt.\\
-  Vibh & Vibhaṅga\\
-  UP & Ubhaya Pratimokṣaya.\\
-  Um & Ubhayamātikāpāḷi.\\
-  % D & The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.\\
-  W & Watärakapansala Pātimokkha Manuscript\\
-  % Ra & Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
-  SK & Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
-  % V & Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
-  P & Perādeniya University Library Manuscript\\
-  G & Gannoruwa Rājamahāvihāra Manuscript\\
-  % C & National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
-\end{tabular}
-
-\medskip
-
-\fi
+For an explanation for the aforementioned abbreviations, please see Ñāṇatusita's full Analysis of the Pātimokkha.
+}
 
 #+end_src
 
@@ -257,7 +238,6 @@
 #+end_src
 
 ** Pubbakicca
-** Pubbakicca
 
 #+begin_src latex :tangle ./tex/pali/pubbakicca.tex
 
@@ -267,7 +247,7 @@
 \linkdest{endnote13-body}
 \begin{intro}
 	Okāsaṁ me bhante thero detu pāṭimokkhaṁ uddesituṁ.\makeatletter\hyperlink{endnote13-appendix}\Hy@raisedlink{\hypertarget{endnote13-body}{}{\pagenote{%
-				\hypertarget{endnote13-appendix}{\hyperlink{endnote13-body}{This is Dhammayuttika Nikāya version.}}}}}\makeatother\\
+				\hypertarget{endnote13-appendix}{\hyperlink{endnote13-body}{This introduction is found in the Thai edition of the Pātimokkha.}}}}}\makeatother\\
 	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Karomi āyasmato okāsaṁ. \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
@@ -277,13 +257,13 @@ Taṇ'ṭhāna-sammajjanañ'ca; tattha padīp'ujjalanañ'ca; āsana-paññapana�
 
 \linkdest{endnote1-body}
 Tattha purimesu catūsu kiccesu padīpakiccaṁ idāni suriy'ālokassa atthitāya n'atthi, aparāni tīṇi\makeatletter\hyperlink{endnote1-appendix}\Hy@raisedlink{\hypertarget{endnote1-body}{}{\pagenote{%
-			\hypertarget{endnote1-appendix}{\hyperlink{endnote1-body}{\textit{If the recitation is held at night, change:} ``Tattha purimesu catūsu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni tīṇi'' to ``Tattha purimāni cattāri'' (``\textit{Of the first four...}'')}}}}}\makeatother
+			\hypertarget{endnote1-appendix}{\hyperlink{endnote1-body}{If the recitation is held at night, change: \textit{``Tattha purimesu catūsu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni tīṇi''} to \textit{``Tattha purimāni cattāri''} (``Of the first four...'')}}}}}\makeatother
 \linkdest{endnote2-body}
 bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi\makeatletter\hyperlink{endnote2-appendix}\Hy@raisedlink{\hypertarget{endnote2-body}{}{\pagenote{%
-			\hypertarget{endnote2-appendix}{\hyperlink{endnote2-body}{\textit{If sāmaṇeras help with the tasks, change:} ``bhikkhūhi'' to ``sāmaṇerehi'pi bhikkhūhi'pi'' (``\textit{Novices and bhikkhus...}'') \textit{If laypeople living in the monastery help with the tasks, change to:} ``ārāmikehi'pi bhikkhūhi'pi'' (``\textit{Monastery dwellers and bhikkhus...}'')}}}}}\makeatother
+			\hypertarget{endnote2-appendix}{\hyperlink{endnote2-body}{If sāmaṇeras help with the tasks, change: \textit{``bhikkhūhi''} to \textit{``sāmaṇerehi'pi bhikkhūhi'pi''} (``Novices and bhikkhus...'') If laypeople living in the monastery help with the tasks, change to: \textit{``ārāmikehi'pi bhikkhūhi'pi''} (``Monastery dwellers and bhikkhus...'')}}}}}\makeatother
 \linkdest{endnote2-body}
 katāni pariniṭṭhitāni honti.\makeatletter\hyperlink{endnote3-appendix}\Hy@raisedlink{\hypertarget{endnote3-body}{}{\pagenote{%
-			\hypertarget{endnote3-appendix}{\hyperlink{endnote3-body}{If there are bhikkhus outside of hatthapāsa but within the sīmā (territory) who have sent their consent and purity, then for a recitation during the day, the entire passage within brackets should be: ``Tattha purimesu chasu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni pañca bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi katāni pariniṭṭhitāni honti.'' For a recitation at night in the same situation, the entire passage should be: ``Tattha purimāni cha bhikkhūnaṁ vattaṁ jānantehi katāni pariniṭṭhitāni honti''.}}}}}\makeatother
+			\hypertarget{endnote3-appendix}{\hyperlink{endnote3-body}{If there are bhikkhus outside of hatthapāsa but within the sīmā (territory) who have sent their consent and purity, then for a recitation during the day, the entire passage within brackets should be: \textit{``Tattha purimesu chasu kiccesu padīpa-kiccaṁ idāni suriy'ālokassa atthitāya n'atthi. Aparāni pañca bhikkhūnaṁ vattaṁ jānantehi bhikkhūhi katāni pariniṭṭhitāni honti.''} For a recitation at night in the same situation, the entire passage should be: \textit{``Tattha purimāni cha bhikkhūnaṁ vattaṁ jānantehi katāni pariniṭṭhitāni honti''}.}}}}}\makeatother
 
 Chand'āharaṇa pārisuddhi-āharaṇāni pana imissaṁ sīmāyaṁ hatthapāsaṁ vijahitvā nisinnānaṁ bhikkhūnaṁ abhāvato n'atthi.
 
@@ -291,69 +271,69 @@ Utu'kkhānaṁ nāma ettakaṁ atikkantaṁ ettakaṁ avasiṭṭhan'ti; evaṁ 
 
 \linkdest{endnote4-body}
 Ayaṁ hemanto'tu\makeatletter\hyperlink{endnote4-appendix}\Hy@raisedlink{\hypertarget{endnote4-body}{}{\pagenote{%
-			\hypertarget{endnote4-appendix}{\hyperlink{endnote4-body}{During the hot season, change: ``hemanto'tu'' to ``gimho'tu'' and during the rainy season: ``vassāno'tu''.}}}}}\makeatother
+			\hypertarget{endnote4-appendix}{\hyperlink{endnote4-body}{During the hot season, change: \textit{``hemanto'tu''} to \textit{``gimho'tu''} and during the rainy season: ``vassāno'tu''.}}}}}\makeatother
 \linkdest{endnote5-body}
 asmiñ'ca utumhi aṭṭha uposathā,\makeatletter\hyperlink{endnote5-appendix}\Hy@raisedlink{\hypertarget{endnote5-body}{}{\pagenote{%
-			\hypertarget{endnote5-appendix}{\hyperlink{endnote5-body}{During a normal rainy season, change to: ``aṭṭha uposathā'' to ``sattā ca uposathā ekā ca pavāraṇā'' (``Seven uposathas and one pavāraṇā.'') During a hot or cold season with an additional month, change to: ``adhikamāsa-vasena dasa uposathā'' (``Because of the additional month, ten uposathās...''.) During a rainy season with an additional month, change to: ``adhikamāsa-vasena nava ca uposathā ekā ca pavāraṇā'' (``Because of the additional month, nine uposathas and one pavāraṇā...''.)}}}}}\makeatother
+			\hypertarget{endnote5-appendix}{\hyperlink{endnote5-body}{During a normal rainy season, change to: \textit{``aṭṭha uposathā''} to \textit{``sattā ca uposathā ekā ca pavāraṇā''} (``Seven uposathas and one pavāraṇā.'') During a hot or cold season with an additional month, change to: \textit{``adhikamāsa-vasena dasa uposathā''} (``Because of the additional month, ten uposathās...''.) During a rainy season with an additional month, change to: \textit{``adhikamāsa-vasena nava ca uposathā ekā ca pavāraṇā''} (``Because of the additional month, nine uposathas and one pavāraṇā...''.)}}}}}\makeatother
 \linkdest{endnote6-body}
 iminā pakkhena: eko uposatho sampatto, dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\makeatletter\hyperlink{endnote6-appendix}\Hy@raisedlink{\hypertarget{endnote6-body}{}{\pagenote{%
 			\hypertarget{endnote6-appendix}{\hyperlink{endnote6-body}{This is the calculation for the third uposatha in a normal hot or cold season. The calculation for other dates — to be stated after ``iminā pakkhena eko uposatho sampatto'' — is as follows:\\
 					During a normal hot or cold season:\\
-					\hspace*{0.5em}First: satta uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Second: eko uposatho atikkanto, cha uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Third: dve uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, dve uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Seventh: cha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-					\hspace*{0.5em}Eighth: satta uposathā atikkantā, aṭṭha uposathā paripuṇṇā.\\
+					\hspace*{0.5em}First: \textit{satta uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Second: \textit{eko uposatho atikkanto, cha uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Third: \textit{dve uposathā atikkantā, pañca uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fourth: \textit{tayo uposathā atikkantā, cattāro uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fifth: \textit{cattāro uposathā atikkantā, tayo uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Sixth: \textit{pañca uposathā atikkantā, dve uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Seventh: \textit{cha uposathā atikkantā, eko uposatho avasiṭṭho.}\\
+					\hspace*{0.5em}Eighth: \textit{satta uposathā atikkantā, aṭṭha uposathā paripuṇṇā.}\\
 					\smallskip
 					During a normal rainy season:\\
-					\hspace*{0.5em}First: cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Second: eko uposatho atikkanto, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Third: dve uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}First: \textit{cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Second: \textit{eko uposatho atikkanto, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Third: \textit{dve uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fourth: \textit{tayo uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fifth: \textit{cattāro uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
 					\hspace*{0.5em}Sixth: (see the separate section on the Pavāraṇā.)\\
-					\hspace*{0.5em}Seventh: pañca ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
-					\hspace*{0.5em}Eighth: cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā.\smallskip \\
+					\hspace*{0.5em}Seventh: \textit{pañca ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.}\\
+					\hspace*{0.5em}Eighth: \textit{cha ca uposathā ekā ca pavāraṇā atikkantā, satta ca uposathā ekā ca pavāraṇā paripuṇṇā.}\smallskip \\
 					During a hot or cold season with an additional month:\\
-					\hspace*{0.5em}First: nava uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Second: eko uposatho atikkanto, aṭṭha uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Third: dve uposathā atikkantā, satta uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, cha uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, pañca uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, cattāro uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Seventh: cha uposathā atikkantā, tayo uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Eighth: satta uposathā atikkantā, dve uposathā avasiṭṭhā.\\
-					\hspace*{0.5em}Ninth: aṭṭha uposathā atikkantā, eko uposatho avasiṭṭho.\\
-					\hspace*{0.5em}Tenth: nava uposathā atikkantā, dasa uposathā paripuṇṇā.\\
+					\hspace*{0.5em}First: \textit{nava uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Second: \textit{eko uposatho atikkanto, aṭṭha uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Third: \textit{dve uposathā atikkantā, satta uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fourth: \textit{tayo uposathā atikkantā, cha uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fifth: \textit{cattāro uposathā atikkantā, pañca uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Sixth: \textit{pañca uposathā atikkantā, cattāro uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Seventh: \textit{cha uposathā atikkantā, tayo uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Eighth: \textit{satta uposathā atikkantā, dve uposathā avasiṭṭhā.}\\
+					\hspace*{0.5em}Ninth: \textit{aṭṭha uposathā atikkantā, eko uposatho avasiṭṭho.}\\
+					\hspace*{0.5em}Tenth: \textit{nava uposathā atikkantā, dasa uposathā paripuṇṇā.}\\
 					\smallskip
 					During a rainy season with an additional month:\\
-					\hspace*{0.5em}First: aṭṭha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Second: eko uposatho atikkanto, satta ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Third: dve uposathā atikkantā, cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Fourth: tayo uposathā atikkantā, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Fifth: cattāro uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Sixth: pañca uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
-					\hspace*{0.5em}Seventh: cha uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.\\
+					\hspace*{0.5em}First: \textit{aṭṭha ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Second: \textit{eko uposatho atikkanto, satta ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Third: \textit{dve uposathā atikkantā, cha ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fourth: \textit{tayo uposathā atikkantā, pañca ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Fifth: \textit{cattāro uposathā atikkantā, cattāro ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Sixth: \textit{pañca uposathā atikkantā, tayo ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
+					\hspace*{0.5em}Seventh: \textit{cha uposathā atikkantā, dve ca uposathā ekā ca pavāraṇā avasiṭṭhā.}\\
 					\hspace*{0.5em}Eighth: (see the separate section on the Pavāraṇā.)\\
-					\hspace*{0.5em}Ninth: satta ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.\\
-					\hspace*{0.5em}Tenth: aṭṭha ca uposathā ekā ca pavāraṇā atikkantā, nava ca uposathā ekā ca pavāraṇā paripuṇṇā.}}}}}\makeatother \thickspace
+					\hspace*{0.5em}Ninth: \textit{satta ca uposathā ekā ca pavāraṇā atikkantā, eko uposatho avasiṭṭho.}\\
+					\hspace*{0.5em}Tenth: \textit{aṭṭha ca uposathā ekā ca pavāraṇā atikkantā, nava ca uposathā ekā ca pavāraṇā paripuṇṇā.}}}}}}\makeatother \thickspace
 Iti evaṁ sabbehi āyasmantehi utu'kkhānaṁ dhāretabbaṁ.
 
 \begin{center}
 	\anglebracketleft\ \hspace{-0.5mm}Everyone: ``Evaṁ bhante/āvuso'' \hspace{-0.5mm}\anglebracketright\
 \end{center}
-
+% TODO gpt for wrapping text with \textit{}
 \linkdest{endnote7-body}
 Bhikkhugaṇanā nāma imasmiṁ uposath'agge uposath'atthāya sannipatitā bhikkhū ettakā'ti, bhikkhūnaṁ gaṇanā. Imasmiṁ pana uposath'agge cattāro\makeatletter\hyperlink{endnote7-appendix}\Hy@raisedlink{\hypertarget{endnote7-body}{}{\pagenote{%
-			\hypertarget{endnote7-appendix}{\hyperlink{endnote7-body}{Cattāro = four. This should be replaced with the actual number of bhikkhus present. 5 pañca 6 cha 7 satta 8 aṭṭha 9 nava 10 dasa 11 ekādasa 12 dvādasa, bārasa 13 terasa, teḷasa 14 catuddasa, cuddasa
+			\hypertarget{endnote7-appendix}{\hyperlink{endnote7-body}{\textit{Cattāro} = four. This should be replaced with the actual number of bhikkhus present. 5 pañca 6 cha 7 satta 8 aṭṭha 9 nava 10 dasa 11 ekādasa 12 dvādasa, bārasa 13 terasa, teḷasa 14 catuddasa, cuddasa
 					15 paṇṇarasa, pañcadasa 16 soḷasa 17 sattarasa 18 aṭṭhārasa, aṭṭhādasa 19 ekūnavīsati 20 vīsati, vīsa 21 ekavīsati 22 dvāvīsati, dvāvīsa, dvevīsati, bāvīsati, bāvīsa 23 tevīsati 24 catuvīsati 25 pañcavīsati 26 chabbīsati 27 sattavīsati 28 aṭṭhavīsati 29 ekūnatiṁsa 30 tiṁsa, samatiṁsa, tiṁsati 31 ekatiṁsa, ekattiṁsa 32 dvattiṁsa 33 tettiṁsa 34 catuttiṁsa 35 pañcattiṁsa 36 chattiṁsa 37 sattattiṁsa 38 aṭṭhattiṁsa 39 ekūnacattāḷīsa40 cattāḷīsa, cattārīsa 41 ekacattāḷīsa 42 dvacattāḷīsa, dvecattāḷīsa, dvicattāḷīsa 43 tecattāḷīsa 44 catucattāḷīsa 45 pañcacattāḷīsa 46 chacattāḷīsa 47 sattacattāḷīsa 48 aṭṭhacattāḷīsa 49 ekūnapaññāsa 50 paññāsa 51 ekapaññāsa 52 dvapaññāsa, dvepaññāsa, dvipaññāsa 53 tepaññāsa 54 catupaññāsa 55 pañcapaññāsa 56 chapaññāsa 57 sattapaññāsa 58 aṭṭhapaññāsa 59 ekūnasaṭṭhī 60 saṭṭhī, saṭṭhi 61 ekasaṭṭhī 62 dvāsaṭṭhī, dvesaṭṭhī, dvisaṭṭhī 63 tesaṭṭhī 64 catusaṭṭhī 65 pañcasaṭṭhī 66 chasaṭṭhī 67 sattasaṭṭhī 68 aṭṭhasaṭṭhī 69 ekūnasattati 70 sattati 71 ekasattati 72 dvasattati, dvāsattati, dvesattati, dvisattati 73 tesattati 74 catusattati 75 pañcasattati 76 chasattati 77 sattasattati 78 aṭṭhasattati 79 ekūnāsīti 80 asīti 81 ekāsīti 82 dvāsīti 83 tayāsīti 84 caturāsīti 85 pañcāsīti 86 chaḷāsīti 87 sattāsīti 88 aṭṭhāsīti 89 ekūnanavuti 90 navuti 91 ekanavuti 92 dvanavuti, dvenavuti 93 tenavuti 94 catunavuti 95 pañcanavuti 96 chanavuti 97 sattanavuti 98 aṭṭhanavuti 99 ekūnasataṁ 100 bhikkhusataṁ 101 ekuttara-bhikkhusataṁ 102 dvayuttara-bhikkhusataṁ 103 tayuttara-bhikkhusataṁ 104 catuttara-bhikkhusataṁ 105 pañcuttara-bhikkhusataṁ 106 chaḷuttara-bhikkhusataṁ 107 sattuttara-bhikkhusataṁ 108 aṭṭhuttara-bhikkhusataṁ 109 navuttara-bhikkhusataṁ 110 dasuttara-bhikkhusataṁ 120 vīsuttara-bhikkhusataṁ 130 tiṁsuttara-bhikkhusataṁ 140 cattāḷīsuttara-bhikkhusataṁ 150 paññāsuttara-bhikkhusataṁ 160 saṭṭhayuttara-bhikkhusataṁ 170 sattatyuttara-bhikkhusataṁ 180 asītyuttara-bhikkhusataṁ 190 navutyuttara-bhikkhusataṁ 199 ekūnasatuttara-bhikkhusataṁ 200 dve bhikkhu-satāni 201 ekuttarāni dve bhikkhu-satāni 300 tayo bhikkhu-satāni 400 cattāro bhikkhu-satāni 500 pañca bhikkhu-satāni
 					\smallskip
-					All numbers ending with ``bhikkhusataṁ'' should be followed by ``sannipatitaṁ hoti''.
+					All numbers ending with \textit{``bhikkhusataṁ''} should be followed by \textit{``sannipatitaṁ hoti''}.
 					\smallskip
-					All numbers ending with ``bhikkhusatāni'' should be followed by ``sannipatitā honti''.}}}}}\makeatother \thickspace
+					All numbers ending with \textit{``bhikkhusatāni''} should be followed by \textit{``sannipatitā honti''}.}}}}}\makeatother \thickspace
 bhikkhū sannipatitā honti. \ifafiveversion\\\fi Iti sabbehi āyasmantehi bhikkhugaṇanā'pi dhāretabbā.
 
 \ifafiveversion
@@ -402,12 +382,12 @@ Uposathakammassa pattakallattaṁ viditvā idāni kariyamāno uposatho saṅghen
 
 #+end_src
 
-** Nidān'uddeso
+** Nidān'uddesa
 
-#+begin_src latex :tangle ./tex/pali/nidan'uddeso.tex
+#+begin_src latex :tangle ./tex/pali/nidan'uddesa.tex
 
-\section{Nidān'uddeso}
-\label{nidan'uddeso}
+\section{Nidān'uddesa}
+\label{nidan'uddesa}
 
 \ifninebythirteenversion\vspace{0.2em}\fi
 \ifafiveversion\vspace{0.2em}\fi
@@ -475,12 +455,12 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 
 #+end_src
 
-** Pārājik'uddeso
-*** Pārājika 1: Methunadhammasikkhāpadaṁ
+** Pārājik'uddesa
+*** Pārājika 1: Methunadhammasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
-\section{Pārājik'uddeso}
+\section{Pārājik'uddesa}
 \label{par}
 
 \linkdest{endnote26-body}
@@ -491,7 +471,7 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[2]{Pārājika 1}{par1}
-\subsection*{\hyperref[disq1]{Pārājika 1: Methunadhammasikkhāpadaṁ}}
+\subsection*{\hyperref[disq1]{Pārājika 1: Methunadhammasikkhāpada}}
 \label{par1}
 
 \linkdest{endnote27-body}
@@ -506,12 +486,12 @@ Yo pana bhikkhu bhikkhūnaṁ\makeatletter\hyperlink{endnote27-appendix}\Hy@rais
 
 #+end_src
 
-*** Pārājika 2: Adinn'ādānasikkhāpadaṁ
+*** Pārājika 2: Adinn'ādānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 2}{par2}
-\subsection*{\hyperref[disq2]{Pārājika 2: Adinn'ādānasikkhāpadaṁ}}
+\subsection*{\hyperref[disq2]{Pārājika 2: Adinn'ādānasikkhāpada}}
 \label{par2}
 
 \linkdest{endnote31-body}
@@ -520,12 +500,12 @@ Yo pana bhikkhu gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyeyy
 
 #+end_src
 
-*** Pārājika 3: Manussaviggahasikkhāpadaṁ
+*** Pārājika 3: Manussaviggahasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 3}{par3}
-\subsection*{\hyperref[disq3]{Pārājika 3: Manussaviggahasikkhāpadaṁ}}
+\subsection*{\hyperref[disq3]{Pārājika 3: Manussaviggahasikkhāpada}}
 \label{par3}
 
 \linkdest{endnote32-body}
@@ -534,12 +514,12 @@ Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya, satthahārakaṁ
 
 #+end_src
 
-*** Pārājika 4: Uttarimanussadhammasikkhāpadaṁ
+*** Pārājika 4: Uttarimanussadhammasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 4}{par4}
-\subsection*{\hyperref[disq4]{Pārājika 4: Uttarimanussadhammasikkhāpadaṁ}}
+\subsection*{\hyperref[disq4]{Pārājika 4: Uttarimanussadhammasikkhāpada}}
 
 \label{par4}
 
@@ -588,13 +568,13 @@ Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ att'ūpanāyikaṁ alam'ar
 
 #+end_src
 
-** Saṅghādises'uddeso
-*** Saṅghādisesa 1: Sukkavissaṭṭhisikkhāpadaṁ
+** Saṅghādises'uddesa
+*** Saṅghādisesa 1: Sukkavissaṭṭhisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \setsecheadstyle{\sectionFmt}
-\section{Saṅghādises'uddeso}
+\section{Saṅghādises'uddesa}
 \label{sd}
 
 \begin{intro}
@@ -602,7 +582,7 @@ Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ att'ūpanāyikaṁ alam'ar
 \end{intro}
 
 \pdfbookmark[2]{Saṅghādisesa 1}{sd1}
-\subsection*{\hyperref[comm1]{Saṅghādisesa 1: Sukkavissaṭṭhisikkhāpadaṁ}}
+\subsection*{\hyperref[comm1]{Saṅghādisesa 1: Sukkavissaṭṭhisikkhāpada}}
 
 \label{sd1}
 
@@ -612,12 +592,12 @@ Sañcetanikā sukkavisaṭṭhi,\makeatletter\hyperlink{endnote38-appendix}\Hy@r
 
 #+end_src
 
-*** Saṅghādisesa 2: Kāyasaṁsaggasikkhāpadaṁ
+*** Saṅghādisesa 2: Kāyasaṁsaggasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 2}{sd2}
-\subsection*{\hyperref[comm2]{Saṅghādisesa 2: Kāyasaṁsaggasikkhāpadaṁ}}
+\subsection*{\hyperref[comm2]{Saṅghādisesa 2: Kāyasaṁsaggasikkhāpada}}
 \label{sd2}
 
 \linkdest{endnote39-body}
@@ -628,12 +608,12 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmena saddhiṁ kāyasa
 
 #+end_src
 
-*** Saṅghādisesa 3: Duṭṭhullavācāsikkhāpadaṁ
+*** Saṅghādisesa 3: Duṭṭhullavācāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 3}{sd3}
-\subsection*{\hyperref[comm3]{Saṅghādisesa 3: Duṭṭhullavācāsikkhāpadaṁ}}
+\subsection*{\hyperref[comm3]{Saṅghādisesa 3: Duṭṭhullavācāsikkhāpada}}
 \label{sd3}
 
 \linkdest{endnote41-body}
@@ -644,12 +624,12 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi
 
 #+end_src
 
-*** Saṅghādisesa 4: Attakāmapāricariyasikkhāpadaṁ
+*** Saṅghādisesa 4: Attakāmapāricariyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 4}{sd4}
-\subsection*{\hyperref[comm4]{Saṅghādisesa 4: Attakāmapāricariyasikkhāpadaṁ}}
+\subsection*{\hyperref[comm4]{Saṅghādisesa 4: Attakāmapāricariyasikkhāpada}}
 \label{sd4}
 
 \linkdest{endnote43-body}
@@ -660,12 +640,12 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmassa santike attakām
 
 #+end_src
 
-*** Saṅghādisesa 5: Sañcarittasikkhāpadaṁ
+*** Saṅghādisesa 5: Sañcarittasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 5}{sd5}
-\subsection*{\hyperref[comm5]{Saṅghādisesa 5: Sañcarittasikkhāpadaṁ}}
+\subsection*{\hyperref[comm5]{Saṅghādisesa 5: Sañcarittasikkhāpada}}
 \label{sd5}
 
 \linkdest{endnote45-body}
@@ -676,12 +656,12 @@ Yo pana bhikkhu sañcarittaṁ samāpajjeyya, itthiyā vā purisamatiṁ purisas
 
 #+end_src
 
-*** Saṅghādisesa 6: Kuṭikārasikkhāpadaṁ
+*** Saṅghādisesa 6: Kuṭikārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 6}{sd6}
-\subsection*{\hyperref[comm6]{Saṅghādisesa 6: Kuṭikārasikkhāpadaṁ}}
+\subsection*{\hyperref[comm6]{Saṅghādisesa 6: Kuṭikārasikkhāpada}}
 \label{sd6}
 
 \linkdest{endnote47-body}
@@ -704,12 +684,12 @@ Saññācikāya\makeatletter\hyperlink{endnote47-appendix}\Hy@raisedlink{\hypert
 
 #+end_src
 
-*** Saṅghādisesa 7: Vihārakārasikkhāpadaṁ
+*** Saṅghādisesa 7: Vihārakārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 7}{sd7}
-\subsection*{\hyperref[comm7]{Saṅghādisesa 7: Vihārakārasikkhāpadaṁ}}
+\subsection*{\hyperref[comm7]{Saṅghādisesa 7: Vihārakārasikkhāpada}}
 \label{sd7}
 
 \linkdest{endnote55-body}
@@ -724,12 +704,12 @@ Mahallakaṁ pana\makeatletter\hyperlink{endnote55-appendix}\Hy@raisedlink{\hype
 
 #+end_src
 
-*** Saṅghādisesa 8: Duṭṭhadosasikkhāpadaṁ
+*** Saṅghādisesa 8: Duṭṭhadosasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 8}{sd8}
-\subsection*{\hyperref[comm8]{Saṅghādisesa 8: Duṭṭhadosasikkhāpadaṁ}}
+\subsection*{\hyperref[comm8]{Saṅghādisesa 8: Duṭṭhadosasikkhāpada}}
 \label{sd8}
 
 \linkdest{endnote59-body}
@@ -742,12 +722,12 @@ Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto amūlakena pārājikena dha
 
 #+end_src
 
-*** Saṅghādisesa 9: Aññabhāgiyasikkhāpadaṁ
+*** Saṅghādisesa 9: Aññabhāgiyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 9}{sd9}
-\subsection*{\hyperref[comm9]{Saṅghādisesa 9: Aññabhāgiyasikkhāpadaṁ}}
+\subsection*{\hyperref[comm9]{Saṅghādisesa 9: Aññabhāgiyasikkhāpada}}
 \label{sd9}
 
 \linkdest{endnote62-body}
@@ -762,12 +742,12 @@ Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto aññabhāgiyassa adhikara�
 
 #+end_src
 
-*** Saṅghādisesa 10: Saṅghabhedasikkhāpadaṁ
+*** Saṅghādisesa 10: Saṅghabhedasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 10}{sd10}
-\subsection*{\hyperref[comm10]{Saṅghādisesa 10: Saṅghabhedasikkhāpadaṁ}}
+\subsection*{\hyperref[comm10]{Saṅghādisesa 10: Saṅghabhedasikkhāpada}}
 \label{sd10}
 
 \linkdest{endnote66-body}
@@ -786,12 +766,12 @@ and Pāc 68.}}}}}\makeatother \thinspace saṅghādiseso.
 
 #+end_src
 
-*** Saṅghādisesa 11: Bhed'ānuvattakasikkhāpadaṁ
+*** Saṅghādisesa 11: Bhed'ānuvattakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 11}{sd11}
-\subsection*{\hyperref[comm11]{Saṅghādisesa 11: Bhed'ānuvattakasikkhāpadaṁ}}
+\subsection*{\hyperref[comm11]{Saṅghādisesa 11: Bhed'ānuvattakasikkhāpada}}
 \label{sd11}
 
 \linkdest{endnote71-body}
@@ -818,12 +798,12 @@ Tass'eva kho pana bhikkhussa bhikkhū honti anuvattakā vaggavādakā, eko vā d
 
 #+end_src
 
-*** Saṅghādisesa 12: Dubbacasikkhāpadaṁ
+*** Saṅghādisesa 12: Dubbacasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 12}{sd12}
-\subsection*{\hyperref[comm12]{Saṅghādisesa 12: Dubbacasikkhāpadaṁ}}
+\subsection*{\hyperref[comm12]{Saṅghādisesa 12: Dubbacasikkhāpada}}
 \label{sd12}
 
 \linkdest{endnote81-body}
@@ -848,12 +828,12 @@ and Pāc 68.}}}}}\makeatother \thinspace saṅghādiseso.
 
 #+end_src
 
-*** Saṅghādisesa 13: Kuladūsakasikkhāpadaṁ
+*** Saṅghādisesa 13: Kuladūsakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 13}{sd13}
-\subsection*{\hyperref[comm13]{Saṅghādisesa 13: Kuladūsakasikkhāpadaṁ}}
+\subsection*{\hyperref[comm13]{Saṅghādisesa 13: Kuladūsakasikkhāpada}}
 \label{sd13}
 
 \linkdest{endnote89-body}
@@ -905,13 +885,13 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 \linkdest{endnote111-body}
 \begin{center}
 	Uddiṭṭhā kho āyasmanto terasa saṅghādisesā dhammā, nava paṭham'āpattikā\makeatletter\hyperlink{endnote103-appendix}\Hy@raisedlink{\hypertarget{endnote103-body}{}{\pagenote{%
-		\hypertarget{endnote103-appendix}{\hyperlink{endnote103-body}{V: \textit{patham-}}}}}}\makeatother \thinspace cattāro yāvatatiyakā. Yesaṁ bhikkhu aññataraṁ vā aññataraṁ vā āpajjitvā, yāvat'ihaṁ\makeatletter\hyperlink{endnote104-appendix}\Hy@raisedlink{\hypertarget{endnote104-body}{}{\pagenote{%
+		\hypertarget{endnote103-appendix}{\hyperlink{endnote103-body}{V: \textit{patham-}.}}}}}\makeatother \thinspace cattāro yāvatatiyakā. Yesaṁ bhikkhu aññataraṁ vā aññataraṁ vā āpajjitvā, yāvat'ihaṁ\makeatletter\hyperlink{endnote104-appendix}\Hy@raisedlink{\hypertarget{endnote104-body}{}{\pagenote{%
 		\hypertarget{endnote104-appendix}{\hyperlink{endnote104-body}{Be, UP, G, V: \textit{yāvatīhaṁ}.}}}}}\makeatother \thinspace jānaṁ paṭicchādeti, tāvat'ihaṁ\makeatletter\hyperlink{endnote105-appendix}\Hy@raisedlink{\hypertarget{endnote105-body}{}{\pagenote{%
 		\hypertarget{endnote105-appendix}{\hyperlink{endnote105-body}{Be, UP, G, V: \textit{tāvatīhaṁ}.}}}}}\makeatother \thinspace tena bhikkhunā akāmā parivatthabbaṁ.\makeatletter\hyperlink{endnote106-appendix}\Hy@raisedlink{\hypertarget{endnote106-body}{}{\pagenote{%
 		\hypertarget{endnote106-appendix}{\hyperlink{endnote106-body}{V: \textit{parivaṭṭhabbaṁ}.}}}}}\makeatother \thinspace Parivutthaparivāsena\makeatletter\hyperlink{endnote107-appendix}\Hy@raisedlink{\hypertarget{endnote107-body}{}{\pagenote{%
 		\hypertarget{endnote107-appendix}{\hyperlink{endnote107-body}{V: \textit{parivuṭṭha-}.}}}}}\makeatother \thinspace bhikkhunā uttariṁ\makeatletter\hyperlink{endnote108-appendix}\Hy@raisedlink{\hypertarget{endnote108-body}{}{\pagenote{%
 		\hypertarget{endnote108-appendix}{\hyperlink{endnote108-body}{Dm, SVibh Ce, Um: \textit{uttari}.}}}}}\makeatother \thinspace chārattaṁ bhikkhumānattāya paṭipajjitabbaṁ. Ciṇṇamānatto bhikkhu, yattha siyā vīsatigaṇo bhikkhusaṅgho,\makeatletter\hyperlink{endnote109-appendix}\Hy@raisedlink{\hypertarget{endnote109-body}{}{\pagenote{%
-		\hypertarget{endnote109-appendix}{\hyperlink{endnote109-body}{BhPm 1, C, V, W: \textit{-saṁgho}}}}}}\makeatother \thinspace tattha so bhikkhu\makeatletter\hyperlink{endnote110-appendix}\Hy@raisedlink{\hypertarget{endnote110-body}{}{\pagenote{%
+		\hypertarget{endnote109-appendix}{\hyperlink{endnote109-body}{BhPm 1, C, V, W: \textit{-saṁgho}.}}}}}\makeatother \thinspace tattha so bhikkhu\makeatletter\hyperlink{endnote110-appendix}\Hy@raisedlink{\hypertarget{endnote110-body}{}{\pagenote{%
 		\hypertarget{endnote110-appendix}{\hyperlink{endnote110-body}{Mi v.l.: bhikkhu \textit{bhikkhūhi}.}}}}}\makeatother \thinspace abbhetabbo. Ekena'pi ce ūno\makeatletter\hyperlink{endnote111-appendix}\Hy@raisedlink{\hypertarget{endnote111-body}{}{\pagenote{%
 		\hypertarget{endnote111-appendix}{\hyperlink{endnote111-body}{V, Bh Pm 2 (syāma) v.l: \textit{ono}. Um, G: \textit{ūṇo}.}}}}}\makeatother \thinspace vīsatigaṇo bhikkhusaṅgho taṁ bhikkhuṁ abbheyya, so ca bhikkhu anabbhito, te ca bhikkhū gārayhā. Ayaṁ tattha sāmīci.
 
@@ -937,12 +917,12 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 
 #+end_src
 
-** Aniyat'uddeso
-*** Aniyata 1: Paṭhama-aniyatasikkhāpadaṁ
+** Aniyat'uddesa
+*** Aniyata 1: Paṭhama-aniyatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/aniyata.tex
 
-\section{Aniyat'uddeso}
+\section{Aniyat'uddesa}
 \label{aniy}
 
 \begin{intro}
@@ -950,7 +930,7 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 \end{intro}
 
 \pdfbookmark[2]{Aniyata 1}{aniy1}
-\subsection*{\hyperref[unc1]{Aniyata 1: Paṭhama-aniyatasikkhāpadaṁ}}
+\subsection*{\hyperref[unc1]{Aniyata 1: Paṭhama-aniyatasikkhāpada}}
 \label{aniy1}
 
 \linkdest{endnote114-body}
@@ -959,12 +939,12 @@ Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho paṭicchanne āsane ala�
 
 #+end_src
 
-*** Aniyata 2: Dutiya-aniyatasikkhāpadaṁ
+*** Aniyata 2: Dutiya-aniyatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/aniyata.tex
 
 \pdfbookmark[2]{Aniyata 2}{aniy2}
-\subsection*{\hyperref[unc2]{Aniyata 2: Dutiya-aniyatasikkhāpadaṁ}}
+\subsection*{\hyperref[unc2]{Aniyata 2: Dutiya-aniyatasikkhāpada}}
 \label{aniy2}
 
 \linkdest{endnote115-body}
@@ -1007,8 +987,8 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 #+end_src
 
 ** Nissaggiyapācittiyā
-*** Cīvaravaggo
-**** Nissaggiya Pācittiya 1: Kaṭhinasikkhāpadaṁ
+*** Cīvaravagga
+**** Nissaggiya Pācittiya 1: Kaṭhinasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
@@ -1020,10 +1000,10 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
-\subsection{Cīvaravaggo}
+\subsection{Cīvaravagga}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 1}{np1}
-\subsubsection*{\hyperref[forf-exp1]{Nissaggiya Pācittiya 1: Kaṭhinasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp1]{Nissaggiya Pācittiya 1: Kaṭhinasikkhāpada}}
 \label{np1}
 
 \linkdest{endnote119-body}
@@ -1034,12 +1014,12 @@ Niṭṭhitacīvarasmiṁ\makeatletter\hyperlink{endnote119-appendix}\Hy@raisedl
 
 #+end_src
 
-**** Nissaggiya Pācittiya 2: Uddositasikkhāpadaṁ
+**** Nissaggiya Pācittiya 2: Uddositasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 2}{np2}
-\subsubsection*{\hyperref[forf-exp2]{Nissaggiya Pācittiya 2: Uddositasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp2]{Nissaggiya Pācittiya 2: Uddositasikkhāpada}}
 \label{np2}
 
 \linkdest{endnote121-body}
@@ -1049,17 +1029,17 @@ Niṭṭhitacīvarasmiṁ\makeatletter\hyperlink{endnote119-appendix}\Hy@raisedl
 Niṭṭhitacīvarasmiṁ\makeatletter\hyperlink{endnote121-appendix}\Hy@raisedlink{\hypertarget{endnote121-body}{}{\pagenote{%
 		\hypertarget{endnote121-appendix}{\hyperlink{endnote121-body}{BhPm 1 \& 2, C, D, W, Ra, UP v.l: \textit{niṭṭhitacīvarasmiṁ pana}.}}}}}\makeatother \thinspace bhikkhunā ubbhatasmiṁ kaṭhine,\makeatletter\hyperlink{endnote122-appendix}\Hy@raisedlink{\hypertarget{endnote122-body}{}{\pagenote{%
 		\hypertarget{endnote122-appendix}{\hyperlink{endnote122-body}{Dm: \textit{kathine}.}}}}}\makeatother \thinspace ekarattam'pi\makeatletter\hyperlink{endnote123-appendix}\Hy@raisedlink{\hypertarget{endnote123-body}{}{\pagenote{%
-		\hypertarget{endnote123-appendix}{\hyperlink{endnote123-body}{D, G, P: \textit{-rattim-pi.}}}}}}\makeatother \thinspace ce bhikkhu ticīvarena vippavaseyya, aññatra bhikkhusammutiyā,\makeatletter\hyperlink{endnote124-appendix}\Hy@raisedlink{\hypertarget{endnote124-body}{}{\pagenote{%
+		\hypertarget{endnote123-appendix}{\hyperlink{endnote123-body}{D, G, P: \textit{-rattim-pi.}.}}}}}\makeatother \thinspace ce bhikkhu ticīvarena vippavaseyya, aññatra bhikkhusammutiyā,\makeatletter\hyperlink{endnote124-appendix}\Hy@raisedlink{\hypertarget{endnote124-body}{}{\pagenote{%
 		\hypertarget{endnote124-appendix}{\hyperlink{endnote124-body}{Mi \& Mm Se, BhPm 1 v.l: \textit{sammatiyā}. (BhPm 2 has \textit{-sammatiyā} at NP 14) (Pg: \textit{-sammutiyā}.)}}}}}\makeatother \thinspace nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 3: Akālacīvarasikkhāpadaṁ
+**** Nissaggiya Pācittiya 3: Akālacīvarasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 3}{np3}
-\subsubsection*{\hyperref[forf-exp3]{Nissaggiya Pācittiya 3: Akālacīvarasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp3]{Nissaggiya Pācittiya 3: Akālacīvarasikkhāpada}}
 \label{np3}
 
 \linkdest{endnote125-body}
@@ -1076,12 +1056,12 @@ Niṭṭhitacīvarasmiṁ\makeatletter\hyperlink{endnote125-appendix}\Hy@raisedl
 
 #+end_src
 
-**** Nissaggiya Pācittiya 4: Purāṇacīvarasikkhāpadaṁ
+**** Nissaggiya Pācittiya 4: Purāṇacīvarasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 4}{np4}
-\subsubsection*{\hyperref[forf-exp4]{Nissaggiya Pācittiya 4: Purāṇacīvarasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp4]{Nissaggiya Pācittiya 4: Purāṇacīvarasikkhāpada}}
 \label{np4}
 
 \linkdest{endnote130-body}
@@ -1090,12 +1070,12 @@ Yo pana bhikkhu aññātikāya\makeatletter\hyperlink{endnote130-appendix}\Hy@ra
 
 #+end_src
 
-**** Nissaggiya Pācittiya 5: Cīvarappaṭiggahaṇasikkhāpadaṁ
+**** Nissaggiya Pācittiya 5: Cīvarappaṭiggahaṇasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 5}{np5}
-\subsubsection*{\hyperref[forf-exp5]{Nissaggiya Pācittiya 5: Cīvarappaṭiggahaṇasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp5]{Nissaggiya Pācittiya 5: Cīvarappaṭiggahaṇasikkhāpada}}
 \label{np5}
 
 \linkdest{endnote131-body}
@@ -1108,12 +1088,12 @@ Yo pana bhikkhu aññātikāya\makeatletter\hyperlink{endnote131-appendix}\Hy@ra
 
 #+end_src
 
-**** Nissaggiya Pācittiya 6: Aññātakaviññattisikkhāpadaṁ
+**** Nissaggiya Pācittiya 6: Aññātakaviññattisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 6}{np6}
-\subsubsection*{\hyperref[forf-exp6]{Nissaggiya Pācittiya 6: Aññātakaviññattisikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp6]{Nissaggiya Pācittiya 6: Aññātakaviññattisikkhāpada}}
 \label{np6}
 
 \linkdest{endnote134-body}
@@ -1122,12 +1102,12 @@ Yo pana bhikkhu aññātakaṁ\makeatletter\hyperlink{endnote134-appendix}\Hy@ra
 
 #+end_src
 
-**** Nissaggiya Pācittiya 7: Tat'uttarisikkhāpadaṁ
+**** Nissaggiya Pācittiya 7: Tat'uttarisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 7}{np7}
-\subsubsection*{\hyperref[forf-exp7]{Nissaggiya Pācittiya 7: Tat'uttarisikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp7]{Nissaggiya Pācittiya 7: Tat'uttarisikkhāpada}}
 \label{np7}
 
 \linkdest{endnote135-body}
@@ -1140,12 +1120,12 @@ Tañ'ce aññātako gahapati vā gahapatānī vā bahūhi cīvarehi abhihaṭṭ
 
 #+end_src
 
-**** Nissaggiya Pācittiya 8: Paṭhama-upakkhaṭasikkhāpadaṁ
+**** Nissaggiya Pācittiya 8: Paṭhama-upakkhaṭasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 8}{np8}
-\subsubsection*{\hyperref[forf-exp8]{Nissaggiya Pācittiya 8: Paṭhama-upakkhaṭasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp8]{Nissaggiya Pācittiya 8: Paṭhama-upakkhaṭasikkhāpada}}
 \label{np8}
 
 \linkdest{endnote138-body}
@@ -1164,12 +1144,12 @@ Bhikkhuṁ pan'eva uddissa aññātakassa\makeatletter\hyperlink{endnote138-appe
 
 #+end_src
 
-**** Nissaggiya Pācittiya 9: Dutiya-upakkhaṭasikkhāpadaṁ
+**** Nissaggiya Pācittiya 9: Dutiya-upakkhaṭasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 9}{np9}
-\subsubsection*{\hyperref[forf-exp9]{Nissaggiya Pācittiya 9: Dutiya-upakkhaṭasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp9]{Nissaggiya Pācittiya 9: Dutiya-upakkhaṭasikkhāpada}}
 \label{np9}
 
 \linkdest{endnote144-body}
@@ -1191,12 +1171,12 @@ Pg: \textit{-cetāpannā upakkhaṭā}.}}}}}\makeatother \thinspace honti: ``Ime
 
 #+end_src
 
-**** Nissaggiya Pācittiya 10: Rājasikkhāpadaṁ
+**** Nissaggiya Pācittiya 10: Rājasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 10}{np10}
-\subsubsection*{\hyperref[forf-exp10]{Nissaggiya Pācittiya 10: Rājasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp10]{Nissaggiya Pācittiya 10: Rājasikkhāpada}}
 \label{np10}
 
 \linkdest{endnote151-body}
@@ -1261,28 +1241,28 @@ Bhikkhuṁ pan'eva uddissa rājā vā rājabhoggo\makeatletter\hyperlink{endnote
 
 #+end_src
 
-*** Eḷakalomavaggo
-**** Nissaggiya Pācittiya 11: Kosiyasikkhāpadaṁ
+*** Eḷakalomavagga
+**** Nissaggiya Pācittiya 11: Kosiyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
-\subsection{Eḷakalomavaggo}
+\subsection{Eḷakalomavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 11}{np11}
-\subsubsection*{\hyperref[forf-exp11]{Nissaggiya Pācittiya 11: Kosiyasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp11]{Nissaggiya Pācittiya 11: Kosiyasikkhāpada}}
 \label{np11}
 
 Yo pana bhikkhu kosiyamissakaṁ santhataṁ kārāpeyya, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 12: Suddhakāḷakasikkhāpadaṁ
+**** Nissaggiya Pācittiya 12: Suddhakāḷakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 12}{np12}
-\subsubsection*{\hyperref[forf-exp12]{Nissaggiya Pācittiya 12: Suddhakāḷakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp12]{Nissaggiya Pācittiya 12: Suddhakāḷakasikkhāpada}}
 \label{np12}
 
 \linkdest{endnote178-body}
@@ -1291,12 +1271,12 @@ Yo pana bhikkhu suddhakāḷakānaṁ eḷakalomānaṁ santhataṁ\makeatletter
 
 #+end_src
 
-**** Nissaggiya Pācittiya 13: Dvebhāgasikkhāpadaṁ
+**** Nissaggiya Pācittiya 13: Dvebhāgasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 13}{np13}
-\subsubsection*{\hyperref[forf-exp13]{Nissaggiya Pācittiya 13: Dvebhāgasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp13]{Nissaggiya Pācittiya 13: Dvebhāgasikkhāpada}}
 \label{np13}
 
 \linkdest{endnote179-body}
@@ -1307,12 +1287,12 @@ Navaṁ pana***Mi Se, C, G, V, W: navam-pana. bhikkhunā santhataṁ\makeatlette
 
 #+end_src
 
-**** Nissaggiya Pācittiya 14: Chabbassasikkhāpadaṁ
+**** Nissaggiya Pācittiya 14: Chabbassasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 14}{np14}
-\subsubsection*{\hyperref[forf-exp14]{Nissaggiya Pācittiya 14: Chabbassasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp14]{Nissaggiya Pācittiya 14: Chabbassasikkhāpada}}
 \label{np14}
 
 \linkdest{endnote181-body}
@@ -1335,12 +1315,12 @@ Navaṁ pana\makeatletter\hyperlink{endnote181-appendix}\Hy@raisedlink{\hypertar
 
 #+end_src
 
-**** Nissaggiya Pācittiya 15: Nisīdanasanthatasikkhāpadaṁ
+**** Nissaggiya Pācittiya 15: Nisīdanasanthatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 15}{np15}
-\subsubsection*{\hyperref[forf-exp15]{Nissaggiya Pācittiya 15: Nisīdanasanthatasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp15]{Nissaggiya Pācittiya 15: Nisīdanasanthatasikkhāpada}}
 \label{np15}
 
 \linkdest{endnote189-body}
@@ -1357,12 +1337,12 @@ Nisīdanasanthataṁ\makeatletter\hyperlink{endnote189-appendix}\Hy@raisedlink{\
 
 #+end_src
 
-**** Nissaggiya Pācittiya 16: Eḷakalomasikkhāpadaṁ
+**** Nissaggiya Pācittiya 16: Eḷakalomasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 16}{np16}
-\subsubsection*{\hyperref[forf-exp16]{Nissaggiya Pācittiya 16: Eḷakalomasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp16]{Nissaggiya Pācittiya 16: Eḷakalomasikkhāpada}}
 \label{np16}
 
 \linkdest{endnote194-body}
@@ -1377,48 +1357,48 @@ paṭipannassa}.}}}}}\makeatother \thinspace eḷakalomāni uppajjeyyuṁ, āka�
 
 #+end_src
 
-**** Nissaggiya Pācittiya 17: Eḷakalomadhovāpanasikkhāpadaṁ
+**** Nissaggiya Pācittiya 17: Eḷakalomadhovāpanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 17}{np17}
-\subsubsection*{\hyperref[forf-exp17]{Nissaggiya Pācittiya 17: Eḷakalomadhovāpanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp17]{Nissaggiya Pācittiya 17: Eḷakalomadhovāpanasikkhāpada}}
 \label{np17}
 
 Yo pana bhikkhu aññātikāya bhikkhuniyā eḷakalomāni dhovāpeyya vā rajāpeyya vā vijaṭāpeyya vā, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 18: Rūpiyasikkhāpadaṁ
+**** Nissaggiya Pācittiya 18: Rūpiyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 18}{np18}
-\subsubsection*{\hyperref[forf-exp18]{Nissaggiya Pācittiya 18: Rūpiyasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp18]{Nissaggiya Pācittiya 18: Rūpiyasikkhāpada}}
 \label{np18}
 
 Yo pana bhikkhu jātarūparajataṁ uggaṇheyya vā uggaṇhāpeyya vā upanikkhittaṁ vā sādiyeyya, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 19: Rūpiyasaṁvohārasikkhāpadaṁ
+**** Nissaggiya Pācittiya 19: Rūpiyasaṁvohārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 19}{np19}
-\subsubsection*{\hyperref[forf-exp19]{Nissaggiya Pācittiya 19: Rūpiyasaṁvohārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp19]{Nissaggiya Pācittiya 19: Rūpiyasaṁvohārasikkhāpada}}
 \label{np19}
 
 Yo pana bhikkhu nānappakārakaṁ rūpiyasaṁvohāraṁ samāpajjeyya, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 20: Kayavikkayasikkhāpadaṁ
+**** Nissaggiya Pācittiya 20: Kayavikkayasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 20}{np20}
-\subsubsection*{\hyperref[forf-exp20]{Nissaggiya Pācittiya 20: Kayavikkayasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp20]{Nissaggiya Pācittiya 20: Kayavikkayasikkhāpada}}
 \label{np20}
 
 Yo pana bhikkhu nānappakārakaṁ kayavikkayaṁ samāpajjeyya, nissaggiyaṁ pācittiyaṁ.
@@ -1431,28 +1411,28 @@ Yo pana bhikkhu nānappakārakaṁ kayavikkayaṁ samāpajjeyya, nissaggiyaṁ p
 
 #+end_src
 
-*** Pattavaggo
-**** Nissaggiya Pācittiya 21: Pattasikkhāpadaṁ
+*** Pattavagga
+**** Nissaggiya Pācittiya 21: Pattasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
-\subsection{Pattavaggo}
+\subsection{Pattavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 21}{np21}
-\subsubsection*{\hyperref[forf-exp21]{Nissaggiya Pācittiya 21: Pattasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp21]{Nissaggiya Pācittiya 21: Pattasikkhāpada}}
 \label{np21}
 
 Das'āhaparamaṁ atirekapatto dhāretabbo. Taṁ atikkāmayato, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 22: Ūnapañcabandhanasikkhāpadaṁ
+**** Nissaggiya Pācittiya 22: Ūnapañcabandhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 22}{np22}
-\subsubsection*{\hyperref[forf-exp22]{Nissaggiya Pācittiya 22: Ūnapañcabandhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp22]{Nissaggiya Pācittiya 22: Ūnapañcabandhanasikkhāpada}}
 \label{np22}
 
 \linkdest{endnote198-body}
@@ -1467,12 +1447,12 @@ Yo pana bhikkhu ūnapañcabandhanena\makeatletter\hyperlink{endnote198-appendix}
 
 #+end_src
 
-**** Nissaggiya Pācittiya 23: Bhesajjasikkhāpadaṁ
+**** Nissaggiya Pācittiya 23: Bhesajjasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 23}{np23}
-\subsubsection*{\hyperref[forf-exp23]{Nissaggiya Pācittiya 23: Bhesajjasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp23]{Nissaggiya Pācittiya 23: Bhesajjasikkhāpada}}
 \label{np23}
 
 \linkdest{endnote202-body}
@@ -1487,12 +1467,12 @@ Yāni kho pana tāni gilānānaṁ\makeatletter\hyperlink{endnote202-appendix}\H
 
 #+end_src
 
-**** Nissaggiya Pācittiya 24: Vassikasāṭikasikkhāpadaṁ
+**** Nissaggiya Pācittiya 24: Vassikasāṭikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 24}{np24}
-\subsubsection*{\hyperref[forf-exp24]{Nissaggiya Pācittiya 24: Vassikasāṭikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp24]{Nissaggiya Pācittiya 24: Vassikasāṭikasikkhāpada}}
 \label{np24}
 
 \linkdest{endnote206-body}
@@ -1503,12 +1483,12 @@ Yāni kho pana tāni gilānānaṁ\makeatletter\hyperlink{endnote202-appendix}\H
 
 #+end_src
 
-**** Nissaggiya Pācittiya 25: Cīvara-acchindanasikkhāpadaṁ
+**** Nissaggiya Pācittiya 25: Cīvara-acchindanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 25}{np25}
-\subsubsection*{\hyperref[forf-exp25]{Nissaggiya Pācittiya 25: Cīvara-acchindanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp25]{Nissaggiya Pācittiya 25: Cīvara-acchindanasikkhāpada}}
 \label{np25}
 
 \linkdest{endnote208-body}
@@ -1517,24 +1497,24 @@ Yo pana bhikkhu bhikkhussa sāmaṁ cīvaraṁ datvā kupito\makeatletter\hyperl
 
 #+end_src
 
-**** Nissaggiya Pācittiya 26: Suttaviññattisikkhāpadaṁ
+**** Nissaggiya Pācittiya 26: Suttaviññattisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 26}{np26}
-\subsubsection*{\hyperref[forf-exp26]{Nissaggiya Pācittiya 26: Suttaviññattisikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp26]{Nissaggiya Pācittiya 26: Suttaviññattisikkhāpada}}
 \label{np26}
 
 Yo pana bhikkhu sāmaṁ suttaṁ viññāpetvā tantavāyehi cīvaraṁ vāyāpeyya, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
-**** Nissaggiya Pācittiya 27: Mahāpesakārasikkhāpadaṁ
+**** Nissaggiya Pācittiya 27: Mahāpesakārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 27}{np27}
-\subsubsection*{\hyperref[forf-exp27]{Nissaggiya Pācittiya 27: Mahāpesakārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp27]{Nissaggiya Pācittiya 27: Mahāpesakārasikkhāpada}}
 \label{np27}
 
 \linkdest{endnote209-body}
@@ -1553,12 +1533,12 @@ Bhikkhuṁ pan'eva uddissa aññātako gahapati vā gahapatānī vā tantavāyeh
 
 #+end_src
 
-**** Nissaggiya Pācittiya 28: Accekacīvarasikkhāpadaṁ
+**** Nissaggiya Pācittiya 28: Accekacīvarasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 28}{np28}
-\subsubsection*{\hyperref[forf-exp28]{Nissaggiya Pācittiya 28: Accekacīvarasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp28]{Nissaggiya Pācittiya 28: Accekacīvarasikkhāpada}}
 \label{np28}
 
 \linkdest{endnote215-body}
@@ -1569,12 +1549,12 @@ Das'āh'ānāgataṁ kattikatemāsikapuṇṇamaṁ,\makeatletter\hyperlink{endn
 
 #+end_src
 
-**** Nissaggiya Pācittiya 29: Sāsaṅkasikkhāpadaṁ
+**** Nissaggiya Pācittiya 29: Sāsaṅkasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 29}{np29}
-\subsubsection*{\hyperref[forf-exp29]{Nissaggiya Pācittiya 29: Sāsaṅkasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp29]{Nissaggiya Pācittiya 29: Sāsaṅkasikkhāpada}}
 \label{np29}
 
 \linkdest{endnote217-body}
@@ -1589,12 +1569,12 @@ Upavassaṁ kho pana kattikapuṇṇamaṁ. Yāni kho pana tāni āraññakāni 
 
 #+end_src
 
-**** Nissaggiya Pācittiya 30: Pariṇatasikkhāpadaṁ
+**** Nissaggiya Pācittiya 30: Pariṇatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 30}{np30}
-\subsubsection*{\hyperref[forf-exp30]{Nissaggiya Pācittiya 30: Pariṇatasikkhāpadaṁ}}
+\subsubsection*{\hyperref[forf-exp30]{Nissaggiya Pācittiya 30: Pariṇatasikkhāpada}}
 \label{np30}
 
 \linkdest{endnote221-body}
@@ -1645,8 +1625,8 @@ Dm, Um: \textit{Nissaggiyapācittiyā niṭṭhitā}. C, W: \textit{Nissaggiyā 
 #+end_src
 
 ** Pācittiyā
-*** Musāvādavaggo
-**** Pācittiya 1: Musāvādasikkhāpadaṁ
+*** Musāvādavagga
+**** Pācittiya 1: Musāvādasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
@@ -1657,46 +1637,46 @@ Dm, Um: \textit{Nissaggiyapācittiyā niṭṭhitā}. C, W: \textit{Nissaggiyā 
 	Ime kho pan'āyasmanto dvenavuti pācittiyā dhammā uddesaṁ āgacchanti.
 \end{intro}
 
-\subsection{Musāvādavaggo}
+\subsection{Musāvādavagga}
 
 \pdfbookmark[3]{Pācittiya 1}{pac1}
-\subsubsection*{\hyperref[exp1]{Pācittiya 1: Musāvādasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp1]{Pācittiya 1: Musāvādasikkhāpada}}
 \label{pac1}
 
 Sampajānamusāvāde, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 2: Omasavādasikkhāpadaṁ
+**** Pācittiya 2: Omasavādasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 2}{pac2}
-\subsubsection*{\hyperref[exp2]{Pācittiya 2: Omasavādasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp2]{Pācittiya 2: Omasavādasikkhāpada}}
 \label{pac2}
 
 Omasavāde, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 3: Pesuññasikkhāpadaṁ
+**** Pācittiya 3: Pesuññasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 3}{pac3}
-\subsubsection*{\hyperref[exp3]{Pācittiya 3: Pesuññasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp3]{Pācittiya 3: Pesuññasikkhāpada}}
 \label{pac3}
 
 Bhikkhupesuññe, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 4: Padasodhammasikkhāpadaṁ
+**** Pācittiya 4: Padasodhammasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 4}{exp4}
-\subsubsection*{\hyperref[exp4]{Pācittiya 4: Padasodhammasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp4]{Pācittiya 4: Padasodhammasikkhāpada}}
 \label{pac4}
 
 \linkdest{endnote226-body}
@@ -1705,12 +1685,12 @@ Yo pana bhikkhu anupasampannaṁ\makeatletter\hyperlink{endnote226-appendix}\Hy@
 
 #+end_src
 
-**** Pācittiya 5: Paṭhamasahaseyyasikkhāpadaṁ
+**** Pācittiya 5: Paṭhamasahaseyyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 5}{pac5}
-\subsubsection*{\hyperref[exp5]{Pācittiya 5: Paṭhamasahaseyyasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp5]{Pācittiya 5: Paṭhamasahaseyyasikkhāpada}}
 \label{pac5}
 
 \linkdest{endnote227-body}
@@ -1723,12 +1703,12 @@ Yo pana bhikkhu anupasampannena\makeatletter\hyperlink{endnote227-appendix}\Hy@r
 
 #+end_src
 
-**** Pācittiya 6: Dutiyasahaseyyasikkhāpadaṁ
+**** Pācittiya 6: Dutiyasahaseyyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 6}{pac6}
-\subsubsection*{\hyperref[exp6]{Pācittiya 6: Dutiyasahaseyyasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp6]{Pācittiya 6: Dutiyasahaseyyasikkhāpada}}
 \label{pac6}
 
 \linkdest{endnote230-body}
@@ -1737,12 +1717,12 @@ Yo pana bhikkhu mātugāmena saha seyyaṁ\makeatletter\hyperlink{endnote230-app
 
 #+end_src
 
-**** Pācittiya 7: Dhammadesanāsikkhāpadaṁ
+**** Pācittiya 7: Dhammadesanāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 7}{pac7}
-\subsubsection*{\hyperref[exp7]{Pācittiya 7: Dhammadesanāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp7]{Pācittiya 7: Dhammadesanāsikkhāpada}}
 \label{pac7}
 
 \linkdest{endnote231-body}
@@ -1751,24 +1731,24 @@ Yo pana bhikkhu mātugāmassa uttariṁ chappañcavācāhi\makeatletter\hyperlin
 
 #+end_src
 
-**** Pācittiya 8: Bhūtārocanasikkhāpadaṁ
+**** Pācittiya 8: Bhūtārocanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 8}{pac8}
-\subsubsection*{\hyperref[exp8]{Pācittiya 8: Bhūtārocanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp8]{Pācittiya 8: Bhūtārocanasikkhāpada}}
 \label{pac8}
 
 Yo pana bhikkhu anupasampannassa uttarimanussadhammaṁ āroceyya bhūtasmiṁ, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 9: Duṭṭhullārocanasikkhāpadaṁ
+**** Pācittiya 9: Duṭṭhullārocanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 9}{pac9}
-\subsubsection*{\hyperref[exp9]{Pācittiya 9: Duṭṭhullārocanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp9]{Pācittiya 9: Duṭṭhullārocanasikkhāpada}}
 \label{pac9}
 
 \linkdest{endnote232-body}
@@ -1780,12 +1760,12 @@ Yo pana bhikkhu bhikkhussa duṭṭhullaṁ āpattiṁ anupasampannassa\makeatle
 
 #+end_src
 
-**** Pācittiya 10: Paṭhavīkhaṇanasikkhāpadaṁ
+**** Pācittiya 10: Paṭhavīkhaṇanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 10}{pac10}
-\subsubsection*{\hyperref[exp10]{Pācittiya 10: Paṭhavīkhaṇanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp10]{Pācittiya 10: Paṭhavīkhaṇanasikkhāpada}}
 \label{pac10}
 
 \linkdest{endnote234-body}
@@ -1802,16 +1782,16 @@ Yo pana bhikkhu paṭhaviṁ\makeatletter\hyperlink{endnote234-appendix}\Hy@rais
 
 #+end_src
 
-*** Bhūtagāmavaggo
-**** Pācittiya 11: Bhūtagāmasikkhāpadaṁ
+*** Bhūtagāmavagga
+**** Pācittiya 11: Bhūtagāmasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Bhūtagāmavaggo}
+\subsection{Bhūtagāmavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 11}{pac11}
-\subsubsection*{\hyperref[exp11]{Pācittiya 11: Bhūtagāmasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp11]{Pācittiya 11: Bhūtagāmasikkhāpada}}
 \label{pac11}
 
 \linkdest{endnote237-body}
@@ -1820,24 +1800,24 @@ Bhūtagāmapātabyatāya,\makeatletter\hyperlink{endnote237-appendix}\Hy@raisedl
 
 #+end_src
 
-**** Pācittiya 12: Aññavādakasikkhāpadaṁ
+**** Pācittiya 12: Aññavādakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 12}{pac12}
-\subsubsection*{\hyperref[exp12]{Pācittiya 12: Aññavādakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp12]{Pācittiya 12: Aññavādakasikkhāpada}}
 \label{pac12}
 
 Aññavādake vihesake, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 13: Ujjhāpanakasikkhāpadaṁ
+**** Pācittiya 13: Ujjhāpanakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 13}{pac13}
-\subsubsection*{\hyperref[exp13]{Pācittiya 13: Ujjhāpanakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp13]{Pācittiya 13: Ujjhāpanakasikkhāpada}}
 \label{pac13}
 
 \linkdest{endnote238-body}
@@ -1846,12 +1826,12 @@ Ujjhāpanake khiyyanake,\makeatletter\hyperlink{endnote238-appendix}\Hy@raisedli
 
 #+end_src
 
-**** Pācittiya 14: Paṭhamasen'āsanasikkhāpadaṁ
+**** Pācittiya 14: Paṭhamasen'āsanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 14}{pac14}
-\subsubsection*{\hyperref[exp14]{Pācittiya 14: Paṭhamasen'āsanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp14]{Pācittiya 14: Paṭhamasen'āsanasikkhāpada}}
 \label{pac14}
 
 \linkdest{endnote239-body}
@@ -1870,12 +1850,12 @@ Yo pana bhikkhu saṅghikaṁ\makeatletter\hyperlink{endnote239-appendix}\Hy@rai
 
 #+end_src
 
-**** Pācittiya 15: Dutiyasen'āsanasikkhāpadaṁ
+**** Pācittiya 15: Dutiyasen'āsanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 15}{pac15}
-\subsubsection*{\hyperref[exp15]{Pācittiya 15: Dutiyasen'āsanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp15]{Pācittiya 15: Dutiyasen'āsanasikkhāpada}}
 \label{pac15}
 
 \linkdest{endnote245-body}
@@ -1890,12 +1870,12 @@ Yo pana bhikkhu saṅghike vihāre seyyaṁ santharitvā\makeatletter\hyperlink{
 
 #+end_src
 
-**** Pācittiya 16: Anupakhajjasikkhāpadaṁ
+**** Pācittiya 16: Anupakhajjasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 16}{pac16}
-\subsubsection*{\hyperref[exp16]{Pācittiya 16: Anupakhajjasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp16]{Pācittiya 16: Anupakhajjasikkhāpada}}
 \label{pac16}
 
 \linkdest{endnote249-body}
@@ -1908,12 +1888,12 @@ Yo pana bhikkhu saṅghike\makeatletter\hyperlink{endnote249-appendix}\Hy@raised
 
 #+end_src
 
-**** Pācittiya 17: Nikkaḍḍhanasikkhāpadaṁ
+**** Pācittiya 17: Nikkaḍḍhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 17}{pac17}
-\subsubsection*{\hyperref[exp17]{Pācittiya 17: Nikkaḍḍhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp17]{Pācittiya 17: Nikkaḍḍhanasikkhāpada}}
 \label{pac17}
 
 \linkdest{endnote252-body}
@@ -1926,12 +1906,12 @@ Yo pana bhikkhu bhikkhuṁ kupito\makeatletter\hyperlink{endnote252-appendix}\Hy
 
 #+end_src
 
-**** Pācittiya 18: Vehāsakuṭisikkhāpadaṁ
+**** Pācittiya 18: Vehāsakuṭisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 18}{pac18}
-\subsubsection*{\hyperref[exp18]{Pācittiya 18: Vehāsakuṭisikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp18]{Pācittiya 18: Vehāsakuṭisikkhāpada}}
 \label{pac18}
 
 \linkdest{endnote255-body}
@@ -1942,12 +1922,12 @@ Yo pana bhikkhu saṅghike vihāre uparivehāsakuṭiyā āhaccapādakaṁ mañc
 
 #+end_src
 
-**** Pācittiya 19: Mahallakavihārasikkhāpadaṁ
+**** Pācittiya 19: Mahallakavihārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 19}{pac19}
-\subsubsection*{\hyperref[exp19]{Pācittiya 19: Mahallakavihārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp19]{Pācittiya 19: Mahallakavihārasikkhāpada}}
 \label{pac19}
 
 \linkdest{endnote257-body}
@@ -1966,12 +1946,12 @@ Mahallakaṁ pana\makeatletter\hyperlink{endnote257-appendix}\Hy@raisedlink{\hyp
 
 #+end_src
 
-**** Pācittiya 20: Sappāṇakasikkhāpadaṁ
+**** Pācittiya 20: Sappāṇakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 20}{pac20}
-\subsubsection*{\hyperref[exp20]{Pācittiya 20: Sappāṇakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp20]{Pācittiya 20: Sappāṇakasikkhāpada}}
 \label{pac20}
 
 Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ tiṇaṁ vā mattikaṁ vā siñceyya vā siñcāpeyya vā, pācittiyaṁ.
@@ -1984,28 +1964,28 @@ Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ tiṇaṁ vā mattikaṁ vā s
 
 #+end_src
 
-*** Bhikkhunovādavaggo
-**** Pācittiya 21: Ovādasikkhāpadaṁ
+*** Bhikkhunovādavagga
+**** Pācittiya 21: Ovādasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Bhikkhunovādavaggo}
+\subsection{Bhikkhunovādavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 21}{pac21}
-\subsubsection*{\hyperref[exp]{Pācittiya 21: Ovādasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp]{Pācittiya 21: Ovādasikkhāpada}}
 \label{pac21}
 
 Yo pana bhikkhu asammato bhikkhuniyo ovadeyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 22: Atthaṅgatasikkhāpadaṁ
+**** Pācittiya 22: Atthaṅgatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 22}{pac22}
-\subsubsection*{\hyperref[exp22]{Pācittiya 22: Atthaṅgatasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp22]{Pācittiya 22: Atthaṅgatasikkhāpada}}
 \label{pac22}
 
 \linkdest{endnote264-body}
@@ -2016,12 +1996,12 @@ Sammato'pi\makeatletter\hyperlink{endnote264-appendix}\Hy@raisedlink{\hypertarge
 
 #+end_src
 
-**** Pācittiya 23: Bhikkhunupassayasikkhāpadaṁ
+**** Pācittiya 23: Bhikkhunupassayasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 23}{pac23}
-\subsubsection*{\hyperref[exp23]{Pācittiya 23: Bhikkhunupassayasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp23]{Pācittiya 23: Bhikkhunupassayasikkhāpada}}
 \label{pac23}
 
 \linkdest{endnote266-body}
@@ -2032,12 +2012,12 @@ Yo pana bhikkhu bhikkhun'ūpassayaṁ\makeatletter\hyperlink{endnote266-appendix
 
 #+end_src
 
-**** Pācittiya 24: Āmisasikkhāpadaṁ
+**** Pācittiya 24: Āmisasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 24}{pac24}
-\subsubsection*{\hyperref[exp24]{Pācittiya 24: Āmisasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp24]{Pācittiya 24: Āmisasikkhāpada}}
 \label{pac24}
 
 \linkdest{endnote268-body}
@@ -2048,12 +2028,12 @@ Yo pana bhikkhu evaṁ vadeyya: ``Āmisahetu\makeatletter\hyperlink{endnote268-a
 
 #+end_src
 
-**** Pācittiya 25: Cīvaradānasikkhāpadaṁ
+**** Pācittiya 25: Cīvaradānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 25}{pac25}
-\subsubsection*{\hyperref[exp25]{Pācittiya 25: Cīvaradānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp25]{Pācittiya 25: Cīvaradānasikkhāpada}}
 \label{pac25}
 
 \linkdest{endnote270-body}
@@ -2062,24 +2042,24 @@ Yo pana bhikkhu aññātikāya bhikkhuniyā cīvaraṁ dadeyya, aññatra pāriv
 
 #+end_src
 
-**** Pācittiya 26: Cīvarasibbanasikkhāpadaṁ
+**** Pācittiya 26: Cīvarasibbanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 26}{pac26}
-\subsubsection*{\hyperref[exp26]{Pācittiya 26: Cīvarasibbanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp26]{Pācittiya 26: Cīvarasibbanasikkhāpada}}
 \label{pac26}
 
 Yo pana bhikkhu aññātikāya bhikkhuniyā cīvaraṁ sibbeyya vā sibbāpeyya vā, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 27: Saṁvidhānasikkhāpadaṁ
+**** Pācittiya 27: Saṁvidhānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 27}{pac27}
-\subsubsection*{\hyperref[exp27]{Pācittiya 27: Saṁvidhānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp27]{Pācittiya 27: Saṁvidhānasikkhāpada}}
 \label{pac27}
 
 \linkdest{endnote271-body}
@@ -2090,12 +2070,12 @@ Yo pana bhikkhu bhikkhuniyā saddhiṁ saṁvidhāya ek'addhānamaggaṁ paṭip
 
 #+end_src
 
-**** Pācittiya 28: Nāvābhiruhanasikkhāpadaṁ
+**** Pācittiya 28: Nāvābhiruhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 28}{pac28}
-\subsubsection*{\hyperref[exp28]{Pācittiya 28: Nāvābhiruhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp28]{Pācittiya 28: Nāvābhiruhanasikkhāpada}}
 \label{pac28}
 
 \linkdest{endnote273-body}
@@ -2110,12 +2090,12 @@ Yo pana bhikkhu bhikkhuniyā saddhiṁ saṁvidhāya ekaṁ nāvaṁ\makeatlette
 
 #+end_src
 
-**** Pācittiya 29: Paripācitasikkhāpadaṁ
+**** Pācittiya 29: Paripācitasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 29}{pac29}
-\subsubsection*{\hyperref[exp29]{Pācittiya 29: Paripācitasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp29]{Pācittiya 29: Paripācitasikkhāpada}}
 \label{pac29}
 
 \linkdest{endnote277-body}
@@ -2126,12 +2106,12 @@ Yo pana bhikkhu jānaṁ bhikkhunīparipācitaṁ\makeatletter\hyperlink{endnote
 
 #+end_src
 
-**** Pācittiya 30: Rahonisajjasikkhāpadaṁ
+**** Pācittiya 30: Rahonisajjasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 30}{pac30}
-\subsubsection*{\hyperref[exp30]{Pācittiya 30: Rahonisajjasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp30]{Pācittiya 30: Rahonisajjasikkhāpada}}
 \label{pac30}
 
 Yo pana bhikkhu bhikkhuniyā saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pācittiyaṁ.
@@ -2144,16 +2124,16 @@ Yo pana bhikkhu bhikkhuniyā saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pāc
 
 #+end_src
 
-*** Bhojanavaggo
-**** Pācittiya 31: Āvasathapiṇḍasikkhāpadaṁ
+*** Bhojanavagga
+**** Pācittiya 31: Āvasathapiṇḍasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Bhojanavaggo}
+\subsection{Bhojanavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 31}{pac31}
-\subsubsection*{\hyperref[exp31]{Pācittiya 31: Āvasathapiṇḍasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp31]{Pācittiya 31: Āvasathapiṇḍasikkhāpada}}
 \label{pac31}
 
 \linkdest{endnote280-body}
@@ -2164,12 +2144,12 @@ Agilānena\makeatletter\hyperlink{endnote280-appendix}\Hy@raisedlink{\hypertarge
 
 #+end_src
 
-**** Pācittiya 32: Gaṇabhojanasikkhāpadaṁ
+**** Pācittiya 32: Gaṇabhojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 32}{pac31}
-\subsubsection*{\hyperref[exp32]{Pācittiya 32: Gaṇabhojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp32]{Pācittiya 32: Gaṇabhojanasikkhāpada}}
 \label{pac32}
 
 \linkdest{endnote282-body}
@@ -2180,12 +2160,12 @@ Gaṇabhojane, aññatra samayā, pācittiyaṁ. Tatth'āyaṁ samayo: gilānasa
 
 #+end_src
 
-**** Pācittiya 33: Paramparabhojanasikkhāpadaṁ
+**** Pācittiya 33: Paramparabhojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 33}{pac33}
-\subsubsection*{\hyperref[exp33]{Pācittiya 33: Paramparabhojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp33]{Pācittiya 33: Paramparabhojanasikkhāpada}}
 \label{pac33}
 
 \linkdest{endnote284-body}
@@ -2196,12 +2176,12 @@ Paramparabhojane,\makeatletter\hyperlink{endnote284-appendix}\Hy@raisedlink{\hyp
 
 #+end_src
 
-**** Pācittiya 34: Kāṇamātusikkhāpadaṁ
+**** Pācittiya 34: Kāṇamātusikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 34}{pac34}
-\subsubsection*{\hyperref[exp34]{Pācittiya 34: Kāṇamātusikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp34]{Pācittiya 34: Kāṇamātusikkhāpada}}
 \label{pac34}
 
 \linkdest{endnote286-body}
@@ -2224,12 +2204,12 @@ Bhikkhuṁ pan'eva kulaṁ upagataṁ pūvehi\makeatletter\hyperlink{endnote286-
 
 #+end_src
 
-**** Pācittiya 35: Paṭhamapavāraṇāsikkhāpadaṁ
+**** Pācittiya 35: Paṭhamapavāraṇāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 35}{pac35}
-\subsubsection*{\hyperref[exp35]{Pācittiya 35: Paṭhamapavāraṇāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp35]{Pācittiya 35: Paṭhamapavāraṇāsikkhāpada}}
 \label{pac35}
 
 \linkdest{endnote294-body}
@@ -2238,12 +2218,12 @@ Yo pana bhikkhu bhuttāvī pavārito anatirittaṁ khādanīyaṁ vā bhojanīya
 
 #+end_src
 
-**** Pācittiya 36: Dutiyapavāraṇāsikkhāpadaṁ
+**** Pācittiya 36: Dutiyapavāraṇāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 36}{pac36}
-\subsubsection*{\hyperref[exp36]{Pācittiya 36: Dutiyapavāraṇāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp36]{Pācittiya 36: Dutiyapavāraṇāsikkhāpada}}
 \label{pac36}
 
 \linkdest{endnote295-body}
@@ -2258,12 +2238,12 @@ Yo pana bhikkhu bhikkhuṁ bhuttāviṁ pavāritaṁ anatirittena khādanīyena 
 
 #+end_src
 
-**** Pācittiya 37: Vikālabhojanasikkhāpadaṁ
+**** Pācittiya 37: Vikālabhojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 37}{pac37}
-\subsubsection*{\hyperref[exp37]{Pācittiya 37: Vikālabhojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp37]{Pācittiya 37: Vikālabhojanasikkhāpada}}
 \label{pac37}
 
 \linkdest{endnote299-body}
@@ -2272,12 +2252,12 @@ Yo pana bhikkhu vikāle khādanīyaṁ vā bhojanīyaṁ\makeatletter\hyperlink{
 
 #+end_src
 
-**** Pācittiya 38: Sannidhikārakasikkhāpadaṁ
+**** Pācittiya 38: Sannidhikārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 38}{pac38}
-\subsubsection*{\hyperref[exp38]{Pācittiya 38: Sannidhikārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp38]{Pācittiya 38: Sannidhikārakasikkhāpada}}
 \label{pac38}
 
 \linkdest{endnote300-body}
@@ -2286,12 +2266,12 @@ Yo pana bhikkhu sannidhikārakaṁ khādanīyaṁ vā bhojanīyaṁ\makeatletter
 
 #+end_src
 
-**** Pācittiya 39: Paṇītabhojanasikkhāpadaṁ
+**** Pācittiya 39: Paṇītabhojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 39}{pac39}
-\subsubsection*{\hyperref[exp39]{Pācittiya 39: Paṇītabhojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp39]{Pācittiya 39: Paṇītabhojanasikkhāpada}}
 \label{pac39}
 
 \linkdest{endnote301-body}
@@ -2313,12 +2293,12 @@ dadhiṃ viya obhāsantaṃ}.}}}}}\makeatother \thinspace yo pana bhikkhu evarū
 
 #+end_src
 
-**** Pācittiya 40: Dantaponasikkhāpadaṁ
+**** Pācittiya 40: Dantaponasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 40}{pac40}
-\subsubsection*{\hyperref[exp40]{Pācittiya 40: Dantaponasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp40]{Pācittiya 40: Dantaponasikkhāpada}}
 \label{pac40}
 
 \linkdest{endnote307-body}
@@ -2333,16 +2313,16 @@ Yo pana bhikkhu adinnaṁ mukhadvāraṁ āhāraṁ\makeatletter\hyperlink{endno
 
 #+end_src
 
-*** Acelakavaggo
-**** Pācittiya 41: Acelakasikkhāpadaṁ
+*** Acelakavagga
+**** Pācittiya 41: Acelakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Acelakavaggo}
+\subsection{Acelakavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 41}{pac41}
-\subsubsection*{\hyperref[exp41]{Pācittiya 41: Acelakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp41]{Pācittiya 41: Acelakasikkhāpada}}
 \label{pac41}
 
 \linkdest{endnote309-body}
@@ -2353,12 +2333,12 @@ Yo pana bhikkhu acelakassa\makeatletter\hyperlink{endnote309-appendix}\Hy@raised
 
 #+end_src
 
-**** Pācittiya 42: Uyyojanasikkhāpadaṁ
+**** Pācittiya 42: Uyyojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 42}{pac42}
-\subsubsection*{\hyperref[exp42]{Pācittiya 42: Uyyojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp42]{Pācittiya 42: Uyyojanasikkhāpada}}
 \label{pac42}
 
 \linkdest{endnote311-body}
@@ -2372,12 +2352,12 @@ vadeyya}. (Pg and Sannē also do not to have it.)}}}}}\makeatother \thinspace ``
 
 #+end_src
 
-**** Pācittiya 43: Sabhojanasikkhāpadaṁ
+**** Pācittiya 43: Sabhojanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 43}{pac43}
-\subsubsection*{\hyperref[exp43]{Pācittiya 43: Sabhojanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp43]{Pācittiya 43: Sabhojanasikkhāpada}}
 \label{pac43}
 
 \linkdest{endnote314-body}
@@ -2386,36 +2366,36 @@ Yo pana bhikkhu sabhojane kule anupakhajja\makeatletter\hyperlink{endnote314-app
 
 #+end_src
 
-**** Pācittiya 44: Rahopaṭicchannasikkhāpadaṁ
+**** Pācittiya 44: Rahopaṭicchannasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 44}{pac44}
-\subsubsection*{\hyperref[exp44]{Pācittiya 44: Rahopaṭicchannasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp44]{Pācittiya 44: Rahopaṭicchannasikkhāpada}}
 \label{pac44}
 
 Yo pana bhikkhu mātugāmena saddhiṁ raho paṭicchanne āsane nisajjaṁ kappeyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 45: Rahonisajjasikkhāpadaṁ
+**** Pācittiya 45: Rahonisajjasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 45}{pac45}
-\subsubsection*{\hyperref[exp45]{Pācittiya 45: Rahonisajjasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp45]{Pācittiya 45: Rahonisajjasikkhāpada}}
 \label{pac45}
 
 Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 46: Cārittasikkhāpadaṁ
+**** Pācittiya 46: Cārittasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 46}{pac46}
-\subsubsection*{\hyperref[exp46]{Pācittiya 46: Cārittasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp46]{Pācittiya 46: Cārittasikkhāpada}}
 \label{pac46}
 
 \linkdest{endnote315-body}
@@ -2424,12 +2404,12 @@ Yo pana bhikkhu nimantito sabhatto samāno santaṁ bhikkhuṁ anāpucchā pureb
 
 #+end_src
 
-**** Pācittiya 47: Mahānāmasikkhāpadaṁ
+**** Pācittiya 47: Mahānāmasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 47}{pac47}
-\subsubsection*{\hyperref[exp47]{Pācittiya 47: Mahānāmasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp47]{Pācittiya 47: Mahānāmasikkhāpada}}
 \label{pac47}
 
 \linkdest{endnote316-body}
@@ -2442,12 +2422,12 @@ Agilānena\makeatletter\hyperlink{endnote316-appendix}\Hy@raisedlink{\hypertarge
 
 #+end_src
 
-**** Pācittiya 48: Uyyuttasenāsikkhāpadaṁ
+**** Pācittiya 48: Uyyuttasenāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 48}{pac48}
-\subsubsection*{\hyperref[exp48]{Pācittiya 48: Uyyuttasenāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp48]{Pācittiya 48: Uyyuttasenāsikkhāpada}}
 \label{pac48}
 
 \linkdest{endnote319-body}
@@ -2460,12 +2440,12 @@ Yo pana bhikkhu uyyuttaṁ\makeatletter\hyperlink{endnote319-appendix}\Hy@raised
 
 #+end_src
 
-**** Pācittiya 49: Senāvāsasikkhāpadaṁ
+**** Pācittiya 49: Senāvāsasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 49}{pac49}
-\subsubsection*{\hyperref[exp49]{Pācittiya 49: Senāvāsasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp49]{Pācittiya 49: Senāvāsasikkhāpada}}
 \label{pac49}
 
 \linkdest{endnote321-body}
@@ -2478,12 +2458,12 @@ Siyā ca tassa bhikkhuno koci'd'eva paccayo senaṁ gamanāya,\makeatletter\hype
 
 #+end_src
 
-**** Pācittiya 50: Uyyodhikasikkhāpadaṁ
+**** Pācittiya 50: Uyyodhikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 50}{pac50}
-\subsubsection*{\hyperref[exp50]{Pācittiya 50: Uyyodhikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp50]{Pācittiya 50: Uyyodhikasikkhāpada}}
 \label{pac50}
 
 \linkdest{endnote324-body}
@@ -2500,40 +2480,40 @@ Dirattatirattañ'ce\makeatletter\hyperlink{endnote324-appendix}\Hy@raisedlink{\h
 
 #+end_src
 
-*** Surāpānavaggo
-**** Pācittiya 51: Surāpānasikkhāpadaṁ
+*** Surāpānavagga
+**** Pācittiya 51: Surāpānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Surāpānavaggo}
+\subsection{Surāpānavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 51}{pac51}
-\subsubsection*{\hyperref[exp51]{Pācittiya 51: Surāpānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp51]{Pācittiya 51: Surāpānasikkhāpada}}
 \label{pac51}
 
 Surāmerayapāne pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 52: Aṅgulipatodakasikkhāpadaṁ
+**** Pācittiya 52: Aṅgulipatodakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 52}{pac52}
-\subsubsection*{\hyperref[exp52]{Pācittiya 52: Aṅgulipatodakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp52]{Pācittiya 52: Aṅgulipatodakasikkhāpada}}
 \label{pac52}
 
 Aṅgulipatodake pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 53: Hassadhammasikkhāpadaṁ
+**** Pācittiya 53: Hassadhammasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 53}{pac53}
-\subsubsection*{\hyperref[exp53]{Pācittiya 53: Hassadhammasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp53]{Pācittiya 53: Hassadhammasikkhāpada}}
 \label{pac53}
 
 \linkdest{endnote327-body}
@@ -2543,36 +2523,36 @@ readings as Burmese ms. v.l.l.}}}}}\makeatother \thinspace pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 54: Anādariyasikkhāpadaṁ
+**** Pācittiya 54: Anādariyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 54}{pac54}
-\subsubsection*{\hyperref[exp54]{Pācittiya 54: Anādariyasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp54]{Pācittiya 54: Anādariyasikkhāpada}}
 \label{pac54}
 
 Anādariye pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 55: Bhiṁsāpanasikkhāpadaṁ
+**** Pācittiya 55: Bhiṁsāpanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 55}{pac55}
-\subsubsection*{\hyperref[exp55]{Pācittiya 55: Bhiṁsāpanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp55]{Pācittiya 55: Bhiṁsāpanasikkhāpada}}
 \label{pac55}
 
 Yo pana bhikkhu bhikkhuṁ bhiṁsāpeyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 56: Jotikasikkhāpadaṁ
+**** Pācittiya 56: Jotikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 56}{pac56}
-\subsubsection*{\hyperref[exp56]{Pācittiya 56: Jotikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp56]{Pācittiya 56: Jotikasikkhāpada}}
 \label{pac56}
 
 \linkdest{endnote328-body}
@@ -2585,12 +2565,12 @@ Yo pana bhikkhu agilāno\makeatletter\hyperlink{endnote328-appendix}\Hy@raisedli
 
 #+end_src
 
-**** Pācittiya 57: Nahānasikkhāpadaṁ
+**** Pācittiya 57: Nahānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 57}{pac57}
-\subsubsection*{\hyperref[exp57]{Pācittiya 57: Nahānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp57]{Pācittiya 57: Nahānasikkhāpada}}
 \label{pac57}
 
 \linkdest{endnote331-body}
@@ -2613,12 +2593,12 @@ Yo pana bhikkhu oren'aḍḍhamāsaṁ\makeatletter\hyperlink{endnote331-appendi
 
 #+end_src
 
-**** Pācittiya 58: Dubbaṇṇakaraṇasikkhāpadaṁ
+**** Pācittiya 58: Dubbaṇṇakaraṇasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 58}{pac58}
-\subsubsection*{\hyperref[exp58]{Pācittiya 58: Dubbaṇṇakaraṇasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp58]{Pācittiya 58: Dubbaṇṇakaraṇasikkhāpada}}
 \label{pac58}
 
 \linkdest{endnote338-body}
@@ -2629,12 +2609,12 @@ Navaṁ pana\makeatletter\hyperlink{endnote339-appendix}\Hy@raisedlink{\hypertar
 
 #+end_src
 
-**** Pācittiya 59: Vikappanasikkhāpadaṁ
+**** Pācittiya 59: Vikappanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 59}{pac59}
-\subsubsection*{\hyperref[exp59]{Pācittiya 59: Vikappanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp59]{Pācittiya 59: Vikappanasikkhāpada}}
 \label{pac59}
 % FIXME I pulled end notes from the draft but there is a different to the final release. some endnotes will be different.
 \linkdest{endnote340-body}
@@ -2647,12 +2627,12 @@ Yo pana bhikkhu bhikkhussa vā bhikkhuniyā\makeatletter\hyperlink{endnote340-ap
 
 #+end_src
 
-**** Pācittiya 60: Apanidhānasikkhāpadaṁ
+**** Pācittiya 60: Apanidhānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 60}{pac60}
-\subsubsection*{\hyperref[exp60]{Pācittiya 60: Apanidhānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp60]{Pācittiya 60: Apanidhānasikkhāpada}}
 \label{pac60}
 
 \linkdest{endnote343-body}
@@ -2669,16 +2649,16 @@ Yo pana bhikkhu bhikkhussa pattaṁ vā cīvaraṁ vā nisīdanaṁ vā sūcigha
 
 #+end_src
 
-*** Sappāṇakavaggo
-**** Pācittiya 61: Sañciccasikkhāpadaṁ
+*** Sappāṇakavagga
+**** Pācittiya 61: Sañciccasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Sappāṇakavaggo}
+\subsection{Sappāṇakavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 61}{pac61}
-\subsubsection*{\hyperref[exp61]{Pācittiya 61: Sañciccasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp61]{Pācittiya 61: Sañciccasikkhāpada}}
 \label{pac61}
 
 \linkdest{endnote346-body}
@@ -2687,12 +2667,12 @@ Yo pana bhikkhu sañcicca pāṇaṁ\makeatletter\hyperlink{endnote346-appendix}
 
 #+end_src
 
-**** Pācittiya 62: Sappāṇakasikkhāpadaṁ
+**** Pācittiya 62: Sappāṇakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 62}{pac62}
-\subsubsection*{\hyperref[exp62]{Pācittiya 62: Sappāṇakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp62]{Pācittiya 62: Sappāṇakasikkhāpada}}
 \label{pac62}
 
 \linkdest{endnote347-body}
@@ -2701,12 +2681,12 @@ Yo pana bhikkhu jānaṁ sappāṇakaṁ\makeatletter\hyperlink{endnote347-appen
 
 #+end_src
 
-**** Pācittiya 63: Ukkoṭanasikkhāpadaṁ
+**** Pācittiya 63: Ukkoṭanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 63}{pac63}
-\subsubsection*{\hyperref[exp63]{Pācittiya 63: Ukkoṭanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp63]{Pācittiya 63: Ukkoṭanasikkhāpada}}
 \label{pac63}
 
 \linkdest{endnote348-body}
@@ -2715,24 +2695,24 @@ Yo pana bhikkhu jānaṁ yathādhammaṁ nihat'ādhikaraṇaṁ\makeatletter\hyp
 
 #+end_src
 
-**** Pācittiya 64: Duṭṭhullasikkhāpadaṁ
+**** Pācittiya 64: Duṭṭhullasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 64}{pac64}
-\subsubsection*{\hyperref[exp64]{Pācittiya 64: Duṭṭhullasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp64]{Pācittiya 64: Duṭṭhullasikkhāpada}}
 \label{pac64}
 
 Yo pana bhikkhu bhikkhussa jānaṁ duṭṭhullaṁ āpattiṁ paṭicchādeyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 65: Ūnavīsativassasikkhāpadaṁ
+**** Pācittiya 65: Ūnavīsativassasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 65}{pac65}
-\subsubsection*{\hyperref[exp65]{Pācittiya 65: Ūnavīsativassasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp65]{Pācittiya 65: Ūnavīsativassasikkhāpada}}
 \label{pac65}
 
 \linkdest{endnote349-body}
@@ -2745,36 +2725,36 @@ Yo pana bhikkhu jānaṁ ūnavīsativassaṁ\makeatletter\hyperlink{endnote349-a
 
 #+end_src
 
-**** Pācittiya 66: Theyyasatthasikkhāpadaṁ
+**** Pācittiya 66: Theyyasatthasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 66}{pac66}
-\subsubsection*{\hyperref[exp66]{Pācittiya 66: Theyyasatthasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp66]{Pācittiya 66: Theyyasatthasikkhāpada}}
 \label{pac66}
 
 Yo pana bhikkhu jānaṁ theyyasatthena saddhiṁ saṁvidhāya ek'addhānamaggaṁ paṭipajjeyya antamaso gām'antaram'pi, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 67: Saṁvidhānasikkhāpadaṁ
+**** Pācittiya 67: Saṁvidhānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 67}{pac67}
-\subsubsection*{\hyperref[exp67]{Pācittiya 67: Saṁvidhānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp67]{Pācittiya 67: Saṁvidhānasikkhāpada}}
 \label{pac67}
 
 Yo pana bhikkhu mātugāmena saddhiṁ saṁvidhāya ek'addhānamaggaṁ paṭipajjeyya antamaso gām'antaram'pi, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 68: Ariṭṭhasikkhāpadaṁ
+**** Pācittiya 68: Ariṭṭhasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 68}{pac68}
-\subsubsection*{\hyperref[exp68]{Pācittiya 68: Ariṭṭhasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp68]{Pācittiya 68: Ariṭṭhasikkhāpada}}
 \label{pac68}
 
 \linkdest{endnote352-body}
@@ -2803,12 +2783,12 @@ Yo pana bhikkhu evaṁ vadeyya, ``Tath'āhaṁ bhagavatā dhammaṁ desitaṁ ā
 
 #+end_src
 
-**** Pācittiya 69: Ukkhittasambhogasikkhāpadaṁ
+**** Pācittiya 69: Ukkhittasambhogasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 69}{pac69}
-\subsubsection*{\hyperref[exp69]{Pācittiya 69: Ukkhittasambhogasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp69]{Pācittiya 69: Ukkhittasambhogasikkhāpada}}
 \label{pac69}
 
 \linkdest{endnote363-body}
@@ -2821,12 +2801,12 @@ Yo pana bhikkhu jānaṁ tathāvādinā bhikkhunā akaṭ'ānudhammena\makeatlet
 
 #+end_src
 
-**** Pācittiya 70: Kaṇṭakasikkhāpadaṁ
+**** Pācittiya 70: Kaṇṭakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 70}{pac70}
-\subsubsection*{\hyperref[exp70]{Pācittiya 70: Kaṇṭakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp70]{Pācittiya 70: Kaṇṭakasikkhāpada}}
 \label{pac70}
 
 \linkdest{endnote366-body}
@@ -2865,16 +2845,16 @@ Samaṇ'uddeso'pi ce evaṁ vadeyya, ``Tath'āhaṁ bhagavatā dhammaṁ desita�
 
 #+end_src
 
-*** Sahadhammikavaggo
-**** Pācittiya 71: Sahadhammikasikkhāpadaṁ
+*** Sahadhammikavagga
+**** Pācittiya 71: Sahadhammikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Sahadhammikavaggo}
+\subsection{Sahadhammikavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 71}{pac71}
-\subsubsection*{\hyperref[exp71]{Pācittiya 71: Sahadhammikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp71]{Pācittiya 71: Sahadhammikasikkhāpada}}
 \label{pac71}
 
 \linkdest{endnote380-body}
@@ -2887,12 +2867,12 @@ Yo pana bhikkhu bhikkhūhi sahadhammikaṁ vuccamāno evaṁ vadeyya, ``Na tāv'
 
 #+end_src
 
-**** Pācittiya 72: Vilekhanasikkhāpadaṁ
+**** Pācittiya 72: Vilekhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 72}{pac72}
-\subsubsection*{\hyperref[exp72]{Pācittiya 72: Vilekhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp72]{Pācittiya 72: Vilekhanasikkhāpada}}
 \label{pac72}
 
 \linkdest{endnote383-body}
@@ -2905,12 +2885,12 @@ Yo pana bhikkhu pātimokkhe\makeatletter\hyperlink{endnote383-appendix}\Hy@raise
 
 #+end_src
 
-**** Pācittiya 73: Mohanasikkhāpadaṁ
+**** Pācittiya 73: Mohanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 73}{pac73}
-\subsubsection*{\hyperref[exp73]{Pācittiya 73: Mohanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp73]{Pācittiya 73: Mohanasikkhāpada}}
 \label{pac73}
 
 \linkdest{endnote386-body}
@@ -2945,12 +2925,12 @@ Yo pana bhikkhu anvaḍḍhamāsaṁ\makeatletter\hyperlink{endnote386-appendix}
 
 #+end_src
 
-**** Pācittiya 74: Pahārasikkhāpadaṁ
+**** Pācittiya 74: Pahārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 74}{pac74}
-\subsubsection*{\hyperref[exp74]{Pācittiya 74: Pahārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp74]{Pācittiya 74: Pahārasikkhāpada}}
 \label{pac74}
 
 \linkdest{endnote400-body}
@@ -2959,12 +2939,12 @@ Yo pana bhikkhu bhikkhussa kupito\makeatletter\hyperlink{endnote400-appendix}\Hy
 
 #+end_src
 
-**** Pācittiya 75: Talasattikasikkhāpadaṁ
+**** Pācittiya 75: Talasattikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 75}{pac75}
-\subsubsection*{\hyperref[exp75]{Pācittiya 75: Talasattikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp75]{Pācittiya 75: Talasattikasikkhāpada}}
 \label{pac75}
 
 \linkdest{endnote401-body}
@@ -2973,24 +2953,24 @@ Yo pana bhikkhu bhikkhussa kupito\makeatletter\hyperlink{endnote401-appendix}\Hy
 
 #+end_src
 
-**** Pācittiya 76: Amūlakasikkhāpadaṁ
+**** Pācittiya 76: Amūlakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 76}{pac76}
-\subsubsection*{\hyperref[exp76]{Pācittiya 76: Amūlakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp76]{Pācittiya 76: Amūlakasikkhāpada}}
 \label{pac76}
 
 Yo pana bhikkhu bhikkhuṁ amūlakena saṅghādisesena anuddhaṁseyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 77: Sañciccasikkhāpadaṁ
+**** Pācittiya 77: Sañciccasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 77}{pac77}
-\subsubsection*{\hyperref[exp77]{Pācittiya 77: Sañciccasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp77]{Pācittiya 77: Sañciccasikkhāpada}}
 \label{pac77}
 
 \linkdest{endnote402-body}
@@ -3001,12 +2981,12 @@ Yo pana bhikkhu bhikkhussa sañcicca\makeatletter\hyperlink{endnote402-appendix}
 
 #+end_src
 
-**** Pācittiya 78: Upassutisikkhāpadaṁ
+**** Pācittiya 78: Upassutisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 78}{pac78}
-\subsubsection*{\hyperref[exp78]{Pācittiya 78: Upassutisikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp78]{Pācittiya 78: Upassutisikkhāpada}}
 \label{pac78}
 
 \linkdest{endnote404-body}
@@ -3015,12 +2995,12 @@ Yo pana bhikkhu bhikkhūnaṁ bhaṇḍanajātānaṁ kalahajātānaṁ vivād'�
 
 #+end_src
 
-**** Pācittiya 79: Kammappaṭibāhanasikkhāpadaṁ
+**** Pācittiya 79: Kammappaṭibāhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 79}{pac79}
-\subsubsection*{\hyperref[exp79]{Pācittiya 79: Kammappaṭibāhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp79]{Pācittiya 79: Kammappaṭibāhanasikkhāpada}}
 \label{pac79}
 
 \linkdest{endnote405-body}
@@ -3029,24 +3009,24 @@ Yo pana bhikkhu dhammikānaṁ kammānaṁ chandaṁ datvā pacchā khiyyanadham
 
 #+end_src
 
-**** Pācittiya 80: Chandaṁ-adatvā-gamanasikkhāpadaṁ
+**** Pācittiya 80: Chandaṁ-adatvā-gamanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 80}{pac80}
-\subsubsection*{\hyperref[exp80]{Pācittiya 80: Chandaṁ-adatvā-gamanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp80]{Pācittiya 80: Chandaṁ-adatvā-gamanasikkhāpada}}
 \label{pac80}
 
 Yo pana bhikkhu saṅghe vinicchayakathāya vattamānāya chandaṁ adatvā uṭṭhāy'āsanā pakkameyya, pācittiyaṁ.
 
 #+end_src
 
-**** Pācittiya 81: Dubbalasikkhāpadaṁ
+**** Pācittiya 81: Dubbalasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 81}{pac81}
-\subsubsection*{\hyperref[exp81]{Pācittiya 81: Dubbalasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp81]{Pācittiya 81: Dubbalasikkhāpada}}
 \label{pac81}
 
 \linkdest{endnote406-body}
@@ -3057,12 +3037,12 @@ Yo pana bhikkhu samaggena saṅghena cīvaraṁ datvā pacchā khiyyanadhammaṁ
 
 #+end_src
 
-**** Pācittiya 82: Pariṇāmanasikkhāpadaṁ
+**** Pācittiya 82: Pariṇāmanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 82}{pac82}
-\subsubsection*{\hyperref[exp82]{Pācittiya 82: Pariṇāmanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp82]{Pācittiya 82: Pariṇāmanasikkhāpada}}
 \label{pac82}
 
 Yo pana bhikkhu jānaṁ saṅghikaṁ lābhaṁ pariṇataṁ puggalassa pariṇāmeyya, pācittiyaṁ.
@@ -3073,16 +3053,16 @@ Yo pana bhikkhu jānaṁ saṅghikaṁ lābhaṁ pariṇataṁ puggalassa pari�
 
 #+end_src
 
-*** Rājavaggo
-**** Pācittiya 83: Antepurasikkhāpadaṁ
+*** Rājavagga
+**** Pācittiya 83: Antepurasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\subsection{Rājavaggo}
+\subsection{Rājavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 83}{pac83}
-\subsubsection*{\hyperref[exp83]{Pācittiya 83: Antepurasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp83]{Pācittiya 83: Antepurasikkhāpada}}
 \label{pac83}
 
 \linkdest{endnote408-body}
@@ -3095,12 +3075,12 @@ Yo pana bhikkhu rañño khattiyassa muddh'ābhisittassa\makeatletter\hyperlink{e
 
 #+end_src
 
-**** Pācittiya 84: Ratanasikkhāpadaṁ
+**** Pācittiya 84: Ratanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 84}{pac84}
-\subsubsection*{\hyperref[exp84]{Pācittiya 84: Ratanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp84]{Pācittiya 84: Ratanasikkhāpada}}
 \label{pac84}
 
 \linkdest{endnote411-body}
@@ -3109,12 +3089,12 @@ Yo pana bhikkhu ratanaṁ vā ratanasammataṁ vā, aññatra ajjhārāmā vā a
 
 #+end_src
 
-**** Pācittiya 85: Vikālagāmappavesanasikkhāpadaṁ
+**** Pācittiya 85: Vikālagāmappavesanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 85}{pac85}
-\subsubsection*{\hyperref[exp85]{Pācittiya 85: Vikālagāmappavesanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp85]{Pācittiya 85: Vikālagāmappavesanasikkhāpada}}
 \label{pac85}
 
 \linkdest{endnote412-body}
@@ -3125,12 +3105,12 @@ Yo pana bhikkhu santaṁ bhikkhuṁ anāpucchā vikāle gāmaṁ paviseyya,\make
 
 #+end_src
 
-**** Pācittiya 86: Sūcigharasikkhāpadaṁ
+**** Pācittiya 86: Sūcigharasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 86}{pac86}
-\subsubsection*{\hyperref[exp86]{Pācittiya 86: Sūcigharasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp86]{Pācittiya 86: Sūcigharasikkhāpada}}
 \label{pac86}
 
 \linkdest{endnote414-body}
@@ -3139,12 +3119,12 @@ Yo pana bhikkhu aṭṭhimayaṁ vā dantamayaṁ vā visāṇamayaṁ vā sūci
 
 #+end_src
 
-**** Pācittiya 87: Mañcapīṭhasikkhāpadaṁ
+**** Pācittiya 87: Mañcapīṭhasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 87}{pac87}
-\subsubsection*{\hyperref[exp87]{Pācittiya 87: Mañcapīṭhasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp87]{Pācittiya 87: Mañcapīṭhasikkhāpada}}
 \label{pac87}
 
 \linkdest{endnote415-body}
@@ -3161,12 +3141,12 @@ Navaṁ pana\makeatletter\hyperlink{endnote415-appendix}\Hy@raisedlink{\hypertar
 
 #+end_src
 
-**** Pācittiya 88: Tūlonaddhasikkhāpadaṁ
+**** Pācittiya 88: Tūlonaddhasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 88}{pac88}
-\subsubsection*{\hyperref[exp88]{Pācittiya 88: Tūlonaddhasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp88]{Pācittiya 88: Tūlonaddhasikkhāpada}}
 \label{pac88}
 
 \linkdest{endnote420-body}
@@ -3179,12 +3159,12 @@ Yo pana bhikkhu mañcaṁ vā pīṭhaṁ\makeatletter\hyperlink{endnote420-appe
 
 #+end_src
 
-**** Pācittiya 89: Nisīdanasikkhāpadaṁ
+**** Pācittiya 89: Nisīdanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 89}{pac89}
-\subsubsection*{\hyperref[exp89]{Pācittiya 89: Nisīdanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp89]{Pācittiya 89: Nisīdanasikkhāpada}}
 \label{pac89}
 
 \linkdest{endnote423-body}
@@ -3197,12 +3177,12 @@ Nisīdanaṁ pana\makeatletter\hyperlink{endnote423-appendix}\Hy@raisedlink{\hyp
 
 #+end_src
 
-**** Pācittiya 90: Kaṇḍuppaṭicchādisikkhāpadaṁ
+**** Pācittiya 90: Kaṇḍuppaṭicchādisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 90}{pac90}
-\subsubsection*{\hyperref[exp90]{Pācittiya 90: Kaṇḍuppaṭicchādisikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp90]{Pācittiya 90: Kaṇḍuppaṭicchādisikkhāpada}}
 \label{pac90}
 
 \linkdest{endnote426-body}
@@ -3213,12 +3193,12 @@ Kaṇḍupaṭicchādiṁ\makeatletter\hyperlink{endnote426-appendix}\Hy@raisedl
 
 #+end_src
 
-**** Pācittiya 91: Vassikasāṭikāsikkhāpadaṁ
+**** Pācittiya 91: Vassikasāṭikāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 91}{pac91}
-\subsubsection*{\hyperref[exp91]{Pācittiya 91: Vassikasāṭikāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp91]{Pācittiya 91: Vassikasāṭikāsikkhāpada}}
 \label{pac91}
 
 \linkdest{endnote428-body}
@@ -3233,12 +3213,12 @@ Vassikasāṭikaṁ\makeatletter\hyperlink{endnote428-appendix}\Hy@raisedlink{\h
 
 #+end_src
 
-**** Pācittiya 92: Nandasikkhāpadaṁ
+**** Pācittiya 92: Nandasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
 \pdfbookmark[3]{Pācittiya 92}{pac92}
-\subsubsection*{\hyperref[exp92]{Pācittiya 92: Nandasikkhāpadaṁ}}
+\subsubsection*{\hyperref[exp92]{Pācittiya 92: Nandasikkhāpada}}
 \label{pac92}
 
 \linkdest{endnote432-body}
@@ -3292,7 +3272,7 @@ Vin V 27; see the section on chapter-division in the Introduction. The \textit{S
 #+end_src
 
 ** Pāṭidesanīyā
-*** Pāṭidesanīya 1: Paṭhamapāṭidesanīyasikkhāpadaṁ
+*** Pāṭidesanīya 1: Paṭhamapāṭidesanīyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
@@ -3307,7 +3287,7 @@ Vin V 27; see the section on chapter-division in the Introduction. The \textit{S
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Pāṭidesanīyā 1}{pd1}
-\subsection*{\hyperref[ack1]{Pāṭidesanīyā 1: Paṭhamapāṭidesanīyasikkhāpadaṁ}}
+\subsection*{\hyperref[ack1]{Pāṭidesanīyā 1: Paṭhamapāṭidesanīyasikkhāpada}}
 \label{pd1}
 
 \linkdest{endnote439-body}
@@ -3320,12 +3300,12 @@ Yo pana bhikkhu aññātikāya bhikkhuniyā antaragharaṁ paviṭṭhāya hatth
 
 #+end_src
 
-*** Pāṭidesanīya 2: Dutiyapāṭidesanīyasikkhāpadaṁ
+*** Pāṭidesanīya 2: Dutiyapāṭidesanīyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 2}{pd2}
-\subsection*{\hyperref[ack2]{Pāṭidesanīyā 2: Dutiyapāṭidesanīyasikkhāpadaṁ}}
+\subsection*{\hyperref[ack2]{Pāṭidesanīyā 2: Dutiyapāṭidesanīyasikkhāpada}}
 \label{pd2}
 
 \linkdest{endnote442-body}
@@ -3353,12 +3333,12 @@ bhikkhunī}.}}}}}\makeatother \thinspace bhikkhunī\makeatletter\hyperlink{endno
 % FIXME some these endnotes also are not here in the final version. the entire document needs to be checked!
 #+end_src
 
-*** Pāṭidesanīya 3: Tatiyapāṭidesanīyasikkhāpadaṁ
+*** Pāṭidesanīya 3: Tatiyapāṭidesanīyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 3}{pd3}
-\subsection*{\hyperref[ack3]{Pāṭidesanīyā 3: Tatiyapāṭidesanīyasikkhāpadaṁ}}
+\subsection*{\hyperref[ack3]{Pāṭidesanīyā 3: Tatiyapāṭidesanīyasikkhāpada}}
 \label{pd3}
 
 \linkdest{endnote452-body}
@@ -3379,12 +3359,12 @@ Yāni kho pana tāni sekhasammatāni\makeatletter\hyperlink{endnote452-appendix}
 
 #+end_src
 
-*** Pāṭidesanīya 4: Catutthapāṭidesanīyasikkhāpadaṁ
+*** Pāṭidesanīya 4: Catutthapāṭidesanīyasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 4}{pd4}
-\subsection*{\hyperref[ack4]{Pāṭidesanīyā 4: Catutthapāṭidesanīyasikkhāpadaṁ}}
+\subsection*{\hyperref[ack4]{Pāṭidesanīyā 4: Catutthapāṭidesanīyasikkhāpada}}
 \label{pd4}
 
 \linkdest{endnote459-body}
@@ -3441,8 +3421,8 @@ viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.})}}}}}\makeatother
 #+end_src
 
 ** Sekhiyā
-*** Parimaṇḍalavaggo
-**** Sekhiya 1 & 2: Parimaṇḍalasikkhāpadaṁ
+*** Parimaṇḍalavagga
+**** Sekhiya 1 & 2: Parimaṇḍalasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
@@ -3456,10 +3436,10 @@ viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.})}}}}}\makeatother
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
-\subsection{Parimaṇḍalavaggo}
+\subsection{Parimaṇḍalavagga}
 
 \pdfbookmark[3]{Sekhiya 1 \& 2}{sekh1-2}
-\subsubsection*{\hyperref[training1-2]{Sekhiya 1 \& 2: Parimaṇḍalasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training1-2]{Sekhiya 1 \& 2: Parimaṇḍalasikkhāpada}}
 \label{sekh1-2}
 
 \linkdest{endnote470-body}
@@ -3471,12 +3451,12 @@ Parimaṇḍalaṁ pārupissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 3 & 4: Suppaṭicchannasikkhāpadaṁ
+**** Sekhiya 3 & 4: Suppaṭicchannasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 3 \& 4}{sekh3-4}
-\subsubsection*{\hyperref[training3-4]{Sekhiya 3 \& 4: Suppaṭicchannasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training3-4]{Sekhiya 3 \& 4: Suppaṭicchannasikkhāpada}}
 \label{sekh3-4}
 
 \linkdest{endnote472-body}
@@ -3486,12 +3466,12 @@ Supaṭicchanno antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 5 & 6: Susaṁvutasikkhāpadaṁ
+**** Sekhiya 5 & 6: Susaṁvutasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 5 \& 6}{sekh5-6}
-\subsubsection*{\hyperref[training5-6]{Sekhiya 5 \& 6: Susaṁvutasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training5-6]{Sekhiya 5 \& 6: Susaṁvutasikkhāpada}}
 \label{sekh5-6}
 
 Susaṁvuto antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3499,12 +3479,12 @@ Susaṁvuto antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 7 & 8: Okkhittacakkhusikkhāpadaṁ
+**** Sekhiya 7 & 8: Okkhittacakkhusikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 7 \& 8}{sekh7-8}
-\subsubsection*{\hyperref[training7-8]{Sekhiya 7 \& 8: Okkhittacakkhusikkhāpadaṁ}}
+\subsubsection*{\hyperref[training7-8]{Sekhiya 7 \& 8: Okkhittacakkhusikkhāpada}}
 \label{sekh7-8}
 
 Okkhittacakkhu antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3512,12 +3492,12 @@ Okkhittacakkhu antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 9 & 10: Ukkhittakasikkhāpadaṁ
+**** Sekhiya 9 & 10: Ukkhittakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 9 \& 10}{sekh9-10}
-\subsubsection*{\hyperref[training9-10]{Sekhiya 9 \& 10: Ukkhittakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training9-10]{Sekhiya 9 \& 10: Ukkhittakasikkhāpada}}
 \label{sekh9-10}
 
 \linkdest{endnote473-body}
@@ -3533,16 +3513,16 @@ Na ukkhittakāya antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-*** Ujjagghikavaggo
-**** Sekhiya 11 & 12: Ujjagghikasikkhāpadaṁ
+*** Ujjagghikavagga
+**** Sekhiya 11 & 12: Ujjagghikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Ujjagghikavaggo}
+\subsection{Ujjagghikavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 11 \& 12}{sekh11-12}
-\subsubsection*{\hyperref[training11-12]{Sekhiya 11 \& 12: Ujjagghikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training11-12]{Sekhiya 11 \& 12: Ujjagghikasikkhāpada}}
 \label{sekh11-12}
 
 \linkdest{endnote475-body}
@@ -3552,12 +3532,12 @@ Na ujjagghikāya antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 13 & 14: Uccasaddasikkhāpadaṁ
+**** Sekhiya 13 & 14: Uccasaddasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 13 \& 14}{sekh13-14}
-\subsubsection*{\hyperref[training13-14]{Sekhiya 13 \& 14: Uccasaddasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training13-14]{Sekhiya 13 \& 14: Uccasaddasikkhāpada}}
 \label{sekh13-14}
 
 Appasaddo antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3565,12 +3545,12 @@ Appasaddo antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 15 & 16: Kāyappacālakasikkhāpadaṁ
+**** Sekhiya 15 & 16: Kāyappacālakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 15 \& 16}{sekh15-16}
-\subsubsection*{\hyperref[training15-16]{Sekhiya 15 \& 16: Kāyappacālakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training15-16]{Sekhiya 15 \& 16: Kāyappacālakasikkhāpada}}
 \label{sekh15-16}
 
 Na kāyappacālakaṁ antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3578,12 +3558,12 @@ Na kāyappacālakaṁ antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 17 & 18: Bāhuppacālakasikkhāpadaṁ
+**** Sekhiya 17 & 18: Bāhuppacālakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 17 \& 18}{sekh17-18}
-\subsubsection*{\hyperref[training17-18]{Sekhiya 17 \& 18: Bāhuppacālakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training17-18]{Sekhiya 17 \& 18: Bāhuppacālakasikkhāpada}}
 \label{sekh17-18}
 
 Na bāhuppacālakaṁ antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3591,12 +3571,12 @@ Na bāhuppacālakaṁ antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 19 & 20: Sīsappacālakasikkhāpadaṁ
+**** Sekhiya 19 & 20: Sīsappacālakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 19 \& 20}{sekh19-20}
-\subsubsection*{\hyperref[training19-20]{Sekhiya 19 \& 20: Sīsappacālakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training19-20]{Sekhiya 19 \& 20: Sīsappacālakasikkhāpada}}
 \label{sekh19-20}
 
 Na sīsappacālakaṁ antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3612,16 +3592,16 @@ Na sīsappacālakaṁ antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-*** Khambhakatavaggo
-**** Sekhiya 21 & 22: Khambhakatasikkhāpadaṁ
+*** Khambhakatavagga
+**** Sekhiya 21 & 22: Khambhakatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Khambhakatavaggo}
+\subsection{Khambhakatavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 21 \& 22}{sekh21-22}
-\subsubsection*{\hyperref[training21-22]{Sekhiya 21 \& 22: Khambhakatasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training21-22]{Sekhiya 21 \& 22: Khambhakatasikkhāpada}}
 \label{sekh21-22}
 
 \linkdest{endnote478-body}
@@ -3631,12 +3611,12 @@ Na khambhakato antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 23 & 24: Oguṇṭhitasikkhāpadaṁ
+**** Sekhiya 23 & 24: Oguṇṭhitasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 23 \& 24}{sekh23-24}
-\subsubsection*{\hyperref[training23-24]{Sekhiya 23 \& 24: Oguṇṭhitasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training23-24]{Sekhiya 23 \& 24: Oguṇṭhitasikkhāpada}}
 \label{sekh23-24}
 
 Na oguṇṭhito antaraghare gamissāmī'ti sikkhā karaṇīyā.\\
@@ -3644,24 +3624,24 @@ Na oguṇṭhito antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 25: Ukkuṭikasikkhāpadaṁ
+**** Sekhiya 25: Ukkuṭikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 25}{sekh25}
-\subsubsection*{\hyperref[training25]{Sekhiya 25: Ukkuṭikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training25]{Sekhiya 25: Ukkuṭikasikkhāpada}}
 \label{sekh25}
 
 Na ukkuṭikāya antaraghare gamissāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 26: Pallatthikasikkhāpadaṁ
+**** Sekhiya 26: Pallatthikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 26}{sekh26}
-\subsubsection*{\hyperref[training26]{Sekhiya 26: Pallatthikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training26]{Sekhiya 26: Pallatthikasikkhāpada}}
 \label{sekh26}
 
 \linkdest{endnote479-body}
@@ -3670,48 +3650,48 @@ Na pallatthikāya antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.\makeatlet
 
 #+end_src
 
-**** Sekhiya 27: Sakkaccapaṭiggahaṇasikkhāpadaṁ
+**** Sekhiya 27: Sakkaccapaṭiggahaṇasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 27}{sekh27}
-\subsubsection*{\hyperref[training27]{Sekhiya 27: Sakkaccapaṭiggahaṇasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training27]{Sekhiya 27: Sakkaccapaṭiggahaṇasikkhāpada}}
 \label{sekh27}
 
 Sakkaccaṁ piṇḍapātaṁ paṭiggahessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 28: Pattasaññīpaṭiggahaṇasikkhāpadaṁ
+**** Sekhiya 28: Pattasaññīpaṭiggahaṇasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 28}{sekh28}
-\subsubsection*{\hyperref[training28]{Sekhiya 28: Pattasaññīpaṭiggahaṇasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training28]{Sekhiya 28: Pattasaññīpaṭiggahaṇasikkhāpada}}
 \label{sekh28}
 
 Pattasaññī piṇḍapātaṁ paṭiggahessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 29: Samasūpakapaṭiggahaṇasikkhāpadaṁ
+**** Sekhiya 29: Samasūpakapaṭiggahaṇasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 29}{sekh29}
-\subsubsection*{\hyperref[training29]{Sekhiya 29: Samasūpakapaṭiggahaṇasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training29]{Sekhiya 29: Samasūpakapaṭiggahaṇasikkhāpada}}
 \label{sekh29}
 
 Samasūpakaṁ piṇḍapātaṁ paṭiggahessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 30: Samatitthikasikkhāpadaṁ
+**** Sekhiya 30: Samatitthikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 30}{sekh30}
-\subsubsection*{\hyperref[training30]{Sekhiya 30: Samatitthikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training30]{Sekhiya 30: Samatitthikasikkhāpada}}
 \label{sekh30}
 
 \linkdest{endnote480-body}
@@ -3728,28 +3708,28 @@ Samatitthikaṁ\makeatletter\hyperlink{endnote480-appendix}\Hy@raisedlink{\hyper
 
 #+end_src
 
-*** Sakkaccavaggo
-**** Sekhiya 31: Sakkaccabhuñjanasikkhāpadaṁ
+*** Sakkaccavagga
+**** Sekhiya 31: Sakkaccabhuñjanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Sakkaccavaggo}
+\subsection{Sakkaccavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 31}{sekh31}
-\subsubsection*{\hyperref[training31]{Sekhiya 31: Sakkaccabhuñjanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training31]{Sekhiya 31: Sakkaccabhuñjanasikkhāpada}}
 \label{sekh31}
 
 Sakkaccaṁ piṇḍapātaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 32: Pattasaññībhuñjanasikkhāpadaṁ
+**** Sekhiya 32: Pattasaññībhuñjanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 32}{sekh32}
-\subsubsection*{\hyperref[training32]{Sekhiya 32: Pattasaññībhuñjanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training32]{Sekhiya 32: Pattasaññībhuñjanasikkhāpada}}
 \label{sekh32}
 
 \linkdest{endnote483-body}
@@ -3758,12 +3738,12 @@ Pattasaññī\makeatletter\hyperlink{endnote483-appendix}\Hy@raisedlink{\hyperta
 
 #+end_src
 
-**** Sekhiya 33: Sapadānasikkhāpadaṁ
+**** Sekhiya 33: Sapadānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 33}{sekh33}
-\subsubsection*{\hyperref[training33]{Sekhiya 33: Sapadānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training33]{Sekhiya 33: Sapadānasikkhāpada}}
 \label{sekh33}
 
 \linkdest{endnote484-body}
@@ -3772,24 +3752,24 @@ Sapadānaṁ\makeatletter\hyperlink{endnote484-appendix}\Hy@raisedlink{\hypertar
 
 #+end_src
 
-**** Sekhiya 34: Samasūpakasikkhāpadaṁ
+**** Sekhiya 34: Samasūpakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 34}{sekh34}
-\subsubsection*{\hyperref[training34]{Sekhiya 34: Samasūpakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training34]{Sekhiya 34: Samasūpakasikkhāpada}}
 \label{sekh34}
 
 Samasūpakaṁ piṇḍapātaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 35: Na-thūpakatasikkhāpadaṁ
+**** Sekhiya 35: Na-thūpakatasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 35}{sekh35}
-\subsubsection*{\hyperref[training35]{Sekhiya 35: Na-thūpakatasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training35]{Sekhiya 35: Na-thūpakatasikkhāpada}}
 \label{sekh35}
 
 \linkdest{endnote485-body}
@@ -3798,12 +3778,12 @@ Na thūpakato\makeatletter\hyperlink{endnote485-appendix}\Hy@raisedlink{\hyperta
 
 #+end_src
 
-**** Sekhiya 36: Odanappaṭicchādanasikkhāpadaṁ
+**** Sekhiya 36: Odanappaṭicchādanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 36}{sekh36}
-\subsubsection*{\hyperref[training36]{Sekhiya 36: Odanappaṭicchādanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training36]{Sekhiya 36: Odanappaṭicchādanasikkhāpada}}
 \label{sekh36}
 
 \linkdest{endnote486-body}
@@ -3818,12 +3798,12 @@ Na sūpaṁ vā byañjanaṁ\makeatletter\hyperlink{endnote486-appendix}\Hy@rais
 
 #+end_src
 
-**** Sekhiya 37: Sūpodanaviññattisikkhāpadaṁ
+**** Sekhiya 37: Sūpodanaviññattisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 37}{sekh37}
-\subsubsection*{\hyperref[training37]{Sekhiya 37: Sūpodanaviññattisikkhāpadaṁ}}
+\subsubsection*{\hyperref[training37]{Sekhiya 37: Sūpodanaviññattisikkhāpada}}
 \label{sekh37}
 
 \linkdest{endnote490-body}
@@ -3834,24 +3814,24 @@ Na sūpaṁ vā\makeatletter\hyperlink{endnote490-appendix}\Hy@raisedlink{\hyper
 
 #+end_src
 
-**** Sekhiya 38: Ujjhānasaññīsikkhāpadaṁ
+**** Sekhiya 38: Ujjhānasaññīsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 38}{sekh38}
-\subsubsection*{\hyperref[training38]{Sekhiya 38: Ujjhānasaññīsikkhāpadaṁ}}
+\subsubsection*{\hyperref[training38]{Sekhiya 38: Ujjhānasaññīsikkhāpada}}
 \label{sekh38}
 
 Na ujjhānasaññī paresaṁ pattaṁ olokessāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 39: Kabaḷasikkhāpadaṁ
+**** Sekhiya 39: Kabaḷasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 39}{sekh39}
-\subsubsection*{\hyperref[training39]{Sekhiya 39: Kabaḷasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training39]{Sekhiya 39: Kabaḷasikkhāpada}}
 \label{sekh39}
 
 \linkdest{endnote492-body}
@@ -3860,12 +3840,12 @@ N'ātimahantaṁ kabaḷaṁ\makeatletter\hyperlink{endnote492-appendix}\Hy@rais
 
 #+end_src
 
-**** Sekhiya 40: Ālopasikkhāpadaṁ
+**** Sekhiya 40: Ālopasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 40}{sekh40}
-\subsubsection*{\hyperref[training40]{Sekhiya 40: Ālopasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training40]{Sekhiya 40: Ālopasikkhāpada}}
 \label{sekh40}
 
 Parimaṇḍalaṁ ālopaṁ karissāmī'ti sikkhā karaṇīyā.
@@ -3878,16 +3858,16 @@ Parimaṇḍalaṁ ālopaṁ karissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-*** Anāhaṭavaggo
-**** Sekhiya 41: Anāhaṭasikkhāpadaṁ
+*** Anāhaṭavagga
+**** Sekhiya 41: Anāhaṭasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Anāhaṭavaggo}
+\subsection{Anāhaṭavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 41}{sekh41}
-\subsubsection*{\hyperref[training41]{Sekhiya 41: Anāhaṭasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training41]{Sekhiya 41: Anāhaṭasikkhāpada}}
 \label{sekh41}
 
 \linkdest{endnote494-body}
@@ -3898,24 +3878,24 @@ Na anāhaṭe\makeatletter\hyperlink{endnote494-appendix}\Hy@raisedlink{\hyperta
 
 #+end_src
 
-**** Sekhiya 42: Bhuñjamānasikkhāpadaṁ
+**** Sekhiya 42: Bhuñjamānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 42}{sekh42}
-\subsubsection*{\hyperref[training42]{Sekhiya 42: Bhuñjamānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training42]{Sekhiya 42: Bhuñjamānasikkhāpada}}
 \label{sekh42}
 
 Na bhuñjamāno sabbaṁ hatthaṁ mukhe pakkhipissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 43: Sakabaḷasikkhāpadaṁ
+**** Sekhiya 43: Sakabaḷasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 43}{sekh43}
-\subsubsection*{\hyperref[training43]{Sekhiya 43: Sakabaḷasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training43]{Sekhiya 43: Sakabaḷasikkhāpada}}
 \label{sekh43}
 
 \linkdest{endnote496-body}
@@ -3926,24 +3906,24 @@ Na sakabaḷena\makeatletter\hyperlink{endnote496-appendix}\Hy@raisedlink{\hyper
 
 #+end_src
 
-**** Sekhiya 44: Piṇḍukkhepakasikkhāpadaṁ
+**** Sekhiya 44: Piṇḍukkhepakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 44}{sekh44}
-\subsubsection*{\hyperref[training44]{Sekhiya 44: Piṇḍukkhepakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training44]{Sekhiya 44: Piṇḍukkhepakasikkhāpada}}
 \label{sekh44}
 
 Na piṇḍ'ukkhepakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 45: Kabaḷāvacchedakasikkhāpadaṁ
+**** Sekhiya 45: Kabaḷāvacchedakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 45}{sekh45}
-\subsubsection*{\hyperref[training45]{Sekhiya 45: Kabaḷāvacchedakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training45]{Sekhiya 45: Kabaḷāvacchedakasikkhāpada}}
 \label{sekh45}
 
 \linkdest{endnote498-body}
@@ -3952,24 +3932,24 @@ Na kabaḷ'āvacchedakaṁ\makeatletter\hyperlink{endnote498-appendix}\Hy@raised
 
 #+end_src
 
-**** Sekhiya 46: Avagaṇḍakārakasikkhāpadaṁ
+**** Sekhiya 46: Avagaṇḍakārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 46}{sekh46}
-\subsubsection*{\hyperref[training46]{Sekhiya 46: Avagaṇḍakārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training46]{Sekhiya 46: Avagaṇḍakārakasikkhāpada}}
 \label{sekh46}
 
 Na avagaṇḍakārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 47: Hatthaniddhunakasikkhāpadaṁ
+**** Sekhiya 47: Hatthaniddhunakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 47}{sekh47}
-\subsubsection*{\hyperref[training47]{Sekhiya 47: Hatthaniddhunakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training47]{Sekhiya 47: Hatthaniddhunakasikkhāpada}}
 \label{sekh47}
 
 \linkdest{endnote499-body}
@@ -3978,12 +3958,12 @@ Na hatthaniddhunakaṁ\makeatletter\hyperlink{endnote499-appendix}\Hy@raisedlink
 
 #+end_src
 
-**** Sekhiya 48: Sitthāvakārakasikkhāpadaṁ
+**** Sekhiya 48: Sitthāvakārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 48}{sekh48}
-\subsubsection*{\hyperref[training48]{Sekhiya 48: Sitthāvakārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training48]{Sekhiya 48: Sitthāvakārakasikkhāpada}}
 \label{sekh48}
 
 \linkdest{endnote500-body}
@@ -3992,24 +3972,24 @@ Na sitth'āvakārakaṁ\makeatletter\hyperlink{endnote500-appendix}\Hy@raisedlin
 
 #+end_src
 
-**** Sekhiya 49: Jivhānicchārakasikkhāpadaṁ
+**** Sekhiya 49: Jivhānicchārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 49}{sekh49}
-\subsubsection*{\hyperref[training49]{Sekhiya 49: Jivhānicchārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training49]{Sekhiya 49: Jivhānicchārakasikkhāpada}}
 \label{sekh49}
 
 Na jivhānicchārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 50: Capucapukārakasikkhāpadaṁ
+**** Sekhiya 50: Capucapukārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 50}{sekh50}
-\subsubsection*{\hyperref[training50]{Sekhiya 50: Capucapukārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training50]{Sekhiya 50: Capucapukārakasikkhāpada}}
 \label{sekh50}
 
 Na capucapukārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
@@ -4024,52 +4004,52 @@ Na capucapukārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-*** Surusuruvaggo
-**** Sekhiya 51: Surusurukārakasikkhāpadaṁ
+*** Surusuruvagga
+**** Sekhiya 51: Surusurukārakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Surusuruvaggo}
+\subsection{Surusuruvagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 51}{sekh51}
-\subsubsection*{\hyperref[training51]{Sekhiya 51: Surusurukārakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training51]{Sekhiya 51: Surusurukārakasikkhāpada}}
 \label{sekh51}
 
 Na surusurukārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 52: Hatthanillehakasikkhāpadaṁ
+**** Sekhiya 52: Hatthanillehakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 52}{sekh52}
-\subsubsection*{\hyperref[training52]{Sekhiya 52: Hatthanillehakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training52]{Sekhiya 52: Hatthanillehakasikkhāpada}}
 \label{sekh52}
 
 Na hatthanillehakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 53: Pattanillehakasikkhāpadaṁ
+**** Sekhiya 53: Pattanillehakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 53}{sekh53}
-\subsubsection*{\hyperref[training53]{Sekhiya 53: Pattanillehakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training53]{Sekhiya 53: Pattanillehakasikkhāpada}}
 \label{sekh53}
 
 Na pattanillehakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 54: Oṭṭhanillehakasikkhāpadaṁ
+**** Sekhiya 54: Oṭṭhanillehakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 54}{sekh54}
-\subsubsection*{\hyperref[training54]{Sekhiya 54: Oṭṭhanillehakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training54]{Sekhiya 54: Oṭṭhanillehakasikkhāpada}}
 \label{sekh54}
 
 \linkdest{endnote503-body}
@@ -4078,12 +4058,12 @@ Na oṭṭhanillehakaṁ\makeatletter\hyperlink{endnote503-appendix}\Hy@raisedli
 
 #+end_src
 
-**** Sekhiya 55: Sāmisasikkhāpadaṁ
+**** Sekhiya 55: Sāmisasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 55}{sekh55}
-\subsubsection*{\hyperref[training55]{Sekhiya 55: Sāmisasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training55]{Sekhiya 55: Sāmisasikkhāpada}}
 \label{sekh55}
 
 \linkdest{endnote504-body}
@@ -4092,12 +4072,12 @@ Na sāmisena hatthena pānīyathālakaṁ\makeatletter\hyperlink{endnote504-appe
 
 #+end_src
 
-**** Sekhiya 56: Sasitthakasikkhāpadaṁ
+**** Sekhiya 56: Sasitthakasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 56}{sekh56}
-\subsubsection*{\hyperref[training56]{Sekhiya 56: Sasitthakasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training56]{Sekhiya 56: Sasitthakasikkhāpada}}
 \label{sekh56}
 
 \linkdest{endnote505-body}
@@ -4111,12 +4091,12 @@ niṭṭhitā}.}}}}}\makeatother \thinspace
 
 #+end_src
 
-**** Sekhiya 57: Chattapāṇisikkhāpadaṁ
+**** Sekhiya 57: Chattapāṇisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 57}{sekh57}
-\subsubsection*{\hyperref[training57]{Sekhiya 57: Chattapāṇisikkhāpadaṁ}}
+\subsubsection*{\hyperref[training57]{Sekhiya 57: Chattapāṇisikkhāpada}}
 \label{sekh57}
 
 \linkdest{endnote508-body}
@@ -4127,24 +4107,24 @@ Na chattapāṇissa agilānassa\makeatletter\hyperlink{endnote508-appendix}\Hy@r
 
 #+end_src
 
-**** Sekhiya 58: Daṇḍapāṇisikkhāpadaṁ
+**** Sekhiya 58: Daṇḍapāṇisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 58}{sekh58}
-\subsubsection*{\hyperref[training58]{Sekhiya 58: Daṇḍapāṇisikkhāpadaṁ}}
+\subsubsection*{\hyperref[training58]{Sekhiya 58: Daṇḍapāṇisikkhāpada}}
 \label{sekh58}
 
 Na daṇḍapāṇissa agilānassa dhammaṁ desessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 59: Satthapāṇisikkhāpadaṁ
+**** Sekhiya 59: Satthapāṇisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 59}{sekh59}
-\subsubsection*{\hyperref[training59]{Sekhiya 59: Satthapāṇisikkhāpadaṁ}}
+\subsubsection*{\hyperref[training59]{Sekhiya 59: Satthapāṇisikkhāpada}}
 \label{sekh59}
 
 \linkdest{endnote510-body}
@@ -4153,12 +4133,12 @@ Na satthapāṇissa agilānassa\makeatletter\hyperlink{endnote510-appendix}\Hy@r
 
 #+end_src
 
-**** Sekhiya 60: Āvudhapāṇisikkhāpadaṁ
+**** Sekhiya 60: Āvudhapāṇisikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 60}{sekh60}
-\subsubsection*{\hyperref[training60]{Sekhiya 60: Āvudhapāṇisikkhāpadaṁ}}
+\subsubsection*{\hyperref[training60]{Sekhiya 60: Āvudhapāṇisikkhāpada}}
 \label{sekh60}
 
 \linkdest{endnote511-body}
@@ -4175,16 +4155,16 @@ Na āvudhapāṇissa\makeatletter\hyperlink{endnote511-appendix}\Hy@raisedlink{\
 
 #+end_src
 
-*** Pādukavaggo
-**** Sekhiya 61: Pādukasikkhāpadaṁ
+*** Pādukavagga
+**** Sekhiya 61: Pādukasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
-\subsection{Pādukavaggo}
+\subsection{Pādukavagga}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 61}{sekh61}
-\subsubsection*{\hyperref[training61]{Sekhiya 61: Pādukasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training61]{Sekhiya 61: Pādukasikkhāpada}}
 \label{sekh61}
 
 \linkdest{endnote514-body}
@@ -4193,12 +4173,12 @@ Na pāduk'ārūḷhassa\makeatletter\hyperlink{endnote514-appendix}\Hy@raisedlin
 
 #+end_src
 
-**** Sekhiya 62: Upāhanasikkhāpadaṁ
+**** Sekhiya 62: Upāhanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 62}{sekh62}
-\subsubsection*{\hyperref[training62]{Sekhiya 62: Upāhanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training62]{Sekhiya 62: Upāhanasikkhāpada}}
 \label{sekh62}
 
 \linkdest{endnote515-body}
@@ -4209,48 +4189,48 @@ Na upāhan'ārūḷhassa\makeatletter\hyperlink{endnote515-appendix}\Hy@raisedli
 
 #+end_src
 
-**** Sekhiya 63: Yānasikkhāpadaṁ
+**** Sekhiya 63: Yānasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 63}{sekh63}
-\subsubsection*{\hyperref[training63]{Sekhiya 63: Yānasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training63]{Sekhiya 63: Yānasikkhāpada}}
 \label{sekh63}
 
 Na yānagatassa agilānassa dhammaṁ desessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 64: Sayanasikkhāpadaṁ
+**** Sekhiya 64: Sayanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 64}{sekh64}
-\subsubsection*{\hyperref[training64]{Sekhiya 64: Sayanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training64]{Sekhiya 64: Sayanasikkhāpada}}
 \label{sekh64}
 
 Na sayanagatassa agilānassa dhammaṁ desessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 65: Pallatthikasikkhāpadaṁ
+**** Sekhiya 65: Pallatthikasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 65}{sekh65}
-\subsubsection*{\hyperref[training65]{Sekhiya 65: Pallatthikasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training65]{Sekhiya 65: Pallatthikasikkhāpada}}
 \label{sekh65}
 
 Na pallatthikāya nisinnassa agilānassa dhammaṁ desessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 66: Veṭhitasikkhāpadaṁ
+**** Sekhiya 66: Veṭhitasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 66}{sekh66}
-\subsubsection*{\hyperref[training66]{Sekhiya 66: Veṭhitasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training66]{Sekhiya 66: Veṭhitasikkhāpada}}
 \label{sekh66}
 
 \linkdest{endnote517-body}
@@ -4259,24 +4239,24 @@ Na veṭhitasīsassa\makeatletter\hyperlink{endnote517-appendix}\Hy@raisedlink{\
 
 #+end_src
 
-**** Sekhiya 67: Oguṇṭhitasikkhāpadaṁ
+**** Sekhiya 67: Oguṇṭhitasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 67}{sekh67}
-\subsubsection*{\hyperref[training67]{Sekhiya 67: Oguṇṭhitasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training67]{Sekhiya 67: Oguṇṭhitasikkhāpada}}
 \label{sekh67}
 
 Na oguṇṭhitasīsassa agilānassa dhammaṁ desessāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 68: Chamāsikkhāpadaṁ
+**** Sekhiya 68: Chamāsikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 68}{sekh68}
-\subsubsection*{\hyperref[training68]{Sekhiya 68: Chamāsikkhāpadaṁ}}
+\subsubsection*{\hyperref[training68]{Sekhiya 68: Chamāsikkhāpada}}
 \label{sekh68}
 
 \linkdest{endnote518-body}
@@ -4285,12 +4265,12 @@ Na chamāyaṁ\makeatletter\hyperlink{endnote518-appendix}\Hy@raisedlink{\hypert
 
 #+end_src
 
-**** Sekhiya 69: Nīcāsanasikkhāpadaṁ
+**** Sekhiya 69: Nīcāsanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 69}{sekh69}
-\subsubsection*{\hyperref[training69]{Sekhiya 69: Nīcāsanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training69]{Sekhiya 69: Nīcāsanasikkhāpada}}
 \label{sekh69}
 
 \linkdest{endnote519-body}
@@ -4299,12 +4279,12 @@ Na nīce\makeatletter\hyperlink{endnote519-appendix}\Hy@raisedlink{\hypertarget{
 
 #+end_src
 
-**** Sekhiya 70: Ṭhitasikkhāpadaṁ
+**** Sekhiya 70: Ṭhitasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 70}{sekh70}
-\subsubsection*{\hyperref[training70]{Sekhiya 70: Ṭhitasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training70]{Sekhiya 70: Ṭhitasikkhāpada}}
 \label{sekh70}
 
 \linkdest{endnote520-body}
@@ -4313,12 +4293,12 @@ Na ṭhito nisinnassa agilānassa dhammaṁ desessāmī'ti, sikkhā karaṇīyā
 
 #+end_src
 
-**** Sekhiya 71: Pacchatogamanasikkhāpadaṁ
+**** Sekhiya 71: Pacchatogamanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 71}{sekh71}
-\subsubsection*{\hyperref[training71]{Sekhiya 71: Pacchatogamanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training71]{Sekhiya 71: Pacchatogamanasikkhāpada}}
 \label{sekh71}
 
 \linkdest{endnote521-body}
@@ -4327,12 +4307,12 @@ Na pacchato gacchanto purato\makeatletter\hyperlink{endnote521-appendix}\Hy@rais
 
 #+end_src
 
-**** Sekhiya 72: Uppathenagamanasikkhāpadaṁ
+**** Sekhiya 72: Uppathenagamanasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 72}{sekh72}
-\subsubsection*{\hyperref[training72]{Sekhiya 72: Uppathenagamanasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training72]{Sekhiya 72: Uppathenagamanasikkhāpada}}
 \label{sekh72}
 
 \linkdest{endnote522-body}
@@ -4343,12 +4323,12 @@ Na uppathena\makeatletter\hyperlink{endnote522-appendix}\Hy@raisedlink{\hypertar
 
 #+end_src
 
-**** Sekhiya 73: Ṭhito-uccārasikkhāpadaṁ
+**** Sekhiya 73: Ṭhito-uccārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 73}{sekh73}
-\subsubsection*{\hyperref[training73]{Sekhiya 73: Ṭhito-uccārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training73]{Sekhiya 73: Ṭhito-uccārasikkhāpada}}
 \label{sekh73}
 
 \linkdest{endnote524-body}
@@ -4357,24 +4337,24 @@ Na ṭhito agilāno\makeatletter\hyperlink{endnote524-appendix}\Hy@raisedlink{\h
 
 #+end_src
 
-**** Sekhiya 74: Harite-uccārasikkhāpadaṁ
+**** Sekhiya 74: Harite-uccārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 74}{sekh74}
-\subsubsection*{\hyperref[training74]{Sekhiya 74: Harite-uccārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training74]{Sekhiya 74: Harite-uccārasikkhāpada}}
 \label{sekh74}
 
 Na harite agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmī'ti sikkhā karaṇīyā.
 
 #+end_src
 
-**** Sekhiya 75: Udake-uccārasikkhāpadaṁ
+**** Sekhiya 75: Udake-uccārasikkhāpada
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
 \pdfbookmark[3]{Sekhiya 75}{sekh75}
-\subsubsection*{\hyperref[training75]{Sekhiya 75: Udake-uccārasikkhāpadaṁ}}
+\subsubsection*{\hyperref[training75]{Sekhiya 75: Udake-uccārasikkhāpada}}
 \label{sekh75}
 
 Na udake agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmī'ti sikkhā karaṇīyā.
@@ -7626,42 +7606,55 @@ Evañ'hi no sikkhitabbaṁ.
 Chinda sotaṁ parakkamma\\
 Kāme panūda brāhmaṇa
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Nappahāya muni kāme\\
 N'ekattam'upapajjati
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Kayirā ce kayirāth'enaṁ\\
 Daḷham'enaṁ parakkame
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Sithilo hi paribbājo\\
 Bhiyyo ākirate rajaṁ
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Akataṁ dukkaṭaṁ seyyo\\
 Pacchā tappati dukkaṭaṁ
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Katañ'ca sukataṁ seyyo\\
 Yaṁ katvā n'ānutappati
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Kuso yathā duggahito\\
 Hattham'ev'ānukantati
 \end{hanging-indent}
+
+\ifninebythirteenversion \clearpage \fi
+
 \begin{hanging-indent}
 Sāmaññaṁ dupparāmaṭṭhaṁ\\
 Nirayāy'ūpakaḍḍhati
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Yaṅ'kiñci sithilaṁ kammaṁ\\
 Saṅkiliṭṭhañ'ca yaṁ vataṁ
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Saṅkassaraṁ brahmacariyaṁ\\
 Na taṁ hoti, mahapphalan'ti
 \end{hanging-indent}
+
+\suttaRef{[SN 2.8]}
 
 \clearpage
 
@@ -7688,26 +7681,32 @@ Ovāda-pāṭimokkhaṁ tīhi gāthāhi
 Khantī paramaṁ tapo tītikkhā\\
 Nibbānaṁ paramaṁ vadanti buddhā
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Na hi pabbajito par'ūpaghātī\\
 Samaṇo hoti paraṁ viheṭhayanto
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Sabba-pāpassa akaraṇaṁ\\
 Kusalass'ūpasampadā
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Sacitta-pariyodapanaṁ\\
 Etaṁ buddhāna'sāsanaṁ
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Anūpavādo anūpaghāto\\
 Pāṭimokkhe ca saṁvaro
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Mattaññutā ca bhattasmiṁ\\
 Pantañ'ca sayan'āsanaṁ
 \end{hanging-indent}
+
 \begin{hanging-indent}
 Adhicitte ca āyogo\\
 Etaṁ buddhāna'sāsanan'ti
@@ -7731,19 +7730,20 @@ Etaṁ buddhāna'sāsanan'ti
 #+end_src
 
 ** In Brief
-*** Saṅkhittapātimokkh'uddeso-niṭṭhāna
+*** Saṅkhittapātimokkh'uddesa-niṭṭhāna
 
 #+begin_src latex :tangle ./tex/in-brief.tex
 
-\section{Saṅkhittapātimokkh'uddeso-niṭṭhāna}
-\label{sankhittapatimokkh'uddeso-nitthana}
+\section{Saṅkhittapātimokkh'uddesa-niṭṭhāna}
+\label{sankhittapatimokkh'uddesa-nitthana}
 
 \ifafiveversion\vspace{0.15cm}\fi
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā, ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ, anvaḍḍhamāsaṁ uddesaṁ āgacchati, tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati\makeatletter\hyperlink{endnote546-appendix}\Hy@raisedlink{\hypertarget{endnote546-body}{}{\pagenote{%
+		\hypertarget{endnote546-appendix}{\hyperlink{endnote546-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have saṃbahulāḥ śaikṣā (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 śaikṣa rules, Mū has 108).}}}}}\makeatother Vitthār'uddeso pañcamo.
 
-Vitthār'uddeso pañcamo.
+
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
@@ -7754,6 +7754,7 @@ Vitthār'uddeso pañcamo.
 #+end_src
 
 *** The Pātimokkha Recitation in Brief Conclusion
+
 
 #+begin_src latex :tangle ./tex/in-brief.tex
 
