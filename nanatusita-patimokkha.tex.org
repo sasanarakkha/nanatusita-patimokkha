@@ -6,21 +6,17 @@
 #+url: https://github.com/sasanarakkha/nanatusita-patimokkha
 
 * TODO
-** TODO add front and back covers to book and add bleed over
-** T0DO Harmoonize patimokkha abbreivations and devise a way to line break longer lines
-** T0DO Add references to post-patimokkha chants
-** TODO Add english translation
-** TODO add pancasattati end note - fish from discourse thread
+** DONE Harmoonize patimokkha abbreivations and devise a way to line break longer lines
+** DONE Add references to post-patimokkha chants
+** TODO Add english translation - GPT, Bhante Aggacitta?
 ** DONE switch italics in pubbakicca endnotes
 ** DONE abbreviatiosn need attention
 
 * Table of Contents :toc:
 - [[#todo][TODO]]
-  - [[#add-front-and-back-covers-to-book-and-add-bleed-over][add front and back covers to book and add bleed over]]
-  - [[#t0do-harmoonize-patimokkha-abbreivations-and-devise-a-way-to-line-break-longer-lines][T0DO Harmoonize patimokkha abbreivations and devise a way to line break longer lines]]
-  - [[#t0do-add-references-to-post-patimokkha-chants][T0DO Add references to post-patimokkha chants]]
-  - [[#add-english-translation][Add english translation]]
-  - [[#add-pancasattati-end-note---fish-from-discourse-thread][add pancasattati end note - fish from discourse thread]]
+  - [[#harmoonize-patimokkha-abbreivations-and-devise-a-way-to-line-break-longer-lines][Harmoonize patimokkha abbreivations and devise a way to line break longer lines]]
+  - [[#add-references-to-post-patimokkha-chants][Add references to post-patimokkha chants]]
+  - [[#add-english-translation---gpt-bhante-aggacitta][Add english translation - GPT, Bhante Aggacitta?]]
   - [[#switch-italics-in-pubbakicca-endnotes][switch italics in pubbakicca endnotes]]
   - [[#abbreviatiosn-need-attention][abbreviatiosn need attention]]
 - [[#title-page][Title Page]]
@@ -55,9 +51,13 @@
 - [[#post-pātimokkha-recitations][Post-Pātimokkha Recitations]]
   - [[#covertitle-2][Cover/Title]]
   - [[#pubbabhāga][Pubbabhāga]]
+  - [[#pubbabhāga---english][Pubbabhāga - English]]
   - [[#sīluddesa-pāṭha][Sīl'uddesa-pāṭha]]
+  - [[#sīluddesa-pāṭha---englsih][Sīl'uddesa-pāṭha - Englsih]]
   - [[#tāyana-gatha][Tāyana-gatha]]
+  - [[#tāyana-gatha---english][Tāyana-gatha - English]]
   - [[#ovāda-pāṭimokkha-gāthā][Ovāda-pāṭimokkha-gāthā]]
+  - [[#ovāda-pāṭimokkha-gāthā---english][Ovāda-pāṭimokkha-gāthā - English]]
 - [[#appendix][Appendix]]
   - [[#covertitle-3][Cover/Title]]
   - [[#in-brief][In Brief]]
@@ -191,35 +191,39 @@
 
 {\raggedright
 
-Be - Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
-BhPm - Bhikkhupātimokkhaṁ from where?\\
-Ce - Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
-Dm - Dve Mātikāpāḷi from where?\\
-Ee - European edition (Pāli Text Society P.T.S.), Oxford\\
-Kkh - Kaṅkhāvitaraṇī\\
-Mi Se - Royal Thai edition\\
-Mm Se - Mahā Makuṭ Academy Siamese Edition\\
-Mv - Mahāvagga (Vinaya-piṭaka)\\
-Ñd - Ñāṇadassana's Bhikkhu-Pātimokkhaṁ\\
-Pg - Bhikkhupātimokkhagaṇṭhidīpanī\\
-Sanne - Bhikṣuprātimokṣa-padartha\\
-SVibha - Suttavibhaṅga\\
-TP - The Pātimokkha by K. R. Norman and W. Pruitt\\
-Vibh - Vibhaṅga\\
-UP - Ubhaya Pratimokṣaya\\
-Um - Ubhayamātikāpāḷi\\
-D - The Pātimokkha, being the Buddhist Office of the Confession of Priests, Dickson, J.F. Journal of the Royal Asiatic Society, New Series VIII pp. 62–130, 1876.\\
-W - Watärakapansala Pātimokkha Manuscript\\
-Ra - Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
-SK - Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
-V - Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
-P - Perādeniya University Library Manuscript\\
-G - Gannoruwa Rājamahāvihāra Manuscript\\
-C - National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
+For a full explanation of these abbreviations, please see Ñāṇatusita's \textit{Analysis of the Pātimokkha.}
 
 \smallskip
 
-For an explanation for the aforementioned abbreviations, please see Ñāṇatusita's full Analysis of the Pātimokkha.
+Be - Burmese Edition (Burmese Chaṭṭha Saṅgāyana)\\
+BhPm - Bhikkhupātimokkhaṁ, a 1875 Sinhla script edition based on Siyam manuscripts\\
+C - National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
+Ce - Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
+D - The Pātimokkha, a text based on the manuscripts found at the Malwatta Vihāra\\
+Dhp - Dhammapada
+Dm - Dve Mātikāpāḷi\\
+Ee - European edition (Pāli Text Society P.T.S.), Oxford\\
+G - Gannoruwa Rājamahāvihāra Manuscript\\
+Kkh - Kaṅkhāvitaraṇī\\
+MJG - Mahā-jaya-maṅgala-gāthā (Sri Lanka)
+MN - Majjhima Nikāya
+Mi Se - Royal Thai edition\\
+Mm Se - Mahā Makuṭ Academy Siamese edition\\
+Ñd - Ñāṇadassana's Bhikkhu-Pātimokkhaṁ\\
+Mv - Mahāvagga (Vinaya-piṭaka)\\
+P - Perādeniya University Library manuscript\\
+Pg - Bhikkhupātimokkhagaṇṭhidīpanī\\
+Ra - Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
+SK - Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
+SN - Saṁyutta Nikāya
+SVibh/Vibh - Suttavibhaṅga\\
+Sanne - Bhikṣuprātimokṣa-padartha\\
+TP - The Pātimokkha by K. R. Norman and W. Pruitt\\
+UP - Ubhaya Pratimokṣaya\\
+Um - Ubhayamātikāpāḷi\\
+V - Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
+W - Watärakapansala manuscript\\
+
 }
 
 #+end_src
@@ -7539,6 +7543,64 @@ Etena sacca-vajjena\\
 Sotthi me hotu sabbadā.
 \end{hanging-indent}
 
+\suttaRef{[Trad]}
+
+\clearpage
+
+#+end_src
+
+** Pubbabhāga - English
+
+#+begin_src latex :tangle ./tex/post/pubba-bhaga.tex
+
+\section{Pubba-bhāga}
+\label{pubba-bhaga}
+
+%% \vspace{0.1em}
+
+\begin{intro}
+	\anglebracketleft\ \hspace{-0.5mm}Namo tassa \hspace{-0.5mm}\anglebracketright\
+\end{intro}
+
+Bhagavato arahato sammāsambuddhassa \hfill{[3x]}
+
+%% \smallskip
+
+\begin{center}
+	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ sacca-kiriyā-gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
+\end{center}
+
+%% \vspace{-0.1cm}
+
+\begin{hanging-indent}
+N'atthi me saraṇaṁ aññaṁ\\
+Buddho me saraṇaṁ varaṁ
+\end{hanging-indent}
+\begin{hanging-indent}
+Etena sacca-vajjena\\
+Sotthi me hotu sabbadā.
+\end{hanging-indent}
+
+\begin{hanging-indent}
+N'atthi me saraṇaṁ aññaṁ\\
+Dhammo me saraṇaṁ varaṁ
+\end{hanging-indent}
+\begin{hanging-indent}
+Etena sacca-vajjena\\
+Sotthi me hotu sabbadā.
+\end{hanging-indent}
+
+\begin{hanging-indent}
+N'atthi me saraṇaṁ aññaṁ\\
+Saṅgho me saraṇaṁ varaṁ
+\end{hanging-indent}
+\begin{hanging-indent}
+Etena sacca-vajjena\\
+Sotthi me hotu sabbadā.
+\end{hanging-indent}
+
+\suttaRef{[MJG]}
+
 \clearpage
 
 #+end_src
@@ -7585,11 +7647,132 @@ Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhissāma sikkhāpadesū'ti.
 Evañ'hi no sikkhitabbaṁ.
 \end{hanging-indent-together}
 
+\suttaRef{[MN 6]}
+
+\clearpage
+
+#+end_src
+
+** Sīl'uddesa-pāṭha - Englsih
+
+#+begin_src latex :tangle ./tex/post/siluddesa.tex
+
+\section{Sīl'uddesa-pāṭha}
+\label{siluddesa-patha}
+
+\begin{intro}
+	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ sīl'uddesa-pāṭhaṁ bhaṇāmase \hspace{-0.5mm}\anglebracketright\
+\end{intro}
+
+%% \medskip
+
+\begin{hanging-indent}
+Bhāsitam'idaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena:
+\end{hanging-indent}
+\begin{hanging-indent-together}
+``Sampanna-sīlā bhikkhave viharatha sampanna-pāṭimokkhā.
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
+Pāṭimokkha-saṁvara-saṁvutā viharatha ācāra-gocara-sampannā.
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
+Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhatha sikkhāpadesū'ti.
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
+Tasmā't'ih'amhehi sikkhitabbaṁ.
+\end{hanging-indent-together}
+
+\begin{hanging-indent}
+``Sampanna-sīlā viharissāma sampanna-pāṭimokkhā.
+\end{hanging-indent}
+\begin{hanging-indent-together}
+Pāṭimokkha-saṁvara-saṁvutā viharissāma ācāra-gocara-sampannā.
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
+Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhissāma sikkhāpadesū'ti.
+\end{hanging-indent-together}
+\begin{hanging-indent-together}
+Evañ'hi no sikkhitabbaṁ.
+\end{hanging-indent-together}
+
+\suttaRef{[MN 6]}
+
 \clearpage
 
 #+end_src
 
 ** Tāyana-gatha
+
+#+begin_src latex :tangle ./tex/post/tayana-gatha.tex
+
+\section{Tāyana-gāthā}
+\label{tayana-gatha}
+
+\begin{intro}
+	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ tāyana-gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
+\end{intro}
+
+%% \medskip
+
+\begin{hanging-indent}
+Chinda sotaṁ parakkamma\\
+Kāme panūda brāhmaṇa
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Nappahāya muni kāme\\
+N'ekattam'upapajjati
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Kayirā ce kayirāth'enaṁ\\
+Daḷham'enaṁ parakkame
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Sithilo hi paribbājo\\
+Bhiyyo ākirate rajaṁ
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Akataṁ dukkaṭaṁ seyyo\\
+Pacchā tappati dukkaṭaṁ
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Katañ'ca sukataṁ seyyo\\
+Yaṁ katvā n'ānutappati
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Kuso yathā duggahito\\
+Hattham'ev'ānukantati
+\end{hanging-indent}
+
+\ifninebythirteenversion \clearpage \fi
+
+\begin{hanging-indent}
+Sāmaññaṁ dupparāmaṭṭhaṁ\\
+Nirayāy'ūpakaḍḍhati
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Yaṅ'kiñci sithilaṁ kammaṁ\\
+Saṅkiliṭṭhañ'ca yaṁ vataṁ
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Saṅkassaraṁ brahmacariyaṁ\\
+Na taṁ hoti, mahapphalan'ti
+\end{hanging-indent}
+
+\suttaRef{[SN 2.8]}
+
+\clearpage
+
+#+end_src
+
+** Tāyana-gatha - English
 
 #+begin_src latex :tangle ./tex/post/tayana-gatha.tex
 
@@ -7712,6 +7895,66 @@ Adhicitte ca āyogo\\
 Etaṁ buddhāna'sāsanan'ti
 \end{hanging-indent}
 
+\suttaRef{[Dhp 183-185]}
+
+\clearpage
+
+#+end_src
+
+** Ovāda-pāṭimokkha-gāthā - English
+
+#+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
+
+\section{Ovāda-pāṭimokkha-gāthā}
+\label{ovada-patimokkha-gatha}
+
+\begin{intro}
+	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ ovāda-pāṭimokkha gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
+\end{intro}
+
+%% \medskip
+
+\begin{hanging-indent}
+Uddiṭṭhaṁ kho tena bhagavatā jānatā passatā arahatā sammā-sambuddhena
+\end{hanging-indent}
+Ovāda-pāṭimokkhaṁ tīhi gāthāhi
+\begin{hanging-indent}
+Khantī paramaṁ tapo tītikkhā\\
+Nibbānaṁ paramaṁ vadanti buddhā
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Na hi pabbajito par'ūpaghātī\\
+Samaṇo hoti paraṁ viheṭhayanto
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Sabba-pāpassa akaraṇaṁ\\
+Kusalass'ūpasampadā
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Sacitta-pariyodapanaṁ\\
+Etaṁ buddhāna'sāsanaṁ
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Anūpavādo anūpaghāto\\
+Pāṭimokkhe ca saṁvaro
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Mattaññutā ca bhattasmiṁ\\
+Pantañ'ca sayan'āsanaṁ
+\end{hanging-indent}
+
+\begin{hanging-indent}
+Adhicitte ca āyogo\\
+Etaṁ buddhāna'sāsanan'ti
+\end{hanging-indent}
+
+\suttaRef{[Dhp 183-185]}
+
 \clearpage
 
 #+end_src
@@ -7741,9 +7984,8 @@ Etaṁ buddhāna'sāsanan'ti
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
 Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati\makeatletter\hyperlink{endnote546-appendix}\Hy@raisedlink{\hypertarget{endnote546-body}{}{\pagenote{%
-		\hypertarget{endnote546-appendix}{\hyperlink{endnote546-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have saṃbahulāḥ śaikṣā (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 śaikṣa rules, Mū has 108).}}}}}\makeatother Vitthār'uddeso pañcamo.
-
-
+		\hypertarget{endnote546-appendix}{\hyperlink{endnote546-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have \textit{saṃbahulāḥ śaikṣā} (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 \textit{śaikṣa} rules, Mū has 108).}}}}}\makeatother
+Vitthār'uddeso pañcamo.
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
