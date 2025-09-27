@@ -2884,8 +2884,10 @@ Yo pana bhikkhu bhikkhūhi sahadhammikaṁ vuccamāno evaṁ vadeyya, ``Na tāv'
 \linkdest{endnote385-body}
 Yo pana bhikkhu pātimokkhe\makeatletter\hyperlink{endnote383-appendix}\Hy@raisedlink{\hypertarget{endnote383-body}{}{\pagenote{%
 		\hypertarget{endnote383-appendix}{\hyperlink{endnote383-body}{Mm Se, G, V: \textit{pāṭimokkhe}.}}}}}\makeatother \thinspace uddissamāne evaṁ vadeyya, ``Kiṁ pan'imehi\makeatletter\hyperlink{endnote384-appendix}\Hy@raisedlink{\hypertarget{endnote384-body}{}{\pagenote{%
-		\hypertarget{endnote384-appendix}{\hyperlink{endnote384-body}{Mi \& Mm Se, G, V: \textit{kim-pan'imehi}.}}}}}\makeatother \thinspace khudd'ānukhuddakehi sikkhāpadehi uddiṭṭhehi; yāva'd'eva kukkuccāya, vihesāya, vilekhāya saṁvattantī'ti,'' sikkhāpadavivaṇṇake,\makeatletter\hyperlink{endnote385-appendix}\Hy@raisedlink{\hypertarget{endnote385-body}{}{\pagenote{%
-		\hypertarget{endnote385-appendix}{\hyperlink{endnote385-body}{Dm, UP, G, V, SVibh Ce, SVibh Ee: \textit{vivaṇṇake}.}}}}}\makeatother \thinspace BhPm 1 \& 2, C, D, W, Mi \& Mm Se, Um, Ra, Pg, Ce Kkh: vivaṇṇanake. pācittiyaṁ.
+		\hypertarget{endnote384-appendix}{\hyperlink{endnote384-body}{Mi \& Mm Se, G, V: \textit{kim-pan'imehi}.}}}}}\makeatother \thinspace khudd'ānukhuddakehi sikkhāpadehi uddiṭṭhehi; yāva'd'eva kukkuccāya, vihesāya, vilekhāya saṁvattantī'ti,'' sikkhāpadavivaṇṇake,\makeatletter
+\hyperlink{endnote385-appendix}\Hy@raisedlink{\hypertarget{endnote385-body}{}{\pagenote{%
+   \hypertarget{endnote385-appendix}{\hyperlink{endnote385-body}{Dm, UP, G, V, SVibh Ce, SVibh Ee: \textit{vivaṇṇake}. 
+   BhPm 1 \& 2, C, D, W, Mi \& Mm Se, Um, Ra, Pg, Ce Kkh: vivaṇṇanake.}}}}}\makeatother \thinspace pācittiyaṁ.
 
 #+end_src
 
