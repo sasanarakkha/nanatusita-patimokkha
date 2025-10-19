@@ -4436,7 +4436,7 @@ Uppann'uppannānaṁ adhikaraṇānaṁ samathāya vūpasamāya: sammukhāvinayo
 \linkdest{endnote534-body}
 \begin{center}
 	Uddiṭṭhā kho āyasmanto satta adhikaraṇasamathā\makeatletter\hyperlink{endnote534-appendix}\Hy@raisedlink{\hypertarget{endnote534-body}{}{\pagenote{%
-		\hypertarget{endnote534-appendix}{\hyperlink{endnote534-body}{Mi \& Mm Se, C, V, W: \textit{sattādhikaraṇasamathā}.}}}}}\makeatother \thinspace dhammā
+		\hypertarget{endnote534-appendix}{\hyperlink{endnote534-body}{Mi \& Mm Se, C, V, W: \textit{sattādhikaraṇasamathā}.}}}}}\makeatother \thinspace dhammā.
 
 	\smallskip
 
