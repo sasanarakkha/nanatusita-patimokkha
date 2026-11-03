@@ -200,13 +200,13 @@ BhPm - Bhikkhupātimokkhaṁ, a 1875 Sinhla script edition based on Siyam manusc
 C - National Museum Library Manuscript 6 E 9. No. 10 in De Silva’s Catalogue\\
 Ce - Ceylon Edition (Buddha Jayanti Tipiṭaka Series)\\
 D - The Pātimokkha, a text based on the manuscripts found at the Malwatta Vihāra\\
-Dhp - Dhammapada
+Dhp - Dhammapada\\
 Dm - Dve Mātikāpāḷi\\
 Ee - European edition (Pāli Text Society P.T.S.), Oxford\\
 G - Gannoruwa Rājamahāvihāra Manuscript\\
 Kkh - Kaṅkhāvitaraṇī\\
-MJG - Mahā-jaya-maṅgala-gāthā (Sri Lanka)
-MN - Majjhima Nikāya
+MJG - Mahā-jaya-maṅgala-gāthā (Sri Lanka)\\
+MN - Majjhima Nikāya\\
 Mi Se - Royal Thai edition\\
 Mm Se - Mahā Makuṭ Academy Siamese edition\\
 Ñd - Ñāṇadassana's Bhikkhu-Pātimokkhaṁ\\
@@ -215,7 +215,7 @@ P - Perādeniya University Library manuscript\\
 Pg - Bhikkhupātimokkhagaṇṭhidīpanī\\
 Ra - Ratanārthasudanī-namvu-bhikṣubhikṣuṇī-prātimokṣa-varṇanāva\\
 SK - Sri Kaḷyāṇa Yogāshrama Saṃsṭhāva\\
-SN - Saṁyutta Nikāya
+SN - Saṁyutta Nikāya\\
 SVibh/Vibh - Suttavibhaṅga\\
 Sanne - Bhikṣuprātimokṣa-padartha\\
 TP - The Pātimokkha by K. R. Norman and W. Pruitt\\
@@ -1979,7 +1979,7 @@ Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ tiṇaṁ vā mattikaṁ vā s
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 21}{pac21}
-\subsubsection*{\hyperref[exp]{Pācittiya 21: Ovādasikkhāpada}}
+\subsubsection*{\hyperref[exp21]{Pācittiya 21: Ovādasikkhāpada}}
 \label{pac21}
 
 Yo pana bhikkhu asammato bhikkhuniyo ovadeyya, pācittiyaṁ.
@@ -3384,7 +3384,7 @@ Yāni kho pana tāni sekhasammatāni\makeatletter\hyperlink{endnote452-appendix}
 Yāni kho pana tāni āraññakāni sen'āsanāni sāsaṅkasammatāni\makeatletter\hyperlink{endnote459-appendix}\Hy@raisedlink{\hypertarget{endnote459-body}{}{\pagenote{%
 		\hypertarget{endnote459-appendix}{\hyperlink{endnote459-body}{C, W: \textit{-saṁka-}.}}}}}\makeatother{} sappaṭibhayāni, yo pana bhikkhu tathārūpesu sen'āsanesu\makeatletter\hyperlink{endnote460-appendix}\Hy@raisedlink{\hypertarget{endnote460-body}{}{\pagenote{%
 		\hypertarget{endnote460-appendix}{\hyperlink{endnote460-body}{Bh Pm 1 \& 2, C, D, G, V, W, Mi \& Mm Se, SVibh Ce, Ra, Sannē: \textit{senāsanesu
-viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.})}}}}}\makeatother{} pubbe appaṭisaṁviditaṁ khādanīyaṁ vā bhojanīyaṁ\makeatletter\hyperlink{endnote461-appendix}\Hy@raisedlink{\hypertarget{endnote461-body}{}{\pagenote{%
+viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.}}}}}}\makeatother{} pubbe appaṭisaṁviditaṁ khādanīyaṁ vā bhojanīyaṁ\makeatletter\hyperlink{endnote461-appendix}\Hy@raisedlink{\hypertarget{endnote461-body}{}{\pagenote{%
 		\hypertarget{endnote461-appendix}{\hyperlink{endnote461-body}{C, D, G, V, W, SVibh Ee, Um: \textit{khādaniyaṁ \& bhojaniyaṁ}.}}}}}\makeatother{} vā ajjhārāme sahatthā paṭiggahetvā agilāno\makeatletter\hyperlink{endnote462-appendix}\Hy@raisedlink{\hypertarget{endnote462-body}{}{\pagenote{%
 		\hypertarget{endnote462-appendix}{\hyperlink{endnote462-body}{V: \textit{agīlāno}.}}}}}\makeatother{} khādeyya vā bhuñjeyya vā, paṭidesetabbaṁ tena bhikkhunā: ``Gārayhaṁ āvuso dhammaṁ āpajjiṁ, asappāyaṁ, pāṭidesanīyaṁ,\makeatletter\hyperlink{endnote463-appendix}\Hy@raisedlink{\hypertarget{endnote463-body}{}{\pagenote{%
 		\hypertarget{endnote463-appendix}{\hyperlink{endnote463-body}{C, D, W, SVibh Ee: \textit{pāṭidesaniyaṁ}.}}}}}\makeatother{} taṁ paṭidesemī'ti.''\makeatletter\hyperlink{endnote464-appendix}\Hy@raisedlink{\hypertarget{endnote464-body}{}{\pagenote{%
