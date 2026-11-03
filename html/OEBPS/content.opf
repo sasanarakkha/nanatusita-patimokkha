@@ -17,6 +17,9 @@
     <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="main.css" href="Styles/main.css" media-type="text/css"/>
     <item id="appendix-compressed.jpg" href="Images/appendix-compressed.jpg" media-type="image/jpeg"/>
+    <item id="pali-compressed.jpg" href="Images/pali-compressed.jpg" media-type="image/jpeg"/>
+    <item id="english-compressed.jpg" href="Images/english-compressed.jpg" media-type="image/jpeg"/>
+    <item id="post-patimokkha-compressed.jpg" href="Images/post-patimokkha-compressed.jpg" media-type="image/jpeg"/>
     <item id="sbs-logo-tuck-loon-brown-bare.png" href="Images/sbs-logo-tuck-loon-brown-bare.png" media-type="image/png"/>
     <item id="LICENSE.txt" href="Misc/LICENSE.txt" media-type="text/plain"/>
     <item id="back-cover-compressed.jpg" href="Images/back-cover-compressed.jpg" media-type="image/jpeg"/>
