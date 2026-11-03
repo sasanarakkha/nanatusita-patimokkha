@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <p style="text-align: center;">Published by Sāsanārakkha Buddhist Sanctuary<br/>ISBN 000-0-00000-000-0<br/>Copyright ©&#160;Sāsanārakkha Buddhist Sanctuary 2025</p>
+  <p style="text-align: center;">Published by Sāsanārakkha Buddhist Sanctuary<br/>ISBN 000-0-00000-000-0<br/>Copyright ©&#160;Sāsanārakkha Buddhist Sanctuary 2026</p>
 
   <p style="text-align: center;">This book is for free distribution only;<br/>it may not be sold.</p>
 

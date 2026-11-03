@@ -40,7 +40,7 @@
   - [[#preliminary-duties][Preliminary Duties]]
   - [[#the-recitation-of-the-introduction][The Recitation of the Introduction]]
   - [[#disqualifications][Disqualifications]]
-  - [[#cases-concering-the-community][Cases Concering the Community]]
+  - [[#cases-concerning-the-community][Cases Concerning the Community]]
   - [[#uncertain-cases][Uncertain Cases]]
   - [[#forfeiture-and-expiations][Forfeiture and Expiations]]
   - [[#expiations][Expiations]]
@@ -53,7 +53,7 @@
   - [[#pubbabhāga][Pubbabhāga]]
   - [[#pubbabhāga---english][Pubbabhāga - English]]
   - [[#sīluddesa-pāṭha][Sīl'uddesa-pāṭha]]
-  - [[#sīluddesa-pāṭha---englsih][Sīl'uddesa-pāṭha - Englsih]]
+  - [[#sīluddesa-pāṭha---english][Sīl'uddesa-pāṭha - English]]
   - [[#tāyana-gatha][Tāyana-gatha]]
   - [[#tāyana-gatha---english][Tāyana-gatha - English]]
   - [[#ovāda-pāṭimokkha-gāthā][Ovāda-pāṭimokkha-gāthā]]
@@ -129,7 +129,7 @@
 	Published by \publisher\\
 
 	ISBN \theISBN\\
-	Copyright \copyright\ Sāsanārakkha Buddhist Sanctuary 2025
+	Copyright \copyright\ Sāsanārakkha Buddhist Sanctuary 2026
 
 	\ifafiveversion \vspace{0.5cm} \fi
 	\ifninebythirteenversion \vspace{0.25cm} \fi
@@ -407,7 +407,7 @@ Kiṁ saṅghassa pubbakiccaṁ?
 
 \linkdest{endnote16-body}
 Pārisuddhiṁ āyasmanto ārocetha. Pātimokkhaṁ uddisissāmi. Taṁ sabb'eva santā sādhukaṁ suṇoma manasikaroma. Yassa siyā āpatti, so āvikareyya\makeatletter\hyperlink{endnote16-appendix}\Hy@raisedlink{\hypertarget{endnote16-body}{}{\pagenote{%
-		\hypertarget{endnote16-appendix}{\hyperlink{endnote16-body}{V, Ce Mv, Ra: \textit{āvīkareyya}.}}}}}\makeatother \thinspace. Asantiyā āpattiyā, tuṇhī bhavitabbaṁ. Tuṇhībhāvena kho pan'āyasmante parisuddhā'ti vedissāmi.
+		\hypertarget{endnote16-appendix}{\hyperlink{endnote16-body}{V, Ce Mv, Ra: \textit{āvīkareyya}.}}}}}\makeatother. Asantiyā āpattiyā, tuṇhī bhavitabbaṁ. Tuṇhībhāvena kho pan'āyasmante parisuddhā'ti vedissāmi.
 
 \linkdest{endnote17-body}
 \linkdest{endnote18-body}
@@ -562,7 +562,7 @@ Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ att'ūpanāyikaṁ alam'ar
 \linkdest{endnote10-body}
 \linkdest{endnote37-body}
 \begin{outro}
-	Cattāro pārājkā dhammā niṭṭhitā\makeatletter\hyperlink{endnote10-appendix}\Hy@raisedlink{\hypertarget{endnote10-body}{}{\pagenote{%
+	Cattāro pārājikā dhammā niṭṭhitā\makeatletter\hyperlink{endnote10-appendix}\Hy@raisedlink{\hypertarget{endnote10-body}{}{\pagenote{%
 				\hypertarget{endnote10-appendix}{\hyperlink{endnote10-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one.\\
 						When reciting in brief use: \textit{pārājik'uddeso niṭṭhito}.}}}}}\makeatother \thinspace\makeatletter\hyperlink{endnote37-appendix}\Hy@raisedlink{\hypertarget{endnote37-body}{}{\pagenote{%
 		\hypertarget{endnote37-appendix}{\hyperlink{endnote37-body}{Dm: \textit{Pārājikaṁ niṭṭhitaṁ}. Ñd Ce, UP, Um, Mi Se: \textit{Pārājikuddeso dutiyo}.}}}}}\makeatother \thinspace
@@ -681,7 +681,7 @@ Saññācikāya\makeatletter\hyperlink{endnote47-appendix}\Hy@raisedlink{\hypert
 		\hypertarget{endnote48-appendix}{\hyperlink{endnote48-body}{V: \textit{tatrīdaṁ}.}}}}}\makeatother{} pamāṇaṁ: dīghaso dvādasa vidatthiyo sugatavidatthiyā tiriyaṁ satt'antarā. Bhikkhū abhinetabbā vatthudesanāya. Tehi bhikkhūhi vatthuṁ\makeatletter\hyperlink{endnote49-appendix}\Hy@raisedlink{\hypertarget{endnote49-body}{}{\pagenote{%
 		\hypertarget{endnote49-appendix}{\hyperlink{endnote49-body}{Dm, Um: \textit{vatthu} (So UP in Sd 7).}}}}}\makeatother{} desetabbaṁ anārambhaṁ\makeatletter\hyperlink{endnote50-appendix}\Hy@raisedlink{\hypertarget{endnote50-body}{}{\pagenote{%
 		\hypertarget{endnote50-appendix}{\hyperlink{endnote50-body}{SVibh Be v.l.: \textit{anārabbhaṁ}. UP (sīhala) v.l. \textit{anārabhaṁ}.}}}}}\makeatother{} saparikkamanaṁ\makeatletter\hyperlink{endnote51-appendix}\Hy@raisedlink{\hypertarget{endnote51-body}{}{\pagenote{%
-		\hypertarget{endnote51-appendix}{\hyperlink{endnote51-body}{Ra, Um, Pg: \textit{-kamaṇaṁ}.}}}}}\makeatother \thinspace. Sārambhe\makeatletter\hyperlink{endnote52-appendix}\Hy@raisedlink{\hypertarget{endnote52-body}{}{\pagenote{%
+		\hypertarget{endnote51-appendix}{\hyperlink{endnote51-body}{Ra, Um, Pg: \textit{-kamaṇaṁ}.}}}}}\makeatother. Sārambhe\makeatletter\hyperlink{endnote52-appendix}\Hy@raisedlink{\hypertarget{endnote52-body}{}{\pagenote{%
 		\hypertarget{endnote52-appendix}{\hyperlink{endnote52-body}{SVibh Be v.l.: \textit{sārabbhe}.}}}}}\makeatother{} ce bhikkhu vatthusmiṁ aparikkamane\makeatletter\hyperlink{endnote53-appendix}\Hy@raisedlink{\hypertarget{endnote53-body}{}{\pagenote{%
 		\hypertarget{endnote53-appendix}{\hyperlink{endnote53-body}{Ra, Pg: \textit{-kamaṇe}.}}}}}\makeatother{} saññācikāya\makeatletter\hyperlink{endnote54-appendix}\Hy@raisedlink{\hypertarget{endnote54-body}{}{\pagenote{%
 		\hypertarget{endnote54-appendix}{\hyperlink{endnote54-body}{C, D, W: \textit{saṁyācikaya}.}}}}}\makeatother{} kuṭiṁ kāreyya, bhikkhū vā anabhineyya vatthudesanāya, pamāṇaṁ vā atikkāmeyya, saṅghādiseso.
@@ -4729,12 +4729,12 @@ If any bhikkhu, [though] not directly knowing [it], should claim a superhuman st
 
 #+end_src
 
-** Cases Concering the Community
+** Cases Concerning the Community
 *** Community Meeting 1: The training precept on emission of semen
 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
-\section{Cases Concering the Community}
+\section{Cases Concerning the Community}
 \label{comm}
 
 \begin{intro}
@@ -5658,13 +5658,13 @@ If any bhikkhu should knowingly pour out, or should have [someone else] pour out
 
 #+end_src
 
-*** The Section on Exhoration
+*** The Section on Exhortation
 **** Expiation 21: The training precept on exhortation
 
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
-\subsection{The Section on Exhoration}
+\subsection{The Section on Exhortation}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 21}{exp 21}
@@ -7562,7 +7562,7 @@ Sotthi me hotu sabbadā.
 
 ** Pubbabhāga - English
 
-#+begin_src latex :tangle ./tex/post/pubba-bhaga.tex
+#+begin_src latex
 
 \section{Pubba-bhāga}
 \label{pubba-bhaga}
@@ -7664,9 +7664,9 @@ Evañ'hi no sikkhitabbaṁ.
 
 #+end_src
 
-** Sīl'uddesa-pāṭha - Englsih
+** Sīl'uddesa-pāṭha - English
 
-#+begin_src latex :tangle ./tex/post/siluddesa.tex
+#+begin_src latex
 
 \section{Sīl'uddesa-pāṭha}
 \label{siluddesa-patha}
@@ -7785,7 +7785,7 @@ Na taṁ hoti, mahapphalan'ti
 
 ** Tāyana-gatha - English
 
-#+begin_src latex :tangle ./tex/post/tayana-gatha.tex
+#+begin_src latex
 
 \section{Tāyana-gāthā}
 \label{tayana-gatha}
@@ -7914,7 +7914,7 @@ Etaṁ buddhāna'sāsanan'ti
 
 ** Ovāda-pāṭimokkha-gāthā - English
 
-#+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
+#+begin_src latex
 
 \section{Ovāda-pāṭimokkha-gāthā}
 \label{ovada-patimokkha-gatha}
