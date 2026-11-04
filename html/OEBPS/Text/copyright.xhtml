@@ -8,13 +8,15 @@
 </head>
 
 <body>
-  <p style="text-align: center;">Published by TBD<br/>ISBN<br/>Copyright ©&#160;Sāsanārakkha Buddhist Sanctuary 2024</p>
+  <p style="text-align: center;">Published by Sāsanārakkha Buddhist Sanctuary<br/>ISBN 000-0-00000-000-0<br/>Copyright ©&#160;Sāsanārakkha Buddhist Sanctuary 2026</p>
 
   <p style="text-align: center;">This book is for free distribution only;<br/>it may not be sold.</p>
 
-  <p style="text-align: center;">Download this book as a PDF, EPUB, or MOBI<br/>at the following address:<br/><a style="font-style:normal;" href="https://sasanarakkha.org">https://sasanarakkha.org</a></p>
+  <p style="text-align: center;">Download this book as a PDF, EPUB, or MOBI<br/>at the following address:<br/><a style="font-style:normal;" href="https://sasanarakkha.org/">https://sasanarakkha.org</a></p>
 
-  <p style="text-align: center;">Project Manager: Ā. Ariyadhammika <br/> Editor: Ā. Pāladhammika<br/>Typesetting: Aj. Gambhiro, Ā. Pāladhammika<br/>Translators: Ā. Ñāṇatusita, Aj. Ṭhānissaro<br/>Endnotes: Ā. Ariyadhammika Aj. Ṭhānissaro</p>
+  <p style="text-align: center;">Accompanying audio recordings can be found at: <a style="font-style:normal;" href="https://www.youtube.com/SasanarakkhaBuddhistSanctuary">www.youtube.com/SasanarakkhaBuddhistSanctuary</a></p>
+
+  <p style="text-align: center;">Project Manager: Ā. Ariyadhammika<br/>Editor/Typesetting: Ā. Pāladhammika<br/>Translators: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Illustrations: Lim Jee Yuan</p>
 
   <p style="text-align: center;">This work is licensed under a Creative Commons<br/>Attribution-NonCommercial-NoDerivatives 4.0 International&#160;License.</p>
 
