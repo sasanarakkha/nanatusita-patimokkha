@@ -221,7 +221,7 @@ Sanne - Bhikṣuprātimokṣa-padartha\\
 TP - The Pātimokkha by K. R. Norman and W. Pruitt\\
 UP - Ubhaya Pratimokṣaya\\
 Um - Ubhayamātikāpāḷi\\
-V - Siamese Braḥ Pāṭimokkhaṃ manuscript in the Viyayasundarārāmaya vihāra\\
+V - Siamese Braḥ Pāṭimokkhaṁ manuscript in the Viyayasundarārāmaya vihāra\\
 W - Watärakapansala manuscript\\
 
 }
@@ -452,7 +452,7 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 		\hypertarget{endnote9-appendix}{\hyperlink{endnote9-body}{Not in any edition or manuscript, but if a conclusion is to be recited then this one as given in the Parivāra would be the suitable one.\\
 			When reciting in brief use: Nidān'uddeso niṭṭhito.\\
   Mm Se, D, V, W, P. UP, Um, Ñd \& Mi Se: \textit{Nidānuddeso paṭhamo}. BhPm 1
-\& 2, C, G, Ra: \textit{Nidānuddeso}. Dm: \textit{Nidānaṃ niṭṭhitaṃ}. }}}}}\makeatother \thinspace
+\& 2, C, G, Ra: \textit{Nidānuddeso}. Dm: \textit{Nidānaṁ niṭṭhitaṁ}. }}}}}\makeatother \thinspace
 \end{outro}
 
 \clearpage
@@ -500,7 +500,7 @@ Yo pana bhikkhu bhikkhūnaṁ\makeatletter\hyperlink{endnote27-appendix}\Hy@rais
 
 \linkdest{endnote31-body}
 Yo pana bhikkhu gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyeyya, yathārūpe adinn'ādāne rājāno coraṁ gahetvā haneyyuṁ vā bandheyyuṁ vā pabbājeyyuṁ vā: ``Coro'si, bālo'si, mūḷho'si,\makeatletter\hyperlink{endnote31-appendix}\Hy@raisedlink{\hypertarget{endnote31-body}{}{\pagenote{%
-		\hypertarget{endnote31-appendix}{\hyperlink{endnote-body}{Mm Se, BhPm 1, V: \textit{muḷho}.}}}}}\makeatother{} theno'sī'ti,'' tathārūpaṁ bhikkhu adinnaṁ ādiyamāno; ayam'pi pārājiko hoti, asaṁvāso.
+		\hypertarget{endnote31-appendix}{\hyperlink{endnote31-body}{Mm Se, BhPm 1, V: \textit{muḷho}.}}}}}\makeatother{} theno'sī'ti,'' tathārūpaṁ bhikkhu adinnaṁ ādiyamāno; ayam'pi pārājiko hoti, asaṁvāso.
 
 #+end_src
 
@@ -513,8 +513,8 @@ Yo pana bhikkhu gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyeyy
 \label{par3}
 
 \linkdest{endnote32-body}
-Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya, satthahārakaṁ vā'ssa pariyeseyya, maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya: ``Ambho purisa, kiṁ tuyh'iminā pāpakena dujjīvitena? Matan'te\makeatletter\hyperlink{endnote-appendix}\Hy@raisedlink{\hypertarget{endnote-body}{}{\pagenote{%
-		\hypertarget{endnote-appendix}{\hyperlink{endnote-body}{Dm: \textit{mataṁ te}.}}}}}\makeatother{} jīvitā seyyo'ti!'', iti cittamano cittasaṅkappo anekapariyāyena maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya; ayam'pi pārājiko hoti, asaṁvāso.
+Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya, satthahārakaṁ vā'ssa pariyeseyya, maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya: ``Ambho purisa, kiṁ tuyh'iminā pāpakena dujjīvitena? Matan'te\makeatletter\hyperlink{endnote32-appendix}\Hy@raisedlink{\hypertarget{endnote32-body}{}{\pagenote{%
+		\hypertarget{endnote32-appendix}{\hyperlink{endnote32-body}{Dm: \textit{mataṁ te}.}}}}}\makeatother{} jīvitā seyyo'ti!'', iti cittamano cittasaṅkappo anekapariyāyena maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya; ayam'pi pārājiko hoti, asaṁvāso.
 
 #+end_src
 
@@ -638,9 +638,9 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi
 
 \linkdest{endnote43-body}
 \linkdest{endnote44-body}
-Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmassa santike attakāmapāricariyāya vaṇṇaṁ bhāseyya: ``Etad'aggaṁ bhagini pāricariyānaṁ yā mādisaṁ sīlavantaṁ kalyāṇadhammaṁ brahmacāriṁ etena dhammena paricareyyā'ti,''\makeatletter\hyperlink{endnote-appendix}\Hy@raisedlink{\hypertarget{endnote-body}{}{\pagenote{%
-		\hypertarget{endnote-appendix}{\hyperlink{endnote-body}{Mm Se: \textit{pāri-}.}}}}}\makeatother{} methun'ūpasaṁhitena,\makeatletter\hyperlink{endnote-appendix}\Hy@raisedlink{\hypertarget{endnote-body}{}{\pagenote{%
-		\hypertarget{endnote-appendix}{\hyperlink{endnote-body}{Dm, SVibh Ee: \textit{methunupasaṁhitena}. Mi \& Mm Se, V: \textit{-ūpasañhitena}.}}}}}\makeatother{} saṅghādiseso.
+Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmassa santike attakāmapāricariyāya vaṇṇaṁ bhāseyya: ``Etad'aggaṁ bhagini pāricariyānaṁ yā mādisaṁ sīlavantaṁ kalyāṇadhammaṁ brahmacāriṁ etena dhammena paricareyyā'ti,''\makeatletter\hyperlink{endnote43-appendix}\Hy@raisedlink{\hypertarget{endnote43-body}{}{\pagenote{%
+		\hypertarget{endnote43-appendix}{\hyperlink{endnote43-body}{Mm Se: \textit{pāri-}.}}}}}\makeatother{} methun'ūpasaṁhitena,\makeatletter\hyperlink{endnote44-appendix}\Hy@raisedlink{\hypertarget{endnote44-body}{}{\pagenote{%
+		\hypertarget{endnote44-appendix}{\hyperlink{endnote44-body}{Dm, SVibh Ee: \textit{methunupasaṁhitena}. Mi \& Mm Se, V: \textit{-ūpasañhitena}.}}}}}\makeatother{} saṅghādiseso.
 
 #+end_src
 
@@ -721,8 +721,8 @@ Mahallakaṁ pana\makeatletter\hyperlink{endnote55-appendix}\Hy@raisedlink{\hype
 \linkdest{endnote61-body}
 Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto amūlakena pārājikena dhammena anuddhaṁseyya: ``App'eva nāma naṁ imamhā brahmacariyā cāveyyan'ti,'' tato aparena samayena samanuggāhiyamāno\makeatletter\hyperlink{endnote59-appendix}\Hy@raisedlink{\hypertarget{endnote59-body}{}{\pagenote{%
 		\hypertarget{endnote59-appendix}{\hyperlink{endnote59-body}{Dm: \textit{-ggahīya-}.}}}}}\makeatother{} vā asamanuggāhiyamāno\makeatletter\hyperlink{endnote60-appendix}\Hy@raisedlink{\hypertarget{endnote60-body}{}{\pagenote{%
-		\hypertarget{endnote60-appendix}{\hyperlink{endnote60-body}{Dm: \textit{-ggahīya-}.}}}}}\makeatother{} vā, amūlakañ'c'eva\makeatletter\hyperlink{endnote-appendix}\Hy@raisedlink{\hypertarget{endnote-body}{}{\pagenote{%
-		\hypertarget{endnote-appendix}{\hyperlink{endnote-body}{G: \textit{amūlakaṁ c'eva}.}}}}}\makeatother{} taṁ adhikaraṇaṁ hoti, bhikkhu ca dosaṁ patiṭṭhāti, saṅghādiseso.
+		\hypertarget{endnote60-appendix}{\hyperlink{endnote60-body}{Dm: \textit{-ggahīya-}.}}}}}\makeatother{} vā, amūlakañ'c'eva\makeatletter\hyperlink{endnote61-appendix}\Hy@raisedlink{\hypertarget{endnote61-body}{}{\pagenote{%
+		\hypertarget{endnote61-appendix}{\hyperlink{endnote61-body}{G: \textit{amūlakaṁ c'eva}.}}}}}\makeatother{} taṁ adhikaraṇaṁ hoti, bhikkhu ca dosaṁ patiṭṭhāti, saṅghādiseso.
 
 #+end_src
 
@@ -953,7 +953,7 @@ Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho paṭicchanne āsane ala�
 
 \linkdest{endnote115-body}
 Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeatletter\hyperlink{endnote115-appendix}\Hy@raisedlink{\hypertarget{endnote115-body}{}{\pagenote{%
-		\hypertarget{endnote115-appendix}{\hyperlink{endnote115-body}{SVibh Ee: \textit{-kammaṇiyaṁ}. Mm Se, BhPm 1–2, C, D, G, V, W, Um, Ra, SVibh Ee: \textit{nālaṁ kammaniyaṁ}. UP, BhPm 1 \& 2, Ra: \textit{nālaṁ kammanīyaṁ}.)}}}}}\makeatother{} alañ'ca kho hoti mātugāmaṁ duṭṭhullāhi vācāhi obhāsituṁ. Yo pana bhikkhu tathārūpe āsane mātugāmena saddhiṁ eko ekāya raho nisajjaṁ kappeyya, tam'enaṁ saddheyyavacasā upāsikā disvā dvinnaṁ dhammānaṁ aññatarena vadeyya saṅghādisesena vā pācittiyena vā, nisajjaṁ bhikkhu paṭijānamāno dvinnaṁ dhammānaṁ aññatarena kāretabbo saṅghādisesena vā pācittiyena vā, yena vā sā saddheyyavacasā upāsikā vadeyya, tena so bhikkhu kāretabbo, ayam'pi dhammo aniyato.
+		\hypertarget{endnote115-appendix}{\hyperlink{endnote115-body}{SVibh Ee: \textit{-kammaṇiyaṁ}. Mm Se, BhPm 1–2, C, D, G, V, W, Um, Ra, SVibh Ee: \textit{nālaṁ kammaniyaṁ}. UP, BhPm 1 \& 2, Ra: \textit{nālaṁ kammanīyaṁ}.}}}}}\makeatother{} alañ'ca kho hoti mātugāmaṁ duṭṭhullāhi vācāhi obhāsituṁ. Yo pana bhikkhu tathārūpe āsane mātugāmena saddhiṁ eko ekāya raho nisajjaṁ kappeyya, tam'enaṁ saddheyyavacasā upāsikā disvā dvinnaṁ dhammānaṁ aññatarena vadeyya saṅghādisesena vā pācittiyena vā, nisajjaṁ bhikkhu paṭijānamāno dvinnaṁ dhammānaṁ aññatarena kāretabbo saṅghādisesena vā pācittiyena vā, yena vā sā saddheyyavacasā upāsikā vadeyya, tena so bhikkhu kāretabbo, ayam'pi dhammo aniyato.
 
 #+end_src
 
@@ -1469,7 +1469,7 @@ Yāni kho pana tāni gilānānaṁ\makeatletter\hyperlink{endnote202-appendix}\H
 		\hypertarget{endnote202-appendix}{\hyperlink{endnote202-body}{V: \textit{gīlānānaṁ}.}}}}}\makeatother{} bhikkhūnaṁ paṭisāyanīyāni bhesajjāni, seyyath'īdaṁ:\makeatletter\hyperlink{endnote203-appendix}\Hy@raisedlink{\hypertarget{endnote203-body}{}{\pagenote{%
 		\hypertarget{endnote203-appendix}{\hyperlink{endnote203-body}{Dm, UP: \textit{seyyathidaṁ}. Cf Pāc 39.}}}}}\makeatother{} sappi, navanītaṁ,\makeatletter\hyperlink{endnote204-appendix}\Hy@raisedlink{\hypertarget{endnote204-body}{}{\pagenote{%
 		\hypertarget{endnote204-appendix}{\hyperlink{endnote204-body}{V: \textit{navanitaṁ}.}}}}}\makeatother{} telaṁ, madhuphāṇitaṁ,\makeatletter\hyperlink{endnote205-appendix}\Hy@raisedlink{\hypertarget{endnote205-body}{}{\pagenote{%
-		\hypertarget{endnote205-appendix}{\hyperlink{endnote205-body}{C: \textit{madhupphāṇitaṁ. G: \textit{madhuphāṇītaṁ}; later (i.e., uninked) corrected to \textit{madhupphāṇītaṁ}. Cf Pāc 39.}}}}}\makeatother{} tāni paṭiggahetvā satt'āhaparamaṁ sannidhikārakaṁ paribhuñjitabbāni. Taṁ atikkāmayato, nissaggiyaṁ pācittiyaṁ.
+		\hypertarget{endnote205-appendix}{\hyperlink{endnote205-body}{C: \textit{madhupphāṇitaṁ}. G: \textit{madhuphāṇītaṁ}; later (i.e., uninked) corrected to \textit{madhupphāṇītaṁ}. Cf Pāc 39.}}}}}\makeatother{} tāni paṭiggahetvā satt'āhaparamaṁ sannidhikārakaṁ paribhuñjitabbāni. Taṁ atikkāmayato, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
@@ -1499,7 +1499,7 @@ Yāni kho pana tāni gilānānaṁ\makeatletter\hyperlink{endnote202-appendix}\H
 
 \linkdest{endnote208-body}
 Yo pana bhikkhu bhikkhussa sāmaṁ cīvaraṁ datvā kupito\makeatletter\hyperlink{endnote208-appendix}\Hy@raisedlink{\hypertarget{endnote208-body}{}{\pagenote{%
-		\hypertarget{endnote208-appendix}{\hyperlink{endnote208-body}{V: \textit{kuppito}. (Cf NP Pāc 17 \& 74.) Bh Pm 1 \& 2, C, D, W, Ra, UP sīhala v.l: \textit{pacchā} \textit{kupito}.}}}}}\makeatother{} anattamano acchindeyya vā acchindāpeyya vā, nissaggiyaṁ pācittiyaṁ.
+		\hypertarget{endnote208-appendix}{\hyperlink{endnote208-body}{V: \textit{kuppito}. (Cf Pāc 17 \& 74.) Bh Pm 1 \& 2, C, D, W, Ra, UP sīhala v.l: \textit{pacchā} \textit{kupito}.}}}}}\makeatother{} anattamano acchindeyya vā acchindāpeyya vā, nissaggiyaṁ pācittiyaṁ.
 
 #+end_src
 
@@ -1998,7 +1998,7 @@ Yo pana bhikkhu asammato bhikkhuniyo ovadeyya, pācittiyaṁ.
 \linkdest{endnote265-body}
 Sammato'pi\makeatletter\hyperlink{endnote264-appendix}\Hy@raisedlink{\hypertarget{endnote264-body}{}{\pagenote{%
 		\hypertarget{endnote264-appendix}{\hyperlink{endnote264-body}{SVibh Ee: \textit{ce pi}.}}}}}\makeatother{} ce bhikkhu atthaṅ'gate suriye\makeatletter\hyperlink{endnote265-appendix}\Hy@raisedlink{\hypertarget{endnote265-body}{}{\pagenote{%
-		\hypertarget{endnote265-appendix}{\hyperlink{endnote265-body}{Dm: \textit{sūriye}. (= Sanskritisation; see Pecenko, Ee A-ṭ introduction p.liii.}}}}}\makeatother{} bhikkhuniyo ovadeyya, pācittiyaṁ.
+		\hypertarget{endnote265-appendix}{\hyperlink{endnote265-body}{Dm: \textit{sūriye}. (= Sanskritisation; see Pecenko, Ee A-ṭ introduction p.~liii.)}}}}}\makeatother{} bhikkhuniyo ovadeyya, pācittiyaṁ.
 
 #+end_src
 
@@ -2154,7 +2154,7 @@ Agilānena\makeatletter\hyperlink{endnote280-appendix}\Hy@raisedlink{\hypertarge
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
-\pdfbookmark[3]{Pācittiya 32}{pac31}
+\pdfbookmark[3]{Pācittiya 32}{pac32}
 \subsubsection*{\hyperref[exp32]{Pācittiya 32: Gaṇabhojanasikkhāpada}}
 \label{pac32}
 
@@ -2290,10 +2290,10 @@ Yāni kho pana tāni paṇītabhojanāni, seyyath'īdaṁ:\makeatletter\hyperlin
 		\hypertarget{endnote301-appendix}{\hyperlink{endnote301-body}{Dm, UP: \textit{seyyathidaṁ}. Cf NP 23.}}}}}\makeatother{} sappi, navanītaṁ,\makeatletter\hyperlink{endnote302-appendix}\Hy@raisedlink{\hypertarget{endnote302-body}{}{\pagenote{%
 		\hypertarget{endnote302-appendix}{\hyperlink{endnote302-body}{V: \textit{navanitaṁ}. Cf NP 23.}}}}}\makeatother{} telaṁ, madhuphāṇitaṁ,\makeatletter\hyperlink{endnote303-appendix}\Hy@raisedlink{\hypertarget{endnote303-body}{}{\pagenote{%
 		\hypertarget{endnote303-appendix}{\hyperlink{endnote303-body}{C, D, W: \textit{madhupphāṇitaṁ}.}}}}}\makeatother{} maccho, maṁsaṁ, khīraṁ, dadhi;\makeatletter\hyperlink{endnote304-appendix}\Hy@raisedlink{\hypertarget{endnote304-body}{}{\pagenote{%
-		\hypertarget{endnote304-appendix}{\hyperlink{endnote304-body}{C, P, (Wae Uda Pm, Sirimalwatta Pm): \textit{dadhiṃ}. (This reading has later been
-scribbled through in C.) Both \textit{dadhi} and \textit{dadhiṃ} are neuter nominative according
-to CPED, although normally \textit{dadhiṃ} is accusative. Cf J-a IV 140: \textit{khīraṃ viya
-dadhiṃ viya obhāsantaṃ}.}}}}}\makeatother{} yo pana bhikkhu evarūpāni paṇītabhojanāni agilāno\makeatletter\hyperlink{endnote305-appendix}\Hy@raisedlink{\hypertarget{endnote305-body}{}{\pagenote{%
+		\hypertarget{endnote304-appendix}{\hyperlink{endnote304-body}{C, P, (Wae Uda Pm, Sirimalwatta Pm): \textit{dadhiṁ}. (This reading has later been
+scribbled through in C.) Both \textit{dadhi} and \textit{dadhiṁ} are neuter nominative according
+to CPED, although normally \textit{dadhiṁ} is accusative. Cf J-a IV 140: \textit{khīraṁ viya
+dadhiṁ viya obhāsantaṁ}.}}}}}\makeatother{} yo pana bhikkhu evarūpāni paṇītabhojanāni agilāno\makeatletter\hyperlink{endnote305-appendix}\Hy@raisedlink{\hypertarget{endnote305-body}{}{\pagenote{%
 		\hypertarget{endnote305-appendix}{\hyperlink{endnote305-body}{V: \textit{gīlāno}.}}}}}\makeatother{} attano atthāya viññāpetvā bhuñjeyya,\makeatletter\hyperlink{endnote306-appendix}\Hy@raisedlink{\hypertarget{endnote306-body}{}{\pagenote{%
 		\hypertarget{endnote306-appendix}{\hyperlink{endnote306-body}{C, D, W: \textit{paribhuñjeyya}.}}}}}\makeatother{} pācittiyaṁ.
 
@@ -2459,7 +2459,7 @@ Yo pana bhikkhu uyyuttaṁ\makeatletter\hyperlink{endnote319-appendix}\Hy@raised
 \linkdest{endnote323-body}
 Siyā ca tassa bhikkhuno koci'd'eva paccayo senaṁ gamanāya,\makeatletter\hyperlink{endnote321-appendix}\Hy@raisedlink{\hypertarget{endnote321-body}{}{\pagenote{%
 		\hypertarget{endnote321-appendix}{\hyperlink{endnote321-body}{C, W: \textit{senaṅgamanāya}.}}}}}\makeatother{} dirattatirattaṁ\makeatletter\hyperlink{endnote322-appendix}\Hy@raisedlink{\hypertarget{endnote322-body}{}{\pagenote{%
-		\hypertarget{endnote322-appendix}{\hyperlink{endnote322-body}{Mi \& Mm Se,SVibh Ee: \textit{dvi-}.}}}}}\makeatother{} tena bhikkhunā senāya vasitabbaṁ; tato ce uttariṁ\makeatletter\hyperlink{endnote323-appendix}\Hy@raisedlink{\hypertarget{endnote323-body}{}{\pagenote{%
+		\hypertarget{endnote322-appendix}{\hyperlink{endnote322-body}{Mi \& Mm Se, SVibh Ee: \textit{dvi-}.}}}}}\makeatother{} tena bhikkhunā senāya vasitabbaṁ; tato ce uttariṁ\makeatletter\hyperlink{endnote323-appendix}\Hy@raisedlink{\hypertarget{endnote323-body}{}{\pagenote{%
 		\hypertarget{endnote323-appendix}{\hyperlink{endnote323-body}{Be \& UP, Um, SVibh Ee: \textit{uttari}. See NP 3.}}}}}\makeatother{} vaseyya, pācittiyaṁ.
 
 #+end_src
@@ -2475,7 +2475,7 @@ Siyā ca tassa bhikkhuno koci'd'eva paccayo senaṁ gamanāya,\makeatletter\hype
 \linkdest{endnote324-body}
 \linkdest{endnote325-body}
 Dirattatirattañ'ce\makeatletter\hyperlink{endnote324-appendix}\Hy@raisedlink{\hypertarget{endnote324-body}{}{\pagenote{%
-		\hypertarget{endnote324-appendix}{\hyperlink{endnote324-body}{Mi \& Mm Se,SVibh Ee: \textit{dvi-}.}}}}}\makeatother{} bhikkhu senāya vasamāno, uyyodhikaṁ vā bal'aggaṁ vā senābyūhaṁ\makeatletter\hyperlink{endnote325-appendix}\Hy@raisedlink{\hypertarget{endnote325-body}{}{\pagenote{%
+		\hypertarget{endnote324-appendix}{\hyperlink{endnote324-body}{Mi \& Mm Se, SVibh Ee: \textit{dvi-}.}}}}}\makeatother{} bhikkhu senāya vasamāno, uyyodhikaṁ vā bal'aggaṁ vā senābyūhaṁ\makeatletter\hyperlink{endnote325-appendix}\Hy@raisedlink{\hypertarget{endnote325-body}{}{\pagenote{%
 		\hypertarget{endnote325-appendix}{\hyperlink{endnote325-body}{Ce Kkh: \textit{-vyūhaṁ}. G, Um, UP, V, Ra, Pg: \textit{-byuhaṁ}.}}}}}\makeatother{} vā anīkadassanaṁ vā gaccheyya, pācittiyaṁ.
 
 \linkdest{endnote326-body}
@@ -2611,7 +2611,7 @@ Yo pana bhikkhu oren'aḍḍhamāsaṁ\makeatletter\hyperlink{endnote331-appendi
 \linkdest{endnote339-body}
 Navaṁ pana\makeatletter\hyperlink{endnote339-appendix}\Hy@raisedlink{\hypertarget{endnote339-body}{}{\pagenote{%
 		\hypertarget{endnote339-appendix}{\hyperlink{endnote339-body}{Mi Se, G, V, P: \textit{navam-pana}.}}}}}\makeatother{} bhikkhunā cīvaralābhena tiṇṇaṁ dubbaṇṇakaraṇānaṁ aññataraṁ dubbaṇṇakaraṇaṁ ādātabbaṁ, nīlaṁ vā kaddamaṁ\makeatletter\hyperlink{endnote339-appendix}\Hy@raisedlink{\hypertarget{endnote339-body}{}{\pagenote{%
-		\hypertarget{endnote330-appendix}{\hyperlink{endnote339-body}{V: \textit{kaddumaṁ}.}}}}}\makeatother{} vā kāḷasāmaṁ vā. Anādā ce bhikkhu tiṇṇaṁ dubbaṇṇakaraṇānaṁ aññataraṁ dubbaṇṇakaraṇaṁ navaṁ cīvaraṁ paribhuñjeyya, pācittiyaṁ.
+		\hypertarget{endnote339-appendix}{\hyperlink{endnote339-body}{V: \textit{kaddumaṁ}.}}}}}\makeatother{} vā kāḷasāmaṁ vā. Anādā ce bhikkhu tiṇṇaṁ dubbaṇṇakaraṇānaṁ aññataraṁ dubbaṇṇakaraṇaṁ navaṁ cīvaraṁ paribhuñjeyya, pācittiyaṁ.
 
 #+end_src
 
@@ -2628,7 +2628,7 @@ Navaṁ pana\makeatletter\hyperlink{endnote339-appendix}\Hy@raisedlink{\hypertar
 \linkdest{endnote342-body}
 Yo pana bhikkhu bhikkhussa vā bhikkhuniyā\makeatletter\hyperlink{endnote340-appendix}\Hy@raisedlink{\hypertarget{endnote340-body}{}{\pagenote{%
 		\hypertarget{endnote340-appendix}{\hyperlink{endnote340-body}{V: \textit{bhikkhunīyā}.}}}}}\makeatother{} vā sikkhamānāya vā sāmaṇerassa vā sāmaṇeriyā\makeatletter\hyperlink{endnote341-appendix}\Hy@raisedlink{\hypertarget{endnote341-body}{}{\pagenote{%
-		\hypertarget{endnote341-appendix}{\hyperlink{endnote341-body}{Bh Pm 1 \& 2: \textit{sāmaṇerāya}. Mm Se: \textit{samaṇerassa}. \textit{samaṇeriyā}.}}}}}\makeatother{} vā sāmaṁ cīvaraṁ vikappetvā apaccuddhārakaṁ\makeatletter\hyperlink{endnote342-appendix}\Hy@raisedlink{\hypertarget{endnote342-body}{}{\pagenote{%
+		\hypertarget{endnote341-appendix}{\hyperlink{endnote341-body}{Bh Pm 1 \& 2: \textit{sāmaṇerāya}. Mm Se: \textit{samaṇerassa} … \textit{samaṇeriyā}.}}}}}\makeatother{} vā sāmaṁ cīvaraṁ vikappetvā apaccuddhārakaṁ\makeatletter\hyperlink{endnote342-appendix}\Hy@raisedlink{\hypertarget{endnote342-body}{}{\pagenote{%
 		\hypertarget{endnote342-appendix}{\hyperlink{endnote342-body}{Dm, Um, UP: \textit{appaccuddhāraṇaṁ.} Pg (p. 57): \textit{apaccuddhārakaṁ}.}}}}}\makeatother{} paribhuñjeyya, pācittiyaṁ.
 
 #+end_src
@@ -2782,7 +2782,7 @@ Yo pana bhikkhu evaṁ vadeyya, ``Tath'āhaṁ bhagavatā dhammaṁ desitaṁ ā
 		\hypertarget{endnote356-appendix}{\hyperlink{endnote356-body}{Um, SVibh Be v.l., Mi Se v.l.: \textit{abbhācikkhanaṁ}.}}}}}\makeatother{} na hi bhagavā evaṁ vadeyya; anekapariyāyena āvuso\makeatletter\hyperlink{endnote357-appendix}\Hy@raisedlink{\hypertarget{endnote357-body}{}{\pagenote{%
 		\hypertarget{endnote357-appendix}{\hyperlink{endnote357-body}{Dm, Um, UP: \textit{-pariyāyenāvuso}.}}}}}\makeatother{} antarāyikā dhammā antarāyikā\makeatletter\hyperlink{endnote358-appendix}\Hy@raisedlink{\hypertarget{endnote358-body}{}{\pagenote{%
 		\hypertarget{endnote358-appendix}{\hyperlink{endnote358-body}{Mi \& Mm Se, G, V, Ra: \textit{āvuso antarāyikā dhammā vuttā bhagavatā} D: \textit{anekapariyāyena āvuso antarāyikā vuttā bhagavatā} (Probably a misprint as not found in Malwatta mss.) (Pg unclear.)}}}}}\makeatother{} vuttā bhagavatā, alañ'ca pana te paṭisevato antarāyāyā'ti,'' evañ'ca\makeatletter\hyperlink{endnote359-appendix}\Hy@raisedlink{\hypertarget{endnote359-body}{}{\pagenote{%
-		\hypertarget{endnote359-appendix}{\hyperlink{endnote359-body}{SVibh Ce, SVibh Ee, Um, SVibh Be v.l., Mi v.l.: `\textit{evañ-ca pana so}. (Pg: ...\textit{evaṁ so bhikkhu bhikkhūhi}...)}}}}}\makeatother{} so bhikkhu bhikkhūhi vuccamāno tath'eva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya, yāvatatiyañ'ce\makeatletter\hyperlink{endnote360-appendix}\Hy@raisedlink{\hypertarget{endnote360-body}{}{\pagenote{%
+		\hypertarget{endnote359-appendix}{\hyperlink{endnote359-body}{SVibh Ce, SVibh Ee, Um, SVibh Be v.l., Mi v.l.: \textit{evañ-ca pana so}. (Pg: ...\textit{evaṁ so bhikkhu bhikkhūhi}...)}}}}}\makeatother{} so bhikkhu bhikkhūhi vuccamāno tath'eva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya, yāvatatiyañ'ce\makeatletter\hyperlink{endnote360-appendix}\Hy@raisedlink{\hypertarget{endnote360-body}{}{\pagenote{%
 		\hypertarget{endnote360-appendix}{\hyperlink{endnote360-body}{C, W, Bh Pm 1 \& 2, SVibh Ce: \textit{yāvatatiyaṁ ce}.}}}}}\makeatother{} samanubhāsiyamāno taṁ paṭinissajeyya,\makeatletter\hyperlink{endnote361-appendix}\Hy@raisedlink{\hypertarget{endnote361-body}{}{\pagenote{%
 		\hypertarget{endnote361-appendix}{\hyperlink{endnote361-body}{C, D, W. Other editions: \textit{paṭinissajjeyya}. See Sd 10.}}}}}\makeatother{} icc'etaṁ kusalaṁ, no ce paṭinissajeyya,\makeatletter\hyperlink{endnote362-appendix}\Hy@raisedlink{\hypertarget{endnote362-body}{}{\pagenote{%
 		\hypertarget{endnote362-appendix}{\hyperlink{endnote362-body}{C, D, W. Other editions: \textit{paṭinissajjeyya}. See Sd 10.}}}}}\makeatother{} pācittiyaṁ.
@@ -2839,7 +2839,7 @@ Samaṇ'uddeso'pi ce evaṁ vadeyya, ``Tath'āhaṁ bhagavatā dhammaṁ desita�
 		\hypertarget{endnote373-appendix}{\hyperlink{endnote373-body}{SVibh Ce, SVibh Ee, Um, SVibh Be v.l., Mi v.l.: \textit{evañ-ca pana so}. (Pg: ...\textit{evaṁ so bhikkhu bhikkhūhi}...)}}}}}\makeatother{} so samaṇ'uddeso bhikkhūhi vuccamāno tath'eva paggaṇheyya, so samaṇ'uddeso bhikkhūhi evam'assa vacanīyo,\makeatletter\hyperlink{endnote374-appendix}\Hy@raisedlink{\hypertarget{endnote374-body}{}{\pagenote{%
 		\hypertarget{endnote374-appendix}{\hyperlink{endnote374-body}{V: \textit{vacaniyo}.}}}}}\makeatother{} ``Ajja't'agge te āvuso samaṇ'uddesa na c'eva so bhagavā satthā apadisitabbo, yam'pi c'aññe samaṇ'uddesā labhanti bhikkhūhi saddhiṁ dirattatirattaṁ\makeatletter\hyperlink{endnote375-appendix}\Hy@raisedlink{\hypertarget{endnote375-body}{}{\pagenote{%
 		\hypertarget{endnote375-appendix}{\hyperlink{endnote375-body}{Mm Se, SVibh Ee: \textit{dvi-}.}}}}}\makeatother{} saha seyyaṁ,\makeatletter\hyperlink{endnote376-appendix}\Hy@raisedlink{\hypertarget{endnote376-body}{}{\pagenote{%
-		\hypertarget{endnote376-appendix}{\hyperlink{endnote376-body}{Dm, SVibh Ce, UP, Mm \& Mi Se, V, SVibh Ee,: \textit{sahaseyyaṁ}. See Pāc 5.}}}}}\makeatother{} sā'pi te n'atthi, carapire\makeatletter\hyperlink{endnote377-appendix}\Hy@raisedlink{\hypertarget{endnote377-body}{}{\pagenote{%
+		\hypertarget{endnote376-appendix}{\hyperlink{endnote376-body}{Dm, SVibh Ce, UP, Mm \& Mi Se, V, SVibh Ee: \textit{sahaseyyaṁ}. See Pāc 5.}}}}}\makeatother{} sā'pi te n'atthi, carapire\makeatletter\hyperlink{endnote377-appendix}\Hy@raisedlink{\hypertarget{endnote377-body}{}{\pagenote{%
 		\hypertarget{endnote377-appendix}{\hyperlink{endnote377-body}{Dm, Um, UP, SVibh Ee, Mi \& Mm Se, V, W: pire. Bh Pm 1 \& 2, C, D, SVibh Ce, Ra, Pg, Ce Kkh: \textit{pare}. G: \textit{cara pi pare}.}}}}}\makeatother{} vinassā'ti.'' Yo pana bhikkhu jānaṁ tathānāsitaṁ samaṇ'uddesaṁ upalāpeyya vā upaṭṭhāpeyya vā sambhuñjeyya\makeatletter\hyperlink{endnote378-appendix}\Hy@raisedlink{\hypertarget{endnote378-body}{}{\pagenote{%
 		\hypertarget{endnote378-appendix}{\hyperlink{endnote378-body}{G, SVibh Ee: \textit{saṁbhuñjeyya}.}}}}}\makeatother{} vā saha vā seyyaṁ kappeyya, pācittiyaṁ.
 
@@ -3384,7 +3384,7 @@ Yāni kho pana tāni sekhasammatāni\makeatletter\hyperlink{endnote452-appendix}
 Yāni kho pana tāni āraññakāni sen'āsanāni sāsaṅkasammatāni\makeatletter\hyperlink{endnote459-appendix}\Hy@raisedlink{\hypertarget{endnote459-body}{}{\pagenote{%
 		\hypertarget{endnote459-appendix}{\hyperlink{endnote459-body}{C, W: \textit{-saṁka-}.}}}}}\makeatother{} sappaṭibhayāni, yo pana bhikkhu tathārūpesu sen'āsanesu\makeatletter\hyperlink{endnote460-appendix}\Hy@raisedlink{\hypertarget{endnote460-body}{}{\pagenote{%
 		\hypertarget{endnote460-appendix}{\hyperlink{endnote460-body}{Bh Pm 1 \& 2, C, D, G, V, W, Mi \& Mm Se, SVibh Ce, Ra, Sannē: \textit{senāsanesu
-viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.}}}}}}\makeatother{} pubbe appaṭisaṁviditaṁ khādanīyaṁ vā bhojanīyaṁ\makeatletter\hyperlink{endnote461-appendix}\Hy@raisedlink{\hypertarget{endnote461-body}{}{\pagenote{%
+viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.}}}}}\makeatother{} pubbe appaṭisaṁviditaṁ khādanīyaṁ vā bhojanīyaṁ\makeatletter\hyperlink{endnote461-appendix}\Hy@raisedlink{\hypertarget{endnote461-body}{}{\pagenote{%
 		\hypertarget{endnote461-appendix}{\hyperlink{endnote461-body}{C, D, G, V, W, SVibh Ee, Um: \textit{khādaniyaṁ \& bhojaniyaṁ}.}}}}}\makeatother{} vā ajjhārāme sahatthā paṭiggahetvā agilāno\makeatletter\hyperlink{endnote462-appendix}\Hy@raisedlink{\hypertarget{endnote462-body}{}{\pagenote{%
 		\hypertarget{endnote462-appendix}{\hyperlink{endnote462-body}{V: \textit{agīlāno}.}}}}}\makeatother{} khādeyya vā bhuñjeyya vā, paṭidesetabbaṁ tena bhikkhunā: ``Gārayhaṁ āvuso dhammaṁ āpajjiṁ, asappāyaṁ, pāṭidesanīyaṁ,\makeatletter\hyperlink{endnote463-appendix}\Hy@raisedlink{\hypertarget{endnote463-body}{}{\pagenote{%
 		\hypertarget{endnote463-appendix}{\hyperlink{endnote463-body}{C, D, W, SVibh Ee: \textit{pāṭidesaniyaṁ}.}}}}}\makeatother{} taṁ paṭidesemī'ti.''\makeatletter\hyperlink{endnote464-appendix}\Hy@raisedlink{\hypertarget{endnote464-body}{}{\pagenote{%
@@ -4192,7 +4192,7 @@ Na pāduk'ārūḷhassa\makeatletter\hyperlink{endnote514-appendix}\Hy@raisedlin
 \linkdest{endnote515-body}
 \linkdest{endnote516-body}
 Na upāhan'ārūḷhassa\makeatletter\hyperlink{endnote515-appendix}\Hy@raisedlink{\hypertarget{endnote515-body}{}{\pagenote{%
-		\hypertarget{endnote515-appendix}{\hyperlink{endnote515-body}{Bh Pm 1 \& 2, Dm, V: \textit{-ruḷhassa}.}}}}}\makeatother{} agilānassa\makeatletter\hyperlink{endnote-appendix}\Hy@raisedlink{\hypertarget{endnote516-body}{}{\pagenote{%
+		\hypertarget{endnote515-appendix}{\hyperlink{endnote515-body}{Bh Pm 1 \& 2, Dm, V: \textit{-ruḷhassa}.}}}}}\makeatother{} agilānassa\makeatletter\hyperlink{endnote516-appendix}\Hy@raisedlink{\hypertarget{endnote516-body}{}{\pagenote{%
 		\hypertarget{endnote516-appendix}{\hyperlink{endnote516-body}{V: \textit{agilānassa} throughout the section.}}}}}\makeatother{} dhammaṁ desessāmī'ti, sikkhā karaṇīyā.
 
 #+end_src
@@ -4402,7 +4402,7 @@ Na udake agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmī'ti s
 \linkdest{endnote528-body}
 \begin{outro}
 	Sekhiyā dhammā niṭṭhitā\makeatletter\hyperlink{endnote528-appendix}\Hy@raisedlink{\hypertarget{endnote528-body}{}{\pagenote{%
-		\hypertarget{endnote528-appendix}{\hyperlink{endnote528-body}{Dm, Bh Pm 1 \& 2, c, V, W, Mm Se, Um. Ñd Ce, P: Sekhiyā dhammā niṭṭhitā. Mi Se: \textit{Pañcasattati sekhiyā dhammā niṭṭhitā}. (N.B. The \textit{Katthapaññattivāra} chapter of the \textit{Parivāra} (Be, Ce, and Ee.) has \textit{Pañcasattati sekhiyā niṭṭhitā}.}}}}}\makeatother \thinspace
+		\hypertarget{endnote528-appendix}{\hyperlink{endnote528-body}{Dm, Bh Pm 1 \& 2, C, V, W, Mm Se, Um. Ñd Ce, P: Sekhiyā dhammā niṭṭhitā. Mi Se: \textit{Pañcasattati sekhiyā dhammā niṭṭhitā}. (N.B. The \textit{Katthapaññattivāra} chapter of the \textit{Parivāra} (Be, Ce, and Ee.) has \textit{Pañcasattati sekhiyā niṭṭhitā}.}}}}}\makeatother \thinspace
 
 \end{outro}
 
@@ -4420,7 +4420,7 @@ Na udake agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmī'ti s
 \linkdest{endnote529-body}
 \begin{intro}
 	Ime kho pan'āyasmanto satta adhikaraṇasamathā\makeatletter\hyperlink{endnote529-appendix}\Hy@raisedlink{\hypertarget{endnote529-body}{}{\pagenote{%
-		\hypertarget{endnote529-appendix}{\hyperlink{endnote529-body}{Mi \& Mm Se, C, G, V, W,: \textit{sattādhikaraṇasamathā}. Bh Pm 1 \& 2, D, Dm, Um, UP, SVibh Ce, SVibh Ee, Ra, Pg: \textit{satta adhikaranasamathā}.}}}}}\makeatother{} dhammā uddesaṁ āgacchanti.
+		\hypertarget{endnote529-appendix}{\hyperlink{endnote529-body}{Mi \& Mm Se, C, G, V, W: \textit{sattādhikaraṇasamathā}. Bh Pm 1 \& 2, D, Dm, Um, UP, SVibh Ce, SVibh Ee, Ra, Pg: \textit{satta adhikaraṇasamathā}.}}}}}\makeatother{} dhammā uddesaṁ āgacchanti.
 \end{intro}
 
 \linkdest{endnote530-body}
@@ -4455,9 +4455,9 @@ tiṇ'avatthārako'ti.
 
 	\smallskip
 
-\linkdest{endnote534-body}
-	Parisuddh'etth'āyasmanto, tasmā tuṇhī, evam'etaṁ dhārayāmi.\makeatletter\hyperlink{endnote534-appendix}\Hy@raisedlink{\hypertarget{endnote534-body}{}{\pagenote{%
-		\hypertarget{endnote534-appendix}{\hyperlink{endnote534-body}{Dm, UP, Ra, Um: \textit{dhārayāmī ti}.}}}}}\makeatother \thinspace
+\linkdest{endnote534b-body}
+	Parisuddh'etth'āyasmanto, tasmā tuṇhī, evam'etaṁ dhārayāmi.\makeatletter\hyperlink{endnote534b-appendix}\Hy@raisedlink{\hypertarget{endnote534b-body}{}{\pagenote{%
+		\hypertarget{endnote534b-appendix}{\hyperlink{endnote534b-body}{Dm, UP, Ra, Um: \textit{dhārayāmī ti}.}}}}}\makeatother \thinspace
 \end{center}
 
 \linkdest{endnote535-body}
@@ -4813,7 +4813,7 @@ By a bhikkhu who is having a hut, which is without an owner, [and] is designated
 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
-\pdfbookmark[3]{Community Meeting 1}{comm7}
+\pdfbookmark[3]{Community Meeting 7}{comm7}
 \subsection*{\hyperref[sd7]{Community Meeting 7: The training precept on making a dwelling}}
 \label{comm7}
 
@@ -4877,7 +4877,7 @@ Now, there are bhikkhus who are followers of that same bhikkhu, [and] who are sp
 \subsection*{\hyperref[sd12]{Community Meeting 12: The training precept on being of a nature difficult to be spoken to}}
 \label{comm12}
 
-Now, a bhikkhu is of a nature difficult to be spoken to, [and when] being righteously spoken to by the bhikkhus about the training precepts included in the recitation, he makes himself [one] who can not be spoken to [saying]: ``Venerables, don't say anything good or bad to me, and I too shall not say anything good or bad to the venerables! Venerables, refrain from speaking to me!'' [Then] that bhikkhu should be spoken to thus by the bhikkhus: ``Let the venerable one one not make himself [one] who cannot be spoken to. Let the venerable one make himself [one] who can be spoken to. Let the venerable one speak to the bhikkhus with righteousness and the monks too will speak to the venerable one with righteousness. For the Blessed One's assembly has grown thus, that is, by the speaking of one to another, by the rehabilitating of one another,'' and [if] that bhikkhu being spoken to thus by the bhikkhus should persist in the same way [as before], [then] that bhikkhu is to be argued with up to three times by the bhikkhus for the relinquishing of that [course], [and if that bhikkhu,] being argued with up to three times, should relinquish that [course], then this is good, [but] if he should not relinquish [it]: [this is a case concerning] the community in the beginning and in the rest [of the procedure].
+Now, a bhikkhu is of a nature difficult to be spoken to, [and when] being righteously spoken to by the bhikkhus about the training precepts included in the recitation, he makes himself [one] who can not be spoken to [saying]: ``Venerables, don't say anything good or bad to me, and I too shall not say anything good or bad to the venerables! Venerables, refrain from speaking to me!'' [Then] that bhikkhu should be spoken to thus by the bhikkhus: ``Let the venerable one not make himself [one] who cannot be spoken to. Let the venerable one make himself [one] who can be spoken to. Let the venerable one speak to the bhikkhus with righteousness and the monks too will speak to the venerable one with righteousness. For the Blessed One's assembly has grown thus, that is, by the speaking of one to another, by the rehabilitating of one another,'' and [if] that bhikkhu being spoken to thus by the bhikkhus should persist in the same way [as before], [then] that bhikkhu is to be argued with up to three times by the bhikkhus for the relinquishing of that [course], [and if that bhikkhu,] being argued with up to three times, should relinquish that [course], then this is good, [but] if he should not relinquish [it]: [this is a case concerning] the community in the beginning and in the rest [of the procedure].
 
 #+end_src
 
@@ -5985,7 +5985,7 @@ By a bhikkhu who is not ill a four-month invitation for requisites can be accept
 \pdfbookmark[3]{Expitation 48}{exp 48}
 \subsubsection*{\hyperref[pac48]{Expiation 48: The training precept on the army in action}}
 \label{exp48}
-If any bhikkhu should should go to visit an army in action; except with an appropriate reason, [this is a case] involving expiation.
+If any bhikkhu should go to visit an army in action; except with an appropriate reason, [this is a case] involving expiation.
 
 #+end_src
 
@@ -6093,7 +6093,7 @@ If any bhikkhu who is not ill, desiring to warm [himself], should light a fire o
 \pdfbookmark[3]{Expitation 57}{exp 57}
 \subsubsection*{\hyperref[pac57]{Expiation 57: The training precept on bathing}}
 \label{exp57}
-If any bhikkhu should should bathe within less than half a month, except at the [right] occasion, [this is a case] involving expiation. Here the occasion is this [thinking]: ``one and a half month is what remains of the hot season,'' [and ``this is] the first month of the rainy season''—these two and a half months [are] the occasion of dry heat, [and] the occasion of humid heat—[also:] the occasion of being sick; the occasion of work; the occasion of going on a journey; the occasion of [dusty] wind and rain; this is the occasion here.
+If any bhikkhu should bathe within less than half a month, except at the [right] occasion, [this is a case] involving expiation. Here the occasion is this [thinking]: ``one and a half month is what remains of the hot season,'' [and ``this is] the first month of the rainy season''—these two and a half months [are] the occasion of dry heat, [and] the occasion of humid heat—[also:] the occasion of being sick; the occasion of work; the occasion of going on a journey; the occasion of [dusty] wind and rain; this is the occasion here.
 
 #+end_src
 
@@ -6320,7 +6320,7 @@ If any bhikkhu should brandish the palm of the hand [threateningly] like [one ho
 \pdfbookmark[3]{Expitation 76}{exp 76}
 \subsubsection*{\hyperref[pac76]{Expiation 76: The training precept on being groundless}}
 \label{exp76}
-If any bhikkhu should should accuse a bhikkhu with a groundless [case concerning] the community in the beginning and in the rest [of the procedure], [this is a case] involving expiation.
+If any bhikkhu should accuse a bhikkhu with a groundless [case concerning] the community in the beginning and in the rest [of the procedure], [this is a case] involving expiation.
 
 #+end_src
 
@@ -6590,7 +6590,7 @@ Now, [there are] those families which are agreed upon as trainees: if any bhikkh
 \pdfbookmark[3]{Acknowledgment 4}{ack4}
 \subsection*{\hyperref[pd4]{Acknowledgment 4: The fourth training precept on what is to be acknowledged}}
 \label{ack4}
-Now, [there are] those those wilderness lodgings which are considered risky, which are dangerous: if any bhikkhu, [staying] in lodgings which are of such a kind, without having announced [the danger] beforehand, having accepted [the food] with his own hand inside the monastery, [and then] not being ill, should chew uncooked food or eat cooked food, [then it] is to be acknowledged by that bhikkhu, ``Friend[s], I have committed a blameworthy act which is unsuitable, which is to be acknowledged; I acknowledge it.''
+Now, [there are] those wilderness lodgings which are considered risky, which are dangerous: if any bhikkhu, [staying] in lodgings which are of such a kind, without having announced [the danger] beforehand, having accepted [the food] with his own hand inside the monastery, [and then] not being ill, should chew uncooked food or eat cooked food, [then it] is to be acknowledged by that bhikkhu, ``Friend[s], I have committed a blameworthy act which is unsuitable, which is to be acknowledged; I acknowledge it.''
 
 #+end_src
 
@@ -7970,8 +7970,7 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ. Sutā kho pan'āyasmantehi cattāro p
 
 \smallskip
 
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati\makeatletter\hyperlink{endnote546-l2-appendix}\Hy@raisedlink{\hypertarget{endnote546-l2-body}{}{\pagenote{%
-		\hypertarget{endnote546-l2-appendix}{\hyperlink{endnote546-l2-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have \textit{saṃbahulāḥ śaikṣā} (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 \textit{śaikṣa} rules, Mū has 108).}}}}}\makeatother{} sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā. Sutā kho pan'āyasmantehi terasa saṅghādisesā dhammā, dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
@@ -7984,8 +7983,7 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dh
 
 \smallskip
 
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā. Sutā kho pan'āyasmantehi dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati\makeatletter\hyperlink{endnote546-l3-appendix}\Hy@raisedlink{\hypertarget{endnote546-l3-body}{}{\pagenote{%
-		\hypertarget{endnote546-l3-appendix}{\hyperlink{endnote546-l3-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have \textit{saṃbahulāḥ śaikṣā} (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 \textit{śaikṣa} rules, Mū has 108).}}}}}\makeatother{} sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā. Sutā kho pan'āyasmantehi dve aniyatā dhammā, tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
@@ -7998,8 +7996,7 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dh
 
 \smallskip
 
-Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati\makeatletter\hyperlink{endnote546-l4-appendix}\Hy@raisedlink{\hypertarget{endnote546-l4-body}{}{\pagenote{%
-		\hypertarget{endnote546-l4-appendix}{\hyperlink{endnote546-l4-body}{In the introduction and conclusion to each of the sections the number of rules recited are mentioned. The only exception is the Sekhiya section, which in all editions of the Pātimokkha and the \textit{Suttavibhaṅga} does not give the number of rules in the section, i.e., there is no \textit{pañcasattati} (``seventy-five'') before \textit{sekhiyā dhammā} (``training rules''). The only exceptions are Mi Se, a Siamese manuscript (V), and the \textit{saṅkhittapātimokkhuddesa} (the recitation of the Pātimokkha in brief) that is given in a few printed editions and manuscripts and is also found in the Parivāra. As this would be the only section introduction where the number of rules are omitted, it could seem that the Thai tradition has preserved an older tradition, however, the reason for the omission might be different. When comparing the Pali Pātimokkha and the Prātimokṣasūtras of other major early traditions, it is clear that the divergence between them—both in the number of rules and in rules not found in other Prātimokṣasūtras—occurs in this section. In other sections the difference is only in the order of rules and in the wording. In contrast to the fixed content of the other sections of the Pātimokkha/ Prātimokṣasūta, the Sekhiya section would have been seen as an open-ended appendix section in which minor training rules related to ordinary etiquette could be added by different traditions and perhaps even major monastic centers. Nowadays too different monasteries have different sets of monastery rules. Thai forest monasteries are known especially for their refined rules regarding etiquette. In the Cullavagga, sekhiya rules are referred to as vatta or ``observances''; see Sekhiya section introduction. The other major early traditions also did not number their \textit{śaikṣa} sections: the Ma-L has \textit{sātirekapañcāśaccaikṣā} (PrMoMā-L 30, 34 ; cf. Kar I I 80, II 77: \textit{sātirekapaṃcāśa śaikṣakā}), ``more than fifty'' (it has 67 \textit{śaikṣa} rules), while the Mū and Sa Pm have \textit{saṃbahulāḥ śaikṣā} (PrMoSa 241, 255, Chandra 11), ``many training rules'' (Sa has 113 \textit{śaikṣa} rules, Mū has 108).}}}}}\makeatother{} sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
+Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dhammā, uddiṭṭhā terasa saṅghādisesā dhammā, uddiṭṭhā dve aniyatā dhammā. Sutā kho pan'āyasmantehi tiṁsa nissaggiyā pācittiyā dhammā, dvenavuti pācittiyā dhammā, cattāro pāṭidesanīyā dhammā, pañcasattati sekhiyā dhammā, satta adhikaraṇasamathā dhammā. Ettakaṁ tassa bhagavato sutt'āgataṁ suttapariyāpannaṁ anvaḍḍhamāsaṁ uddesaṁ āgacchati. Tattha sabbeh'eva samaggehi sammodamānehi avivadamānehi sikkhitabban'ti.
 
 \begin{outro}
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ

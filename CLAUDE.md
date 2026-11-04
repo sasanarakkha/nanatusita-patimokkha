@@ -39,7 +39,8 @@
   The English page "The Pātimokkha Recitation in Brief Conclusion" mirrors them. Level 4 is the standard brief conclusion.
   - Recited sections use "uddiṭṭhā …"; the rest use "Sutā kho pan'āyasmantehi …".
   - The English uses "Heard by the venerables have been …".
-  - "pañcasattati" keeps its long footnote in every level, and the English says "the seventy-five cases related to the training".
+  - "pañcasattati" has its long footnote only in Level 1 (the user removed the identical copies in
+    Levels 2–4, formerly notes 546–548). The English says "the seventy-five cases related to the training".
   - Use only the book's own Pāḷi and English phrasing. Add no commentarial terms such as *sāvetabbaṃ*.
 - Year in copyright and edition: 2026. The ISBN is still a placeholder (000-0-00000-000-0).
 - Known unfixed item: `tex/abbreviations` has Ñd before Mv, and Sanne after SVibh, out of alphabetical order.
