@@ -28,6 +28,8 @@
   Always use `\makeatother{} ` with a real space after it, never `\makeatother \thinspace `.
   The thinspace form glued words together and caused bad line breaks.
   Before a full stop, use `\makeatother.` with no space.
+- Endnotes: the siglum is always "BhPm" (never "Bh Pm"); variant readings are in `\textit{}`.
+  Pāli uses ṁ; ṃ is kept only in Sanskrit and Sinhala words.
 - `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.
 - Chapter-opening images: `assets/illustrations/{A5,9x13}/{pali,english,post-patimokkha,appendix}-compressed.jpg`.
   Copies are in `html/OEBPS/Images/`. They are 1748×2480, upscaled from 1024 px, so print quality is limited.
