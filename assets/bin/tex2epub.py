@@ -348,7 +348,6 @@ def jobs():
     secs = sections('tex/in-brief.tex')
     J.append(('tex/in-brief.tex', 'sankhittapatimokkhuddeso-nitthana', secs[0]))
     J.append(('tex/in-brief.tex', 'patimokkha-in-brief-conclusion', secs[1]))
-    J.append(('tex/in-brief.tex', 'in-brief-levels', secs[2]))
     return J
 
 

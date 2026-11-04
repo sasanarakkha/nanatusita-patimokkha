@@ -1,0 +1,49 @@
+# Ñāṇatusita's Bhikkhupātimokkha: notes for Claude
+
+## Where the text lives
+- **Single source of truth:** `nanatusita-patimokkha.tex.org`. Edit only this file for content.
+- `python3 assets/bin/org-tangle.py nanatusita-patimokkha.tex.org` regenerates `tex/**` from it.
+  Org blocks with no `:tangle` are not printed.
+- PDF: `make pdf-a5`, `make pdf-9x13` (LuaLaTeX, `main.tex`, `anecdote.cls`, `A5.sty`/`9x13.sty`).
+- EPUB: `python3 assets/bin/tex2epub.py --write` regenerates the body pages and `endnotes.xhtml`
+  in `html/OEBPS/Text/` from `tex/`, numbering footnotes like the PDF. Then run `make epub`.
+  `make epub` overwrites `copyright.xhtml` with today's date, so restore it before committing.
+- Hand-maintained EPUB files (not generated): `abbreviations`, `copyright(.xhtml.tpl)`, `titlepage`,
+  `nav`, `contents`, `content.opf`, the `cover-*.xhtml` pages.
+- Check the EPUB: `java -jar /usr/bin/epubcheck <file>.epub`. The one OPF-003 warning about
+  `contents.xhtml` is known and harmless.
+- CI (`.github/workflows/building.yaml`) builds only on pushes to `main`.
+
+## Workflow after any text change
+1. Edit the org file.
+2. Tangle.
+3. Run `tex2epub.py --write`.
+4. Build the PDF and check the affected pages.
+5. Commit and push to the working branch (`claude/bold-pascal-lctmlq`; the user merges to `main`).
+
+## Conventions and decisions so far
+- Footnote macro pattern:
+  `word\makeatletter\hyperlink{endnoteX-appendix}\Hy@raisedlink{...\pagenote{%`
+  `...}}}}}\makeatother{} next`.
+  Always use `\makeatother{} ` with a real space after it, never `\makeatother \thinspace `.
+  The thinspace form glued words together and caused bad line breaks.
+  Before a full stop, use `\makeatother.` with no space.
+- `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.
+- Chapter-opening images: `assets/illustrations/{A5,9x13}/{pali,english,post-patimokkha,appendix}-compressed.jpg`.
+  Copies are in `html/OEBPS/Images/`. They are 1748×2480, upscaled from 1024 px, so print quality is limited.
+- Post-Pātimokkha recitations: each has a Pāli section followed by its English section
+  (Preliminary Part, The Summary on Virtue, On Protection, The Pāṭimokkha Exhortation).
+  The English text is the user's own translation; keep its wording as given. The "restrain of the Pāṭimokkhā"
+  phrasing is intended, not a typo.
+- Saṅkhittapātimokkh'uddesa-niṭṭhāna (Appendix): Levels 1–4 are subsections under that title.
+  The English page "The Pātimokkha Recitation in Brief Conclusion" mirrors them. Level 4 is the standard brief conclusion.
+  - Recited sections use "uddiṭṭhā …"; the rest use "Sutā kho pan'āyasmantehi …".
+  - The English uses "Heard by the venerables have been …".
+  - "pañcasattati" keeps its long footnote in every level, and the English says "the seventy-five cases related to the training".
+  - Use only the book's own Pāḷi and English phrasing. Add no commentarial terms such as *sāvetabbaṃ*.
+- Year in copyright and edition: 2026. The ISBN is still a placeholder (000-0-00000-000-0).
+- Known unfixed item: `tex/abbreviations` has Ñd before Mv, and Sanne after SVibh, out of alphabetical order.
+
+## User preferences
+Direct, concise, technical. State uncertainty and give a confidence score. Do not auto-agree.
+Flag possible errors and ask; don't silently "fix" the user's own translations.

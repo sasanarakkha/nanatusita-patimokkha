@@ -64,7 +64,6 @@
     <item id="ovada-patimokkha.xhtml" href="Text/ovada-patimokkha.xhtml" media-type="application/xhtml+xml"/>
     <item id="sankhittapatimokkhuddeso-nitthana.xhtml" href="Text/sankhittapatimokkhuddeso-nitthana.xhtml" media-type="application/xhtml+xml"/>
     <item id="patimokkha-in-brief-conclusion.xhtml" href="Text/patimokkha-in-brief-conclusion.xhtml" media-type="application/xhtml+xml"/>
-    <item id="in-brief-levels.xhtml" href="Text/in-brief-levels.xhtml" media-type="application/xhtml+xml"/>
     <item id="cover-appendix.xhtml" href="Text/cover-appendix.xhtml" media-type="application/xhtml+xml" properties="svg"/>
     <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
     <item id="cover-back.xhtml" href="Text/cover-back.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -109,7 +108,6 @@
     <itemref idref="cover-appendix.xhtml"/>
     <itemref idref="sankhittapatimokkhuddeso-nitthana.xhtml"/>
     <itemref idref="patimokkha-in-brief-conclusion.xhtml"/>
-    <itemref idref="in-brief-levels.xhtml"/>
     <itemref idref="endnotes.xhtml"/>
     <itemref idref="cover-back.xhtml"/>
   </spine>
