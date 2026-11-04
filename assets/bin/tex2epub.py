@@ -344,11 +344,11 @@ def jobs():
     for p, e in PALI + ENG:
         J.append((p, e, None))
     for p, e in POST:
-        secs = sections(p)
-        J.append((p, e, secs[0]))   # PDF prints an untranslated duplicate as 2nd section; use one copy
+        J.append((p, e, None))      # Pāli section followed by its English translation
     secs = sections('tex/in-brief.tex')
     J.append(('tex/in-brief.tex', 'sankhittapatimokkhuddeso-nitthana', secs[0]))
     J.append(('tex/in-brief.tex', 'patimokkha-in-brief-conclusion', secs[1]))
+    J.append(('tex/in-brief.tex', 'in-brief-levels', secs[2]))
     return J
 
 
@@ -361,8 +361,7 @@ def main(write=False):
     out = {}
     for p, e, txt in jobs():
         blocks = convert(book, p, e, text=txt)
-        old = open(TXT + e + '.xhtml', encoding='utf-8').read()
-        title = re.search(r'<title>(.*?)</title>', old, re.S).group(1)
+        title = e
         h1 = next((b for b in blocks if b.startswith('<h1')), None)
         if h1:
             title = re.sub(r'<[^>]+>', '', h1)
