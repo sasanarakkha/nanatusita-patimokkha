@@ -104,7 +104,6 @@ BOOKLETFILE_A6 := $(BUILDDIR)/$(RELEASENAME)-Pāli-A6-booklet.pdf
 BOOKLETPAGES_A6 := $(BUILDDIR)/booklet/booklet-a6-pages.pdf
 booklet-a6: TANGLED
 	@mkdir -p $(BUILDDIR)/booklet
-	python3 -c 'import pypdf' 2>/dev/null || python3 -m pip install --quiet pypdf
 	python3 ./assets/bin/booklet-sources.py
 	$(LATEX) -jobname=$(basename $(BOOKLETPAGES_A6)) main_a6booklet.tex
 	python3 ./assets/bin/a6-booklet.py "$(BOOKLETPAGES_A6)" "$(BOOKLETFILE_A6)"
