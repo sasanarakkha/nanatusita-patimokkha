@@ -60,7 +60,8 @@
   them with the A5 design on a 145.83×205.56 mm page (A6 ÷ 0.72), so that after scaling by 0.72 the body
   prints at exactly 9 pt. Only endnotes 1–8 (Pubbakicca) are kept; all other markers are dropped. The notes
   are also 9 pt (12.5/14.5 in source units), and the front and back covers are included: 48 pages = 6 A4
-  sheets. `assets/bin/a6-booklet.py` imposes it 4-up on A4 in the layout of the user's reference booklet
+  sheets. `assets/bin/a6-booklet.py` (Python standard library + LaTeX pdfpages; the CI image has no pypdf and no pip)
+  imposes it 4-up on A4 in the layout of the user's reference booklet
   ("auto" page list: blank pages go before the back cover). Print duplex, flip on the long edge, cut across
   the middle, nest the bottom halves inside the top halves, fold, staple. If the text grows past 48 pages,
   the build gives 56 (7 sheets).
