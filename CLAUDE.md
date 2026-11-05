@@ -54,6 +54,21 @@
   trimmed at the bottom, with no shift. The painted pseudo-text on both book pages is blurred into faint,
   unreadable lines (`ILLEGIBLE` regions in `section-titles.py`, in the original images' pixel coordinates).
   The Appendix picture already had its title painted in, so it is not regenerated.
+- A6 Pāli booklet: `make booklet-a6`. `assets/bin/booklet-sources.py` writes `tex/booklet/` (generated,
+  git-ignored) from the tangled files: the Pāli Pātimokkha and the Pāli half of each Post-Pātimokkha
+  recitation, with sections running on (no \clearpage) and no chapter opener. `main_a6booklet.tex` typesets
+  them with the A5 design on a 145.83×205.56 mm page (A6 ÷ 0.72), so that after scaling by 0.72 the body
+  prints at exactly 9 pt. Only endnotes 1–8 (Pubbakicca) are kept; all other markers are dropped. The notes
+  are also 9 pt (12.5/14.5 in source units), and the front and back covers are included: 48 pages = 6 A4
+  sheets. `assets/bin/a6-booklet.py` imposes it 4-up on A4 in the layout of the user's reference booklet
+  ("auto" page list: blank pages go before the back cover). Print duplex, flip on the long edge, cut across
+  the middle, nest the bottom halves inside the top halves, fold, staple. If the text grows past 48 pages,
+  the build gives 56 (7 sheets).
+  Every release includes the booklet: `make all` (the CI default) also runs `booklet-a6`, warning instead of
+  failing if it can't be built. Intermediate pages go to `build/booklet/`; the release file is
+  `build/Ñāṇatusita_Bhikkhupātimokkha-Pāli-A6-booklet.pdf`.
+- The user's copy of Ñāṇatusita's *The Bhikkhu Pātimokkha: A Word by Word Translation* (BPS 2014) is
+  copyrighted. Never commit it; use it only as a reference for checking.
 - English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
   Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).
 - `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.

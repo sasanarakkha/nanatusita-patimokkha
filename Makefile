@@ -63,11 +63,14 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 # Targets with complex dependencies
 .PHONY: $(PDFFILE_A5) TANGLED
 # Aliases
-.PHONY: pdf pdf2x epub mobi
+.PHONY: pdf pdf2x epub mobi booklet-a6
 # Commands
 .PHONY: checkepub validate optimize view editepub watchepub
 
 all: $(PDFFILE_A5) $(PDFFILE_9X13) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
+	@# Every release also carries the A6 Pāli booklet. A failure here must not block the
+	@# main PDFs/EPUB, so it only warns.
+	$(MAKE) booklet-a6 || echo "WARNING: the A6 booklet could not be built (see above)"
 
 
 #-----------------------------------------------------------------------------------------#
@@ -88,6 +91,19 @@ $(PDFFILE_9X13): TANGLED
 	$(LATEX) -jobname=$(basename $@) $(FILE)_9x13.tex
 
 pdf-all: $(PDFFILE_A5) $(PDFFILE_9X13)
+
+# A6 booklet (Pāli Pātimokkha, Post-Pātimokkha in Pāli, endnotes 1–8, covers), typeset
+# natively (main_a6booklet.tex, 9 pt when printed) and imposed 4-up on A4.
+# Print duplex, flip on long edge, cut across the middle, nest the bottom halves
+# inside the top halves, fold, staple.
+BOOKLETFILE_A6 := $(BUILDDIR)/$(RELEASENAME)-Pāli-A6-booklet.pdf
+BOOKLETPAGES_A6 := $(BUILDDIR)/booklet/booklet-a6-pages.pdf
+booklet-a6: TANGLED
+	@mkdir -p $(BUILDDIR)/booklet
+	python3 -c 'import pypdf' 2>/dev/null || python3 -m pip install --quiet pypdf
+	python3 ./assets/bin/booklet-sources.py
+	$(LATEX) -jobname=$(basename $(BOOKLETPAGES_A6)) main_a6booklet.tex
+	python3 ./assets/bin/a6-booklet.py "$(BOOKLETPAGES_A6)" "$(BOOKLETFILE_A6)"
 
 
 #-----------------------------------------------------------------------------------------#
