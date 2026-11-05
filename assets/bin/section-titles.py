@@ -30,7 +30,7 @@ TRACK_PER_PX = 2 / 188
 # height, how far to move the picture down to make room for the title)
 TITLES = {
     'pali': (['Bhikkhupātimokkha', 'Pāli'], 128, 115, 0.45, 150),
-    'english': (['Bhikkhupātimokkha', 'English'], 128, 115, 0.45, 230),
+    'english': (['Bhikkhupātimokkha', 'English'], 128, 115, 0.45, 150),
     'post-patimokkha': (['Post-Pātimokkha', 'Recitations'], 128, 115, 0.45, 0),
 }
 
@@ -79,11 +79,24 @@ def gold(img, mask, rng):
     return Image.fromarray(out.clip(0, 255).astype(np.uint8))
 
 
-def shift_down(img, dy):
-    """Move the picture down by dy px; extend the top with its own blurred top edge."""
-    if dy <= 0:
-        return img
+PAGE = (1748, 2480)
+
+
+def fit_width(img):
+    """Scale to the page width; a taller picture is trimmed at the bottom later."""
     w, h = img.size
+    if (w, h) == PAGE:
+        return img
+    return img.resize((PAGE[0], round(h * PAGE[0] / w)), Image.LANCZOS)
+
+
+def shift_down(img, dy):
+    """Move the picture down by dy px (extending the top with its own blurred top
+    edge) and trim it to the page height."""
+    w = img.size[0]
+    h = PAGE[1]
+    if dy <= 0:
+        return img.crop((0, 0, w, h))
     top = img.crop((0, 0, w, 60)).resize((w, dy + 60)).filter(ImageFilter.GaussianBlur(25))
     out = Image.new('RGB', (w, h))
     out.paste(img.crop((0, 0, w, h - dy)), (0, dy))
@@ -96,7 +109,7 @@ def shift_down(img, dy):
 
 
 def make(name, lines, size, y0, gap, dy, seed=7):
-    img = Image.open(os.path.join(SRC, name + '.jpg')).convert('RGB')
+    img = fit_width(Image.open(os.path.join(SRC, name + '.jpg')).convert('RGB'))
     img = shift_down(img, dy)
     w, h = img.size
     full = np.zeros((h, w), float)

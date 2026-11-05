@@ -41,10 +41,15 @@
   `tex2epub.py` does this automatically (`PAIRS`, `link_partner_headings`). The Post-Pātimokkha headings
   (Pāli and English) link to their entry in `nav.xhtml` (`#toc-…`). Don't link to `contents.xhtml`:
   it isn't in the manifest, so epubcheck reports RSC-008.
+- PDF heading links: `\linkheadingto{label}` before a \section/\subsection makes that title link to
+  `label` (anecdote.cls `\headinglinktarget`; default is the table of contents). Every Pāli section, vagga,
+  Level and rule heading links to its English counterpart and back. Vagga labels: np-/pc-/sekh-vaggaN ↔
+  forf-exp-/exp-/trainings-vaggaN. Starred headings (Levels) need `\phantomsection` before them.
 - Chapter-opening pictures carry their part title (as in the contents page), in the style of the
   lettering painted on the Appendix picture. Regenerate them with `python3 assets/bin/section-titles.py`,
   which reads the untitled originals in `assets/illustrations/untitled/` and uses Cinzel Medium
-  (`assets/fonts/cinzel`, OFL). The Pāli and English pictures are moved down 150/230 px to make room.
+  (`assets/fonts/cinzel`, OFL). The Pāli and English pictures (the user's 768×1376 images; the western
+  monk is English) are scaled to page width (2.3×), moved down 150 px for the title and trimmed at the bottom.
   The Appendix picture already had its title painted in, so it is not regenerated.
 - English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
   Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).

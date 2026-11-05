@@ -245,6 +245,7 @@ W - Watärakapansala manuscript\\
 
 #+begin_src latex :tangle ./tex/pali/pubbakicca.tex
 
+\linkheadingto{preliminary-duties}
 \section{Pubbakicca}
 \label{pubbakicca}
 
@@ -390,6 +391,7 @@ Uposathakammassa pattakallattaṁ viditvā idāni kariyamāno uposatho saṅghen
 
 #+begin_src latex :tangle ./tex/pali/nidan'uddesa.tex
 
+\linkheadingto{introduction}
 \section{Nidān'uddesa}
 \label{nidan'uddesa}
 
@@ -463,6 +465,7 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
+\linkheadingto{disqualifications}
 \section{Pārājik'uddesa}
 \label{par}
 
@@ -474,6 +477,7 @@ Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evam'evaṁ\makeatl
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[2]{Pārājika 1}{par1}
+\linkheadingto{disq1}
 \subsection*{\hyperref[disq1]{Pārājika 1: Methunadhammasikkhāpada}}
 \label{par1}
 
@@ -494,6 +498,7 @@ Yo pana bhikkhu bhikkhūnaṁ\makeatletter\hyperlink{endnote27-appendix}\Hy@rais
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 2}{par2}
+\linkheadingto{disq2}
 \subsection*{\hyperref[disq2]{Pārājika 2: Adinn'ādānasikkhāpada}}
 \label{par2}
 
@@ -508,6 +513,7 @@ Yo pana bhikkhu gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyeyy
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 3}{par3}
+\linkheadingto{disq3}
 \subsection*{\hyperref[disq3]{Pārājika 3: Manussaviggahasikkhāpada}}
 \label{par3}
 
@@ -522,6 +528,7 @@ Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya, satthahārakaṁ
 #+begin_src latex :tangle ./tex/pali/parajika.tex
 
 \pdfbookmark[2]{Pārājika 4}{par4}
+\linkheadingto{disq4}
 \subsection*{\hyperref[disq4]{Pārājika 4: Uttarimanussadhammasikkhāpada}}
 
 \label{par4}
@@ -577,6 +584,7 @@ Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ att'ūpanāyikaṁ alam'ar
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \setsecheadstyle{\sectionFmt}
+\linkheadingto{comm}
 \section{Saṅghādises'uddesa}
 \label{sd}
 
@@ -585,6 +593,7 @@ Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ att'ūpanāyikaṁ alam'ar
 \end{intro}
 
 \pdfbookmark[2]{Saṅghādisesa 1}{sd1}
+\linkheadingto{comm1}
 \subsection*{\hyperref[comm1]{Saṅghādisesa 1: Sukkavissaṭṭhisikkhāpada}}
 
 \label{sd1}
@@ -600,6 +609,7 @@ Sañcetanikā sukkavisaṭṭhi,\makeatletter\hyperlink{endnote38-appendix}\Hy@r
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 2}{sd2}
+\linkheadingto{comm2}
 \subsection*{\hyperref[comm2]{Saṅghādisesa 2: Kāyasaṁsaggasikkhāpada}}
 \label{sd2}
 
@@ -616,6 +626,7 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmena saddhiṁ kāyasa
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 3}{sd3}
+\linkheadingto{comm3}
 \subsection*{\hyperref[comm3]{Saṅghādisesa 3: Duṭṭhullavācāsikkhāpada}}
 \label{sd3}
 
@@ -632,6 +643,7 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 4}{sd4}
+\linkheadingto{comm4}
 \subsection*{\hyperref[comm4]{Saṅghādisesa 4: Attakāmapāricariyasikkhāpada}}
 \label{sd4}
 
@@ -648,6 +660,7 @@ Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmassa santike attakām
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 5}{sd5}
+\linkheadingto{comm5}
 \subsection*{\hyperref[comm5]{Saṅghādisesa 5: Sañcarittasikkhāpada}}
 \label{sd5}
 
@@ -664,6 +677,7 @@ Yo pana bhikkhu sañcarittaṁ samāpajjeyya, itthiyā vā purisamatiṁ purisas
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 6}{sd6}
+\linkheadingto{comm6}
 \subsection*{\hyperref[comm6]{Saṅghādisesa 6: Kuṭikārasikkhāpada}}
 \label{sd6}
 
@@ -692,6 +706,7 @@ Saññācikāya\makeatletter\hyperlink{endnote47-appendix}\Hy@raisedlink{\hypert
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 7}{sd7}
+\linkheadingto{comm7}
 \subsection*{\hyperref[comm7]{Saṅghādisesa 7: Vihārakārasikkhāpada}}
 \label{sd7}
 
@@ -712,6 +727,7 @@ Mahallakaṁ pana\makeatletter\hyperlink{endnote55-appendix}\Hy@raisedlink{\hype
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 8}{sd8}
+\linkheadingto{comm8}
 \subsection*{\hyperref[comm8]{Saṅghādisesa 8: Duṭṭhadosasikkhāpada}}
 \label{sd8}
 
@@ -730,6 +746,7 @@ Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto amūlakena pārājikena dha
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 9}{sd9}
+\linkheadingto{comm9}
 \subsection*{\hyperref[comm9]{Saṅghādisesa 9: Aññabhāgiyasikkhāpada}}
 \label{sd9}
 
@@ -750,6 +767,7 @@ Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto aññabhāgiyassa adhikara�
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 10}{sd10}
+\linkheadingto{comm10}
 \subsection*{\hyperref[comm10]{Saṅghādisesa 10: Saṅghabhedasikkhāpada}}
 \label{sd10}
 
@@ -774,6 +792,7 @@ and Pāc 68.}}}}}\makeatother{} saṅghādiseso.
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 11}{sd11}
+\linkheadingto{comm11}
 \subsection*{\hyperref[comm11]{Saṅghādisesa 11: Bhed'ānuvattakasikkhāpada}}
 \label{sd11}
 
@@ -806,6 +825,7 @@ Tass'eva kho pana bhikkhussa bhikkhū honti anuvattakā vaggavādakā, eko vā d
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 12}{sd12}
+\linkheadingto{comm12}
 \subsection*{\hyperref[comm12]{Saṅghādisesa 12: Dubbacasikkhāpada}}
 \label{sd12}
 
@@ -836,6 +856,7 @@ and Pāc 68.}}}}}\makeatother{} saṅghādiseso.
 #+begin_src latex :tangle ./tex/pali/sanghadisesa.tex
 
 \pdfbookmark[2]{Saṅghādisesa 13}{sd13}
+\linkheadingto{comm13}
 \subsection*{\hyperref[comm13]{Saṅghādisesa 13: Kuladūsakasikkhāpada}}
 \label{sd13}
 
@@ -925,6 +946,7 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 
 #+begin_src latex :tangle ./tex/pali/aniyata.tex
 
+\linkheadingto{unc}
 \section{Aniyat'uddesa}
 \label{aniy}
 
@@ -933,6 +955,7 @@ Bhikkhu pan'eva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati ku
 \end{intro}
 
 \pdfbookmark[2]{Aniyata 1}{aniy1}
+\linkheadingto{unc1}
 \subsection*{\hyperref[unc1]{Aniyata 1: Paṭhama-aniyatasikkhāpada}}
 \label{aniy1}
 
@@ -947,6 +970,7 @@ Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho paṭicchanne āsane ala�
 #+begin_src latex :tangle ./tex/pali/aniyata.tex
 
 \pdfbookmark[2]{Aniyata 2}{aniy2}
+\linkheadingto{unc2}
 \subsection*{\hyperref[unc2]{Aniyata 2: Dutiya-aniyatasikkhāpada}}
 \label{aniy2}
 
@@ -995,6 +1019,7 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
+\linkheadingto{forf-exp}
 \section{Nissaggiyapācittiyā}
 \label{np}
 
@@ -1003,7 +1028,9 @@ Na h'eva kho pana paṭicchannaṁ āsanaṁ hoti n'ālaṅ'kammaniyaṁ,\makeat
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{forf-exp-vagga1}
 \subsection{Cīvaravagga}
+\label{np-vagga1}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 1}{np1}
 \subsubsection*{\hyperref[forf-exp1]{Nissaggiya Pācittiya 1: Kaṭhinasikkhāpada}}
@@ -1249,7 +1276,9 @@ Bhikkhuṁ pan'eva uddissa rājā vā rājabhoggo\makeatletter\hyperlink{endnote
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
+\linkheadingto{forf-exp-vagga2}
 \subsection{Eḷakalomavagga}
+\label{np-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 11}{np11}
@@ -1421,7 +1450,9 @@ Yo pana bhikkhu nānappakārakaṁ kayavikkayaṁ samāpajjeyya, nissaggiyaṁ p
 
 #+begin_src latex :tangle ./tex/pali/nissaggiya-pacittiya.tex
 
+\linkheadingto{forf-exp-vagga3}
 \subsection{Pattavagga}
+\label{np-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Nissaggiya Pācittiya 21}{np21}
@@ -1635,6 +1666,7 @@ Dm, Um: \textit{Nissaggiyapācittiyā niṭṭhitā}. C, W: \textit{Nissaggiyā 
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp}
 \section{Pācittiyā}
 \label{pc}
 
@@ -1642,7 +1674,9 @@ Dm, Um: \textit{Nissaggiyapācittiyā niṭṭhitā}. C, W: \textit{Nissaggiyā 
 	Ime kho pan'āyasmanto dvenavuti pācittiyā dhammā uddesaṁ āgacchanti.
 \end{intro}
 
+\linkheadingto{exp-vagga1}
 \subsection{Musāvādavagga}
+\label{pc-vagga1}
 
 \pdfbookmark[3]{Pācittiya 1}{pac1}
 \subsubsection*{\hyperref[exp1]{Pācittiya 1: Musāvādasikkhāpada}}
@@ -1792,7 +1826,9 @@ Yo pana bhikkhu paṭhaviṁ\makeatletter\hyperlink{endnote234-appendix}\Hy@rais
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga2}
 \subsection{Bhūtagāmavagga}
+\label{pc-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 11}{pac11}
@@ -1974,7 +2010,9 @@ Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ tiṇaṁ vā mattikaṁ vā s
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga3}
 \subsection{Bhikkhunovādavagga}
+\label{pc-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 21}{pac21}
@@ -2134,7 +2172,9 @@ Yo pana bhikkhu bhikkhuniyā saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pāc
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga4}
 \subsection{Bhojanavagga}
+\label{pc-vagga4}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 31}{pac31}
@@ -2323,7 +2363,9 @@ Yo pana bhikkhu adinnaṁ mukhadvāraṁ āhāraṁ\makeatletter\hyperlink{endno
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga5}
 \subsection{Acelakavagga}
+\label{pc-vagga5}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 41}{pac41}
@@ -2490,7 +2532,9 @@ Dirattatirattañ'ce\makeatletter\hyperlink{endnote324-appendix}\Hy@raisedlink{\h
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga6}
 \subsection{Surāpānavagga}
+\label{pc-vagga6}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 51}{pac51}
@@ -2659,7 +2703,9 @@ Yo pana bhikkhu bhikkhussa pattaṁ vā cīvaraṁ vā nisīdanaṁ vā sūcigha
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga7}
 \subsection{Sappāṇakavagga}
+\label{pc-vagga7}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 61}{pac61}
@@ -2855,7 +2901,9 @@ Samaṇ'uddeso'pi ce evaṁ vadeyya, ``Tath'āhaṁ bhagavatā dhammaṁ desita�
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga8}
 \subsection{Sahadhammikavagga}
+\label{pc-vagga8}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 71}{pac71}
@@ -3065,7 +3113,9 @@ Yo pana bhikkhu jānaṁ saṅghikaṁ lābhaṁ pariṇataṁ puggalassa pari�
 
 #+begin_src latex :tangle ./tex/pali/pacittiya.tex
 
+\linkheadingto{exp-vagga9}
 \subsection{Rājavagga}
+\label{pc-vagga9}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Pācittiya 83}{pac83}
@@ -3283,6 +3333,7 @@ Vin V 27; see the section on chapter-division in the Introduction. The \textit{S
 
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
+\linkheadingto{ack}
 \section{Pāṭidesanīyā}
 \label{pd}
 
@@ -3294,6 +3345,7 @@ Vin V 27; see the section on chapter-division in the Introduction. The \textit{S
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Pāṭidesanīyā 1}{pd1}
+\linkheadingto{ack1}
 \subsection*{\hyperref[ack1]{Pāṭidesanīyā 1: Paṭhamapāṭidesanīyasikkhāpada}}
 \label{pd1}
 
@@ -3312,6 +3364,7 @@ Yo pana bhikkhu aññātikāya bhikkhuniyā antaragharaṁ paviṭṭhāya hatth
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 2}{pd2}
+\linkheadingto{ack2}
 \subsection*{\hyperref[ack2]{Pāṭidesanīyā 2: Dutiyapāṭidesanīyasikkhāpada}}
 \label{pd2}
 
@@ -3345,6 +3398,7 @@ bhikkhunī}.}}}}}\makeatother{} bhikkhunī\makeatletter\hyperlink{endnote443-app
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 3}{pd3}
+\linkheadingto{ack3}
 \subsection*{\hyperref[ack3]{Pāṭidesanīyā 3: Tatiyapāṭidesanīyasikkhāpada}}
 \label{pd3}
 
@@ -3371,6 +3425,7 @@ Yāni kho pana tāni sekhasammatāni\makeatletter\hyperlink{endnote452-appendix}
 #+begin_src latex :tangle ./tex/pali/patidesaniya.tex
 
 \pdfbookmark[3]{Pāṭidesanīyā 4}{pd4}
+\linkheadingto{ack4}
 \subsection*{\hyperref[ack4]{Pāṭidesanīyā 4: Catutthapāṭidesanīyasikkhāpada}}
 \label{pd4}
 
@@ -3433,6 +3488,7 @@ viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.}}}}}\makeatother{}
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings}
 \section{Sekhiyā}
 \label{sekh}
 
@@ -3443,7 +3499,9 @@ viharanto}. Dm, SVibh Ee, Um, and UP omit \textit{viharanto}.}}}}}\makeatother{}
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{trainings-vagga1}
 \subsection{Parimaṇḍalavagga}
+\label{sekh-vagga1}
 
 \pdfbookmark[3]{Sekhiya 1 \& 2}{sekh1-2}
 \subsubsection*{\hyperref[training1-2]{Sekhiya 1 \& 2: Parimaṇḍalasikkhāpada}}
@@ -3525,7 +3583,9 @@ Na ukkhittakāya antaraghare nisīdissāmī'ti, sikkhā karaṇīyā.
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga2}
 \subsection{Ujjagghikavagga}
+\label{sekh-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 11 \& 12}{sekh11-12}
@@ -3604,7 +3664,9 @@ Na sīsappacālakaṁ antaraghare nisīdissāmī'ti sikkhā karaṇīyā.
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga3}
 \subsection{Khambhakatavagga}
+\label{sekh-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 21 \& 22}{sekh21-22}
@@ -3720,7 +3782,9 @@ Samatitthikaṁ\makeatletter\hyperlink{endnote480-appendix}\Hy@raisedlink{\hyper
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga4}
 \subsection{Sakkaccavagga}
+\label{sekh-vagga4}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 31}{sekh31}
@@ -3870,7 +3934,9 @@ Parimaṇḍalaṁ ālopaṁ karissāmī'ti sikkhā karaṇīyā.
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga5}
 \subsection{Anāhaṭavagga}
+\label{sekh-vagga5}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 41}{sekh41}
@@ -4016,7 +4082,9 @@ Na capucapukārakaṁ bhuñjissāmī'ti sikkhā karaṇīyā.
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga6}
 \subsection{Surusuruvagga}
+\label{sekh-vagga6}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 51}{sekh51}
@@ -4167,7 +4235,9 @@ Na āvudhapāṇissa\makeatletter\hyperlink{endnote511-appendix}\Hy@raisedlink{\
 
 #+begin_src latex :tangle ./tex/pali/sekhiya.tex
 
+\linkheadingto{trainings-vagga7}
 \subsection{Pādukavagga}
+\label{sekh-vagga7}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Sekhiya 61}{sekh61}
@@ -4413,6 +4483,7 @@ Na udake agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmī'ti s
 
 #+begin_src latex :tangle ./tex/pali/adhikaranasamatha.tex
 
+\linkheadingto{settlements}
 \section{Adhikaraṇasamathā}
 \label{adhi}
 
@@ -4473,6 +4544,7 @@ tiṇ'avatthārako'ti.
 
 #+begin_src latex :tangle ./tex/pali/patimokkhanitthana.tex
 
+\linkheadingto{conclusion}
 \section{Pātimokkhaniṭṭhāna}
 \label{patimokkhanitthana}
 
@@ -4535,6 +4607,7 @@ Vitthār'uddeso pañcamo.\makeatletter\hyperlink{endnote543-appendix}\Hy@raise
 
 #+begin_src latex :tangle ./tex/english/preliminary-duties.tex
 
+\linkheadingto{pubbakicca}
 \section{Preliminary Duties}
 \label{preliminary-duties}
 
@@ -4605,6 +4678,7 @@ Having known the state of reached suitability of the [legal] act of Uposatha, it
 
 #+begin_src latex :tangle ./tex/english/introduction.tex
 
+\linkheadingto{nidan'uddesa}
 \section{The Recitation of \mbox{the}~Introduction}
 \label{introduction}
 
@@ -4648,6 +4722,7 @@ As an answer occurs to [a bhikkhu] who is asked individually, just so in such an
 
 #+begin_src latex :tangle ./tex/english/disqualifications.tex
 
+\linkheadingto{par}
 \section{Disqualifications}
 \label{disqualifications}
 
@@ -4657,6 +4732,7 @@ As an answer occurs to [a bhikkhu] who is asked individually, just so in such an
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Disqualification 1}{disq1}
+\linkheadingto{par1}
 \subsection*{\hyperref[par1]{Disqualification 1: The training precept on the act of sexual intercourse}}
 \label{disq1}
 
@@ -4669,6 +4745,7 @@ If any bhikkhu [who] has entered upon the training and livelihood for bhikkhus, 
 #+begin_src latex :tangle ./tex/english/disqualifications.tex
 
 \pdfbookmark[3]{Disqualification 2}{disq2}
+\linkheadingto{par2}
 \subsection*{\hyperref[par2]{Disqualification 2: The training precept on the taking of what has not been given}}
 \label{disq2}
 
@@ -4681,6 +4758,7 @@ If any bhikkhu should take [what has] not been given from a village or wildernes
 #+begin_src latex :tangle ./tex/english/disqualifications.tex
 
 \pdfbookmark[3]{Disqualification 3}{disq3}
+\linkheadingto{par3}
 \subsection*{\hyperref[par3]{Disqualification 3: The training precept on (killing) a human being}}
 \label{disq3}
 
@@ -4693,6 +4771,7 @@ If any bhikkhu should deliberately deprive a human being of life, or should seek
 #+begin_src latex :tangle ./tex/english/disqualifications.tex
 
 \pdfbookmark[3]{Disqualification 4}{disq4}
+\linkheadingto{par4}
 \subsection*{\hyperref[par4]{Disqualification 4: The training precept on superhuman states}}
 \label{disq4}
 
@@ -4733,6 +4812,7 @@ If any bhikkhu, [though] not directly knowing [it], should claim a superhuman st
 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
+\linkheadingto{sd}
 \section{Cases Concerning the Community}
 \label{comm}
 
@@ -4741,6 +4821,7 @@ If any bhikkhu, [though] not directly knowing [it], should claim a superhuman st
 \end{intro}
 
 \pdfbookmark[3]{Community Meeting 1}{comm1}
+\linkheadingto{sd1}
 \subsection*{\hyperref[sd1]{Community Meeting 1: The training precept on emission of semen}}
 \label{comm1}
 
@@ -4753,6 +4834,7 @@ The intentional emission of semen, except in a dream: [this is a case concerning
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 2}{comm2}
+\linkheadingto{sd2}
 \subsection*{\hyperref[sd2]{Community Meeting 2: The training precept on physical contact}}
 \label{comm2}
 
@@ -4765,6 +4847,7 @@ If any bhikkhu, under the influence of an altered mind, should engage in [intima
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 3}{comm3}
+\linkheadingto{sd3}
 \subsection*{\hyperref[sd3]{Community Meeting 3: The training precept on depraved words}}
 \label{comm3}
 
@@ -4777,6 +4860,7 @@ If any bhikkhu, under the influence of an altered mind, should speak suggestivel
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 4}{comm4}
+\linkheadingto{sd4}
 \subsection*{\hyperref[sd4]{Community Meeting 4: The training precept on (ministering) to himself with love}}
 \label{comm4}
 
@@ -4789,6 +4873,7 @@ If any bhikkhu, under the influence of an altered mind, [and] in the presence of
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 5}{comm5}
+\linkheadingto{sd5}
 \subsection*{\hyperref[sd5]{Community Meeting 5: The training precept on mediating}}
 \label{comm5}
 
@@ -4801,6 +4886,7 @@ If any bhikkhu should engage in mediating a man's intention to a woman, or a wom
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 6}{comm6}
+\linkheadingto{sd6}
 \subsection*{\hyperref[sd6]{Community Meeting 6: The training precept on making a hut}}
 \label{comm6}
 
@@ -4813,6 +4899,7 @@ By a bhikkhu who is having a hut, which is without an owner, [and] is designated
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 7}{comm7}
+\linkheadingto{sd7}
 \subsection*{\hyperref[sd7]{Community Meeting 7: The training precept on making a dwelling}}
 \label{comm7}
 
@@ -4825,6 +4912,7 @@ By a bhikkhu who is having a large dwelling built, which has an owner, [and] is 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 8}{comm8}
+\linkheadingto{sd8}
 \subsection*{\hyperref[sd8]{Community Meeting 8: The training precept on being corrupted by malice}}
 \label{comm8}
 
@@ -4837,6 +4925,7 @@ If any bhikkhu, corrupted by malice [and] upset, should accuse a bhikkhu with a 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 9}{comm9}
+\linkheadingto{sd9}
 \subsection*{\hyperref[sd9]{Community Meeting 9: The training precept on (an issue) belonging to another class}}
 \label{comm9}
 
@@ -4849,6 +4938,7 @@ If any bhikkhu, corrupted by malice [and] upset, should accuse a bhikkhu with a 
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 10}{comm10}
+\linkheadingto{sd10}
 \subsection*{\hyperref[sd10]{Community Meeting 10: The training precept on the schism of a community}}
 \label{comm10}
 
@@ -4861,6 +4951,7 @@ If any bhikkhu should endeavor for the schism of a united community, or having u
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 11}{comm11}
+\linkheadingto{sd11}
 \subsection*{\hyperref[sd11]{Community Meeting 11: The training precept on the followers of the schism}}
 \label{comm11}
 
@@ -4873,6 +4964,7 @@ Now, there are bhikkhus who are followers of that same bhikkhu, [and] who are sp
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 12}{comm12}
+\linkheadingto{sd12}
 \subsection*{\hyperref[sd12]{Community Meeting 12: The training precept on being of a nature difficult to be spoken to}}
 \label{comm12}
 
@@ -4885,6 +4977,7 @@ Now, a bhikkhu is of a nature difficult to be spoken to, [and when] being righte
 #+begin_src latex :tangle ./tex/english/community-meetings.tex
 
 \pdfbookmark[3]{Community Meeting 13}{comm13}
+\linkheadingto{sd13}
 \subsection*{\hyperref[sd13]{Community Meeting 13: The training precept on the spoiler of families}}
 \label{comm13}
 Now, a bhikkhu lives dependent upon a certain village or town who is a spoiler of families, who is of bad behaviour. His bad behaviour is seen and is heard about, and the families spoilt by him are seen and heard about. That bhikkhu is to be spoken to thus by the bhikkhus: ``The venerable one is a spoiler of families, one who is of bad behaviour. The bad behaviour of the venerable one is seen and is heard about, and the families spoilt by the venerable one are seen and are heard about. Let the venerable one depart from this dwelling-place! Enough of you dwelling here!'' and [if] that bhikkhu being spoken to thus by the bhikkhus should say thus to those bhikkhus: ``The bhikkhus are driven by desire; the bhikkhus are driven by anger; the bhikkhus are driven by delusion; the bhikkhus are driven by fear. They banish someone because of this kind of offence, [but] another one they do not banish.'' [Then] that bhikkhu is to be spoken to thus by the bhikkhus: ``Let the venerable one not speak thus! The bhikkhus are not driven by desire; and the bhikkhus are not driven by anger; and the bhikkhus are not driven by delusion; and the bhikkhus are not driven by fear. The venerable one is a spoiler of families, one who is of bad behaviour. The bad behaviour of the venerable one is seen and is heard about, and the families spoilt by the venerable one are seen and are heard about. Let the venerable one depart from this dwelling-place! Enough of you dwelling here!'' and [if] that bhikkhu being spoken to thus by the bhikkhus should persist in the same way [as before], [then] that bhikkhu is to be argued with up to three times by the bhikkhus for the relinquishing of that [course], [and if that bhikkhu,] being argued with up to three times, should relinquish that [course], then this is good, [but] if he should not relinquish [it]: [this is a case concerning] the community in the beginning and in the rest [of the procedure].
@@ -4924,6 +5017,7 @@ Now, a bhikkhu lives dependent upon a certain village or town who is a spoiler o
 
 #+begin_src latex :tangle ./tex/english/uncertain-cases.tex
 
+\linkheadingto{aniy}
 \section{Uncertain Cases}
 \label{unc}
 
@@ -4932,6 +5026,7 @@ Now, a bhikkhu lives dependent upon a certain village or town who is a spoiler o
 \end{intro}
 
 \pdfbookmark[3]{Uncertain Case 1}{unc1}
+\linkheadingto{aniy1}
 \subsection*{\hyperref[aniy1]{Uncertain Case 1: The first uncertain training precept}}
 \label{unc1}
 
@@ -4944,6 +5039,7 @@ If any bhikkhu should sit down together with a woman, one [man] with one [woman]
 #+begin_src latex :tangle ./tex/english/uncertain-cases.tex
 
 \pdfbookmark[3]{Uncertain Case 2}{unc2}
+\linkheadingto{aniy2}
 \subsection*{\hyperref[aniy2]{Uncertain Case 2: The second uncertain training precept}}
 \label{unc2}
 But even if the seat is neither concealed nor sufficiently fit for doing it, but is sufficient for speaking suggestively to a woman with depraved words: if any bhikkhu should sit down on such a seat together with a woman—one [man] with one [woman], privately—[and then if] a female lay-follower whose words can be trusted having seen that, should speak according to one of two cases: according to what concerns the community in the beginning and in the rest, or according to expiation, [then] the bhikkhu admitting the sitting down is to be made to do according to one of two cases: according to what concerns the community in the beginning and in the rest [of the procedure], or according to expiation, or according to whatever that female lay-follower whose words can be trusted should say, according to that the bhikkhu is to be made to do, this too is an uncertain case.
@@ -4984,6 +5080,7 @@ But even if the seat is neither concealed nor sufficiently fit for doing it, but
 
 #+begin_src latex :tangle ./tex/english/forfeiture-expiations.tex
 
+\linkheadingto{np}
 \section{Forfeiture and Expiations}
 \label{forf-exp}
 
@@ -4992,7 +5089,9 @@ But even if the seat is neither concealed nor sufficiently fit for doing it, but
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{np-vagga1}
 \subsection{The Section on Robes}
+\label{forf-exp-vagga1}
 \label{forf-exp-robes}
 % \vspace{0.2cm}
 
@@ -5122,7 +5221,9 @@ Now, if a king or a kings' official or a brahmin or a male householder should co
 #+begin_src latex :tangle ./tex/english/forfeiture-expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{np-vagga2}
 \subsection{The Section on Sheepwool}
+\label{forf-exp-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Forfeiture and Expiation 11}{forf-exp11}
@@ -5251,7 +5352,9 @@ The section on sheepwool is second.
 #+begin_src latex :tangle ./tex/english/forfeiture-expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{np-vagga3}
 \subsection{The Section on Bowls}
+\label{forf-exp-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Forfeiture and Expiation 21}{forf-exp21}
@@ -5408,6 +5511,7 @@ If any bhikkhu should knowingly allocate for himself a gain belonging to [and] a
 
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
+\linkheadingto{pc}
 \section{Expiations}
 \label{exp}
 
@@ -5416,7 +5520,9 @@ If any bhikkhu should knowingly allocate for himself a gain belonging to [and] a
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga1}
 \subsection{The Section on False Speech}
+\label{exp-vagga1}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 1}{exp1}
@@ -5544,7 +5650,9 @@ If any bhikkhu should dig the earth or should have it dug, [this is a case] invo
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga2}
 \subsection{The Section on Vegetation}
+\label{exp-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 11}{exp 11}
@@ -5663,7 +5771,9 @@ If any bhikkhu should knowingly pour out, or should have [someone else] pour out
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga3}
 \subsection{The Section on Exhortation}
+\label{exp-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 21}{exp 21}
@@ -5782,7 +5892,9 @@ If any bhikkhu should sit down together with a bhikkhunī, privately, one [man] 
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga4}
 \subsection{The Section on Eating}
+\label{exp-vagga4}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 31}{exp 31}
@@ -5901,7 +6013,9 @@ If any bhikkhu should take into the mouth [any] nutriment that has not been give
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga5}
 \subsection{The Section on Naked Ascetics}
+\label{exp-vagga5}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 41}{exp 41}
@@ -6020,7 +6134,9 @@ The section on naked ascetics is fifth.
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga6}
 \subsection{The Section on Alcoholic Drink}
+\label{exp-vagga6}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 51}{exp 51}
@@ -6139,7 +6255,9 @@ If any bhikkhu should hide a bhikkhu's bowl or robe or sitting-cloth or needle c
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga7}
 \subsection{The Section on Living Beings}
+\label{exp-vagga7}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 61}{exp 61}
@@ -6258,7 +6376,9 @@ If a novice should say so too, ``As I understand the Teaching taught by the Fort
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga8}
 \subsection{The Section on Righteous Speech}
+\label{exp-vagga8}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 71}{exp 71}
@@ -6399,7 +6519,9 @@ If any bhikkhu should knowingly allocate [already] allocated communal gain to a 
 #+begin_src latex :tangle ./tex/english/expiations.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{pc-vagga9}
 \subsection{The Section on Kings}
+\label{exp-vagga9}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Expitation 83}{exp 83}
@@ -6545,6 +6667,7 @@ If any bhikkhu should have a robe made which has the sugata-robe measure or [one
 
 #+begin_src latex :tangle ./tex/english/acknowledgments.tex
 
+\linkheadingto{pd}
 \section{Acknowledgments}
 \label{ack}
 
@@ -6554,6 +6677,7 @@ If any bhikkhu should have a robe made which has the sugata-robe measure or [one
 
 \setsubsecheadstyle{\subsubsectionFmtalt}
 \pdfbookmark[3]{Acknowledgment 1}{ack1}
+\linkheadingto{pd1}
 \subsection*{\hyperref[pd1]{Acknowledgment 1: The first training precept on what is to be acknowledged}}
 \label{ack1}
 If any bhikkhu, having accepted [it] with his own hand from the hand of an unrelated bhikkhunī who has entered an inhabited area [for alms], should chew uncooked food or eat cooked food], [it] is to be acknowledged by that bhikkhu [saying]: ``Friend[s], I have committed a blameworthy act which is unsuitable, which is to be acknowledged; I acknowledge it.''
@@ -6565,6 +6689,7 @@ If any bhikkhu, having accepted [it] with his own hand from the hand of an unrel
 #+begin_src latex :tangle ./tex/english/acknowledgments.tex
 
 \pdfbookmark[3]{Acknowledgment 2}{ack2}
+\linkheadingto{pd2}
 \subsection*{\hyperref[pd2]{Acknowledgment 2: The second training precept on what is to be acknowledged}}
 \label{ack2}
 Now, bhikkhus who have been invited are eating among families, and if a bhikkhunī who is giving directions is standing there [saying], ``Give curry here, give rice here!'' [then] by those bhikkhus that bhikkhunī is to be dismissed [saying], ``Go away, sister, for as long as the bhikkhus eat!,'' and if not even one bhikkhu would speak against [it, so as] to dismiss that bhikkhunī [saying], ``Go away, sister, for as long as the bhikkhus eat!,'' [then it] is to be acknowledged by those bhikkhus, ``Friend[s], we have committed a blameworthy act which is unsuitable, which is to be acknowledged; we acknowledge it.''
@@ -6576,6 +6701,7 @@ Now, bhikkhus who have been invited are eating among families, and if a bhikkhun
 #+begin_src latex :tangle ./tex/english/acknowledgments.tex
 
 \pdfbookmark[3]{Acknowledgment 3}{ack3}
+\linkheadingto{pd3}
 \subsection*{\hyperref[pd3]{Acknowledgment 3: The third training precept on what is to be acknowledged}}
 \label{ack3}
 Now, [there are] those families which are agreed upon as trainees: if any bhikkhu who has not been invited beforehand, who is not ill, should chew uncooked food or eat cooked food having accepted [it] with his own hand in families who are of such a kind, who are considered trainees, [then it] is to be acknowledged by that bhikkhu: ``Friend[s], I have committed a blameworthy act which is unsuitable, which is to be acknowledged; I acknowledge it.''
@@ -6587,6 +6713,7 @@ Now, [there are] those families which are agreed upon as trainees: if any bhikkh
 #+begin_src latex :tangle ./tex/english/acknowledgments.tex
 
 \pdfbookmark[3]{Acknowledgment 4}{ack4}
+\linkheadingto{pd4}
 \subsection*{\hyperref[pd4]{Acknowledgment 4: The fourth training precept on what is to be acknowledged}}
 \label{ack4}
 Now, [there are] those wilderness lodgings which are considered risky, which are dangerous: if any bhikkhu, [staying] in lodgings which are of such a kind, without having announced [the danger] beforehand, having accepted [the food] with his own hand inside the monastery, [and then] not being ill, should chew uncooked food or eat cooked food, [then it] is to be acknowledged by that bhikkhu, ``Friend[s], I have committed a blameworthy act which is unsuitable, which is to be acknowledged; I acknowledge it.''
@@ -6627,6 +6754,7 @@ Now, [there are] those wilderness lodgings which are considered risky, which are
 
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
+\linkheadingto{sekh}
 \section{Trainings}
 \label{trainings}
 
@@ -6635,7 +6763,9 @@ Now, [there are] those wilderness lodgings which are considered risky, which are
 \end{intro}
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga1}
 \subsection{The Section on Being Even All Around}
+\label{trainings-vagga1}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 1 \& 2}{training1-2}
@@ -6704,7 +6834,9 @@ Now, [there are] those wilderness lodgings which are considered risky, which are
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga2}
 \subsection{The Section on Loud Laughter}
+\label{trainings-vagga2}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 11 \& 12}{training11-12}
@@ -6773,7 +6905,9 @@ Now, [there are] those wilderness lodgings which are considered risky, which are
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga3}
 \subsection{The Section on Making Into a Prop}
+\label{trainings-vagga3}
 % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 21 \& 22}{training21-22}
@@ -6872,7 +7006,9 @@ Now, [there are] those wilderness lodgings which are considered risky, which are
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga4}
 \subsection{The Section on Eating in a Respectful Manner}
+\label{trainings-vagga4}
 \ifafiveversion\vspace{0.2cm}\fi
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
@@ -6992,7 +7128,9 @@ I shall not eat alms-food, having pressed [it] down into a shall heap,'' thus th
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga5}
 \subsection{The Section on Morsels of Food}
+\label{trainings-vagga5}
 %% % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 41}{training41}
@@ -7111,7 +7249,9 @@ I shall not eat scattering rice-grains,'' thus the training is to be done.
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga6}
 \subsection{The Section on Slurping}
+\label{trainings-vagga6}
 %% % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 51}{training51}
@@ -7230,7 +7370,9 @@ I shall not eat licking the hand,'' thus the training is to be done.
 #+begin_src latex :tangle ./tex/english/trainings.tex
 
 \setsubsecheadstyle{\subsectionFmt}
+\linkheadingto{sekh-vagga7}
 \subsection{The Section on Shoes}
+\label{trainings-vagga7}
 %% % \vspace{0.2cm}
 
 \pdfbookmark[3]{Training 61}{training61}
@@ -7431,6 +7573,7 @@ I shall not eat licking the hand,'' thus the training is to be done.
 
 #+begin_src latex :tangle ./tex/english/settlements.tex
 
+\linkheadingto{adhi}
 \section{Settlements of Legal Issues}
 \label{settlements}
 
@@ -7468,6 +7611,7 @@ For the calming, for the stilling of whichever legal issues have arisen: the rem
 
 #+begin_src latex :tangle ./tex/english/conclusion.tex
 
+\linkheadingto{patimokkhanitthana}
 \section{Disciplinary Code Conclusion}
 \label{conclusion}
 
@@ -7507,6 +7651,7 @@ This much [of the training-rules] of the Fortunate One has been handed down in t
 
 #+begin_src latex :tangle ./tex/post/pubba-bhaga.tex
 
+\linkheadingto{pubba-bhaga-english}
 \section{Pubba-bhāga}
 \label{pubba-bhaga}
 
@@ -7563,6 +7708,7 @@ Sotthi me hotu sabbadā.
 
 #+begin_src latex :tangle ./tex/post/pubba-bhaga.tex
 
+\linkheadingto{pubba-bhaga}
 \section{Preliminary Part}
 \label{pubba-bhaga-english}
 
@@ -7597,6 +7743,7 @@ By the saying of this truth, may I always be well.
 
 #+begin_src latex :tangle ./tex/post/siluddesa.tex
 
+\linkheadingto{siluddesa-patha-english}
 \section{Sīl'uddesa-pāṭha}
 \label{siluddesa-patha}
 
@@ -7645,6 +7792,7 @@ Evañ'hi no sikkhitabbaṁ.
 
 #+begin_src latex :tangle ./tex/post/siluddesa.tex
 
+\linkheadingto{siluddesa-patha}
 \section{The Summary on Virtue}
 \label{siluddesa-patha-english}
 
@@ -7691,6 +7839,7 @@ That's how we should train ourselves.
 
 #+begin_src latex :tangle ./tex/post/tayana-gatha.tex
 
+\linkheadingto{tayana-gatha-english}
 \section{Tāyana-gāthā}
 \label{tayana-gatha}
 
@@ -7762,6 +7911,7 @@ Na taṁ hoti, mahapphalan'ti
 
 #+begin_src latex :tangle ./tex/post/tayana-gatha.tex
 
+\linkheadingto{tayana-gatha}
 \section{On Protection}
 \label{tayana-gatha-english}
 
@@ -7814,6 +7964,7 @@ All these will never bear great fruits
 
 #+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
 
+\linkheadingto{ovada-patimokkha-gatha-english}
 \section{Ovāda-pātimokkha-gāthā}
 \label{ovada-patimokkha-gatha}
 
@@ -7872,6 +8023,7 @@ Etaṁ buddhāna'sāsanan'ti
 
 #+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
 
+\linkheadingto{ovada-patimokkha-gatha}
 \section{The Pātimokkha Exhortation}
 \label{ovada-patimokkha-gatha-english}
 
@@ -7942,12 +8094,15 @@ These are the teachings of all Buddhas
 
 #+begin_src latex :tangle ./tex/in-brief.tex
 
+\linkheadingto{patimokkha-in-brief-conclusion}
 \section{Saṅkhittapātimokkh'uddesa-niṭṭhāna}
 \label{sankhittapatimokkh'uddesa-nitthana}
 
 \ifafiveversion\vspace{0.15cm}\fi
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
+\phantomsection
+\linkheadingto{in-brief-english-level1}
 \subsection*{Level 1}
 \label{in-brief-level1}
 
@@ -7962,6 +8117,8 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ. Sutā kho pan'āyasmantehi cattāro p
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-english-level2}
 \subsection*{Level 2}
 \label{in-brief-level2}
 
@@ -7975,6 +8132,8 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dh
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-english-level3}
 \subsection*{Level 3}
 \label{in-brief-level3}
 
@@ -7988,6 +8147,8 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dh
 	Bhikkhupātimokkhaṁ niṭṭhitaṁ
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-english-level4}
 \subsection*{Level 4}
 \label{in-brief-level4}
 
@@ -8010,12 +8171,15 @@ Uddiṭṭhaṁ kho āyasmanto nidānaṁ, uddiṭṭhā cattāro pārājikā dh
 
 #+begin_src latex :tangle ./tex/in-brief.tex
 
+\linkheadingto{sankhittapatimokkh'uddesa-nitthana}
 \section{The Pātimokkha Recitation in Brief Conclusion}
 \label{patimokkha-in-brief-conclusion}
 
 \ifafiveversion\vspace{0.15cm}\fi
 \ifninebythirteenversion\vspace{0.15cm}\fi
 
+\phantomsection
+\linkheadingto{in-brief-level1}
 \subsection*{Level 1}
 \label{in-brief-english-level1}
 
@@ -8029,6 +8193,8 @@ Venerables, the introduction has been recited. Heard by the venerables have been
 	The Bhikkhu Disciplinary Code has been finished
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-level2}
 \subsection*{Level 2}
 \label{in-brief-english-level2}
 
@@ -8042,6 +8208,8 @@ Venerables, the introduction has been recited, the four cases involving disquali
 	The Bhikkhu Disciplinary Code has been finished
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-level3}
 \subsection*{Level 3}
 \label{in-brief-english-level3}
 
@@ -8055,6 +8223,8 @@ Venerables, the introduction has been recited, the four cases involving disquali
 	The Bhikkhu Disciplinary Code has been finished
 \end{outro}
 
+\phantomsection
+\linkheadingto{in-brief-level4}
 \subsection*{Level 4}
 \label{in-brief-english-level4}
 

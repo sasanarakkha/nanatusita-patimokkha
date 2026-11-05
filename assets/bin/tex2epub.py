@@ -71,7 +71,7 @@ def inline(t, in_note=False):
                 inner = inline(a, in_note)
                 out.append({'textit': '<em>%s</em>', 'emph': '<em>%s</em>', 'textbf': '<strong>%s</strong>',
                             'textsc': '<span style="font-variant: small-caps;">%s</span>'}.get(cmd, '%s') % inner)
-            elif cmd in ('hspace', 'hspace*', 'vspace', 'vspace*', 'linkdest', 'label', 'chapterOpeningPage'):
+            elif cmd in ('hspace', 'hspace*', 'vspace', 'vspace*', 'linkdest', 'label', 'chapterOpeningPage', 'linkheadingto'):
                 _, i = arg(t, i)
                 if cmd == 'hspace*':
                     out.append('\u00a0')
@@ -103,7 +103,7 @@ def inline(t, in_note=False):
             elif cmd in (' ', '\n', '\t'):
                 out.append(' ')
             elif cmd in ('thinspace', 'thickspace', 'medskip', 'smallskip', 'bigskip', 'clearpage', 'noindent',
-                         'centering', 'hfill', 'par', 'makeatletter', 'makeatother', 'relax', 'null'):
+                         'centering', 'hfill', 'par', 'makeatletter', 'makeatother', 'relax', 'null', 'phantomsection'):
                 if cmd in ('smallskip', 'medskip') and in_note:
                     out.append('<br/>')
                 # control words swallow following spaces

@@ -1290,6 +1290,12 @@
 \newlength\sectionTitleLength
 
 % Section title formatting (e.g. 'Homage to the Buddha')
+% Where a section/subsection title links to. Default: the table of contents.
+% \linkheadingto{label} before a heading makes that one heading link to label
+% (used to link each Pāli heading to its English counterpart and back).
+\newcommand*\headinglinktarget{toc}
+\newcommand*\linkheadingto[1]{\gdef\headinglinktarget{#1}}
+
 \newcommand\sectionFmt[1]{%
 	% A box with contains the entire ruled title
 	% \begin{minipage}{\linewidth}%
@@ -1307,12 +1313,13 @@
 	% \linebreak%
 	% Measure the length of the section title at the current point size
 	\setlength{\sectionTitleLength}{\widthof{\mbox{\textbf{\textls*{\textsc{#1}}}}}}%
-	\hyperref[toc]{%
+	\hyperref[\headinglinktarget]{%
 		\begin{minipage}[t]{\linewidth}%
 			\centering%
 			% To hyperlink the text only, put \hyperref around the below
 			\textbf{\textls*{\textsc{#1}}}%
 		\end{minipage}}%
+	\gdef\headinglinktarget{toc}%
 	% New paragraph.
 	\par%
 	\ifsectionsubtitle%
@@ -1385,12 +1392,13 @@
 			\scshape\bfseries%
 			\centering
 
-			\hyperref[toc]{%
+			\hyperref[\headinglinktarget]{%
 				\begin{minipage}[t]{\linewidth}%
 					\centering%
 					% To hyperlink the text only, put \hyperref around the below
 					\textbf{\textls*{\textsc{#1}}}%
 				\end{minipage}}%
+	\gdef\headinglinktarget{toc}%
 		}%
 }
 
