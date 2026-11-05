@@ -30,12 +30,38 @@
   Before a full stop, use `\makeatother.` with no space.
 - Endnotes: the siglum is always "BhPm" (never "Bh Pm"); variant readings are in `\textit{}`.
   Pāli uses ṁ; ṃ is kept only in Sanskrit and Sinhala words.
+- Spelling: always "pātimokkha" (t, not ṭ) in the main text, titles and English. Exception: endnotes that
+  record *pāṭimokkhe* as another edition's reading (Mm Se, G, V), and the V manuscript title in the
+  abbreviations, keep ṭ unless the user decides otherwise.
+- Covers: `assets/illustrations/A5/{front,back}-cover-compressed.jpg` (the same files as in `html/OEBPS/Images/`).
+  `main.tex` places them as the first and last pages of the digital A5 PDF only (`\ifdigitalversion`).
+  The front cover is 864×1227 (EPUB `cover-image`).
+- EPUB titles: every h1–h3 is a link and uses the PDF's link colour, #60291f (sbs-brown), in `main.css`.
+  Pāli/English sections, vaggas and brief-recitation Levels link to their partner heading.
+  `tex2epub.py` does this automatically (`PAIRS`, `link_partner_headings`). The Post-Pātimokkha headings link Pāli ↔ English within their page
+  (e.g. `pubba-bhaga.xhtml#pubba-bhaga-english`), matching the PDF. Don't link to `contents.xhtml`:
+  it isn't in the manifest, so epubcheck reports RSC-008.
+- PDF heading links: `\linkheadingto{label}` before a \section/\subsection makes that title link to
+  `label` (anecdote.cls `\headinglinktarget`; default is the table of contents). Every Pāli section, vagga,
+  Level and rule heading links to its English counterpart and back. Vagga labels: np-/pc-/sekh-vaggaN ↔
+  forf-exp-/exp-/trainings-vaggaN. Starred headings (Levels) need `\phantomsection` before them.
+- Chapter-opening pictures carry their part title (as in the contents page), in the style of the
+  lettering painted on the Appendix picture. Regenerate them with `python3 assets/bin/section-titles.py`,
+  which reads the untitled originals in `assets/illustrations/untitled/` and uses Cinzel Medium
+  (`assets/fonts/cinzel`, OFL). The Pāli picture (the user's 768×1376 image) is scaled to page width
+  (2.3×), moved down 150 px for the title and trimmed at the bottom. The English picture (the user's
+  848×1264 image of the western monk with the book on a stand) is scaled to page width (2.06×) and
+  trimmed at the bottom, with no shift. The painted pseudo-text on both book pages is blurred into faint,
+  unreadable lines (`ILLEGIBLE` regions in `section-titles.py`, in the original images' pixel coordinates).
+  The Appendix picture already had its title painted in, so it is not regenerated.
+- English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
+  Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).
 - `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.
 - Chapter-opening images: `assets/illustrations/{A5,9x13}/{pali,english,post-patimokkha,appendix}-compressed.jpg`.
   Copies are in `html/OEBPS/Images/`. They are 1748×2480, upscaled from 1024 px, so print quality is limited.
 - Post-Pātimokkha recitations: each has a Pāli section followed by its English section
-  (Preliminary Part, The Summary on Virtue, On Protection, The Pāṭimokkha Exhortation).
-  The English text is the user's own translation; keep its wording as given. The "restrain of the Pāṭimokkhā"
+  (Preliminary Part, The Summary on Virtue, On Protection, The Pātimokkha Exhortation).
+  The English text is the user's own translation; keep its wording as given. The "restrain of the Pātimokkhā"
   phrasing is intended, not a typo.
 - Saṅkhittapātimokkh'uddesa-niṭṭhāna (Appendix): Levels 1–4 are subsections under that title.
   The English page "The Pātimokkha Recitation in Brief Conclusion" mirrors them. Level 4 is the standard brief conclusion.
