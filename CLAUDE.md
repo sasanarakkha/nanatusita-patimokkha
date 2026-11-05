@@ -64,8 +64,10 @@
   ("auto" page list: blank pages go before the back cover). Print duplex, flip on the long edge, cut across
   the middle, nest the bottom halves inside the top halves, fold, staple. If the text grows past 48 pages,
   the build gives 56 (7 sheets).
-  Every release includes the booklet: `make all` (the CI default) also runs `booklet-a6`, warning instead of
-  failing if it can't be built. Intermediate pages go to `build/booklet/`; the release file is
+  Every release includes the booklet. The release CI (sasanarakkha/document-build-actions, which we don't modify)
+  runs `make pdf2x`, `epub`, `validate`, `optimize`, `mobi` and `azw3` (not `make all`) and uploads
+  build/*.pdf, *.epub, *.mobi and *.azw3. So `pdf2x` (and `all`) also run `booklet-a6`, warning instead of
+  failing if it can't be built. The 9×13 PDF is not built by the release CI. Intermediate pages go to `build/booklet/`; the release file is
   `build/Ñāṇatusita_Bhikkhupātimokkha-Pāli-A6-booklet.pdf`.
 - The user's copy of Ñāṇatusita's *The Bhikkhu Pātimokkha: A Word by Word Translation* (BPS 2014) is
   copyrighted. Never commit it; use it only as a reference for checking.

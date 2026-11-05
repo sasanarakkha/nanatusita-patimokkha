@@ -79,7 +79,11 @@ all: $(PDFFILE_A5) $(PDFFILE_9X13) $(EPUBFILE) $(KINDLEFILE) $(AZW3FILE)
 TANGLED: ./nanatusita-patimokkha.tex.org
 	$(ORG_TANGLE) $<
 
-pdf2x: $(PDFFILE_A5)  # Legacy target for compliance
+# pdf2x is what the release CI (sasanarakkha/document-build-actions) runs to build the PDF,
+# so it also builds the A6 booklet: every release then carries it (build/*.pdf is uploaded).
+# A booklet failure only warns, so the A5 PDF and the e-books are still released.
+pdf2x: $(PDFFILE_A5)
+	$(MAKE) booklet-a6 || echo "WARNING: the A6 booklet could not be built (see above)"
 pdf-a5: $(PDFFILE_A5)
 $(PDFFILE_A5): TANGLED
 	$(MKBUILDDIR)
