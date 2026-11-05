@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Impose pages of the A5 PDF as an A6 booklet printed 4-up on A4, duplex.
+"""Impose an A6 booklet 4-up on A4, printed duplex.
+
+Source: the native booklet build/booklet/booklet-a6-pages.pdf (main_a6booklet.tex: Pāli
+Pātimokkha, Post-Pātimokkha recitations in Pāli, endnotes 1–8, front and back
+covers), whose pages are scaled by 0.72 onto A6 so the text prints at 9 pt.
 
 Layout is the same as the user's reference booklet: each A4 side has a 2×2 grid
 of A6 pages. Print double-sided, flip on the LONG edge, cut every sheet across
@@ -9,12 +13,10 @@ middle and staple. The pages then run 1, 2, 3 … in reading order.
 
 Usage:
   python3 assets/bin/a6-booklet.py [SOURCE.pdf] [OUT.pdf] [PAGES]
-PAGES is a comma-separated list of source page numbers / ranges, with "b" for a
-blank page. The default "9-52,b,b,b,153" is the Pāli section (PDF pp. 9–52 = book
-pp. 1–44; the titled Pāli chapter picture becomes the booklet's front cover), three
-blank pages and the back cover: 48 pages, with even page numbers on the left.
-"1,9-52,b,b,153" uses the book's front cover instead (even numbers then fall on the right).
-The count is padded with blank pages to a multiple of 8 (one A4 sheet = 8 pages).
+PAGES is "auto" (default: all pages, blank pages inserted before the last page,
+the back cover, up to a multiple of 8), or a comma-separated list of source pages /
+ranges with "b" for a blank page, e.g. "1,9-52,b,b,153" to impose straight from
+the A5 book PDF. Lists are padded with blank pages to a multiple of 8.
 """
 import sys
 
@@ -24,12 +26,16 @@ from pypdf.generic import ContentStream, NameObject, DecodedStreamObject
 A4 = (595.276, 841.890)
 A6 = (A4[0] / 2, A4[1] / 2)
 
-DEFAULT_SRC = 'build/Ñāṇatusita_Bhikkhupātimokkha.pdf'
+DEFAULT_SRC = 'build/booklet/booklet-a6-pages.pdf'
 DEFAULT_OUT = 'build/Ñāṇatusita_Bhikkhupātimokkha-Pāli-A6-booklet.pdf'
-DEFAULT_PAGES = '9-52,b,b,b,153'
+DEFAULT_PAGES = 'auto'
 
 
-def parse_pages(spec):
+def parse_pages(spec, total):
+    if spec == 'auto':
+        body = list(range(1, total))
+        pad = (-(total)) % 8
+        return body + [None] * pad + [total]
     out = []
     for part in spec.split(','):
         part = part.strip()
@@ -78,7 +84,7 @@ def main():
     out = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_OUT
     spec = sys.argv[3] if len(sys.argv) > 3 else DEFAULT_PAGES
     r = PdfReader(src)
-    pages = parse_pages(spec)
+    pages = parse_pages(spec, len(r.pages))
     n = len(pages)
     w = PdfWriter()
     slots = [(0, A6[1]), (A6[0], A6[1]), (0, 0), (A6[0], 0)]   # TL, TR, BL, BR origins

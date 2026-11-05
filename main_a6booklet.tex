@@ -1,0 +1,74 @@
+% A6 Pāli booklet: Pāli Pātimokkha + Post-Pātimokkha recitations (Pāli only) +
+% endnotes 1–8 (the Pubbakicca variations), with the front and back covers.
+%
+% It is typeset with the A5 design on a 145.83 × 205.56 mm page (A6 ÷ 0.72), so
+% that when assets/bin/a6-booklet.py scales it by 0.72 onto A6 the 12.5 pt body
+% text prints at exactly 9 pt. Build with:  make booklet-a6
+% (runs org-tangle, assets/bin/booklet-sources.py, this file, then the imposition).
+
+\documentclass[final, babelLanguage=british, afiveVersion]{anecdote}
+
+\graphicspath{{./assets/illustrations/A5}{./assets/graphics}}
+\usepackage{A5}
+
+\title{Bhikkhupātimokkha}
+\author{SBS Saṅgha}
+\publisher{Sāsanārakkha Buddhist Sanctuary}
+\hypersetup{pdftitle={Bhikkhupātimokkha – Pāli booklet}, pdfauthor={SBS Saṅgha}}
+
+\makepagenote
+\continuousnotenums
+\openany
+
+% Keep only endnotes 1–8 (Pubbakicca). Every later note marker is dropped.
+\newcounter{bookletnote}
+\let\bookletorigpagenote\pagenote
+\renewcommand\pagenote[1]{\stepcounter{bookletnote}%
+	\ifnum\value{bookletnote}<9 \bookletorigpagenote{#1}\fi}
+
+% Page: A6 / 0.72, text block 124 mm wide (≈ 8.3 mm side margins once printed on A6)
+\setstocksize{205.56mm}{145.83mm}
+\settrimmedsize{\stockheight}{\stockwidth}{*}
+\settrims{0pt}{0pt}
+\settypeblocksize{31\baselineskip + \topskip}{124mm}{*}
+\setlrmargins{*}{*}{1}
+\setulmargins{14mm}{*}{*}
+\checkandfixthelayout
+
+% Endnotes in the body text size (9 pt when printed, 10.4 pt leading) instead of \small, so that
+% notes 1–8 fill the four pages before the back cover
+\renewcommand{\prenoteinnotes}{\fontsize{12.5}{14.5}\selectfont\par\noindent}
+
+% Running head = the part that is current at the TOP of the page (first mark), so the
+% page where Pātimokkhaniṭṭhāna ends and the Post-Pātimokkha part begins stays "Pāli".
+\makeatletter
+\renewcommand\leftmark{\expandafter\@leftmark\firstmark\@empty\@empty}
+\makeatother
+
+\newcommand\fullpageimage[1]{%
+	\clearpage\thispagestyle{empty}%
+	\AddToShipoutPictureFG*{\put(0,0){\includegraphics[width=\paperwidth,height=\paperheight]{#1}}}%
+	\mbox{}\clearpage}
+
+\begin{document}
+\pagenumbering{arabic}
+\fullpageimage{front-cover-compressed.jpg}
+
+\setcounter{page}{2}
+\pagestyle{toponerow}
+\chapterstyle{adrasteia-frontmatter}
+\markboth{Bhikkhupātimokkha - Pāli}{}
+{\raggedright
+	\input{./tex/booklet/pali.tex}
+}
+
+\bigskip
+\markboth{Post-Pātimokkha Recitations}{}
+{\raggedright
+	\input{./tex/booklet/post-pali.tex}
+}
+
+\printpagenotes
+
+\fullpageimage{back-cover-compressed.jpg}
+\end{document}
