@@ -54,6 +54,11 @@
   trimmed at the bottom, with no shift. The painted pseudo-text on both book pages is blurred into faint,
   unreadable lines (`ILLEGIBLE` regions in `section-titles.py`, in the original images' pixel coordinates).
   The Appendix picture already had its title painted in, so it is not regenerated.
+- A6 Pāli booklet: `make booklet-a6` (needs the A5 PDF) runs `assets/bin/a6-booklet.py`, which imposes
+  PDF pp. 9–52 (book pp. 1–44) + 3 blanks + the back cover (48 pp.) 4-up on 6 A4 sheets, in the same layout
+  as the user's reference booklet. Print duplex (flip on long edge), cut across the middle, nest the bottom
+  halves inside the top halves, fold, staple. The third argument changes the page list (e.g. "1,9-52,b,b,153").
+  If the Pāli section's page count changes, update the default page list.
 - English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
   Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).
 - `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.

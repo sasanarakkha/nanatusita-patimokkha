@@ -63,7 +63,7 @@ XHTMLFILES      := $(shell find $(HTMLSOURCE) -name '*.xhtml' 2> /dev/null | sor
 # Targets with complex dependencies
 .PHONY: $(PDFFILE_A5) TANGLED
 # Aliases
-.PHONY: pdf pdf2x epub mobi
+.PHONY: pdf pdf2x epub mobi booklet-a6
 # Commands
 .PHONY: checkepub validate optimize view editepub watchepub
 
@@ -88,6 +88,12 @@ $(PDFFILE_9X13): TANGLED
 	$(LATEX) -jobname=$(basename $@) $(FILE)_9x13.tex
 
 pdf-all: $(PDFFILE_A5) $(PDFFILE_9X13)
+
+# A6 booklet of the Pāli section, imposed 4-up on A4 (print duplex, flip on long edge,
+# cut across the middle, nest the bottom halves inside the top halves, fold, staple).
+BOOKLETFILE_A6 := $(BUILDDIR)/$(RELEASENAME)-Pāli-A6-booklet.pdf
+booklet-a6: $(PDFFILE_A5)
+	python3 ./assets/bin/a6-booklet.py "$(PDFFILE_A5)" "$(BOOKLETFILE_A6)"
 
 
 #-----------------------------------------------------------------------------------------#
