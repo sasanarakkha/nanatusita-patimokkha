@@ -36,9 +36,18 @@
 - Covers: `assets/illustrations/A5/{front,back}-cover-compressed.jpg` (the same files as in `html/OEBPS/Images/`).
   `main.tex` places them as the first and last pages of the digital A5 PDF only (`\ifdigitalversion`).
   The front cover is 864×1227 (EPUB `cover-image`).
-- EPUB titles: every h1–h6, linked or not, is #1f4e9c blue (`main.css`). The Post-Pātimokkha headings
-  (Pāli and English) link back to their entry in `nav.xhtml` (`#toc-…`). Don't link to `contents.xhtml`:
+- EPUB titles: every h1–h3 is a link and uses the PDF's link colour, #60291f (sbs-brown), in `main.css`.
+  Pāli/English sections, vaggas and brief-recitation Levels link to their partner heading.
+  `tex2epub.py` does this automatically (`PAIRS`, `link_partner_headings`). The Post-Pātimokkha headings
+  (Pāli and English) link to their entry in `nav.xhtml` (`#toc-…`). Don't link to `contents.xhtml`:
   it isn't in the manifest, so epubcheck reports RSC-008.
+- Chapter-opening pictures carry their part title (as in the contents page), in the style of the
+  lettering painted on the Appendix picture. Regenerate them with `python3 assets/bin/section-titles.py`,
+  which reads the untitled originals in `assets/illustrations/untitled/` and uses Cinzel Medium
+  (`assets/fonts/cinzel`, OFL). The Pāli and English pictures are moved down 150/230 px to make room.
+  The Appendix picture already had its title painted in, so it is not regenerated.
+- English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
+  Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).
 - `main.tex` includes `tex/pali/nidan'uddesa.tex`; the old `nidan'uddeso.tex` was stale and is deleted.
 - Chapter-opening images: `assets/illustrations/{A5,9x13}/{pali,english,post-patimokkha,appendix}-compressed.jpg`.
   Copies are in `html/OEBPS/Images/`. They are 1748×2480, upscaled from 1024 px, so print quality is limited.

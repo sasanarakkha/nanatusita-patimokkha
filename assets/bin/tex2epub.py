@@ -333,6 +333,63 @@ def page(title, blocks):
             '<body>\n%s\n</body>\n</html>\n') % (title, body)
 
 
+# Pāli page <-> English page. Any h1/h2/h3 that has no link yet gets one to the
+# heading at the same position in the partner page (like the PDF's cross-links).
+PAIRS = [('pubbakicca', 'preliminary-duties'), ('nidanuddeso', 'introduction'),
+         ('parajika', 'disqualifications'), ('sanghadisesa', 'community-meetings'),
+         ('aniyata', 'uncertain-cases'), ('nissaggiyapacittiya', 'forfeiture-expiations'),
+         ('pacittiya', 'expiations'), ('patidesaniya', 'acknowledgments'),
+         ('sekhiya', 'trainings'), ('adhikaranasamatha', 'settlements'),
+         ('patimokkhanitthana', 'conclusion'),
+         ('sankhittapatimokkhuddeso-nitthana', 'patimokkha-in-brief-conclusion')]
+
+HEAD_RE = re.compile(r'<h([1-3])([^>]*)>(.*?)</h\1>', re.S)
+
+
+def link_partner_headings(out):
+    def heads(html):
+        return list(HEAD_RE.finditer(html))
+
+    def anchor(m, level, n, fname, html_holder):
+        """Return an id for heading m, adding one if it has none."""
+        im = re.search(r'\bid="([^"]+)"', m.group(2)) or re.search(r'<a id="([^"]+)"></a>', m.group(3))
+        if im:
+            return im.group(1)
+        return None
+
+    for a, b in PAIRS:
+        for src, dst in ((a, b), (b, a)):
+            if src not in out or dst not in out:
+                continue
+            for level in (1, 2, 3):
+                sh = [m for m in heads(out[src]) if int(m.group(1)) == level]
+                dh = [m for m in heads(out[dst]) if int(m.group(1)) == level]
+                if len(sh) != len(dh):
+                    continue
+                html = out[src]
+                for i in range(len(sh) - 1, -1, -1):
+                    m = sh[i]
+                    if 'href=' in m.group(3):
+                        continue
+                    if level == 1:
+                        target = '%s.xhtml' % dst
+                    else:
+                        aid = anchor(dh[i], level, i, dst, None)
+                        if not aid:
+                            aid = 'h%d-%d' % (level, i + 1)
+                            dm = [x for x in heads(out[dst]) if int(x.group(1)) == level][i]
+                            out[dst] = (out[dst][:dm.start()] + '<h%d%s id="%s">' % (level, dm.group(2), aid)
+                                        + out[dst][dm.start() + len('<h%d%s>' % (level, dm.group(2))):])
+                        target = '%s.xhtml#%s' % (dst, aid)
+                    inner = m.group(3)
+                    am = re.match(r'(.*?)((?:<a id="[^"]*"></a>)*)$', inner, re.S)
+                    new = '<h%s%s><a href="%s">%s</a>%s</h%s>' % (level, m.group(2), target,
+                                                                am.group(1), am.group(2), level)
+                    html = html[:m.start()] + new + html[m.end():]
+                out[src] = html
+    return out
+
+
 def sections(path):
     s = open(ROOT + path, encoding='utf-8').read()
     idx = [m.start() for m in re.finditer(r'\\section\{', s)]
@@ -370,6 +427,7 @@ def main(write=False):
     for n, h, f in book.notes:
         en.append('<p><a id="en%dappendix" href="%s.xhtml#en%d"><sup>%d</sup></a> %s</p>' % (n, f, n, n, h))
     out['endnotes'] = page('Endnotes', en)
+    link_partner_headings(out)
     for w in book.warn:
         print('WARN', w)
     print('notes:', len(book.notes))
