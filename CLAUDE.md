@@ -38,8 +38,8 @@
   The front cover is 864×1227 (EPUB `cover-image`).
 - EPUB titles: every h1–h3 is a link and uses the PDF's link colour, #60291f (sbs-brown), in `main.css`.
   Pāli/English sections, vaggas and brief-recitation Levels link to their partner heading.
-  `tex2epub.py` does this automatically (`PAIRS`, `link_partner_headings`). The Post-Pātimokkha headings
-  (Pāli and English) link to their entry in `nav.xhtml` (`#toc-…`). Don't link to `contents.xhtml`:
+  `tex2epub.py` does this automatically (`PAIRS`, `link_partner_headings`). The Post-Pātimokkha headings link Pāli ↔ English within their page
+  (e.g. `pubba-bhaga.xhtml#pubba-bhaga-english`), matching the PDF. Don't link to `contents.xhtml`:
   it isn't in the manifest, so epubcheck reports RSC-008.
 - PDF heading links: `\linkheadingto{label}` before a \section/\subsection makes that title link to
   `label` (anecdote.cls `\headinglinktarget`; default is the table of contents). Every Pāli section, vagga,
@@ -50,6 +50,8 @@
   which reads the untitled originals in `assets/illustrations/untitled/` and uses Cinzel Medium
   (`assets/fonts/cinzel`, OFL). The Pāli and English pictures (the user's 768×1376 images; the western
   monk is English) are scaled to page width (2.3×), moved down 150 px for the title and trimmed at the bottom.
+  Their painted pseudo-text on the book pages is blurred into faint, unreadable lines (`ILLEGIBLE` regions in
+  `section-titles.py`, in the original images' pixel coordinates).
   The Appendix picture already had its title painted in, so it is not regenerated.
 - English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
   Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).

@@ -81,6 +81,47 @@ def gold(img, mask, rng):
 
 PAGE = (1748, 2480)
 
+# Regions (in the untitled original's own pixels) whose painted pseudo-text is
+# blurred into faint, unreadable lines: polygons around the text on the book
+# pages, kept clear of the hands and the binding cords.
+ILLEGIBLE = {
+    'pali': [
+        [(288, 592), (500, 592), (500, 616), (288, 616)],                      # page title
+        [(204, 616), (568, 616), (568, 722), (204, 722)],                      # upper page
+        [(192, 742), (556, 742), (556, 780), (192, 780)],                      # lower page
+        [(160, 780), (556, 780), (556, 848), (160, 848)],
+    ],
+    'english': [
+        [(160, 744), (552, 744), (552, 800), (160, 800)],                      # title + upper page
+        [(172, 800), (552, 800), (552, 866), (172, 866)],
+        [(158, 866), (536, 866), (536, 896), (158, 896)],                      # lower page
+        [(114, 896), (536, 896), (536, 945), (114, 945)],
+        [(114, 945), (522, 945), (522, 988), (114, 988)],
+    ],
+}
+
+
+def illegible(img, polys, seed=3):
+    """Blur the text in polys along the lines so it reads as faint, distant script."""
+    from PIL import ImageDraw
+    w, h = img.size
+    mask = Image.new('L', (w, h), 0)
+    d = ImageDraw.Draw(mask)
+    for poly in polys:
+        d.polygon(poly, fill=255)
+    mask = mask.filter(ImageFilter.GaussianBlur(2))
+    a = np.asarray(img, float)
+    k = 6                                   # horizontal smear (box blur along rows)
+    pad = np.pad(a, ((0, 0), (k, k), (0, 0)), mode='edge')
+    cs = np.cumsum(pad, axis=1)
+    hb = ((cs[:, 2 * k:] - cs[:, :-2 * k]) / (2 * k))[:, :w]
+    soft = np.asarray(Image.fromarray(hb.clip(0, 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.8)), float)
+    paper = np.asarray(img.filter(ImageFilter.GaussianBlur(8)), float)
+    soft = paper + (soft - paper) * 0.7     # fade the lines towards the paper colour
+    soft += np.random.default_rng(seed).normal(0, 3.0, soft.shape[:2])[..., None]   # paper grain
+    m = np.asarray(mask, float)[..., None] / 255
+    return Image.fromarray((a * (1 - m) + soft * m).clip(0, 255).astype(np.uint8))
+
 
 def fit_width(img):
     """Scale to the page width; a taller picture is trimmed at the bottom later."""
@@ -109,7 +150,10 @@ def shift_down(img, dy):
 
 
 def make(name, lines, size, y0, gap, dy, seed=7):
-    img = fit_width(Image.open(os.path.join(SRC, name + '.jpg')).convert('RGB'))
+    img = Image.open(os.path.join(SRC, name + '.jpg')).convert('RGB')
+    if name in ILLEGIBLE:
+        img = illegible(img, ILLEGIBLE[name])
+    img = fit_width(img)
     img = shift_down(img, dy)
     w, h = img.size
     full = np.zeros((h, w), float)
