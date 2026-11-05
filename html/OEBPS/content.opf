@@ -10,6 +10,7 @@
     <meta property="dcterms:modified">2024-09-17T14:42:45Z</meta>
     <dc:identifier id="BookId">urn:uuid:c5233f04-b5cd-4a8d-a264-9387bb053d70</dc:identifier>
     <meta content="2.0.1" name="Sigil version"/>
+    <meta name="cover" content="front-cover-compressed.jpg"/>
   </metadata>
   <manifest>
     <item id="cover-front.xhtml" href="Text/cover-front.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -23,7 +24,7 @@
     <item id="sbs-logo-tuck-loon-brown-bare.png" href="Images/sbs-logo-tuck-loon-brown-bare.png" media-type="image/png"/>
     <item id="LICENSE.txt" href="Misc/LICENSE.txt" media-type="text/plain"/>
     <item id="back-cover-compressed.jpg" href="Images/back-cover-compressed.jpg" media-type="image/jpeg"/>
-    <item id="front-cover-compressed.jpg" href="Images/front-cover-compressed.jpg" media-type="image/jpeg"/>
+    <item id="front-cover-compressed.jpg" href="Images/front-cover-compressed.jpg" media-type="image/jpeg" properties="cover-image"/>
     <item id="LibertinusSerif-Bold.otf" href="Fonts/LibertinusSerif-Bold.otf" media-type="font/otf"/>
     <item id="LibertinusSerif-BoldItalic.otf" href="Fonts/LibertinusSerif-BoldItalic.otf" media-type="font/otf"/>
     <item id="LibertinusSerif-Italic.otf" href="Fonts/LibertinusSerif-Italic.otf" media-type="font/otf"/>
