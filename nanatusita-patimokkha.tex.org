@@ -56,8 +56,8 @@
   - [[#sīluddesa-pāṭha---english][Sīl'uddesa-pāṭha - English]]
   - [[#tāyana-gatha][Tāyana-gatha]]
   - [[#tāyana-gatha---english][Tāyana-gatha - English]]
-  - [[#ovāda-pāṭimokkha-gāthā][Ovāda-pāṭimokkha-gāthā]]
-  - [[#ovāda-pāṭimokkha-gāthā---english][Ovāda-pāṭimokkha-gāthā - English]]
+  - [[#ovāda-pātimokkha-gāthā][Ovāda-pātimokkha-gāthā]]
+  - [[#ovāda-pātimokkha-gāthā---english][Ovāda-pātimokkha-gāthā - English]]
 - [[#appendix][Appendix]]
   - [[#covertitle-3][Cover/Title]]
   - [[#in-brief][In Brief]]
@@ -151,7 +151,7 @@
 	\ifninebythirteenversion \vspace{0.25cm} \fi
 
 	Project Manager: Ā. Ariyadhammika\\
-	Editor/Typesetting: Ā. Pāladhammika\\
+	Editor/Typesetting: Ā. Pāladhammika, Ā. Paññādhammika\\
 	Translators: Aj. Ṭhānissaro, Ā. Ñāṇatusita\\
 	Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita\\
 	Illustrations: Lim Jee Yuan
@@ -250,7 +250,7 @@ W - Watärakapansala manuscript\\
 
 \linkdest{endnote13-body}
 \begin{intro}
-	Okāsaṁ me bhante thero detu pāṭimokkhaṁ uddesituṁ.\makeatletter\hyperlink{endnote13-appendix}\Hy@raisedlink{\hypertarget{endnote13-body}{}{\pagenote{%
+	Okāsaṁ me bhante thero detu pātimokkhaṁ uddesituṁ.\makeatletter\hyperlink{endnote13-appendix}\Hy@raisedlink{\hypertarget{endnote13-body}{}{\pagenote{%
 				\hypertarget{endnote13-appendix}{\hyperlink{endnote13-body}{This introduction is found in the Thai edition of the Pātimokkha.}}}}}\makeatother\\
 	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Karomi āyasmato okāsaṁ. \hspace{-0.5mm}\anglebracketright\
 \end{intro}
@@ -379,7 +379,7 @@ Uposathakammassa pattakallattaṁ viditvā idāni kariyamāno uposatho saṅghen
 \end{center}
 
 \begin{center}
-	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Pubbakaraṇa-pubbakiccāni samāpetvā, imassa nisinnassa bhikkhusaṅghassa anumatiyā pāṭimokkhaṁ uddesituṁ ajjhesanaṁ karomi. \hspace{-0.5mm}\anglebracketright\
+	\anglebracketleft\ \hspace{-0.5mm}Saṅghatthera: Pubbakaraṇa-pubbakiccāni samāpetvā, imassa nisinnassa bhikkhusaṅghassa anumatiyā pātimokkhaṁ uddesituṁ ajjhesanaṁ karomi. \hspace{-0.5mm}\anglebracketright\
 \end{center}
 
 \clearpage
@@ -4539,7 +4539,7 @@ Vitthār'uddeso pañcamo.\makeatletter\hyperlink{endnote543-appendix}\Hy@raise
 \label{preliminary-duties}
 
 \begin{intro}
-	May the Senior please give me permission to recite the Pāṭimokkha.\\
+	May the Senior please give me permission to recite the Pātimokkha.\\
 	\anglebracketleft\ \hspace{-0.5mm}Eldest Bhikkhu: ``I give permission to the Venerable one.'' \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
@@ -7610,10 +7610,10 @@ By the saying of this truth, may I always be well.
 Bhāsitam'idaṁ tena bhagavatā jānatā passatā arahatā sammāsambuddhena:
 \end{hanging-indent}
 \begin{hanging-indent-together}
-``Sampanna-sīlā bhikkhave viharatha sampanna-pāṭimokkhā.
+``Sampanna-sīlā bhikkhave viharatha sampanna-pātimokkhā.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
-Pāṭimokkha-saṁvara-saṁvutā viharatha ācāra-gocara-sampannā.
+Pātimokkha-saṁvara-saṁvutā viharatha ācāra-gocara-sampannā.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
 Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhatha sikkhāpadesū'ti.
@@ -7623,10 +7623,10 @@ Tasmā't'ih'amhehi sikkhitabbaṁ.
 \end{hanging-indent-together}
 
 \begin{hanging-indent}
-``Sampanna-sīlā viharissāma sampanna-pāṭimokkhā.
+``Sampanna-sīlā viharissāma sampanna-pātimokkhā.
 \end{hanging-indent}
 \begin{hanging-indent-together}
-Pāṭimokkha-saṁvara-saṁvutā viharissāma ācāra-gocara-sampannā.
+Pātimokkha-saṁvara-saṁvutā viharissāma ācāra-gocara-sampannā.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
 Aṇumattesu vajjesu bhaya-dassāvī samādāya sikkhissāma sikkhāpadesū'ti.
@@ -7656,10 +7656,10 @@ Evañ'hi no sikkhitabbaṁ.
 This was said by the Blessed One, the One who Knows, the One who Sees, the Worthy One, the Perfectly Enlightened One:
 \end{hanging-indent}
 \begin{hanging-indent-together}
-``Live consummate in virtue, bhikkhus, and consummate in the Pāṭimokkhā.
+``Live consummate in virtue, bhikkhus, and consummate in the Pātimokkhā.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
-Live restrained with the restrain of the Pāṭimokkhā, consummate in your behaviour and sphere of activity.
+Live restrained with the restrain of the Pātimokkhā, consummate in your behaviour and sphere of activity.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
 Train yourselves, having undertaken the training rules, seeing danger in the slightest faults.''
@@ -7669,10 +7669,10 @@ Train yourselves, having undertaken the training rules, seeing danger in the sli
 Therefore we should train ourselves:
 \end{hanging-indent}
 \begin{hanging-indent-together}
-``We will live consummate in virtue, consummate in the Pāṭimokkhā.
+``We will live consummate in virtue, consummate in the Pātimokkhā.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
-We will live restrained with the restrain of the Pāṭimokkhā, consummate in our behaviour and sphere of activity.
+We will live restrained with the restrain of the Pātimokkhā, consummate in our behaviour and sphere of activity.
 \end{hanging-indent-together}
 \begin{hanging-indent-together}
 We will train ourselves, having undertaken the training rules, seeing danger in the slightest faults.''
@@ -7810,15 +7810,15 @@ All these will never bear great fruits
 
 #+end_src
 
-** Ovāda-pāṭimokkha-gāthā
+** Ovāda-pātimokkha-gāthā
 
 #+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
 
-\section{Ovāda-pāṭimokkha-gāthā}
+\section{Ovāda-pātimokkha-gāthā}
 \label{ovada-patimokkha-gatha}
 
 \begin{intro}
-	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ ovāda-pāṭimokkha gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
+	\anglebracketleft\ \hspace{-0.5mm}Handa mayaṁ ovāda-pātimokkha gāthāyo bhaṇāmase \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
 %% \medskip
@@ -7826,7 +7826,7 @@ All these will never bear great fruits
 \begin{hanging-indent}
 Uddiṭṭhaṁ kho tena bhagavatā jānatā passatā arahatā sammā-sambuddhena
 \end{hanging-indent}
-Ovāda-pāṭimokkhaṁ tīhi gāthāhi
+Ovāda-pātimokkhaṁ tīhi gāthāhi
 \begin{hanging-indent}
 Khantī paramaṁ tapo tītikkhā\\
 Nibbānaṁ paramaṁ vadanti buddhā
@@ -7849,7 +7849,7 @@ Etaṁ buddhāna'sāsanaṁ
 
 \begin{hanging-indent}
 Anūpavādo anūpaghāto\\
-Pāṭimokkhe ca saṁvaro
+Pātimokkhe ca saṁvaro
 \end{hanging-indent}
 
 \begin{hanging-indent}
@@ -7868,21 +7868,21 @@ Etaṁ buddhāna'sāsanan'ti
 
 #+end_src
 
-** Ovāda-pāṭimokkha-gāthā - English
+** Ovāda-pātimokkha-gāthā - English
 
 #+begin_src latex :tangle ./tex/post/ovada-patimokkha.tex
 
-\section{The Pāṭimokkha Exhortation}
+\section{The Pātimokkha Exhortation}
 \label{ovada-patimokkha-gatha-english}
 
 \begin{intro}
-	\anglebracketleft\ \hspace{-0.5mm}Now let us recite the verses of the pāṭimokkha exhortation \hspace{-0.5mm}\anglebracketright\
+	\anglebracketleft\ \hspace{-0.5mm}Now let us recite the verses of the pātimokkha exhortation \hspace{-0.5mm}\anglebracketright\
 \end{intro}
 
 \begin{hanging-indent}
 This was summarized by the Blessed One, the One who Knows, the One who Sees, the Worthy One, the Perfectly Enlightened One
 \end{hanging-indent}
-the Pāṭimokkha Exhortation with three verses:
+the Pātimokkha Exhortation with three verses:
 \begin{hanging-indent}
 Patient endurance is the highest austerity\\
 The Buddhas say Nibbāna is supreme

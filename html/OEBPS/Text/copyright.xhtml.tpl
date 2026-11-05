@@ -16,7 +16,7 @@
 
   <p style="text-align: center;">Accompanying audio recordings can be found at: <a style="font-style:normal;" href="https://www.youtube.com/SasanarakkhaBuddhistSanctuary">www.youtube.com/SasanarakkhaBuddhistSanctuary</a></p>
 
-  <p style="text-align: center;">Project Manager: Ā. Ariyadhammika<br/>Editor/Typesetting: Ā. Pāladhammika<br/>Translators: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Illustrations: Lim Jee Yuan</p>
+  <p style="text-align: center;">Project Manager: Ā. Ariyadhammika<br/>Editor/Typesetting: Ā. Pāladhammika, Ā. Paññādhammika<br/>Translators: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Endnotes: Aj. Ṭhānissaro, Ā. Ñāṇatusita<br/>Illustrations: Lim Jee Yuan</p>
 
   <p style="text-align: center;">This work is licensed under a Creative Commons<br/>Attribution-NonCommercial-NoDerivatives 4.0 International&#160;License.</p>
 
