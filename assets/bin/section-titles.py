@@ -30,7 +30,7 @@ TRACK_PER_PX = 2 / 188
 # height, how far to move the picture down to make room for the title)
 TITLES = {
     'pali': (['Bhikkhupātimokkha', 'Pāli'], 128, 115, 0.45, 150),
-    'english': (['Bhikkhupātimokkha', 'English'], 128, 115, 0.45, 150),
+    'english': (['Bhikkhupātimokkha', 'English'], 128, 115, 0.45, 0),
     'post-patimokkha': (['Post-Pātimokkha', 'Recitations'], 128, 115, 0.45, 0),
 }
 
@@ -92,11 +92,8 @@ ILLEGIBLE = {
         [(160, 780), (556, 780), (556, 848), (160, 848)],
     ],
     'english': [
-        [(160, 744), (552, 744), (552, 800), (160, 800)],                      # title + upper page
-        [(172, 800), (552, 800), (552, 866), (172, 866)],
-        [(158, 866), (536, 866), (536, 896), (158, 896)],                      # lower page
-        [(114, 896), (536, 896), (536, 945), (114, 945)],
-        [(114, 945), (522, 945), (522, 988), (114, 988)],
+        # one slanted page; the text runs a little lower towards the right
+        [(205, 790), (345, 783), (495, 788), (640, 830), (642, 912), (400, 888), (205, 864)],
     ],
 }
 

@@ -48,10 +48,11 @@
 - Chapter-opening pictures carry their part title (as in the contents page), in the style of the
   lettering painted on the Appendix picture. Regenerate them with `python3 assets/bin/section-titles.py`,
   which reads the untitled originals in `assets/illustrations/untitled/` and uses Cinzel Medium
-  (`assets/fonts/cinzel`, OFL). The Pāli and English pictures (the user's 768×1376 images; the western
-  monk is English) are scaled to page width (2.3×), moved down 150 px for the title and trimmed at the bottom.
-  Their painted pseudo-text on the book pages is blurred into faint, unreadable lines (`ILLEGIBLE` regions in
-  `section-titles.py`, in the original images' pixel coordinates).
+  (`assets/fonts/cinzel`, OFL). The Pāli picture (the user's 768×1376 image) is scaled to page width
+  (2.3×), moved down 150 px for the title and trimmed at the bottom. The English picture (the user's
+  848×1264 image of the western monk with the book on a stand) is scaled to page width (2.06×) and
+  trimmed at the bottom, with no shift. The painted pseudo-text on both book pages is blurred into faint,
+  unreadable lines (`ILLEGIBLE` regions in `section-titles.py`, in the original images' pixel coordinates).
   The Appendix picture already had its title painted in, so it is not regenerated.
 - English spelling decisions: clothweavers, sheepwool, extraordinary, ninefold, "rains bathing-cloth".
   Pāli: sammāsambuddhena (unhyphenated). Pāc 91 keeps "Vassikasāṭikāsikkhāpada" (user's decision).
